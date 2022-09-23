@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Config>
+  <ROICfg>
+    <ParamSet ParamName="ColorRoi1LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi2LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi3LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi4LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi5LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi6LUROW" ParamVal="640" />
+    <ParamSet ParamName="ColorRoi1LUCOLUMN" ParamVal="350" />
+    <ParamSet ParamName="ColorRoi2LUCOLUMN" ParamVal="410" />
+    <ParamSet ParamName="ColorRoi3LUCOLUMN" ParamVal="480" />
+    <ParamSet ParamName="ColorRoi4LUCOLUMN" ParamVal="550" />
+    <ParamSet ParamName="ColorRoi5LUCOLUMN" ParamVal="620" />
+    <ParamSet ParamName="ColorRoi6LUCOLUMN" ParamVal="690" />
+    <ParamSet ParamName="ColorRoi1RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi2RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi3RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi4RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi5RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi6RDROW" ParamVal="680" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="390" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="450" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="520" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="590" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="660" />
+    <ParamSet ParamName="ColorRoi1RDCOLUMN" ParamVal="730" />
+  </ROICfg>
+  <StdRoiLab>
+    <ParamSet ParamName="ColorRoi1meanl" ParamVal="94" />
+    <ParamSet ParamName="ColorRoi2meanl" ParamVal="164" />
+    <ParamSet ParamName="ColorRoi3meanl" ParamVal="126" />
+    <ParamSet ParamName="ColorRoi4meanl" ParamVal="136" />
+    <ParamSet ParamName="ColorRoi5meanl" ParamVal="113" />
+    <ParamSet ParamName="ColorRoi6meanl" ParamVal="134" />
+    <ParamSet ParamName="ColorRoi1meana" ParamVal="127" />
+    <ParamSet ParamName="ColorRoi2meana" ParamVal="106" />
+    <ParamSet ParamName="ColorRoi3meana" ParamVal="107" />
+    <ParamSet ParamName="ColorRoi4meana" ParamVal="126" />
+    <ParamSet ParamName="ColorRoi5meana" ParamVal="131" />
+    <ParamSet ParamName="ColorRoi6meana" ParamVal="132" />
+    <ParamSet ParamName="ColorRoi1meanb" ParamVal="127" />
+    <ParamSet ParamName="ColorRoi2meanb" ParamVal="106" />
+    <ParamSet ParamName="ColorRoi3meanb" ParamVal="107" />
+    <ParamSet ParamName="ColorRoi4meanb" ParamVal="126" />
+    <ParamSet ParamName="ColorRoi5meanb" ParamVal="131" />
+    <ParamSet ParamName="ColorRoi6meanb" ParamVal="132" />
+  </StdRoiLab>
+</Config>
