@@ -1,0 +1,82 @@
+﻿<AlarmTable>
+  <A1000 Type="K" Content="Input component initialization failed" DoStop="False" />
+  <A1001 Type="K" Content="Output component initialization failed" DoStop="False" />
+  <A1002 Type="K" Content="Motor component initialization failed" DoStop="False" />
+  <A1003 Type="K" Content="The flowchart NEXT is not set" DoStop="False" />
+  <A1004 Type="K" Content="The flowchart CASE1 is not set" DoStop="False" />
+  <A1005 Type="K" Content="The flowchart CASE2 is not set" DoStop="False" />
+  <A1006 Type="K" Content="The flowchart CASE3 is not set" DoStop="False" />
+
+  <A2000 Type="I" Content="Execute initialization" DoStop="False" />
+  <A2001 Type="I" Content="Stop initialization" DoStop="False" />
+  <A2002 Type="I" Content="Cancel initialization" DoStop="False" />
+  <A2003 Type="I" Content="Initialization is complete" DoStop="False" />
+  <A2004 Type="I" Content="Execute automatic operation" DoStop="False" />
+  <A2005 Type="I" Content="Stop automatic operation" DoStop="False" />
+  <A2006 Type="I" Content="Ending automatic operation" DoStop="False" />
+  <A2007 Type="I" Content="Automatic operation has ended" DoStop="False" />
+
+  <A2009 Type="E" Content="An unpredictable error occurred on VisionRun()" DoStop="True" />
+  <A2010 Type="E" Content="An unpredictable error occurred on AlwaysRun()" DoStop="True" />
+  <A2011 Type="E" Content="An unpredictable error occurred on ServoOn()" DoStop="True" />
+  <A2012 Type="E" Content="An unpredictable error occurred on ServoOff()" DoStop="True" />
+  <A2013 Type="E" Content="An unpredictable error occurred on ExecuteReset()" DoStop="True" />
+  <A2014 Type="E" Content="An unpredictable error occurred on InitialReset()" DoStop="True" />
+  <A2015 Type="E" Content="An unpredictable error occurred on Initial()" DoStop="True" />
+  <A2016 Type="E" Content="An unpredictable error occurred on RunReset()" DoStop="True" />
+  <A2017 Type="E" Content="An unpredictable error occurred on Run()" DoStop="True" />
+  <A2018 Type="E" Content="An unpredictable error occurred on Execute RefreshIO()" DoStop="True" />
+  <A2019 Type="E" Content="An unpredictable error occurred on Execute AlwaysRun()" DoStop="True" />
+  <A2020 Type="E" Content="An unpredictable error occurred on Execute CheckMotorProtected()" DoStop="True" />
+  <A2021 Type="E" Content="An unpredictable error occurred on Execute RunAuto()" DoStop="True" />
+  <A2022 Type="E" Content="An unpredictable error occurred on Execute RunHome()" DoStop="True" />
+  <A2023 Type="W" Content="Setting data didn't found the column," DoStop="False" />
+  <A2024 Type="W" Content="Recipe Data didn't found the column" DoStop="False" />
+  <A2025 Type="W" Content="Setting data didn't set value" DoStop="False" />
+  <A2026 Type="W" Content="Recipe Data didn't set value" DoStop="False" />
+
+  <A2030 Type="E" Content="The axis alarm" DoStop="True" />
+  <A2031 Type="E" Content="The axis hardware limit" DoStop="False" />
+  <A2032 Type="E" Content="The axis software limit" DoStop="False" />
+
+  <A3018 Type="I" Content="Can not find the error code" DoStop="True" />
+  <A3021 Type="E" Content="Emergency stop" DoStop="true" />
+  <A3026 Type="E" Content="The safety door is opened" DoStop="True" />
+  <A3036 Type="E" Content="The security shutter1 is touched" DoStop="True" />
+  <A3037 Type="E" Content="The security shutter2 is touched" DoStop="True" />
+  <A3041 Type="E" Content="Air pressure abnormal" DoStop="True" />
+
+  <A5000 Type="E" Content="Vibration plate lift cylinder go up action overtime" DoStop="True" />
+  <A5001 Type="E" Content="Vibration plate lift cylinder go down action overtime" DoStop="True" />
+  <A5002 Type="E" Content="Vibration plate fix cylinder fix action overtime" DoStop="True" />
+  <A5003 Type="E" Content="Vibration plate fix cylinder release action overtime" DoStop="True" />
+  <A5004 Type="E" Content="Head rotate cylinder extend action overtime" DoStop="True" />
+  <A5005 Type="E" Content="Head rotate cylinder retract action overtime" DoStop="True" />
+  <A5006 Type="E" Content="Head grip cylinder close action overtime" DoStop="True" />
+  <A5007 Type="E" Content="Head grip cylinder open action overtime" DoStop="True" />
+  <A5008 Type="E" Content="Barcode lift cylinder go down action overtime" DoStop="True" />
+  <A5009 Type="E" Content="Barcode lift cylinder go up action overtime" DoStop="True" />
+
+  <A5050 Type="E" Content="Detected no anchor, please fill in the anchor" DoStop="True" />
+  <A5051 Type="E" Content="Failed to connect to barcoder reader" DoStop="True" />
+  <A5052 Type="E" Content="Failed to pick anchor" DoStop="True" />
+  <A5053 Type="E" Content="Scan barcode fail" DoStop="True" />
+  <A5054 Type="E" Content="Fiducial Inspection fail" DoStop="True" />
+  <A5055 Type="E" Content="MotorU is not in front or rear,the head is not allowed to move" DoStop="True" />
+  <A5056 Type="E" Content="Head is not in pick area,the MotorZ need in safety height" DoStop="True" />
+  <A5057 Type="E" Content="Conveyor fix cylinder is not fixed,the head is not allowed into rotate area" DoStop="True" />
+
+  <A6000 Type="E" Content="Conveyor stop cylinder go up action overtime" DoStop="True" />
+  <A6001 Type="E" Content="Conveyor stop cylinder go down action overtime" DoStop="True" />
+  <A6002 Type="E" Content="Conveyor fix cylinder fix action overtime" DoStop="True" />
+  <A6003 Type="E" Content="Conveyor fix cylinder release action overtime" DoStop="True" />
+  <A6004 Type="E" Content="Conveyor rotate fix cylinder fix action overtime" DoStop="True" />
+  <A6005 Type="E" Content="Conveyor rotate fix cylinder release action overtime" DoStop="True" />
+
+  <A6010 Type="E" Content="PCB in overtime" DoStop="True" />
+  <A6011 Type="E" Content="PCB out overtime" DoStop="True" />
+  <A6012 Type="E" Content="Conveyor has product, please remove" DoStop="True" />
+  <A6013 Type="E" Content="Rotate fix cylinder is on, motorU can not move" DoStop="True" />
+  <A6014 Type="E" Content="Head is not at safe area, motorU can not move" DoStop="True" />
+  <A1655 Type="N" Content="Head is not at safe area, motorU can not move" DoStop="True" />
+</AlarmTable>

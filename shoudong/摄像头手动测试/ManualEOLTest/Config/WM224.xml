@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SerialPortParamCommon xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <m_nComNo>5</m_nComNo>
+  <m_strName>COM5</m_strName>
+  <m_nBaudRate>9600</m_nBaudRate>
+  <m_nDataBit>7</m_nDataBit>
+  <m_strPartiy>2</m_strPartiy>
+  <m_strStopBit>1</m_strStopBit>
+  <m_nTime>0</m_nTime>
+  <m_nBufferSzie>4096</m_nBufferSzie>
+</SerialPortParamCommon>

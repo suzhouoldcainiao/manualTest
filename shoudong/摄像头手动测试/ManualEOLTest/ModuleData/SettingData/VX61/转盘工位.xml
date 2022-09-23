@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="yes"?>
+<Setting>
+  <MSet>
+    <镜头平移步进A_Speed>20</镜头平移步进A_Speed>
+    <镜头平移步进B_Speed>20</镜头平移步进B_Speed>
+    <镜头平移步进C_Speed>20</镜头平移步进C_Speed>
+    <镜头平移步进B_acc>5</镜头平移步进B_acc>
+    <镜头平移步进A_acc>5</镜头平移步进A_acc>
+    <镜头平移步进C_acc>5</镜头平移步进C_acc>
+    <镜头平移步进D_acc>5</镜头平移步进D_acc>
+    <镜头平移步进A_dec>5</镜头平移步进A_dec>
+    <镜头平移步进B_dec>5</镜头平移步进B_dec>
+    <镜头平移步进C_dec>5</镜头平移步进C_dec>
+    <镜头平移步进D_dec>5</镜头平移步进D_dec>
+    <出胶伺服_Speed>6</出胶伺服_Speed>
+    <出胶伺服_acc>0.5</出胶伺服_acc>
+    <出胶伺服_dec>0.5</出胶伺服_dec>
+    <增距镜_Speed>16</增距镜_Speed>
+    <增距镜_dec>2</增距镜_dec>
+    <Chart_Speed>2</Chart_Speed>
+    <Chart_acc>2</Chart_acc>
+    <Chart_dec>0.3</Chart_dec>
+    <镜头平移步进D_Speed>20</镜头平移步进D_Speed>
+    <A工位>2505.59</A工位>
+    <B工位>1605.86</B工位>
+    <C工位>705.47</C工位>
+    <D工位>-194.36</D工位>
+    <转盘_Speed>300</转盘_Speed>
+    <转盘_acc>60</转盘_acc>
+    <转盘_dec>20</转盘_dec>
+  </MSet>
+  <PSet>
+    <UseTryRunMode>false</UseTryRunMode>
+    <DisableSafetyDoor>true</DisableSafetyDoor>
+    <DisableSafetyBuzzer>false</DisableSafetyBuzzer>
+    <MachineSpeedRatio>99</MachineSpeedRatio>
+  </PSet>
+</Setting>

@@ -1,0 +1,224 @@
+13:30:56 571	 start loadBaseParameter
+13:31:01 696	 start loadBaseParameter
+13:31:06 024	 start loadBaseParameter
+13:31:10 352	 start loadBaseParameter
+13:31:14 680	 start setSN
+13:31:14 680	 start setSN
+13:31:14 680	 start setSN
+13:31:14 680	 start setSN
+13:46:17 828	 start loadBaseParameter
+13:46:23 422	 start loadBaseParameter
+13:46:28 187	 start loadBaseParameter
+13:46:32 875	 start loadBaseParameter
+13:46:37 484	 start setSN
+13:46:37 499	 start setSN
+13:46:37 499	 start setSN
+13:46:37 499	 start setSN
+14:02:46 777	 start setSN
+14:02:46 777	 start setSN
+14:02:46 777	 start setSN
+14:02:46 777	 start setSN
+14:04:22 661	 1:start getImage
+14:04:22 661	 2 getImage times:0
+14:04:22 676	3  GrabFrame times:0,result=
+14:04:22 739	 2 getImage times:1
+14:04:22 739	3  GrabFrame times:1,result=
+14:04:22 801	 2 getImage times:2
+14:04:22 801	3  GrabFrame times:2,result=
+14:04:22 879	 1:start getImage
+14:04:22 879	 2 getImage times:0
+14:04:22 879	3  GrabFrame times:0,result=
+14:04:22 958	 2 getImage times:1
+14:04:22 958	3  GrabFrame times:1,result=
+14:04:23 020	 2 getImage times:2
+14:04:23 020	3  GrabFrame times:2,result=
+14:04:23 083	 1:start getImage
+14:04:23 098	 2 getImage times:0
+14:04:23 098	3  GrabFrame times:0,result=
+14:04:23 176	 2 getImage times:1
+14:04:23 176	3  GrabFrame times:1,result=
+14:04:23 239	 2 getImage times:2
+14:04:23 239	3  GrabFrame times:2,result=
+14:04:23 317	 1:start getImage
+14:04:23 333	 2 getImage times:0
+14:04:23 333	3  GrabFrame times:0,result=
+14:04:23 411	 2 getImage times:1
+14:04:23 411	3  GrabFrame times:1,result=
+14:04:23 473	 2 getImage times:2
+14:04:23 473	3  GrabFrame times:2,result=
+14:04:23 536	 1:start getImage
+14:04:23 551	 2 getImage times:0
+14:04:23 551	3  GrabFrame times:0,result=
+14:04:23 614	 2 getImage times:1
+14:04:23 614	3  GrabFrame times:1,result=
+14:04:23 676	 2 getImage times:2
+14:04:23 676	3  GrabFrame times:2,result=
+14:04:23 739	 1:start getImage
+14:04:23 754	 2 getImage times:0
+14:04:23 754	3  GrabFrame times:0,result=
+14:04:23 832	 2 getImage times:1
+14:04:23 832	3  GrabFrame times:1,result=
+14:04:23 895	 2 getImage times:2
+14:04:23 895	3  GrabFrame times:2,result=
+14:04:32 988	 start setSN
+14:04:32 988	start cam_stop 
+14:04:33 129	finish cam_stop 
+14:04:33 644	start cam_stop 
+14:04:33 769	finish cam_stop 
+14:04:33 769	 start Playnew
+14:04:33 769	into cam_play:deviceID0 
+14:04:33 785	openDevice:deviceID0 
+14:04:33 957	开始sensor power:deviceID 0 
+14:04:34 332	完成sensor power:deviceID 0 
+14:04:34 363	完成Pin set:deviceID 0 
+14:04:34 691	完成I2C set:deviceID 0 
+14:04:34 847	start InitSensor :deviceID 0 
+14:04:35 332	start InitSensor failed 1 times :deviceID 0 
+14:04:35 925	start InitSensor failed 2 times :deviceID 0 
+14:04:36 519	start InitSensor failed 3 times :deviceID 0 
+14:04:36 738	 1:start getImage
+14:04:36 738	 2 getImage times:0
+14:04:36 753	3  GrabFrame times:0,result=
+14:04:36 816	 2 getImage times:1
+14:04:36 816	3  GrabFrame times:1,result=
+14:04:36 878	 2 getImage times:2
+14:04:36 878	3  GrabFrame times:2,result=
+14:04:36 957	 1:start getImage
+14:04:36 957	 2 getImage times:0
+14:04:36 957	3  GrabFrame times:0,result=
+14:04:37 035	 2 getImage times:1
+14:04:37 035	3  GrabFrame times:1,result=
+14:04:37 097	 2 getImage times:2
+14:04:37 097	3  GrabFrame times:2,result=
+14:04:37 160	 1:start getImage
+14:04:37 175	 2 getImage times:0
+14:04:37 175	3  GrabFrame times:0,result=
+14:04:37 253	 2 getImage times:1
+14:04:37 253	3  GrabFrame times:1,result=
+14:04:37 316	 2 getImage times:2
+14:04:37 316	3  GrabFrame times:2,result=
+14:04:37 378	 1:start getImage
+14:04:37 394	 2 getImage times:0
+14:04:37 394	3  GrabFrame times:0,result=
+14:04:37 472	 2 getImage times:1
+14:04:37 472	3  GrabFrame times:1,result=
+14:04:37 535	 2 getImage times:2
+14:04:37 535	3  GrabFrame times:2,result=
+14:04:37 597	 1:start getImage
+14:04:37 613	 2 getImage times:0
+14:04:37 613	3  GrabFrame times:0,result=
+14:04:37 691	 2 getImage times:1
+14:04:37 691	3  GrabFrame times:1,result=
+14:04:37 753	 2 getImage times:2
+14:04:37 753	3  GrabFrame times:2,result=
+14:04:37 816	 1:start getImage
+14:04:37 832	 2 getImage times:0
+14:04:37 832	3  GrabFrame times:0,result=
+14:04:37 910	 2 getImage times:1
+14:04:37 910	3  GrabFrame times:1,result=
+14:04:37 972	 2 getImage times:2
+14:04:37 972	3  GrabFrame times:2,result=
+14:04:42 769	start cam_stop 
+14:04:42 894	finish cam_stop 
+14:05:36 015	 1:start getImage
+14:05:36 015	 2 getImage times:0
+14:05:36 015	3  GrabFrame times:0,result=
+14:05:36 093	 2 getImage times:1
+14:05:36 093	3  GrabFrame times:1,result=
+14:05:36 156	 2 getImage times:2
+14:05:36 156	3  GrabFrame times:2,result=
+14:05:36 234	 1:start getImage
+14:05:36 234	 2 getImage times:0
+14:05:36 234	3  GrabFrame times:0,result=
+14:05:36 312	 2 getImage times:1
+14:05:36 312	3  GrabFrame times:1,result=
+14:05:36 374	 2 getImage times:2
+14:05:36 374	3  GrabFrame times:2,result=
+14:05:36 437	 1:start getImage
+14:05:36 453	 2 getImage times:0
+14:05:36 453	3  GrabFrame times:0,result=
+14:05:36 531	 2 getImage times:1
+14:05:36 531	3  GrabFrame times:1,result=
+14:05:36 593	 2 getImage times:2
+14:05:36 593	3  GrabFrame times:2,result=
+14:05:36 656	 1:start getImage
+14:05:36 671	 2 getImage times:0
+14:05:36 671	3  GrabFrame times:0,result=
+14:05:36 749	 2 getImage times:1
+14:05:36 749	3  GrabFrame times:1,result=
+14:05:36 812	 2 getImage times:2
+14:05:36 812	3  GrabFrame times:2,result=
+14:05:36 874	 1:start getImage
+14:05:36 890	 2 getImage times:0
+14:05:36 890	3  GrabFrame times:0,result=
+14:05:36 968	 2 getImage times:1
+14:05:36 968	3  GrabFrame times:1,result=
+14:05:37 031	 2 getImage times:2
+14:05:37 031	3  GrabFrame times:2,result=
+14:05:37 093	 1:start getImage
+14:05:37 109	 2 getImage times:0
+14:05:37 109	3  GrabFrame times:0,result=
+14:05:37 187	 2 getImage times:1
+14:05:37 187	3  GrabFrame times:1,result=
+14:05:37 249	 2 getImage times:2
+14:05:37 249	3  GrabFrame times:2,result=
+14:05:46 343	 start setSN
+14:05:46 343	start cam_stop 
+14:05:46 483	finish cam_stop 
+14:05:46 999	start cam_stop 
+14:05:47 124	finish cam_stop 
+14:05:47 124	 start Playnew
+14:05:47 124	into cam_play:deviceID0 
+14:05:47 139	openDevice:deviceID0 
+14:05:47 296	开始sensor power:deviceID 0 
+14:05:47 671	完成sensor power:deviceID 0 
+14:05:47 702	完成Pin set:deviceID 0 
+14:05:48 030	完成I2C set:deviceID 0 
+14:05:48 186	start InitSensor :deviceID 0 
+14:05:48 670	start InitSensor failed 1 times :deviceID 0 
+14:05:49 264	start InitSensor failed 2 times :deviceID 0 
+14:05:49 858	start InitSensor failed 3 times :deviceID 0 
+14:05:50 077	 1:start getImage
+14:05:50 077	 2 getImage times:0
+14:05:50 077	3  GrabFrame times:0,result=
+14:05:50 155	 2 getImage times:1
+14:05:50 155	3  GrabFrame times:1,result=
+14:05:50 217	 2 getImage times:2
+14:05:50 217	3  GrabFrame times:2,result=
+14:05:50 295	 1:start getImage
+14:05:50 295	 2 getImage times:0
+14:05:50 295	3  GrabFrame times:0,result=
+14:05:50 374	 2 getImage times:1
+14:05:50 374	3  GrabFrame times:1,result=
+14:05:50 436	 2 getImage times:2
+14:05:50 436	3  GrabFrame times:2,result=
+14:05:50 499	 1:start getImage
+14:05:50 514	 2 getImage times:0
+14:05:50 514	3  GrabFrame times:0,result=
+14:05:50 592	 2 getImage times:1
+14:05:50 592	3  GrabFrame times:1,result=
+14:05:50 655	 2 getImage times:2
+14:05:50 655	3  GrabFrame times:2,result=
+14:05:50 717	 1:start getImage
+14:05:50 733	 2 getImage times:0
+14:05:50 733	3  GrabFrame times:0,result=
+14:05:50 811	 2 getImage times:1
+14:05:50 811	3  GrabFrame times:1,result=
+14:05:50 873	 2 getImage times:2
+14:05:50 873	3  GrabFrame times:2,result=
+14:05:50 936	 1:start getImage
+14:05:50 952	 2 getImage times:0
+14:05:50 952	3  GrabFrame times:0,result=
+14:05:51 030	 2 getImage times:1
+14:05:51 030	3  GrabFrame times:1,result=
+14:05:51 092	 2 getImage times:2
+14:05:51 092	3  GrabFrame times:2,result=
+14:05:51 155	 1:start getImage
+14:05:51 170	 2 getImage times:0
+14:05:51 170	3  GrabFrame times:0,result=
+14:05:51 248	 2 getImage times:1
+14:05:51 248	3  GrabFrame times:1,result=
+14:05:51 311	 2 getImage times:2
+14:05:51 311	3  GrabFrame times:2,result=
+14:05:56 092	start cam_stop 
+14:05:56 232	finish cam_stop 

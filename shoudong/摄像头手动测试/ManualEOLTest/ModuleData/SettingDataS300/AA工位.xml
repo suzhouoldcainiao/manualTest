@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<Setting>
+  <MSet />
+  <PSet>
+    <FindcenterGainY>0</FindcenterGainY>
+    <AAGainX>0</AAGainX>
+    <AAGainY>0</AAGainY>
+  </PSet>
+</Setting>

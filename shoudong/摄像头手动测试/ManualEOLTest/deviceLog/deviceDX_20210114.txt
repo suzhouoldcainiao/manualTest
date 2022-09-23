@@ -1,0 +1,36 @@
+20:32:26 245	 start loadBaseParameter
+20:32:26 898	 start setSN
+20:32:26 902	 start setSN
+20:32:26 931	 start setSN
+20:32:26 934	 start setSN
+20:32:26 939	 start loadPinDef
+20:32:26 945	 finished loadPinDef
+20:32:26 951	 start loadPinDef
+20:32:26 959	 finished loadPinDef
+20:32:26 966	 start loadPinDef
+20:32:26 978	 finished loadPinDef
+20:32:26 991	 start loadPinDef
+20:32:27 002	 finished loadPinDef
+20:33:02 107	 start loadPinDef
+20:33:02 112	 finished loadPinDef
+20:33:02 117	 start setSN
+20:33:02 121	start cam_stop 
+20:33:02 227	finish cam_stop 
+20:33:02 730	start cam_stop 
+20:33:02 835	finish cam_stop 
+20:33:02 838	 start Playnew
+20:33:02 842	into cam_play:deviceID1 
+20:33:02 846	openDevice:deviceID1 
+20:33:02 962	开始sensor power:deviceID 1 
+20:33:03 284	完成sensor power:deviceID 1 
+20:33:03 297	完成Pin set:deviceID 1 
+20:33:03 578	完成I2C set:deviceID 1 
+20:33:03 697	start InitSensor :deviceID 1 
+20:33:04 707	完成 InitSensor  :deviceID 1 
+20:33:04 711	set image format  :deviceID 1 
+20:33:04 731	start Video :deviceID 1 
+20:33:04 739	malloc memory :deviceID 1 
+20:33:04 746	disable ISX019 AE :deviceID 1 
+20:33:04 750	 WriteI2C:34,0,998,0 
+20:33:04 754	 write I2C 0x998
+20:33:05 535	finished play :deviceID 1 

@@ -1,0 +1,72 @@
+10:23:40 319	 start loadBaseParameter
+10:23:45 475	 start loadBaseParameter
+10:23:50 303	 start loadBaseParameter
+10:23:55 162	 start loadBaseParameter
+10:23:59 958	 start setSN
+10:23:59 958	 start setSN
+10:23:59 958	 start setSN
+10:23:59 974	 start setSN
+10:23:59 974	 start loadPinDef
+10:23:59 974	 finished loadPinDef
+10:23:59 990	 start loadPinDef
+10:23:59 990	 finished loadPinDef
+10:24:00 005	 start loadPinDef
+10:24:00 005	 finished loadPinDef
+10:24:00 021	 start loadPinDef
+10:24:00 021	 finished loadPinDef
+10:28:59 417	start cam_stop 
+10:28:59 558	finish cam_stop 
+10:28:59 558	 start Playnew
+10:28:59 558	into cam_play:deviceID0 
+10:28:59 574	openDevice:deviceID0 
+10:28:59 761	开始sensor power:deviceID 0 
+10:29:00 136	完成sensor power:deviceID 0 
+10:29:00 167	完成Pin set:deviceID 0 
+10:29:00 511	完成I2C set:deviceID 0 
+10:29:00 667	start InitSensor :deviceID 0 
+10:29:01 152	完成 InitSensor  :deviceID 0 
+10:29:01 152	set image format  :deviceID 0 
+10:29:01 199	start Video :deviceID 0 
+10:29:01 214	malloc memory :deviceID 0 
+10:29:01 230	disable ISX019 AE :deviceID 0 
+10:29:01 230	 WriteI2C:34,0,998,0 
+10:29:01 230	 write I2C 0x998
+10:29:02 183	finished play :deviceID 0 
+10:29:09 932	 1:start getImage
+10:29:09 932	 2 getImage times:0
+10:29:09 948	3  GrabFrame times:0,result=
+10:29:09 964	 5 ImageProcess result=
+10:29:09 979	7 finish getImage
+10:29:09 979	 1:start getImage
+10:29:09 979	 2 getImage times:0
+10:29:09 979	3  GrabFrame times:0,result=
+10:29:09 995	 5 ImageProcess result=
+10:29:09 995	7 finish getImage
+10:32:47 291	start cam_stop 
+10:32:47 447	finish cam_stop 
+10:32:47 447	 start Playnew
+10:32:47 463	into cam_play:deviceID0 
+10:32:47 463	openDevice:deviceID0 
+10:32:47 651	开始sensor power:deviceID 0 
+10:32:48 026	完成sensor power:deviceID 0 
+10:32:48 057	完成Pin set:deviceID 0 
+10:32:48 385	完成I2C set:deviceID 0 
+10:32:48 541	start InitSensor :deviceID 0 
+10:32:49 026	完成 InitSensor  :deviceID 0 
+10:32:49 026	set image format  :deviceID 0 
+10:32:49 072	start Video :deviceID 0 
+10:32:49 088	malloc memory :deviceID 0 
+10:32:49 119	disable ISX019 AE :deviceID 0 
+10:32:49 119	 WriteI2C:34,0,998,0 
+10:32:49 119	 write I2C 0x998
+10:32:50 073	finished play :deviceID 0 
+10:32:57 806	 1:start getImage
+10:32:57 806	 2 getImage times:0
+10:32:57 806	3  GrabFrame times:0,result=
+10:32:57 822	 5 ImageProcess result=
+10:32:57 822	7 finish getImage
+10:32:57 822	 1:start getImage
+10:32:57 838	 2 getImage times:0
+10:32:57 838	3  GrabFrame times:0,result=
+10:32:57 838	 5 ImageProcess result=
+10:32:57 853	7 finish getImage

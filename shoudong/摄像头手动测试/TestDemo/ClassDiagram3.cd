@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TestDemo.MesHelper" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABABQAAEAAAgIBAAABCAAMABQABEAgAAwAAAAAAAAgA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInReqHead">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInDataListItem">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInReqData">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="DataList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TestDemo.MesInRoot">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ReqData" />
+      <Field Name="ReqHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TestDemo.DataUpReqHead" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAEAQAAAAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataUpDataListItem" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataUpTestDataItem" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAEAEAAAAoAICQ=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataUpReqData" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataUpRoot" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInBackReqHead">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAQAAAAAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInBackDataListItem" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.MesInDataBackReqData">
+    <Position X="6.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="DataList" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="TestDemo.MesInBackRoot">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ResponseData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TestDemo.DataBackReqHead" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAUAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataBackDataListItem" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataBackReqData" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TestDemo.DataUpBackRoot" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>MesHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

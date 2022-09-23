@@ -1,0 +1,2 @@
+WScript.Sleep 400
+

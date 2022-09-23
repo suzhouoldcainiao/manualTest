@@ -1,0 +1,4502 @@
+09:24:26 643	 start loadBaseParameter
+09:24:27 814	 start loadBaseParameter
+09:24:28 096	 start loadBaseParameter
+09:24:28 392	 start loadBaseParameter
+09:24:28 721	 start setSN
+09:24:28 736	 start setSN
+09:24:28 736	 start setSN
+09:24:28 736	 start setSN
+09:24:28 752	 start loadPinDef
+09:24:28 783	 finished loadPinDef
+09:24:28 814	 start loadPinDef
+09:24:28 814	 finished loadPinDef
+09:24:28 814	 start loadPinDef
+09:24:28 830	 finished loadPinDef
+09:24:28 830	 start loadPinDef
+09:24:28 846	 finished loadPinDef
+09:37:37 141	 start loadBaseParameter
+09:37:37 563	 start loadBaseParameter
+09:37:37 829	 start loadBaseParameter
+09:37:38 126	 start loadBaseParameter
+09:37:38 438	 start setSN
+09:37:38 438	 start setSN
+09:37:38 438	 start setSN
+09:37:38 438	 start setSN
+09:37:38 454	 start loadPinDef
+09:37:38 454	 finished loadPinDef
+09:37:38 454	 start loadPinDef
+09:37:38 469	 finished loadPinDef
+09:37:38 469	 start loadPinDef
+09:37:38 485	 finished loadPinDef
+09:37:38 485	 start loadPinDef
+09:37:38 501	 finished loadPinDef
+09:43:53 891	 start setSN
+09:43:53 891	 start setSN
+09:43:53 891	 start setSN
+09:43:53 891	 start setSN
+10:05:33 148	 start loadBaseParameter
+10:05:34 117	 start loadBaseParameter
+10:05:34 367	 start loadBaseParameter
+10:05:34 601	 start loadBaseParameter
+10:05:34 867	 start setSN
+10:05:34 867	 start setSN
+10:05:34 867	 start setSN
+10:05:34 883	 start setSN
+10:05:34 883	 start loadPinDef
+10:05:34 914	 finished loadPinDef
+10:05:34 929	 start loadPinDef
+10:05:34 929	 finished loadPinDef
+10:05:34 945	 start loadPinDef
+10:05:34 945	 finished loadPinDef
+10:05:34 961	 start loadPinDef
+10:05:34 961	 finished loadPinDef
+13:22:44 386	 start loadBaseParameter
+13:22:44 823	 start loadBaseParameter
+13:22:45 104	 start loadBaseParameter
+13:22:45 386	 start loadBaseParameter
+13:22:45 667	 start setSN
+13:22:45 667	 start setSN
+13:22:45 682	 start setSN
+13:22:45 682	 start setSN
+13:22:45 682	 start loadPinDef
+13:22:45 698	 finished loadPinDef
+13:22:45 714	 start loadPinDef
+13:22:45 714	 finished loadPinDef
+13:22:45 729	 start loadPinDef
+13:22:45 729	 finished loadPinDef
+13:22:45 745	 start loadPinDef
+13:22:45 745	 finished loadPinDef
+16:33:05 120	 start loadBaseParameter
+16:33:05 635	 start loadBaseParameter
+16:33:05 870	 start loadBaseParameter
+16:33:06 104	 start loadBaseParameter
+16:33:06 354	 start setSN
+16:33:06 354	 start setSN
+16:33:06 354	 start setSN
+16:33:06 370	 start setSN
+16:33:06 370	 start loadPinDef
+16:33:06 370	 finished loadPinDef
+16:33:06 370	 start loadPinDef
+16:33:06 385	 finished loadPinDef
+16:33:06 385	 start loadPinDef
+16:33:06 401	 finished loadPinDef
+16:33:06 401	 start loadPinDef
+16:33:06 417	 finished loadPinDef
+16:42:06 466	 start loadBaseParameter
+16:42:06 972	 start loadBaseParameter
+16:42:07 195	 start loadBaseParameter
+16:42:07 413	 start loadBaseParameter
+16:42:07 634	 start setSN
+16:42:07 635	 start setSN
+16:42:07 636	 start setSN
+16:42:07 638	 start setSN
+16:42:07 640	 start loadPinDef
+16:42:07 646	 finished loadPinDef
+16:42:07 653	 start loadPinDef
+16:42:07 659	 finished loadPinDef
+16:42:07 666	 start loadPinDef
+16:42:07 672	 finished loadPinDef
+16:42:07 679	 start loadPinDef
+16:42:07 685	 finished loadPinDef
+16:46:19 453	 start loadBaseParameter
+16:46:19 959	 start loadBaseParameter
+16:46:20 182	 start loadBaseParameter
+16:46:20 405	 start loadBaseParameter
+16:46:20 627	 start setSN
+16:46:20 628	 start setSN
+16:46:20 629	 start setSN
+16:46:20 631	 start setSN
+16:46:20 633	 start loadPinDef
+16:46:20 639	 finished loadPinDef
+16:46:20 646	 start loadPinDef
+16:46:20 652	 finished loadPinDef
+16:46:20 659	 start loadPinDef
+16:46:20 666	 finished loadPinDef
+16:46:20 673	 start loadPinDef
+16:46:20 679	 finished loadPinDef
+16:48:15 477	 start loadBaseParameter
+16:48:16 010	 start loadBaseParameter
+16:48:16 243	 start loadBaseParameter
+16:48:16 479	 start loadBaseParameter
+16:48:16 761	 start setSN
+16:48:16 764	 start setSN
+16:48:16 766	 start setSN
+16:48:16 769	 start setSN
+16:48:16 773	 start loadPinDef
+16:48:16 781	 finished loadPinDef
+16:48:16 788	 start loadPinDef
+16:48:16 794	 finished loadPinDef
+16:48:16 801	 start loadPinDef
+16:48:16 807	 finished loadPinDef
+16:48:16 813	 start loadPinDef
+16:48:16 819	 finished loadPinDef
+16:52:23 797	 start loadBaseParameter
+16:52:24 410	 start loadBaseParameter
+16:52:24 660	 start loadBaseParameter
+16:52:24 937	 start loadBaseParameter
+16:52:25 186	 start setSN
+16:52:25 190	 start setSN
+16:52:25 193	 start setSN
+16:52:25 195	 start setSN
+16:52:25 199	 start loadPinDef
+16:52:25 211	 finished loadPinDef
+16:52:25 223	 start loadPinDef
+16:52:25 231	 finished loadPinDef
+16:52:25 237	 start loadPinDef
+16:52:25 243	 finished loadPinDef
+16:52:25 250	 start loadPinDef
+16:52:25 257	 finished loadPinDef
+16:56:52 998	 start loadBaseParameter
+16:56:53 658	 start loadBaseParameter
+16:56:53 924	 start loadBaseParameter
+16:56:54 221	 start loadBaseParameter
+16:56:54 518	 start setSN
+16:56:54 518	 start setSN
+16:56:54 518	 start setSN
+16:56:54 518	 start setSN
+16:56:54 518	 start loadPinDef
+16:56:54 533	 finished loadPinDef
+16:56:54 549	 start loadPinDef
+16:56:54 549	 finished loadPinDef
+16:56:54 549	 start loadPinDef
+16:56:54 564	 finished loadPinDef
+16:56:54 564	 start loadPinDef
+16:56:54 580	 finished loadPinDef
+17:02:46 488	 start loadBaseParameter
+17:02:46 826	 start loadBaseParameter
+17:02:47 044	 start loadBaseParameter
+17:02:47 265	 start loadBaseParameter
+17:02:47 484	 start setSN
+17:02:47 485	 start setSN
+17:02:47 487	 start setSN
+17:02:47 488	 start setSN
+17:02:47 490	 start loadPinDef
+17:02:47 496	 finished loadPinDef
+17:02:47 503	 start loadPinDef
+17:02:47 509	 finished loadPinDef
+17:02:47 516	 start loadPinDef
+17:02:47 522	 finished loadPinDef
+17:02:47 530	 start loadPinDef
+17:02:47 536	 finished loadPinDef
+17:05:36 294	 start loadBaseParameter
+17:05:36 654	 start loadBaseParameter
+17:05:36 919	 start loadBaseParameter
+17:05:37 154	 start loadBaseParameter
+17:05:37 388	 start setSN
+17:05:37 388	 start setSN
+17:05:37 388	 start setSN
+17:05:37 388	 start setSN
+17:05:37 404	 start loadPinDef
+17:05:37 404	 finished loadPinDef
+17:05:37 404	 start loadPinDef
+17:05:37 419	 finished loadPinDef
+17:05:37 419	 start loadPinDef
+17:05:37 435	 finished loadPinDef
+17:05:37 435	 start loadPinDef
+17:05:37 451	 finished loadPinDef
+17:08:32 323	 start loadBaseParameter
+17:08:32 682	 start loadBaseParameter
+17:08:32 932	 start loadBaseParameter
+17:08:33 213	 start loadBaseParameter
+17:08:33 479	 start setSN
+17:08:33 479	 start setSN
+17:08:33 479	 start setSN
+17:08:33 494	 start setSN
+17:08:33 494	 start loadPinDef
+17:08:33 510	 finished loadPinDef
+17:08:33 510	 start loadPinDef
+17:08:33 526	 finished loadPinDef
+17:08:33 526	 start loadPinDef
+17:08:33 541	 finished loadPinDef
+17:08:33 541	 start loadPinDef
+17:08:33 541	 finished loadPinDef
+17:13:57 494	 start loadBaseParameter
+17:13:57 853	 start loadBaseParameter
+17:13:58 103	 start loadBaseParameter
+17:13:58 353	 start loadBaseParameter
+17:13:58 603	 start setSN
+17:13:58 603	 start setSN
+17:13:58 603	 start setSN
+17:13:58 603	 start setSN
+17:13:58 618	 start loadPinDef
+17:13:58 618	 finished loadPinDef
+17:13:58 618	 start loadPinDef
+17:13:58 634	 finished loadPinDef
+17:13:58 634	 start loadPinDef
+17:13:58 650	 finished loadPinDef
+17:13:58 650	 start loadPinDef
+17:13:58 665	 finished loadPinDef
+18:10:32 635	 start loadBaseParameter
+18:10:33 323	 start loadBaseParameter
+18:10:33 573	 start loadBaseParameter
+18:10:33 854	 start loadBaseParameter
+18:10:34 135	 start setSN
+18:10:34 135	 start setSN
+18:10:34 135	 start setSN
+18:10:34 151	 start setSN
+18:10:34 151	 start loadPinDef
+18:10:34 166	 finished loadPinDef
+18:10:34 166	 start loadPinDef
+18:10:34 166	 finished loadPinDef
+18:10:34 182	 start loadPinDef
+18:10:34 182	 finished loadPinDef
+18:10:34 198	 start loadPinDef
+18:10:34 198	 finished loadPinDef
+18:14:03 668	 start loadBaseParameter
+18:14:04 059	 start loadBaseParameter
+18:14:04 340	 start loadBaseParameter
+18:14:04 637	 start loadBaseParameter
+18:14:04 918	 start setSN
+18:14:04 934	 start setSN
+18:14:04 934	 start setSN
+18:14:04 934	 start setSN
+18:14:04 934	 start loadPinDef
+18:14:04 949	 finished loadPinDef
+18:14:04 965	 start loadPinDef
+18:14:04 965	 finished loadPinDef
+18:14:04 965	 start loadPinDef
+18:14:04 981	 finished loadPinDef
+18:14:04 981	 start loadPinDef
+18:14:04 996	 finished loadPinDef
+18:18:00 438	 start setSN
+18:18:00 438	 start setSN
+18:18:00 438	 start setSN
+18:18:00 438	 start setSN
+18:18:24 709	 start setSN
+18:18:24 709	 start setSN
+18:18:24 709	 start setSN
+18:18:24 709	 start setSN
+18:18:46 911	 start setSN
+18:18:48 926	start cam_stop 
+18:18:49 051	finish cam_stop 
+18:18:49 051	 start Playnew
+18:18:49 051	into cam_play:deviceID0 
+18:18:49 051	openDevice:deviceID0 
+18:18:49 192	开始sensor power:deviceID 0 
+18:18:49 567	完成sensor power:deviceID 0 
+18:18:49 582	完成Pin set:deviceID 0 
+18:18:49 926	完成I2C set:deviceID 0 
+18:18:50 082	start InitSensor :deviceID 0 
+18:18:50 567	start InitSensor failed 1 times :deviceID 0 
+18:18:51 160	start InitSensor failed 2 times :deviceID 0 
+18:18:51 754	start InitSensor failed 3 times :deviceID 0 
+18:18:51 754	start cam_stop 
+18:18:51 895	finish cam_stop 
+18:18:52 113	 start Playnew
+18:18:52 113	into cam_play:deviceID0 
+18:18:52 113	openDevice:deviceID0 
+18:18:52 301	开始sensor power:deviceID 0 
+18:18:52 676	完成sensor power:deviceID 0 
+18:18:52 691	完成Pin set:deviceID 0 
+18:18:53 020	完成I2C set:deviceID 0 
+18:18:53 176	start InitSensor :deviceID 0 
+18:18:53 660	start InitSensor failed 1 times :deviceID 0 
+18:18:54 254	start InitSensor failed 2 times :deviceID 0 
+18:18:54 848	start InitSensor failed 3 times :deviceID 0 
+18:18:54 848	start cam_stop 
+18:18:54 973	finish cam_stop 
+18:18:54 973	 start Playnew
+18:18:54 973	into cam_play:deviceID0 
+18:18:54 973	openDevice:deviceID0 
+18:18:55 144	开始sensor power:deviceID 0 
+18:18:55 519	完成sensor power:deviceID 0 
+18:18:55 551	完成Pin set:deviceID 0 
+18:18:55 894	完成I2C set:deviceID 0 
+18:18:56 051	start InitSensor :deviceID 0 
+18:18:56 535	start InitSensor failed 1 times :deviceID 0 
+18:18:57 129	start InitSensor failed 2 times :deviceID 0 
+18:18:57 722	start InitSensor failed 3 times :deviceID 0 
+18:18:57 722	start cam_stop 
+18:18:57 863	finish cam_stop 
+18:18:58 082	 start Playnew
+18:18:58 082	into cam_play:deviceID0 
+18:18:58 082	openDevice:deviceID0 
+18:18:58 222	开始sensor power:deviceID 0 
+18:18:58 597	完成sensor power:deviceID 0 
+18:18:58 613	完成Pin set:deviceID 0 
+18:18:58 941	完成I2C set:deviceID 0 
+18:18:59 097	start InitSensor :deviceID 0 
+18:18:59 582	start InitSensor failed 1 times :deviceID 0 
+18:19:00 175	start InitSensor failed 2 times :deviceID 0 
+18:19:00 769	start InitSensor failed 3 times :deviceID 0 
+18:19:02 785	 start getImage
+18:19:02 785	  getImage times:0
+18:19:02 847	  getImage times:1
+18:19:02 910	  getImage times:2
+18:19:02 972	 start getImage
+18:19:02 972	  getImage times:0
+18:19:03 034	  getImage times:1
+18:19:03 097	  getImage times:2
+18:19:03 159	 start getImage
+18:19:03 159	  getImage times:0
+18:19:03 222	  getImage times:1
+18:19:03 285	  getImage times:2
+18:19:03 347	 start getImage
+18:19:03 347	  getImage times:0
+18:19:03 409	  getImage times:1
+18:19:03 472	  getImage times:2
+18:19:03 534	 start getImage
+18:19:03 534	  getImage times:0
+18:19:03 597	  getImage times:1
+18:19:03 659	  getImage times:2
+18:19:03 722	 start getImage
+18:19:03 722	  getImage times:0
+18:19:03 784	  getImage times:1
+18:19:03 847	  getImage times:2
+18:19:47 641	 start setSN
+18:19:49 656	start cam_stop 
+18:19:49 781	finish cam_stop 
+18:19:49 781	 start Playnew
+18:19:49 781	into cam_play:deviceID0 
+18:19:49 781	openDevice:deviceID0 
+18:19:49 922	开始sensor power:deviceID 0 
+18:19:50 297	完成sensor power:deviceID 0 
+18:19:50 313	完成Pin set:deviceID 0 
+18:19:50 641	完成I2C set:deviceID 0 
+18:19:50 797	start InitSensor :deviceID 0 
+18:19:51 281	start InitSensor failed 1 times :deviceID 0 
+18:19:51 875	start InitSensor failed 2 times :deviceID 0 
+18:19:52 469	start InitSensor failed 3 times :deviceID 0 
+18:19:52 469	start cam_stop 
+18:19:52 609	finish cam_stop 
+18:19:52 828	 start Playnew
+18:19:52 828	into cam_play:deviceID0 
+18:19:52 828	openDevice:deviceID0 
+18:19:53 015	开始sensor power:deviceID 0 
+18:19:53 390	完成sensor power:deviceID 0 
+18:19:53 406	完成Pin set:deviceID 0 
+18:19:53 734	完成I2C set:deviceID 0 
+18:19:53 890	start InitSensor :deviceID 0 
+18:19:54 375	start InitSensor failed 1 times :deviceID 0 
+18:19:54 968	start InitSensor failed 2 times :deviceID 0 
+18:19:55 562	start InitSensor failed 3 times :deviceID 0 
+18:19:55 562	start cam_stop 
+18:19:55 687	finish cam_stop 
+18:19:55 687	 start Playnew
+18:19:55 687	into cam_play:deviceID0 
+18:19:55 687	openDevice:deviceID0 
+18:19:55 843	开始sensor power:deviceID 0 
+18:19:56 218	完成sensor power:deviceID 0 
+18:19:56 250	完成Pin set:deviceID 0 
+18:19:56 578	完成I2C set:deviceID 0 
+18:19:56 734	start InitSensor :deviceID 0 
+18:19:57 218	start InitSensor failed 1 times :deviceID 0 
+18:19:57 812	start InitSensor failed 2 times :deviceID 0 
+18:19:58 406	start InitSensor failed 3 times :deviceID 0 
+18:19:58 406	start cam_stop 
+18:19:58 546	finish cam_stop 
+18:19:58 765	 start Playnew
+18:19:58 765	into cam_play:deviceID0 
+18:19:58 765	openDevice:deviceID0 
+18:19:58 906	开始sensor power:deviceID 0 
+18:19:59 281	完成sensor power:deviceID 0 
+18:19:59 296	完成Pin set:deviceID 0 
+18:19:59 624	完成I2C set:deviceID 0 
+18:19:59 781	start InitSensor :deviceID 0 
+18:20:00 265	start InitSensor failed 1 times :deviceID 0 
+18:20:00 859	start InitSensor failed 2 times :deviceID 0 
+18:20:01 452	start InitSensor failed 3 times :deviceID 0 
+18:20:03 468	 start getImage
+18:20:03 468	  getImage times:0
+18:20:03 530	  getImage times:1
+18:20:03 593	  getImage times:2
+18:20:03 655	 start getImage
+18:20:03 655	  getImage times:0
+18:20:03 718	  getImage times:1
+18:20:03 780	  getImage times:2
+18:20:03 843	 start getImage
+18:20:03 843	  getImage times:0
+18:20:03 905	  getImage times:1
+18:20:03 968	  getImage times:2
+18:20:04 030	 start getImage
+18:20:04 030	  getImage times:0
+18:20:04 093	  getImage times:1
+18:20:04 155	  getImage times:2
+18:20:04 218	 start getImage
+18:20:04 218	  getImage times:0
+18:20:04 280	  getImage times:1
+18:20:04 343	  getImage times:2
+18:20:04 405	 start getImage
+18:20:04 405	  getImage times:0
+18:20:04 468	  getImage times:1
+18:20:04 530	  getImage times:2
+18:20:21 185	 start getImage
+18:20:21 185	  getImage times:0
+18:20:21 248	  getImage times:1
+18:20:21 310	  getImage times:2
+18:20:21 373	 start getImage
+18:20:21 373	  getImage times:0
+18:20:21 435	  getImage times:1
+18:20:21 498	  getImage times:2
+18:20:21 560	 start getImage
+18:20:21 560	  getImage times:0
+18:20:21 623	  getImage times:1
+18:20:21 685	  getImage times:2
+18:20:21 748	 start getImage
+18:20:21 748	  getImage times:0
+18:20:21 810	  getImage times:1
+18:20:21 873	  getImage times:2
+18:20:21 935	 start getImage
+18:20:21 935	  getImage times:0
+18:20:21 998	  getImage times:1
+18:20:22 060	  getImage times:2
+18:20:22 123	 start getImage
+18:20:22 123	  getImage times:0
+18:20:22 185	  getImage times:1
+18:20:22 248	  getImage times:2
+18:20:31 341	 start setSN
+18:20:31 341	start cam_stop 
+18:20:31 466	finish cam_stop 
+18:20:31 982	start cam_stop 
+18:20:32 107	finish cam_stop 
+18:20:32 107	 start Playnew
+18:20:32 107	into cam_play:deviceID0 
+18:20:32 122	openDevice:deviceID0 
+18:20:32 294	开始sensor power:deviceID 0 
+18:20:32 669	完成sensor power:deviceID 0 
+18:20:32 700	完成Pin set:deviceID 0 
+18:20:33 044	完成I2C set:deviceID 0 
+18:20:33 200	start InitSensor :deviceID 0 
+18:20:33 685	start InitSensor failed 1 times :deviceID 0 
+18:20:34 278	start InitSensor failed 2 times :deviceID 0 
+18:20:34 872	start InitSensor failed 3 times :deviceID 0 
+18:20:34 872	start cam_stop 
+18:20:35 013	finish cam_stop 
+18:20:35 231	 start Playnew
+18:20:35 231	into cam_play:deviceID0 
+18:20:35 231	openDevice:deviceID0 
+18:20:35 388	开始sensor power:deviceID 0 
+18:20:35 762	完成sensor power:deviceID 0 
+18:20:35 778	完成Pin set:deviceID 0 
+18:20:36 106	完成I2C set:deviceID 0 
+18:20:36 262	start InitSensor :deviceID 0 
+18:20:36 747	start InitSensor failed 1 times :deviceID 0 
+18:20:37 341	start InitSensor failed 2 times :deviceID 0 
+18:20:37 934	start InitSensor failed 3 times :deviceID 0 
+18:20:37 934	 start setSN
+18:20:38 153	 start getImage
+18:20:38 153	  getImage times:0
+18:20:38 215	  getImage times:1
+18:20:38 278	  getImage times:2
+18:20:38 340	 start getImage
+18:20:38 340	  getImage times:0
+18:20:38 403	  getImage times:1
+18:20:38 465	  getImage times:2
+18:20:38 528	 start getImage
+18:20:38 528	  getImage times:0
+18:20:38 590	  getImage times:1
+18:20:38 653	  getImage times:2
+18:20:38 715	 start getImage
+18:20:38 715	  getImage times:0
+18:20:38 778	  getImage times:1
+18:20:38 840	  getImage times:2
+18:20:38 903	 start getImage
+18:20:38 903	  getImage times:0
+18:20:38 965	  getImage times:1
+18:20:39 028	  getImage times:2
+18:20:39 090	 start getImage
+18:20:39 090	  getImage times:0
+18:20:39 153	  getImage times:1
+18:20:39 215	  getImage times:2
+18:20:39 950	start cam_stop 
+18:20:40 075	finish cam_stop 
+18:20:40 075	 start Playnew
+18:20:40 075	into cam_play:deviceID0 
+18:20:40 075	openDevice:deviceID0 
+18:20:40 231	开始sensor power:deviceID 0 
+18:20:40 606	完成sensor power:deviceID 0 
+18:20:40 622	完成Pin set:deviceID 0 
+18:20:40 950	完成I2C set:deviceID 0 
+18:20:41 106	start InitSensor :deviceID 0 
+18:20:41 590	start InitSensor failed 1 times :deviceID 0 
+18:20:42 184	start InitSensor failed 2 times :deviceID 0 
+18:20:42 778	start InitSensor failed 3 times :deviceID 0 
+18:20:42 778	start cam_stop 
+18:20:42 903	finish cam_stop 
+18:20:43 106	 start Playnew
+18:20:43 106	into cam_play:deviceID0 
+18:20:43 106	openDevice:deviceID0 
+18:20:43 246	开始sensor power:deviceID 0 
+18:20:43 621	完成sensor power:deviceID 0 
+18:20:43 637	完成Pin set:deviceID 0 
+18:20:43 965	完成I2C set:deviceID 0 
+18:20:44 121	start InitSensor :deviceID 0 
+18:20:44 606	start InitSensor failed 1 times :deviceID 0 
+18:20:45 199	start InitSensor failed 2 times :deviceID 0 
+18:20:45 793	start InitSensor failed 3 times :deviceID 0 
+18:20:45 793	start cam_stop 
+18:20:45 934	finish cam_stop 
+18:20:45 934	start cam_stop 
+18:20:46 074	finish cam_stop 
+18:20:46 074	 start Playnew
+18:20:46 074	into cam_play:deviceID0 
+18:20:46 074	openDevice:deviceID0 
+18:20:46 215	开始sensor power:deviceID 0 
+18:20:46 590	完成sensor power:deviceID 0 
+18:20:46 621	完成Pin set:deviceID 0 
+18:20:46 949	完成I2C set:deviceID 0 
+18:20:47 105	start InitSensor :deviceID 0 
+18:20:47 590	start InitSensor failed 1 times :deviceID 0 
+18:20:48 184	start InitSensor failed 2 times :deviceID 0 
+18:20:48 777	start InitSensor failed 3 times :deviceID 0 
+18:20:48 777	start cam_stop 
+18:20:48 902	finish cam_stop 
+18:20:49 105	 start Playnew
+18:20:49 105	into cam_play:deviceID0 
+18:20:49 105	openDevice:deviceID0 
+18:20:49 246	开始sensor power:deviceID 0 
+18:20:49 621	完成sensor power:deviceID 0 
+18:20:49 637	完成Pin set:deviceID 0 
+18:20:49 965	完成I2C set:deviceID 0 
+18:20:50 121	start InitSensor :deviceID 0 
+18:20:50 605	start InitSensor failed 1 times :deviceID 0 
+18:20:51 199	start InitSensor failed 2 times :deviceID 0 
+18:20:51 793	start InitSensor failed 3 times :deviceID 0 
+18:20:53 808	 start getImage
+18:20:53 808	  getImage times:0
+18:20:53 871	  getImage times:1
+18:20:53 933	  getImage times:2
+18:20:53 996	 start getImage
+18:20:53 996	  getImage times:0
+18:20:54 058	  getImage times:1
+18:20:54 121	  getImage times:2
+18:20:54 183	 start getImage
+18:20:54 183	  getImage times:0
+18:20:54 246	  getImage times:1
+18:20:54 308	  getImage times:2
+18:20:54 371	 start getImage
+18:20:54 371	  getImage times:0
+18:20:54 433	  getImage times:1
+18:20:54 496	  getImage times:2
+18:20:54 558	 start getImage
+18:20:54 558	  getImage times:0
+18:20:54 621	  getImage times:1
+18:20:54 683	  getImage times:2
+18:20:54 746	 start getImage
+18:20:54 746	  getImage times:0
+18:20:54 808	  getImage times:1
+18:20:54 871	  getImage times:2
+18:21:09 666	 start getImage
+18:21:09 666	  getImage times:0
+18:21:09 729	  getImage times:1
+18:21:09 791	  getImage times:2
+18:21:09 854	 start getImage
+18:21:09 870	  getImage times:0
+18:21:09 932	  getImage times:1
+18:21:09 995	  getImage times:2
+18:21:10 057	 start getImage
+18:21:10 057	  getImage times:0
+18:21:10 120	  getImage times:1
+18:21:10 182	  getImage times:2
+18:21:10 245	 start getImage
+18:21:10 245	  getImage times:0
+18:21:10 307	  getImage times:1
+18:21:10 370	  getImage times:2
+18:21:10 432	 start getImage
+18:21:10 432	  getImage times:0
+18:21:10 494	  getImage times:1
+18:21:10 557	  getImage times:2
+18:21:10 619	 start getImage
+18:21:10 619	  getImage times:0
+18:21:10 682	  getImage times:1
+18:21:10 744	  getImage times:2
+18:21:19 838	 start setSN
+18:21:19 838	start cam_stop 
+18:21:19 978	finish cam_stop 
+18:21:20 494	start cam_stop 
+18:21:20 619	finish cam_stop 
+18:21:20 619	 start Playnew
+18:21:20 619	into cam_play:deviceID0 
+18:21:20 634	openDevice:deviceID0 
+18:21:20 806	开始sensor power:deviceID 0 
+18:21:21 181	完成sensor power:deviceID 0 
+18:21:21 213	完成Pin set:deviceID 0 
+18:21:21 556	完成I2C set:deviceID 0 
+18:21:21 712	start InitSensor :deviceID 0 
+18:21:22 197	start InitSensor failed 1 times :deviceID 0 
+18:21:22 791	start InitSensor failed 2 times :deviceID 0 
+18:21:23 384	start InitSensor failed 3 times :deviceID 0 
+18:21:23 384	start cam_stop 
+18:21:23 525	finish cam_stop 
+18:21:23 744	 start Playnew
+18:21:23 744	into cam_play:deviceID0 
+18:21:23 744	openDevice:deviceID0 
+18:21:23 915	开始sensor power:deviceID 0 
+18:21:24 290	完成sensor power:deviceID 0 
+18:21:24 322	完成Pin set:deviceID 0 
+18:21:24 665	完成I2C set:deviceID 0 
+18:21:24 822	start InitSensor :deviceID 0 
+18:21:25 306	start InitSensor failed 1 times :deviceID 0 
+18:21:25 900	start InitSensor failed 2 times :deviceID 0 
+18:21:26 493	start InitSensor failed 3 times :deviceID 0 
+18:21:26 712	 start getImage
+18:21:26 712	  getImage times:0
+18:21:26 775	  getImage times:1
+18:21:26 837	  getImage times:2
+18:21:26 900	 start getImage
+18:21:26 915	  getImage times:0
+18:21:26 978	  getImage times:1
+18:21:27 040	  getImage times:2
+18:21:27 103	 start getImage
+18:21:27 103	  getImage times:0
+18:21:27 181	  getImage times:1
+18:21:27 243	  getImage times:2
+18:21:27 306	 start getImage
+18:21:27 306	  getImage times:0
+18:21:27 384	  getImage times:1
+18:21:27 446	  getImage times:2
+18:21:27 509	 start getImage
+18:21:27 509	  getImage times:0
+18:21:27 587	  getImage times:1
+18:21:27 650	  getImage times:2
+18:21:27 712	 start getImage
+18:21:27 712	  getImage times:0
+18:21:27 790	  getImage times:1
+18:21:27 853	  getImage times:2
+18:23:35 201	 start setSN
+18:23:35 201	 start setSN
+18:23:35 201	 start setSN
+18:23:35 201	 start setSN
+18:25:53 823	 start setSN
+18:25:53 823	 start setSN
+18:25:53 823	 start setSN
+18:25:53 823	 start setSN
+18:26:15 165	 start setSN
+18:26:17 181	start cam_stop 
+18:26:17 306	finish cam_stop 
+18:26:17 306	 start Playnew
+18:26:17 306	into cam_play:deviceID0 
+18:26:17 306	openDevice:deviceID0 
+18:26:17 462	开始sensor power:deviceID 0 
+18:26:17 837	完成sensor power:deviceID 0 
+18:26:17 852	完成Pin set:deviceID 0 
+18:26:18 181	完成I2C set:deviceID 0 
+18:26:18 337	start InitSensor :deviceID 0 
+18:26:18 821	start InitSensor failed 1 times :deviceID 0 
+18:26:19 415	start InitSensor failed 2 times :deviceID 0 
+18:26:20 009	start InitSensor failed 3 times :deviceID 0 
+18:26:20 009	start cam_stop 
+18:26:20 149	finish cam_stop 
+18:26:20 368	 start Playnew
+18:26:20 368	into cam_play:deviceID0 
+18:26:20 368	openDevice:deviceID0 
+18:26:20 508	开始sensor power:deviceID 0 
+18:26:20 883	完成sensor power:deviceID 0 
+18:26:20 915	完成Pin set:deviceID 0 
+18:26:21 258	完成I2C set:deviceID 0 
+18:26:21 415	start InitSensor :deviceID 0 
+18:26:21 899	start InitSensor failed 1 times :deviceID 0 
+18:26:22 493	start InitSensor failed 2 times :deviceID 0 
+18:26:23 086	start InitSensor failed 3 times :deviceID 0 
+18:26:23 086	start cam_stop 
+18:26:23 211	finish cam_stop 
+18:26:23 211	 start Playnew
+18:26:23 211	into cam_play:deviceID0 
+18:26:23 211	openDevice:deviceID0 
+18:26:23 368	开始sensor power:deviceID 0 
+18:26:23 743	完成sensor power:deviceID 0 
+18:26:23 758	完成Pin set:deviceID 0 
+18:26:24 086	完成I2C set:deviceID 0 
+18:26:24 243	start InitSensor :deviceID 0 
+18:26:24 727	start InitSensor failed 1 times :deviceID 0 
+18:26:25 321	start InitSensor failed 2 times :deviceID 0 
+18:26:25 914	start InitSensor failed 3 times :deviceID 0 
+18:26:25 914	start cam_stop 
+18:26:26 039	finish cam_stop 
+18:26:26 258	 start Playnew
+18:26:26 258	into cam_play:deviceID0 
+18:26:26 258	openDevice:deviceID0 
+18:26:26 446	开始sensor power:deviceID 0 
+18:26:26 821	完成sensor power:deviceID 0 
+18:26:26 852	完成Pin set:deviceID 0 
+18:26:27 180	完成I2C set:deviceID 0 
+18:26:27 336	start InitSensor :deviceID 0 
+18:26:27 820	start InitSensor failed 1 times :deviceID 0 
+18:26:28 414	start InitSensor failed 2 times :deviceID 0 
+18:26:29 008	start InitSensor failed 3 times :deviceID 0 
+18:26:31 023	 start getImage
+18:26:31 023	  getImage times:0
+18:26:31 086	  getImage times:1
+18:26:31 148	  getImage times:2
+18:26:31 211	 start getImage
+18:26:31 211	  getImage times:0
+18:26:31 273	  getImage times:1
+18:26:31 336	  getImage times:2
+18:26:31 398	 start getImage
+18:26:31 398	  getImage times:0
+18:26:31 461	  getImage times:1
+18:26:31 523	  getImage times:2
+18:26:31 586	 start getImage
+18:26:31 586	  getImage times:0
+18:26:31 648	  getImage times:1
+18:26:31 711	  getImage times:2
+18:26:31 773	 start getImage
+18:26:31 773	  getImage times:0
+18:26:31 836	  getImage times:1
+18:26:31 898	  getImage times:2
+18:26:31 961	 start getImage
+18:26:31 961	  getImage times:0
+18:26:32 023	  getImage times:1
+18:26:32 086	  getImage times:2
+18:27:25 301	 start setSN
+18:27:27 316	start cam_stop 
+18:27:27 441	finish cam_stop 
+18:27:27 441	 start Playnew
+18:27:27 441	into cam_play:deviceID0 
+18:27:27 441	openDevice:deviceID0 
+18:27:27 598	开始sensor power:deviceID 0 
+18:27:27 973	完成sensor power:deviceID 0 
+18:27:27 988	完成Pin set:deviceID 0 
+18:27:28 332	完成I2C set:deviceID 0 
+18:27:28 488	start InitSensor :deviceID 0 
+18:27:28 973	start InitSensor failed 1 times :deviceID 0 
+18:27:29 566	start InitSensor failed 2 times :deviceID 0 
+18:27:30 176	start InitSensor failed 3 times :deviceID 0 
+18:27:30 176	start cam_stop 
+18:27:30 316	finish cam_stop 
+18:27:30 535	 start Playnew
+18:27:30 535	into cam_play:deviceID0 
+18:27:30 535	openDevice:deviceID0 
+18:27:30 738	开始sensor power:deviceID 0 
+18:27:31 113	完成sensor power:deviceID 0 
+18:27:31 129	完成Pin set:deviceID 0 
+18:27:31 457	完成I2C set:deviceID 0 
+18:27:31 613	start InitSensor :deviceID 0 
+18:27:32 097	start InitSensor failed 1 times :deviceID 0 
+18:27:32 691	start InitSensor failed 2 times :deviceID 0 
+18:27:33 285	start InitSensor failed 3 times :deviceID 0 
+18:27:33 285	start cam_stop 
+18:27:33 410	finish cam_stop 
+18:27:33 410	 start Playnew
+18:27:33 410	into cam_play:deviceID0 
+18:27:33 410	openDevice:deviceID0 
+18:27:33 582	开始sensor power:deviceID 0 
+18:27:33 957	完成sensor power:deviceID 0 
+18:27:33 988	完成Pin set:deviceID 0 
+18:27:34 332	完成I2C set:deviceID 0 
+18:27:34 488	start InitSensor :deviceID 0 
+18:27:34 972	start InitSensor failed 1 times :deviceID 0 
+18:27:35 566	start InitSensor failed 2 times :deviceID 0 
+18:27:36 160	start InitSensor failed 3 times :deviceID 0 
+18:27:36 160	start cam_stop 
+18:27:36 300	finish cam_stop 
+18:27:36 519	 start Playnew
+18:27:36 519	into cam_play:deviceID0 
+18:27:36 519	openDevice:deviceID0 
+18:27:36 659	开始sensor power:deviceID 0 
+18:27:37 034	完成sensor power:deviceID 0 
+18:27:37 050	完成Pin set:deviceID 0 
+18:27:37 378	完成I2C set:deviceID 0 
+18:27:37 534	start InitSensor :deviceID 0 
+18:27:38 019	start InitSensor failed 1 times :deviceID 0 
+18:27:38 612	start InitSensor failed 2 times :deviceID 0 
+18:27:39 206	start InitSensor failed 3 times :deviceID 0 
+18:27:41 222	 start getImage
+18:27:41 222	  getImage times:0
+18:27:41 284	  getImage times:1
+18:27:41 347	  getImage times:2
+18:27:41 409	 start getImage
+18:27:41 409	  getImage times:0
+18:27:41 472	  getImage times:1
+18:27:41 534	  getImage times:2
+18:27:41 597	 start getImage
+18:27:41 597	  getImage times:0
+18:27:41 659	  getImage times:1
+18:27:41 722	  getImage times:2
+18:27:41 784	 start getImage
+18:27:41 784	  getImage times:0
+18:27:41 862	  getImage times:1
+18:27:41 925	  getImage times:2
+18:27:41 987	 start getImage
+18:27:41 987	  getImage times:0
+18:27:42 050	  getImage times:1
+18:27:42 112	  getImage times:2
+18:27:42 175	 start getImage
+18:27:42 175	  getImage times:0
+18:27:42 237	  getImage times:1
+18:27:42 300	  getImage times:2
+18:27:58 861	 start getImage
+18:27:58 861	  getImage times:0
+18:27:58 924	  getImage times:1
+18:27:58 986	  getImage times:2
+18:27:59 049	 start getImage
+18:27:59 049	  getImage times:0
+18:27:59 111	  getImage times:1
+18:27:59 174	  getImage times:2
+18:27:59 236	 start getImage
+18:27:59 236	  getImage times:0
+18:27:59 299	  getImage times:1
+18:27:59 361	  getImage times:2
+18:27:59 424	 start getImage
+18:27:59 424	  getImage times:0
+18:27:59 486	  getImage times:1
+18:27:59 549	  getImage times:2
+18:27:59 611	 start getImage
+18:27:59 611	  getImage times:0
+18:27:59 674	  getImage times:1
+18:27:59 736	  getImage times:2
+18:27:59 799	 start getImage
+18:27:59 799	  getImage times:0
+18:27:59 861	  getImage times:1
+18:27:59 924	  getImage times:2
+18:28:09 017	 start setSN
+18:28:09 017	start cam_stop 
+18:28:09 142	finish cam_stop 
+18:28:09 657	start cam_stop 
+18:28:09 782	finish cam_stop 
+18:28:09 782	 start Playnew
+18:28:09 782	into cam_play:deviceID0 
+18:28:09 782	openDevice:deviceID0 
+18:28:09 938	开始sensor power:deviceID 0 
+18:28:10 313	完成sensor power:deviceID 0 
+18:28:10 329	完成Pin set:deviceID 0 
+18:28:10 657	完成I2C set:deviceID 0 
+18:28:10 813	start InitSensor :deviceID 0 
+18:28:11 298	start InitSensor failed 1 times :deviceID 0 
+18:28:11 891	start InitSensor failed 2 times :deviceID 0 
+18:28:12 485	start InitSensor failed 3 times :deviceID 0 
+18:28:12 485	start cam_stop 
+18:28:12 610	finish cam_stop 
+18:28:12 813	 start Playnew
+18:28:12 813	into cam_play:deviceID0 
+18:28:12 813	openDevice:deviceID0 
+18:28:12 954	开始sensor power:deviceID 0 
+18:28:13 329	完成sensor power:deviceID 0 
+18:28:13 344	完成Pin set:deviceID 0 
+18:28:13 673	完成I2C set:deviceID 0 
+18:28:13 829	start InitSensor :deviceID 0 
+18:28:14 313	start InitSensor failed 1 times :deviceID 0 
+18:28:14 907	start InitSensor failed 2 times :deviceID 0 
+18:28:15 501	start InitSensor failed 3 times :deviceID 0 
+18:28:15 719	 start getImage
+18:28:15 719	  getImage times:0
+18:28:15 797	  getImage times:1
+18:28:15 860	  getImage times:2
+18:28:15 922	 start getImage
+18:28:15 938	  getImage times:0
+18:28:16 001	  getImage times:1
+18:28:16 063	  getImage times:2
+18:28:16 126	 start getImage
+18:28:16 126	  getImage times:0
+18:28:16 204	  getImage times:1
+18:28:16 266	  getImage times:2
+18:28:16 329	 start getImage
+18:28:16 329	  getImage times:0
+18:28:16 407	  getImage times:1
+18:28:16 469	  getImage times:2
+18:28:16 532	 start getImage
+18:28:16 532	  getImage times:0
+18:28:16 610	  getImage times:1
+18:28:16 672	  getImage times:2
+18:28:16 735	 start getImage
+18:28:16 735	  getImage times:0
+18:28:16 813	  getImage times:1
+18:28:16 876	  getImage times:2
+18:35:21 121	 start setSN
+18:35:21 121	 start setSN
+18:35:21 121	 start setSN
+18:35:21 121	 start setSN
+18:35:41 589	 start setSN
+18:35:43 604	start cam_stop 
+18:35:43 729	finish cam_stop 
+18:35:43 729	 start Playnew
+18:35:43 729	into cam_play:deviceID0 
+18:35:43 729	openDevice:deviceID0 
+18:35:43 870	开始sensor power:deviceID 0 
+18:35:44 245	完成sensor power:deviceID 0 
+18:35:44 260	完成Pin set:deviceID 0 
+18:35:44 588	完成I2C set:deviceID 0 
+18:35:44 745	start InitSensor :deviceID 0 
+18:35:45 229	start InitSensor failed 1 times :deviceID 0 
+18:35:45 823	start InitSensor failed 2 times :deviceID 0 
+18:35:46 416	start InitSensor failed 3 times :deviceID 0 
+18:35:46 416	start cam_stop 
+18:35:46 541	finish cam_stop 
+18:35:46 745	 start Playnew
+18:35:46 745	into cam_play:deviceID1 
+18:35:46 745	openDevice:deviceID1 
+18:35:46 932	开始sensor power:deviceID 1 
+18:35:47 307	完成sensor power:deviceID 1 
+18:35:47 338	完成Pin set:deviceID 1 
+18:35:47 666	完成I2C set:deviceID 1 
+18:35:47 823	start InitSensor :deviceID 1 
+18:35:48 307	start InitSensor failed 1 times :deviceID 1 
+18:35:48 901	start InitSensor failed 2 times :deviceID 1 
+18:35:49 494	start InitSensor failed 3 times :deviceID 1 
+18:35:49 494	start cam_stop 
+18:35:49 619	finish cam_stop 
+18:35:49 619	 start Playnew
+18:35:49 619	into cam_play:deviceID1 
+18:35:49 619	openDevice:deviceID1 
+18:35:49 776	开始sensor power:deviceID 1 
+18:35:50 151	完成sensor power:deviceID 1 
+18:35:50 182	完成Pin set:deviceID 1 
+18:35:50 510	完成I2C set:deviceID 1 
+18:35:50 666	start InitSensor :deviceID 1 
+18:35:51 150	start InitSensor failed 1 times :deviceID 1 
+18:35:51 744	start InitSensor failed 2 times :deviceID 1 
+18:35:52 338	start InitSensor failed 3 times :deviceID 1 
+18:35:52 338	start cam_stop 
+18:35:52 479	finish cam_stop 
+18:35:52 697	 start Playnew
+18:35:52 697	into cam_play:deviceID1 
+18:35:52 697	openDevice:deviceID1 
+18:35:52 900	开始sensor power:deviceID 1 
+18:35:53 275	完成sensor power:deviceID 1 
+18:35:53 291	完成Pin set:deviceID 1 
+18:35:53 619	完成I2C set:deviceID 1 
+18:35:53 775	start InitSensor :deviceID 1 
+18:35:54 260	start InitSensor failed 1 times :deviceID 1 
+18:35:54 853	start InitSensor failed 2 times :deviceID 1 
+18:35:55 447	start InitSensor failed 3 times :deviceID 1 
+18:35:57 463	 start getImage
+18:35:57 463	  getImage times:0
+18:35:57 525	  getImage times:1
+18:35:57 588	  getImage times:2
+18:35:57 650	 start getImage
+18:35:57 650	  getImage times:0
+18:35:57 712	  getImage times:1
+18:35:57 775	  getImage times:2
+18:35:57 837	 start getImage
+18:35:57 837	  getImage times:0
+18:35:57 900	  getImage times:1
+18:35:57 962	  getImage times:2
+18:35:58 025	 start getImage
+18:35:58 025	  getImage times:0
+18:35:58 087	  getImage times:1
+18:35:58 150	  getImage times:2
+18:35:58 212	 start getImage
+18:35:58 212	  getImage times:0
+18:35:58 275	  getImage times:1
+18:35:58 337	  getImage times:2
+18:35:58 400	 start getImage
+18:35:58 400	  getImage times:0
+18:35:58 462	  getImage times:1
+18:35:58 525	  getImage times:2
+18:41:50 239	 start setSN
+18:41:50 239	 start setSN
+18:41:50 239	 start setSN
+18:41:50 239	 start setSN
+18:42:03 754	 start setSN
+18:42:05 770	start cam_stop 
+18:42:05 895	finish cam_stop 
+18:42:05 895	 start Playnew
+18:42:05 895	into cam_play:deviceID0 
+18:42:05 895	openDevice:deviceID0 
+18:42:06 035	开始sensor power:deviceID 0 
+18:42:06 410	完成sensor power:deviceID 0 
+18:42:06 441	完成Pin set:deviceID 0 
+18:42:06 785	完成I2C set:deviceID 0 
+18:42:06 941	start InitSensor :deviceID 0 
+18:42:07 426	start InitSensor failed 1 times :deviceID 0 
+18:42:08 019	start InitSensor failed 2 times :deviceID 0 
+18:42:08 613	start InitSensor failed 3 times :deviceID 0 
+18:42:08 613	start cam_stop 
+18:42:08 738	finish cam_stop 
+18:42:08 957	 start Playnew
+18:42:08 957	into cam_play:deviceID2 
+18:42:08 957	openDevice:deviceID2 
+18:42:09 129	开始sensor power:deviceID 2 
+18:42:09 504	完成sensor power:deviceID 2 
+18:42:09 519	完成Pin set:deviceID 2 
+18:42:09 847	完成I2C set:deviceID 2 
+18:42:10 004	start InitSensor :deviceID 2 
+18:42:10 488	start InitSensor failed 1 times :deviceID 2 
+18:42:11 082	start InitSensor failed 2 times :deviceID 2 
+18:42:11 675	start InitSensor failed 3 times :deviceID 2 
+18:42:11 675	start cam_stop 
+18:42:11 800	finish cam_stop 
+18:42:11 800	 start Playnew
+18:42:11 800	into cam_play:deviceID2 
+18:42:11 816	openDevice:deviceID2 
+18:42:12 004	开始sensor power:deviceID 2 
+18:42:12 379	完成sensor power:deviceID 2 
+18:42:12 410	完成Pin set:deviceID 2 
+18:42:12 738	完成I2C set:deviceID 2 
+18:42:12 894	start InitSensor :deviceID 2 
+18:42:13 378	start InitSensor failed 1 times :deviceID 2 
+18:42:13 972	start InitSensor failed 2 times :deviceID 2 
+18:42:14 566	start InitSensor failed 3 times :deviceID 2 
+18:42:14 566	start cam_stop 
+18:42:14 706	finish cam_stop 
+18:42:14 910	 start Playnew
+18:42:14 910	into cam_play:deviceID2 
+18:42:14 910	openDevice:deviceID2 
+18:42:15 050	开始sensor power:deviceID 2 
+18:42:15 425	完成sensor power:deviceID 2 
+18:42:15 441	完成Pin set:deviceID 2 
+18:42:15 769	完成I2C set:deviceID 2 
+18:42:15 925	start InitSensor :deviceID 2 
+18:42:16 409	start InitSensor failed 1 times :deviceID 2 
+18:42:17 003	start InitSensor failed 2 times :deviceID 2 
+18:42:17 597	start InitSensor failed 3 times :deviceID 2 
+18:42:19 612	 start getImage
+18:42:19 612	  getImage times:0
+18:42:19 675	  getImage times:1
+18:42:19 737	  getImage times:2
+18:42:19 800	 start getImage
+18:42:19 800	  getImage times:0
+18:42:19 862	  getImage times:1
+18:42:19 940	  getImage times:2
+18:42:20 003	 start getImage
+18:42:20 003	  getImage times:0
+18:42:20 065	  getImage times:1
+18:42:20 128	  getImage times:2
+18:42:20 190	 start getImage
+18:42:20 190	  getImage times:0
+18:42:20 253	  getImage times:1
+18:42:20 315	  getImage times:2
+18:42:20 378	 start getImage
+18:42:20 378	  getImage times:0
+18:42:20 440	  getImage times:1
+18:42:20 503	  getImage times:2
+18:42:20 565	 start getImage
+18:42:20 565	  getImage times:0
+18:42:20 628	  getImage times:1
+18:42:20 690	  getImage times:2
+18:42:30 284	 start setSN
+18:42:32 305	start cam_stop 
+18:42:32 425	finish cam_stop 
+18:42:32 430	 start Playnew
+18:42:32 435	into cam_play:deviceID0 
+18:42:32 440	openDevice:deviceID0 
+18:42:32 625	开始sensor power:deviceID 0 
+18:42:33 025	完成sensor power:deviceID 0 
+18:42:33 055	完成Pin set:deviceID 0 
+18:42:33 391	完成I2C set:deviceID 0 
+18:42:33 547	start InitSensor :deviceID 0 
+18:42:34 032	start InitSensor failed 1 times :deviceID 0 
+18:42:34 625	start InitSensor failed 2 times :deviceID 0 
+18:42:35 219	start InitSensor failed 3 times :deviceID 0 
+18:42:35 219	start cam_stop 
+18:42:35 360	finish cam_stop 
+18:42:35 579	 start Playnew
+18:42:35 579	into cam_play:deviceID3 
+18:42:35 579	openDevice:deviceID3 
+18:42:35 766	开始sensor power:deviceID 3 
+18:42:36 141	完成sensor power:deviceID 3 
+18:42:36 157	完成Pin set:deviceID 3 
+18:42:36 500	完成I2C set:deviceID 3 
+18:42:36 657	start InitSensor :deviceID 3 
+18:42:37 141	start InitSensor failed 1 times :deviceID 3 
+18:42:37 735	start InitSensor failed 2 times :deviceID 3 
+18:42:38 328	start InitSensor failed 3 times :deviceID 3 
+18:42:38 328	start cam_stop 
+18:42:38 453	finish cam_stop 
+18:42:38 453	 start Playnew
+18:42:38 453	into cam_play:deviceID3 
+18:42:38 469	openDevice:deviceID3 
+18:42:38 656	开始sensor power:deviceID 3 
+18:42:39 031	完成sensor power:deviceID 3 
+18:42:39 063	完成Pin set:deviceID 3 
+18:42:39 391	完成I2C set:deviceID 3 
+18:42:39 547	start InitSensor :deviceID 3 
+18:42:40 031	start InitSensor failed 1 times :deviceID 3 
+18:42:40 625	start InitSensor failed 2 times :deviceID 3 
+18:42:41 219	start InitSensor failed 3 times :deviceID 3 
+18:42:41 219	start cam_stop 
+18:42:41 344	finish cam_stop 
+18:42:41 547	 start Playnew
+18:42:41 547	into cam_play:deviceID3 
+18:42:41 547	openDevice:deviceID3 
+18:42:41 687	开始sensor power:deviceID 3 
+18:42:42 062	完成sensor power:deviceID 3 
+18:42:42 078	完成Pin set:deviceID 3 
+18:42:42 406	完成I2C set:deviceID 3 
+18:42:42 562	start InitSensor :deviceID 3 
+18:42:43 047	start InitSensor failed 1 times :deviceID 3 
+18:42:43 640	start InitSensor failed 2 times :deviceID 3 
+18:42:44 234	start InitSensor failed 3 times :deviceID 3 
+18:42:46 250	 start getImage
+18:42:46 250	  getImage times:0
+18:42:46 312	  getImage times:1
+18:42:46 375	  getImage times:2
+18:42:46 437	 start getImage
+18:42:46 437	  getImage times:0
+18:42:46 500	  getImage times:1
+18:42:46 562	  getImage times:2
+18:42:46 625	 start getImage
+18:42:46 625	  getImage times:0
+18:42:46 687	  getImage times:1
+18:42:46 750	  getImage times:2
+18:42:46 812	 start getImage
+18:42:46 812	  getImage times:0
+18:42:46 875	  getImage times:1
+18:42:46 937	  getImage times:2
+18:42:47 000	 start getImage
+18:42:47 000	  getImage times:0
+18:42:47 062	  getImage times:1
+18:42:47 125	  getImage times:2
+18:42:47 187	 start getImage
+18:42:47 187	  getImage times:0
+18:42:47 250	  getImage times:1
+18:42:47 312	  getImage times:2
+18:43:13 170	 start getImage
+18:43:13 170	  getImage times:0
+18:43:13 232	  getImage times:1
+18:43:13 295	  getImage times:2
+18:43:13 357	 start getImage
+18:43:13 357	  getImage times:0
+18:43:13 420	  getImage times:1
+18:43:13 482	  getImage times:2
+18:43:13 545	 start getImage
+18:43:13 545	  getImage times:0
+18:43:13 607	  getImage times:1
+18:43:13 670	  getImage times:2
+18:43:13 732	 start getImage
+18:43:13 732	  getImage times:0
+18:43:13 795	  getImage times:1
+18:43:13 857	  getImage times:2
+18:43:13 920	 start getImage
+18:43:13 920	  getImage times:0
+18:43:13 982	  getImage times:1
+18:43:14 045	  getImage times:2
+18:43:14 107	 start getImage
+18:43:14 107	  getImage times:0
+18:43:14 170	  getImage times:1
+18:43:14 232	  getImage times:2
+18:43:23 325	 start setSN
+18:43:23 325	start cam_stop 
+18:43:23 450	finish cam_stop 
+18:43:23 966	start cam_stop 
+18:43:24 091	finish cam_stop 
+18:43:24 091	 start Playnew
+18:43:24 091	into cam_play:deviceID0 
+18:43:24 091	openDevice:deviceID0 
+18:43:24 231	开始sensor power:deviceID 0 
+18:43:24 606	完成sensor power:deviceID 0 
+18:43:24 622	完成Pin set:deviceID 0 
+18:43:24 966	完成I2C set:deviceID 0 
+18:43:25 122	start InitSensor :deviceID 0 
+18:43:25 606	start InitSensor failed 1 times :deviceID 0 
+18:43:26 200	start InitSensor failed 2 times :deviceID 0 
+18:43:26 794	start InitSensor failed 3 times :deviceID 0 
+18:43:26 794	start cam_stop 
+18:43:26 934	finish cam_stop 
+18:43:27 153	 start Playnew
+18:43:27 153	into cam_play:deviceID4 
+18:43:27 153	openDevice:deviceID4 
+18:43:27 341	开始sensor power:deviceID 4 
+18:43:27 716	完成sensor power:deviceID 4 
+18:43:27 747	完成Pin set:deviceID 4 
+18:43:28 091	完成I2C set:deviceID 4 
+18:43:28 247	start InitSensor :deviceID 4 
+18:43:28 731	start InitSensor failed 1 times :deviceID 4 
+18:43:29 325	start InitSensor failed 2 times :deviceID 4 
+18:43:29 919	start InitSensor failed 3 times :deviceID 4 
+18:43:30 137	 start getImage
+18:43:30 137	  getImage times:0
+18:43:30 200	  getImage times:1
+18:43:30 262	  getImage times:2
+18:43:30 325	 start getImage
+18:43:30 340	  getImage times:0
+18:43:30 403	  getImage times:1
+18:43:30 465	  getImage times:2
+18:43:30 528	 start getImage
+18:43:30 528	  getImage times:0
+18:43:30 606	  getImage times:1
+18:43:30 668	  getImage times:2
+18:43:30 731	 start getImage
+18:43:30 731	  getImage times:0
+18:43:30 809	  getImage times:1
+18:43:30 872	  getImage times:2
+18:43:30 934	 start getImage
+18:43:30 934	  getImage times:0
+18:43:31 012	  getImage times:1
+18:43:31 075	  getImage times:2
+18:43:31 137	 start getImage
+18:43:31 137	  getImage times:0
+18:43:31 215	  getImage times:1
+18:43:31 278	  getImage times:2
+18:43:56 402	 start setSN
+18:43:56 402	start cam_stop 
+18:43:56 527	finish cam_stop 
+18:43:56 746	start cam_stop 
+18:43:56 871	finish cam_stop 
+18:43:56 871	 start Playnew
+18:43:56 871	into cam_play:deviceID0 
+18:43:56 887	openDevice:deviceID0 
+18:43:57 043	开始sensor power:deviceID 0 
+18:43:57 418	完成sensor power:deviceID 0 
+18:43:57 449	完成Pin set:deviceID 0 
+18:43:57 793	完成I2C set:deviceID 0 
+18:43:57 949	start InitSensor :deviceID 0 
+18:43:58 433	start InitSensor failed 1 times :deviceID 0 
+18:43:59 027	start InitSensor failed 2 times :deviceID 0 
+18:43:59 621	start InitSensor failed 3 times :deviceID 0 
+18:43:59 621	start cam_stop 
+18:43:59 761	finish cam_stop 
+18:43:59 980	 start Playnew
+18:43:59 980	into cam_play:deviceID5 
+18:43:59 980	openDevice:deviceID5 
+18:44:00 168	开始sensor power:deviceID 5 
+18:44:00 543	完成sensor power:deviceID 5 
+18:44:00 574	完成Pin set:deviceID 5 
+18:44:00 918	完成I2C set:deviceID 5 
+18:44:01 074	start InitSensor :deviceID 5 
+18:44:01 558	start InitSensor failed 1 times :deviceID 5 
+18:44:02 152	start InitSensor failed 2 times :deviceID 5 
+18:44:02 746	start InitSensor failed 3 times :deviceID 5 
+18:44:08 798	 start setSN
+18:44:08 798	start cam_stop 
+18:44:08 923	finish cam_stop 
+18:44:09 142	start cam_stop 
+18:44:09 267	finish cam_stop 
+18:44:09 267	 start Playnew
+18:44:09 267	into cam_play:deviceID0 
+18:44:09 282	openDevice:deviceID0 
+18:44:09 439	开始sensor power:deviceID 0 
+18:44:09 814	完成sensor power:deviceID 0 
+18:44:09 845	完成Pin set:deviceID 0 
+18:44:10 189	完成I2C set:deviceID 0 
+18:44:10 345	start InitSensor :deviceID 0 
+18:44:10 829	start InitSensor failed 1 times :deviceID 0 
+18:44:11 423	start InitSensor failed 2 times :deviceID 0 
+18:44:12 017	start InitSensor failed 3 times :deviceID 0 
+18:44:12 017	start cam_stop 
+18:44:12 142	finish cam_stop 
+18:44:12 360	 start Playnew
+18:44:12 360	into cam_play:deviceID6 
+18:44:12 360	openDevice:deviceID6 
+18:44:12 548	开始sensor power:deviceID 6 
+18:44:12 923	完成sensor power:deviceID 6 
+18:44:12 954	完成Pin set:deviceID 6 
+18:44:13 298	完成I2C set:deviceID 6 
+18:44:13 454	start InitSensor :deviceID 6 
+18:44:13 938	start InitSensor failed 1 times :deviceID 6 
+18:44:14 532	start InitSensor failed 2 times :deviceID 6 
+18:44:15 126	start InitSensor failed 3 times :deviceID 6 
+18:44:31 321	 start loadBaseParameter
+18:44:36 086	 start loadBaseParameter
+18:44:40 821	 start loadBaseParameter
+18:44:45 492	 start loadBaseParameter
+18:44:50 195	 start setSN
+18:44:50 195	 start setSN
+18:44:50 195	 start setSN
+18:44:50 195	 start setSN
+18:44:50 195	 start loadPinDef
+18:44:50 211	 finished loadPinDef
+18:44:50 211	 start loadPinDef
+18:44:50 227	 finished loadPinDef
+18:44:50 227	 start loadPinDef
+18:44:50 242	 finished loadPinDef
+18:44:50 242	 start loadPinDef
+18:44:50 258	 finished loadPinDef
+18:47:31 101	 start setSN
+18:47:31 101	start cam_stop 
+18:47:31 226	finish cam_stop 
+18:47:31 445	start cam_stop 
+18:47:31 570	finish cam_stop 
+18:47:31 570	 start Playnew
+18:47:31 570	into cam_play:deviceID0 
+18:47:31 585	openDevice:deviceID0 
+18:47:31 757	开始sensor power:deviceID 0 
+18:47:32 132	完成sensor power:deviceID 0 
+18:47:32 163	完成Pin set:deviceID 0 
+18:47:32 507	完成I2C set:deviceID 0 
+18:47:32 663	start InitSensor :deviceID 0 
+18:47:33 273	完成 InitSensor  :deviceID 0 
+18:47:33 273	set image format  :deviceID 0 
+18:47:33 320	start Video :deviceID 0 
+18:47:33 335	malloc memory :deviceID 0 
+18:47:33 335	finished play :deviceID 0 
+18:47:33 351	 start getImage
+18:47:33 351	  getImage times:0
+18:47:33 398	 finish getImage
+18:47:33 413	 start getImage
+18:47:33 413	  getImage times:0
+18:47:33 429	 finish getImage
+18:47:33 898	 start getImage
+18:47:33 898	  getImage times:0
+18:47:33 929	 finish getImage
+18:47:33 945	 start getImage
+18:47:33 945	  getImage times:0
+18:47:33 960	 finish getImage
+18:47:34 148	 start getImage
+18:47:34 148	  getImage times:0
+18:47:34 179	 finish getImage
+18:47:34 179	 start getImage
+18:47:34 179	  getImage times:0
+18:47:34 195	 finish getImage
+18:47:34 382	 start getImage
+18:47:34 382	  getImage times:0
+18:47:34 413	 finish getImage
+18:47:34 429	 start getImage
+18:47:34 429	  getImage times:0
+18:47:34 445	 finish getImage
+18:47:34 632	 start getImage
+18:47:34 632	  getImage times:0
+18:47:34 663	 finish getImage
+18:47:34 663	 start getImage
+18:47:34 663	  getImage times:0
+18:47:34 679	 finish getImage
+18:47:34 866	 start getImage
+18:47:34 866	  getImage times:0
+18:47:34 898	 finish getImage
+18:47:34 898	 start getImage
+18:47:34 898	  getImage times:0
+18:47:34 913	 finish getImage
+18:47:35 101	 start getImage
+18:47:35 101	  getImage times:0
+18:47:35 116	 finish getImage
+18:47:35 132	 start getImage
+18:47:35 132	  getImage times:0
+18:47:35 148	 finish getImage
+18:47:35 351	 start getImage
+18:47:35 351	  getImage times:0
+18:47:35 382	 finish getImage
+18:47:35 382	 start getImage
+18:47:35 382	  getImage times:0
+18:47:35 398	 finish getImage
+18:47:35 585	 start getImage
+18:47:35 585	  getImage times:0
+18:47:35 616	 finish getImage
+18:47:35 616	 start getImage
+18:47:35 616	  getImage times:0
+18:47:35 632	 finish getImage
+18:47:35 819	 start getImage
+18:47:35 819	  getImage times:0
+18:47:35 851	 finish getImage
+18:47:35 866	 start getImage
+18:47:35 866	  getImage times:0
+18:47:35 882	 finish getImage
+18:47:36 069	 start getImage
+18:47:36 069	  getImage times:0
+18:47:36 101	 finish getImage
+18:47:36 101	 start getImage
+18:47:36 101	  getImage times:0
+18:47:36 116	 finish getImage
+18:47:36 304	 start getImage
+18:47:36 304	  getImage times:0
+18:47:36 319	 finish getImage
+18:47:36 319	 start getImage
+18:47:36 319	  getImage times:0
+18:47:36 351	 finish getImage
+18:47:36 538	 start getImage
+18:47:36 538	  getImage times:0
+18:47:36 554	 finish getImage
+18:47:36 554	 start getImage
+18:47:36 554	  getImage times:0
+18:47:36 569	 finish getImage
+18:47:36 757	 start getImage
+18:47:36 773	  getImage times:0
+18:47:36 804	 finish getImage
+18:47:36 804	 start getImage
+18:47:36 804	  getImage times:0
+18:47:36 819	 finish getImage
+18:47:39 319	 start setSN
+18:47:39 319	start cam_stop 
+18:47:39 475	finish cam_stop 
+18:47:39 694	start cam_stop 
+18:47:39 819	finish cam_stop 
+18:47:39 819	 start Playnew
+18:47:39 819	into cam_play:deviceID0 
+18:47:39 835	openDevice:deviceID0 
+18:47:40 007	开始sensor power:deviceID 0 
+18:47:40 382	完成sensor power:deviceID 0 
+18:47:40 397	完成Pin set:deviceID 0 
+18:47:40 757	完成I2C set:deviceID 0 
+18:47:40 913	start InitSensor :deviceID 0 
+18:47:41 522	完成 InitSensor  :deviceID 0 
+18:47:41 522	set image format  :deviceID 0 
+18:47:41 569	start Video :deviceID 0 
+18:47:41 585	malloc memory :deviceID 0 
+18:47:41 600	finished play :deviceID 0 
+18:47:41 600	 start getImage
+18:47:41 600	  getImage times:0
+18:47:41 632	 finish getImage
+18:47:41 632	 start getImage
+18:47:41 632	  getImage times:0
+18:47:41 678	 finish getImage
+18:47:41 866	 start getImage
+18:47:41 866	  getImage times:0
+18:47:41 897	 finish getImage
+18:47:41 897	 start getImage
+18:47:41 897	  getImage times:0
+18:47:41 913	 finish getImage
+18:47:42 100	 start getImage
+18:47:42 100	  getImage times:0
+18:47:42 132	 finish getImage
+18:47:42 132	 start getImage
+18:47:42 132	  getImage times:0
+18:47:42 163	 finish getImage
+18:47:42 350	 start getImage
+18:47:42 350	  getImage times:0
+18:47:42 366	 finish getImage
+18:47:42 382	 start getImage
+18:47:42 382	  getImage times:0
+18:47:42 397	 finish getImage
+18:47:42 585	 start getImage
+18:47:42 585	  getImage times:0
+18:47:42 616	 finish getImage
+18:47:42 616	 start getImage
+18:47:42 616	  getImage times:0
+18:47:42 632	 finish getImage
+18:47:42 819	 start getImage
+18:47:42 819	  getImage times:0
+18:47:42 850	 finish getImage
+18:47:42 850	 start getImage
+18:47:42 850	  getImage times:0
+18:47:42 866	 finish getImage
+18:47:43 053	 start getImage
+18:47:43 053	  getImage times:0
+18:47:43 085	 finish getImage
+18:47:43 100	 start getImage
+18:47:43 100	  getImage times:0
+18:47:43 116	 finish getImage
+18:47:43 303	 start getImage
+18:47:43 303	  getImage times:0
+18:47:43 335	 finish getImage
+18:47:43 335	 start getImage
+18:47:43 335	  getImage times:0
+18:47:43 350	 finish getImage
+18:47:43 538	 start getImage
+18:47:43 538	  getImage times:0
+18:47:43 569	 finish getImage
+18:47:43 569	 start getImage
+18:47:43 569	  getImage times:0
+18:47:43 585	 finish getImage
+18:47:43 772	 start getImage
+18:47:43 772	  getImage times:0
+18:47:43 788	 finish getImage
+18:47:43 803	 start getImage
+18:47:43 803	  getImage times:0
+18:47:43 819	 finish getImage
+18:47:44 006	 start getImage
+18:47:44 006	  getImage times:0
+18:47:44 038	 finish getImage
+18:47:44 053	 start getImage
+18:47:44 053	  getImage times:0
+18:47:44 069	 finish getImage
+18:47:44 256	 start getImage
+18:47:44 256	  getImage times:0
+18:47:44 288	 finish getImage
+18:47:44 288	 start getImage
+18:47:44 288	  getImage times:0
+18:47:44 303	 finish getImage
+18:47:44 491	 start getImage
+18:47:44 491	  getImage times:0
+18:47:44 506	 finish getImage
+18:47:44 522	 start getImage
+18:47:44 522	  getImage times:0
+18:47:44 538	 finish getImage
+18:47:44 725	 start getImage
+18:47:44 725	  getImage times:0
+18:47:44 741	 finish getImage
+18:47:44 741	 start getImage
+18:47:44 741	  getImage times:0
+18:47:44 756	 finish getImage
+18:47:44 944	 start getImage
+18:47:44 944	  getImage times:0
+18:47:44 975	 finish getImage
+18:47:44 975	 start getImage
+18:47:44 975	  getImage times:0
+18:47:44 991	 finish getImage
+18:47:45 178	 start getImage
+18:47:45 178	  getImage times:0
+18:47:45 209	 finish getImage
+18:47:45 209	 start getImage
+18:47:45 225	  getImage times:0
+18:47:45 225	 finish getImage
+18:47:45 428	 start getImage
+18:47:45 428	  getImage times:0
+18:47:45 459	 finish getImage
+18:47:45 459	 start getImage
+18:47:45 459	  getImage times:0
+18:47:45 475	 finish getImage
+18:47:45 663	 start getImage
+18:47:45 663	  getImage times:0
+18:47:45 694	 finish getImage
+18:47:45 709	 start getImage
+18:47:45 709	  getImage times:0
+18:47:45 725	 finish getImage
+18:47:55 787	 start setSN
+18:47:55 787	 start setSN
+18:47:55 787	 start setSN
+18:47:55 787	 start setSN
+18:48:15 457	 start setSN
+18:48:17 473	start cam_stop 
+18:48:17 613	finish cam_stop 
+18:48:17 613	 start Playnew
+18:48:17 613	into cam_play:deviceID0 
+18:48:17 613	openDevice:deviceID0 
+18:48:17 770	开始sensor power:deviceID 0 
+18:48:18 145	完成sensor power:deviceID 0 
+18:48:18 176	完成Pin set:deviceID 0 
+18:48:18 520	完成I2C set:deviceID 0 
+18:48:18 676	start InitSensor :deviceID 0 
+18:48:19 285	完成 InitSensor  :deviceID 0 
+18:48:19 285	set image format  :deviceID 0 
+18:48:19 332	start Video :deviceID 0 
+18:48:19 348	malloc memory :deviceID 0 
+18:48:19 363	finished play :deviceID 0 
+18:48:19 363	start cam_stop 
+18:48:19 520	finish cam_stop 
+18:48:19 520	 start Playnew
+18:48:19 520	into cam_play:deviceID0 
+18:48:19 535	openDevice:deviceID0 
+18:48:19 691	开始sensor power:deviceID 0 
+18:48:20 066	完成sensor power:deviceID 0 
+18:48:20 082	完成Pin set:deviceID 0 
+18:48:20 441	完成I2C set:deviceID 0 
+18:48:20 598	start InitSensor :deviceID 0 
+18:48:21 207	完成 InitSensor  :deviceID 0 
+18:48:21 207	set image format  :deviceID 0 
+18:48:21 238	start Video :deviceID 0 
+18:48:21 238	malloc memory :deviceID 0 
+18:48:21 238	finished play :deviceID 0 
+18:48:23 254	 start getImage
+18:48:23 254	  getImage times:0
+18:48:23 254	 finish getImage
+18:48:23 254	 start getImage
+18:48:23 269	  getImage times:0
+18:48:23 285	 finish getImage
+18:48:44 362	 start setSN
+18:48:46 377	start cam_stop 
+18:48:46 502	finish cam_stop 
+18:48:46 502	 start Playnew
+18:48:46 502	into cam_play:deviceID1 
+18:48:46 502	openDevice:deviceID1 
+18:48:46 815	开始sensor power:deviceID 1 
+18:48:47 190	完成sensor power:deviceID 1 
+18:48:47 221	完成Pin set:deviceID 1 
+18:48:47 565	完成I2C set:deviceID 1 
+18:48:47 721	start InitSensor :deviceID 1 
+18:48:48 330	完成 InitSensor  :deviceID 1 
+18:48:48 330	set image format  :deviceID 1 
+18:48:48 377	start Video :deviceID 1 
+18:48:48 377	malloc memory :deviceID 1 
+18:48:48 393	finished play :deviceID 1 
+18:48:48 393	start cam_stop 
+18:48:48 549	finish cam_stop 
+18:48:48 549	 start Playnew
+18:48:48 549	into cam_play:deviceID1 
+18:48:48 549	openDevice:deviceID1 
+18:48:48 877	开始sensor power:deviceID 1 
+18:48:49 252	完成sensor power:deviceID 1 
+18:48:49 283	完成Pin set:deviceID 1 
+18:48:49 627	完成I2C set:deviceID 1 
+18:48:49 783	start InitSensor :deviceID 1 
+18:48:50 392	完成 InitSensor  :deviceID 1 
+18:48:50 392	set image format  :deviceID 1 
+18:48:50 424	start Video :deviceID 1 
+18:48:50 424	malloc memory :deviceID 1 
+18:48:50 424	finished play :deviceID 1 
+18:48:52 439	 start getImage
+18:48:52 439	  getImage times:0
+18:48:52 455	 finish getImage
+18:48:52 455	 start getImage
+18:48:52 470	  getImage times:0
+18:48:52 470	 finish getImage
+18:49:17 781	 start getImage
+18:49:17 781	  getImage times:0
+18:49:17 781	 finish getImage
+18:49:17 781	 start getImage
+18:49:17 781	  getImage times:0
+18:49:17 797	 finish getImage
+18:49:19 187	 start getImage
+18:49:19 187	  getImage times:0
+18:49:19 187	 finish getImage
+18:49:19 187	 start getImage
+18:49:19 187	  getImage times:0
+18:49:19 203	 finish getImage
+18:49:20 781	 start getImage
+18:49:20 781	  getImage times:0
+18:49:20 781	 finish getImage
+18:49:20 781	 start getImage
+18:49:20 797	  getImage times:0
+18:49:20 797	 finish getImage
+18:49:22 890	 start getImage
+18:49:22 890	  getImage times:0
+18:49:22 890	 finish getImage
+18:49:22 890	 start getImage
+18:49:22 890	  getImage times:0
+18:49:22 921	 finish getImage
+18:49:23 625	 start getImage
+18:49:23 625	  getImage times:0
+18:49:23 625	 finish getImage
+18:49:23 625	 start getImage
+18:49:23 640	  getImage times:0
+18:49:23 640	 finish getImage
+18:49:24 171	 start getImage
+18:49:24 171	  getImage times:0
+18:49:24 171	 finish getImage
+18:49:24 171	 start getImage
+18:49:24 171	  getImage times:0
+18:49:24 203	 finish getImage
+18:49:24 734	 start getImage
+18:49:24 734	  getImage times:0
+18:49:24 734	 finish getImage
+18:49:24 734	 start getImage
+18:49:24 734	  getImage times:0
+18:49:24 765	 finish getImage
+18:49:25 281	 start getImage
+18:49:25 281	  getImage times:0
+18:49:25 281	 finish getImage
+18:49:25 281	 start getImage
+18:49:25 281	  getImage times:0
+18:49:25 296	 finish getImage
+18:49:25 812	 start getImage
+18:49:25 812	  getImage times:0
+18:49:25 812	 finish getImage
+18:49:25 812	 start getImage
+18:49:25 812	  getImage times:0
+18:49:25 843	 finish getImage
+18:49:26 359	 start getImage
+18:49:26 359	  getImage times:0
+18:49:26 359	 finish getImage
+18:49:26 359	 start getImage
+18:49:26 359	  getImage times:0
+18:49:26 374	 finish getImage
+18:49:26 906	 start getImage
+18:49:26 906	  getImage times:0
+18:49:26 906	 finish getImage
+18:49:26 906	 start getImage
+18:49:26 906	  getImage times:0
+18:49:26 921	 finish getImage
+18:49:27 452	 start getImage
+18:49:27 452	  getImage times:0
+18:49:27 452	 finish getImage
+18:49:27 452	 start getImage
+18:49:27 452	  getImage times:0
+18:49:27 484	 finish getImage
+18:49:28 015	 start getImage
+18:49:28 015	  getImage times:0
+18:49:28 015	 finish getImage
+18:49:28 015	 start getImage
+18:49:28 015	  getImage times:0
+18:49:28 046	 finish getImage
+18:49:33 157	 start getImage
+18:49:33 157	  getImage times:0
+18:49:33 157	 finish getImage
+18:49:33 157	 start getImage
+18:49:33 157	  getImage times:0
+18:49:33 172	 finish getImage
+18:49:33 719	 start setSN
+18:49:34 360	 start getImage
+18:49:34 360	  getImage times:0
+18:49:34 360	 finish getImage
+18:49:34 360	 start getImage
+18:49:34 360	  getImage times:0
+18:49:34 376	 finish getImage
+18:49:34 547	 start getImage
+18:49:34 547	  getImage times:0
+18:49:34 547	 finish getImage
+18:49:34 547	 start getImage
+18:49:34 563	  getImage times:0
+18:49:34 563	 finish getImage
+18:49:35 235	 start getImage
+18:49:35 235	  getImage times:0
+18:49:35 235	 finish getImage
+18:49:35 235	 start getImage
+18:49:35 235	  getImage times:0
+18:49:35 250	 finish getImage
+18:49:35 735	start cam_stop 
+18:49:35 860	finish cam_stop 
+18:49:35 860	 start Playnew
+18:49:35 860	into cam_play:deviceID2 
+18:49:35 860	openDevice:deviceID2 
+18:49:36 204	开始sensor power:deviceID 2 
+18:49:36 579	完成sensor power:deviceID 2 
+18:49:36 594	完成Pin set:deviceID 2 
+18:49:36 953	完成I2C set:deviceID 2 
+18:49:37 110	start InitSensor :deviceID 2 
+18:49:37 719	完成 InitSensor  :deviceID 2 
+18:49:37 719	set image format  :deviceID 2 
+18:49:37 750	start Video :deviceID 2 
+18:49:37 750	malloc memory :deviceID 2 
+18:49:37 750	finished play :deviceID 2 
+18:49:37 750	 start getImage
+18:49:37 750	  getImage times:0
+18:49:37 766	 finish getImage
+18:49:37 766	start cam_stop 
+18:49:37 922	finish cam_stop 
+18:49:37 922	 start getImage
+18:49:37 922	  getImage times:0
+18:49:37 953	 finish getImage
+18:49:37 969	 start Playnew
+18:49:37 969	into cam_play:deviceID2 
+18:49:37 969	openDevice:deviceID2 
+18:49:38 328	开始sensor power:deviceID 2 
+18:49:38 703	完成sensor power:deviceID 2 
+18:49:38 719	完成Pin set:deviceID 2 
+18:49:39 047	完成I2C set:deviceID 2 
+18:49:39 203	start InitSensor :deviceID 2 
+18:49:39 813	完成 InitSensor  :deviceID 2 
+18:49:39 813	set image format  :deviceID 2 
+18:49:39 844	start Video :deviceID 2 
+18:49:39 844	malloc memory :deviceID 2 
+18:49:39 844	finished play :deviceID 2 
+18:49:40 375	 start getImage
+18:49:40 375	  getImage times:0
+18:49:40 375	 finish getImage
+18:49:40 375	 start getImage
+18:49:40 375	  getImage times:0
+18:49:40 406	 finish getImage
+18:49:40 922	 start getImage
+18:49:40 922	  getImage times:0
+18:49:40 922	 finish getImage
+18:49:40 922	 start getImage
+18:49:40 922	  getImage times:0
+18:49:40 969	 finish getImage
+18:49:41 484	 start getImage
+18:49:41 484	  getImage times:0
+18:49:41 500	 finish getImage
+18:49:41 500	 start getImage
+18:49:41 516	  getImage times:0
+18:49:41 531	 finish getImage
+18:49:41 859	 start getImage
+18:49:41 859	  getImage times:0
+18:49:41 859	 finish getImage
+18:49:41 875	 start getImage
+18:49:41 875	  getImage times:0
+18:49:41 891	 finish getImage
+18:49:42 047	 start getImage
+18:49:42 047	  getImage times:0
+18:49:42 062	 finish getImage
+18:49:42 078	 start getImage
+18:49:42 078	  getImage times:0
+18:49:42 141	 finish getImage
+18:49:42 656	 start getImage
+18:49:42 656	  getImage times:0
+18:49:42 672	 finish getImage
+18:49:42 687	 start getImage
+18:49:42 703	  getImage times:0
+18:49:42 719	 finish getImage
+18:49:45 015	 start getImage
+18:49:45 015	  getImage times:0
+18:49:45 015	 finish getImage
+18:49:45 031	 start getImage
+18:49:45 031	  getImage times:0
+18:49:45 047	 finish getImage
+18:49:45 140	 start getImage
+18:49:45 140	  getImage times:0
+18:49:45 140	 finish getImage
+18:49:45 140	 start getImage
+18:49:45 140	  getImage times:0
+18:49:45 172	 finish getImage
+18:49:45 484	 start getImage
+18:49:45 484	  getImage times:0
+18:49:45 484	 finish getImage
+18:49:45 484	 start getImage
+18:49:45 484	  getImage times:0
+18:49:45 531	 finish getImage
+18:49:51 124	 start getImage
+18:49:51 124	  getImage times:0
+18:49:51 156	 finish getImage
+18:49:51 156	 start getImage
+18:49:51 156	  getImage times:0
+18:49:51 171	 finish getImage
+18:49:56 671	start cam_stop 
+18:49:56 811	finish cam_stop 
+18:56:44 106	 start setSN
+18:56:44 106	 start setSN
+18:56:44 106	 start setSN
+18:56:44 106	 start setSN
+18:57:05 066	 start setSN
+18:57:07 078	start cam_stop 
+18:57:07 203	finish cam_stop 
+18:57:07 203	 start Playnew
+18:57:07 203	into cam_play:deviceID0 
+18:57:07 203	openDevice:deviceID0 
+18:57:07 359	开始sensor power:deviceID 0 
+18:57:07 734	完成sensor power:deviceID 0 
+18:57:07 765	完成Pin set:deviceID 0 
+18:57:08 109	完成I2C set:deviceID 0 
+18:57:08 265	start InitSensor :deviceID 0 
+18:57:08 875	完成 InitSensor  :deviceID 0 
+18:57:08 875	set image format  :deviceID 0 
+18:57:08 922	start Video :deviceID 0 
+18:57:08 937	malloc memory :deviceID 0 
+18:57:08 953	finished play :deviceID 0 
+18:57:08 953	start cam_stop 
+18:57:09 125	finish cam_stop 
+18:57:09 125	 start Playnew
+18:57:09 125	into cam_play:deviceID0 
+18:57:09 125	openDevice:deviceID0 
+18:57:09 296	开始sensor power:deviceID 0 
+18:57:09 685	完成sensor power:deviceID 0 
+18:57:09 716	完成Pin set:deviceID 0 
+18:57:10 060	完成I2C set:deviceID 0 
+18:57:10 216	start InitSensor :deviceID 0 
+18:57:10 825	完成 InitSensor  :deviceID 0 
+18:57:10 825	set image format  :deviceID 0 
+18:57:10 857	start Video :deviceID 0 
+18:57:10 857	malloc memory :deviceID 0 
+18:57:10 857	finished play :deviceID 0 
+18:57:12 870	 start getImage
+18:57:12 870	  getImage times:0
+18:57:12 870	 finish getImage
+18:57:12 870	 start getImage
+18:57:12 886	  getImage times:0
+18:57:12 886	 finish getImage
+18:57:33 934	 start setSN
+18:57:35 949	start cam_stop 
+18:57:36 089	finish cam_stop 
+18:57:36 089	 start Playnew
+18:57:36 089	into cam_play:deviceID1 
+18:57:36 089	openDevice:deviceID1 
+18:57:36 417	开始sensor power:deviceID 1 
+18:57:36 792	完成sensor power:deviceID 1 
+18:57:36 824	完成Pin set:deviceID 1 
+18:57:37 167	完成I2C set:deviceID 1 
+18:57:37 324	start InitSensor :deviceID 1 
+18:57:37 933	完成 InitSensor  :deviceID 1 
+18:57:37 933	set image format  :deviceID 1 
+18:57:37 980	start Video :deviceID 1 
+18:57:37 980	malloc memory :deviceID 1 
+18:57:37 995	finished play :deviceID 1 
+18:57:37 995	start cam_stop 
+18:57:38 162	finish cam_stop 
+18:57:38 162	 start Playnew
+18:57:38 162	into cam_play:deviceID1 
+18:57:38 162	openDevice:deviceID1 
+18:57:38 494	开始sensor power:deviceID 1 
+18:57:38 869	完成sensor power:deviceID 1 
+18:57:38 900	完成Pin set:deviceID 1 
+18:57:39 244	完成I2C set:deviceID 1 
+18:57:39 400	start InitSensor :deviceID 1 
+18:57:40 010	完成 InitSensor  :deviceID 1 
+18:57:40 010	set image format  :deviceID 1 
+18:57:40 041	start Video :deviceID 1 
+18:57:40 041	malloc memory :deviceID 1 
+18:57:40 041	finished play :deviceID 1 
+18:57:42 055	 start getImage
+18:57:42 055	  getImage times:0
+18:57:42 086	 finish getImage
+18:57:42 102	 start getImage
+18:57:42 102	  getImage times:0
+18:57:42 117	 finish getImage
+18:58:07 279	 start getImage
+18:58:07 279	  getImage times:0
+18:58:07 295	 finish getImage
+18:58:07 311	 start getImage
+18:58:07 311	  getImage times:0
+18:58:07 326	 finish getImage
+18:58:08 701	 start getImage
+18:58:08 701	  getImage times:0
+18:58:08 701	 finish getImage
+18:58:08 701	 start getImage
+18:58:08 701	  getImage times:0
+18:58:08 717	 finish getImage
+18:58:10 305	 start getImage
+18:58:10 305	  getImage times:0
+18:58:10 337	 finish getImage
+18:58:10 337	 start getImage
+18:58:10 337	  getImage times:0
+18:58:10 352	 finish getImage
+18:58:10 450	 start setSN
+18:58:12 434	 start getImage
+18:58:12 434	  getImage times:0
+18:58:12 434	 finish getImage
+18:58:12 434	 start getImage
+18:58:12 434	  getImage times:0
+18:58:12 481	 finish getImage
+18:58:12 481	start cam_stop 
+18:58:12 637	finish cam_stop 
+18:58:12 637	 start Playnew
+18:58:12 653	into cam_play:deviceID2 
+18:58:12 653	openDevice:deviceID2 
+18:58:13 012	开始sensor power:deviceID 2 
+18:58:13 387	完成sensor power:deviceID 2 
+18:58:13 418	完成Pin set:deviceID 2 
+18:58:13 747	完成I2C set:deviceID 2 
+18:58:13 903	start InitSensor :deviceID 2 
+18:58:14 481	start InitSensor failed 1 times :deviceID 2 
+18:58:15 137	start InitSensor failed 2 times :deviceID 2 
+18:58:15 309	start InitSensor failed 3 times :deviceID 2 
+18:58:15 309	start cam_stop 
+18:58:15 450	finish cam_stop 
+18:58:15 450	 start getImage
+18:58:15 450	  getImage times:0
+18:58:15 465	 finish getImage
+18:58:15 465	 start getImage
+18:58:15 465	  getImage times:0
+18:58:15 481	 finish getImage
+18:58:15 668	 start Playnew
+18:58:15 668	into cam_play:deviceID2 
+18:58:15 668	openDevice:deviceID2 
+18:58:15 996	开始sensor power:deviceID 2 
+18:58:16 371	完成sensor power:deviceID 2 
+18:58:16 387	完成Pin set:deviceID 2 
+18:58:16 715	完成I2C set:deviceID 2 
+18:58:16 871	start InitSensor :deviceID 2 
+18:58:17 481	完成 InitSensor  :deviceID 2 
+18:58:17 481	set image format  :deviceID 2 
+18:58:17 512	start Video :deviceID 2 
+18:58:17 512	malloc memory :deviceID 2 
+18:58:17 512	finished play :deviceID 2 
+18:58:17 512	start cam_stop 
+18:58:17 668	finish cam_stop 
+18:58:17 668	 start getImage
+18:58:17 668	  getImage times:0
+18:58:17 668	 finish getImage
+18:58:17 668	 start Playnew
+18:58:17 684	into cam_play:deviceID2 
+18:58:17 684	openDevice:deviceID2 
+18:58:18 043	开始sensor power:deviceID 2 
+18:58:18 418	完成sensor power:deviceID 2 
+18:58:18 449	完成Pin set:deviceID 2 
+18:58:18 777	完成I2C set:deviceID 2 
+18:58:18 934	start InitSensor :deviceID 2 
+18:58:19 543	完成 InitSensor  :deviceID 2 
+18:58:19 543	set image format  :deviceID 2 
+18:58:19 574	start Video :deviceID 2 
+18:58:19 574	malloc memory :deviceID 2 
+18:58:19 574	finished play :deviceID 2 
+18:58:19 574	 start getImage
+18:58:19 574	  getImage times:0
+18:58:19 590	 finish getImage
+18:58:20 121	 start getImage
+18:58:20 121	  getImage times:0
+18:58:20 137	 finish getImage
+18:58:20 137	 start getImage
+18:58:20 137	  getImage times:0
+18:58:20 168	 finish getImage
+18:58:20 684	 start getImage
+18:58:20 684	  getImage times:0
+18:58:20 699	 finish getImage
+18:58:20 715	 start getImage
+18:58:20 715	  getImage times:0
+18:58:20 715	 finish getImage
+18:58:21 246	 start getImage
+18:58:21 246	  getImage times:0
+18:58:21 246	 finish getImage
+18:58:21 246	 start getImage
+18:58:21 246	  getImage times:0
+18:58:21 277	 finish getImage
+18:58:21 590	 start getImage
+18:58:21 590	  getImage times:0
+18:58:21 590	 finish getImage
+18:58:21 590	 start getImage
+18:58:21 605	  getImage times:0
+18:58:21 605	 finish getImage
+18:58:21 793	 start getImage
+18:58:21 793	  getImage times:0
+18:58:21 793	 finish getImage
+18:58:21 808	 start getImage
+18:58:21 808	  getImage times:0
+18:58:21 840	 finish getImage
+18:58:22 355	 start getImage
+18:58:22 355	  getImage times:0
+18:58:22 355	 finish getImage
+18:58:22 355	 start getImage
+18:58:22 355	  getImage times:0
+18:58:22 387	 finish getImage
+18:58:22 918	 start getImage
+18:58:22 918	  getImage times:0
+18:58:22 918	 finish getImage
+18:58:22 933	 start getImage
+18:58:22 933	  getImage times:0
+18:58:22 949	 finish getImage
+18:58:23 480	 start getImage
+18:58:23 480	  getImage times:0
+18:58:23 480	 finish getImage
+18:58:23 480	 start getImage
+18:58:23 496	  getImage times:0
+18:58:23 512	 finish getImage
+18:58:28 589	 start getImage
+18:58:28 589	  getImage times:0
+18:58:28 621	 finish getImage
+18:58:28 621	 start getImage
+18:58:28 636	  getImage times:0
+18:58:28 636	 finish getImage
+18:58:29 870	 start getImage
+18:58:29 870	  getImage times:0
+18:58:29 902	 finish getImage
+18:58:29 917	 start getImage
+18:58:29 917	  getImage times:0
+18:58:29 933	 finish getImage
+18:58:30 105	 start getImage
+18:58:30 105	  getImage times:0
+18:58:30 120	 finish getImage
+18:58:30 136	 start getImage
+18:58:30 136	  getImage times:0
+18:58:30 152	 finish getImage
+18:58:30 824	 start getImage
+18:58:30 824	  getImage times:0
+18:58:30 839	 finish getImage
+18:58:30 855	 start getImage
+18:58:30 855	  getImage times:0
+18:58:30 855	 finish getImage
+18:58:31 386	 start getImage
+18:58:31 386	  getImage times:0
+18:58:31 402	 finish getImage
+18:58:31 417	 start getImage
+18:58:31 417	  getImage times:0
+18:58:31 433	 finish getImage
+18:58:31 980	 start getImage
+18:58:31 980	  getImage times:0
+18:58:32 011	 finish getImage
+18:58:32 011	 start getImage
+18:58:32 027	  getImage times:0
+18:58:32 027	 finish getImage
+18:58:32 573	 start getImage
+18:58:32 573	  getImage times:0
+18:58:32 589	 finish getImage
+18:58:32 589	 start getImage
+18:58:32 589	  getImage times:0
+18:58:32 605	 finish getImage
+18:58:33 136	 start getImage
+18:58:33 136	  getImage times:0
+18:58:33 151	 finish getImage
+18:58:33 151	 start getImage
+18:58:33 167	  getImage times:0
+18:58:33 183	 finish getImage
+18:58:33 714	 start getImage
+18:58:33 714	  getImage times:0
+18:58:33 745	 finish getImage
+18:58:33 745	 start getImage
+18:58:33 745	  getImage times:0
+18:58:33 761	 finish getImage
+18:58:34 292	 start getImage
+18:58:34 292	  getImage times:0
+18:58:34 308	 finish getImage
+18:58:34 308	 start getImage
+18:58:34 308	  getImage times:0
+18:58:34 339	 finish getImage
+18:58:36 651	 start getImage
+18:58:36 651	  getImage times:0
+18:58:36 682	 finish getImage
+18:58:36 698	 start getImage
+18:58:36 698	  getImage times:0
+18:58:36 714	 finish getImage
+18:58:36 807	 start getImage
+18:58:36 807	  getImage times:0
+18:58:36 807	 finish getImage
+18:58:36 823	 start getImage
+18:58:36 823	  getImage times:0
+18:58:36 839	 finish getImage
+18:58:37 151	 start getImage
+18:58:37 151	  getImage times:0
+18:58:37 182	 finish getImage
+18:58:37 182	 start getImage
+18:58:37 182	  getImage times:0
+18:58:37 198	 finish getImage
+18:58:42 807	 start getImage
+18:58:42 807	  getImage times:0
+18:58:42 838	 finish getImage
+18:58:42 838	 start getImage
+18:58:42 838	  getImage times:0
+18:58:42 854	 finish getImage
+18:58:48 354	start cam_stop 
+18:58:48 510	finish cam_stop 
+18:59:05 337	 start getImage
+18:59:05 337	  getImage times:0
+18:59:05 352	 finish getImage
+18:59:05 352	 start getImage
+18:59:05 352	  getImage times:0
+18:59:05 384	 finish getImage
+18:59:06 540	 start getImage
+18:59:06 540	  getImage times:0
+18:59:06 555	 finish getImage
+18:59:06 555	 start getImage
+18:59:06 555	  getImage times:0
+18:59:06 587	 finish getImage
+18:59:06 759	 start getImage
+18:59:06 759	  getImage times:0
+18:59:06 774	 finish getImage
+18:59:06 774	 start getImage
+18:59:06 774	  getImage times:0
+18:59:06 790	 finish getImage
+18:59:07 462	 start getImage
+18:59:07 462	  getImage times:0
+18:59:07 462	 finish getImage
+18:59:07 477	 start getImage
+18:59:07 477	  getImage times:0
+18:59:07 493	 finish getImage
+18:59:08 040	 start getImage
+18:59:08 040	  getImage times:0
+18:59:08 040	 finish getImage
+18:59:08 055	 start getImage
+18:59:08 055	  getImage times:0
+18:59:08 102	 finish getImage
+18:59:08 649	 start getImage
+18:59:08 649	  getImage times:0
+18:59:08 649	 finish getImage
+18:59:08 649	 start getImage
+18:59:08 665	  getImage times:0
+18:59:08 696	 finish getImage
+18:59:09 243	 start getImage
+18:59:09 243	  getImage times:0
+18:59:09 243	 finish getImage
+18:59:09 243	 start getImage
+18:59:09 243	  getImage times:0
+18:59:09 290	 finish getImage
+18:59:09 836	 start getImage
+18:59:09 836	  getImage times:0
+18:59:09 836	 finish getImage
+18:59:09 836	 start getImage
+18:59:09 836	  getImage times:0
+18:59:09 852	 finish getImage
+18:59:10 399	 start getImage
+18:59:10 399	  getImage times:0
+18:59:10 399	 finish getImage
+18:59:10 399	 start getImage
+18:59:10 399	  getImage times:0
+18:59:10 446	 finish getImage
+18:59:10 993	 start getImage
+18:59:10 993	  getImage times:0
+18:59:10 993	 finish getImage
+18:59:11 008	 start getImage
+18:59:11 008	  getImage times:0
+18:59:11 008	 finish getImage
+18:59:11 555	 start getImage
+18:59:11 555	  getImage times:0
+18:59:11 586	 finish getImage
+18:59:11 602	 start getImage
+18:59:11 602	  getImage times:0
+18:59:11 618	 finish getImage
+18:59:12 164	 start getImage
+18:59:12 164	  getImage times:0
+18:59:12 180	 finish getImage
+18:59:12 196	 start getImage
+18:59:12 196	  getImage times:0
+18:59:12 211	 finish getImage
+18:59:12 743	 start getImage
+18:59:12 743	  getImage times:0
+18:59:12 774	 finish getImage
+18:59:12 789	 start getImage
+18:59:12 789	  getImage times:0
+18:59:12 821	 finish getImage
+18:59:13 524	 start getImage
+18:59:13 524	  getImage times:0
+18:59:13 539	 finish getImage
+18:59:13 539	 start getImage
+18:59:13 555	  getImage times:0
+18:59:13 571	 finish getImage
+18:59:14 086	 start getImage
+18:59:14 086	  getImage times:0
+18:59:14 117	 finish getImage
+18:59:14 117	 start getImage
+18:59:14 117	  getImage times:0
+18:59:14 133	 finish getImage
+18:59:14 664	 start getImage
+18:59:14 664	  getImage times:0
+18:59:14 664	 finish getImage
+18:59:14 664	 start getImage
+18:59:14 664	  getImage times:0
+18:59:14 711	 finish getImage
+18:59:15 227	 start getImage
+18:59:15 227	  getImage times:0
+18:59:15 227	 finish getImage
+18:59:15 227	 start getImage
+18:59:15 227	  getImage times:0
+18:59:15 258	 finish getImage
+18:59:15 789	 start getImage
+18:59:15 789	  getImage times:0
+18:59:15 789	 finish getImage
+18:59:15 789	 start getImage
+18:59:15 789	  getImage times:0
+18:59:15 805	 finish getImage
+18:59:16 117	 start setSN
+18:59:16 336	 start getImage
+18:59:16 336	  getImage times:0
+18:59:16 367	 finish getImage
+18:59:16 367	 start getImage
+18:59:16 367	  getImage times:0
+18:59:16 399	 finish getImage
+18:59:18 133	start cam_stop 
+18:59:18 258	finish cam_stop 
+18:59:18 258	 start Playnew
+18:59:18 258	into cam_play:deviceID3 
+18:59:18 258	openDevice:deviceID3 
+18:59:18 398	开始sensor power:deviceID 3 
+18:59:18 773	完成sensor power:deviceID 3 
+18:59:18 789	完成Pin set:deviceID 3 
+18:59:19 117	完成I2C set:deviceID 3 
+18:59:19 273	start InitSensor :deviceID 3 
+18:59:19 883	完成 InitSensor  :deviceID 3 
+18:59:19 883	set image format  :deviceID 3 
+18:59:19 914	start Video :deviceID 3 
+18:59:19 914	malloc memory :deviceID 3 
+18:59:19 914	finished play :deviceID 3 
+18:59:19 914	start cam_stop 
+18:59:20 070	finish cam_stop 
+18:59:20 070	 start Playnew
+18:59:20 070	into cam_play:deviceID3 
+18:59:20 070	openDevice:deviceID3 
+18:59:20 226	开始sensor power:deviceID 3 
+18:59:20 601	完成sensor power:deviceID 3 
+18:59:20 617	完成Pin set:deviceID 3 
+18:59:20 961	完成I2C set:deviceID 3 
+18:59:21 117	start InitSensor :deviceID 3 
+18:59:21 695	start InitSensor failed 1 times :deviceID 3 
+18:59:21 851	start InitSensor failed 2 times :deviceID 3 
+18:59:22 586	start cam_stop 
+18:59:22 742	finish cam_stop 
+18:59:22 742	start cam_stop 
+18:59:22 867	finish cam_stop 
+18:59:23 070	 start Playnew
+18:59:23 070	into cam_play:deviceID3 
+18:59:23 070	openDevice:deviceID3 
+18:59:23 211	开始sensor power:deviceID 3 
+18:59:23 586	完成sensor power:deviceID 3 
+18:59:23 601	完成Pin set:deviceID 3 
+18:59:23 929	完成I2C set:deviceID 3 
+18:59:24 085	start InitSensor :deviceID 3 
+18:59:24 695	完成 InitSensor  :deviceID 3 
+18:59:24 695	set image format  :deviceID 3 
+18:59:24 742	start Video :deviceID 3 
+18:59:24 742	malloc memory :deviceID 3 
+18:59:24 757	finished play :deviceID 3 
+18:59:26 773	 start getImage
+18:59:26 773	  getImage times:0
+18:59:26 804	 finish getImage
+18:59:26 804	 start getImage
+18:59:26 804	  getImage times:0
+18:59:26 820	 finish getImage
+18:59:52 912	 start getImage
+18:59:52 912	  getImage times:0
+18:59:52 912	 finish getImage
+18:59:52 912	 start getImage
+18:59:52 912	  getImage times:0
+18:59:52 958	 finish getImage
+18:59:54 130	 start getImage
+18:59:54 130	  getImage times:0
+18:59:54 130	 finish getImage
+18:59:54 130	 start getImage
+18:59:54 130	  getImage times:0
+18:59:54 162	 finish getImage
+18:59:54 318	 start getImage
+18:59:54 318	  getImage times:0
+18:59:54 318	 finish getImage
+18:59:54 318	 start getImage
+18:59:54 318	  getImage times:0
+18:59:54 365	 finish getImage
+18:59:55 021	 start getImage
+18:59:55 021	  getImage times:0
+18:59:55 021	 finish getImage
+18:59:55 036	 start getImage
+18:59:55 036	  getImage times:0
+18:59:55 068	 finish getImage
+18:59:55 615	 start getImage
+18:59:55 615	  getImage times:0
+18:59:55 615	 finish getImage
+18:59:55 615	 start getImage
+18:59:55 615	  getImage times:0
+18:59:55 661	 finish getImage
+18:59:56 224	 start getImage
+18:59:56 224	  getImage times:0
+18:59:56 224	 finish getImage
+18:59:56 224	 start getImage
+18:59:56 224	  getImage times:0
+18:59:56 271	 finish getImage
+18:59:56 833	 start getImage
+18:59:56 833	  getImage times:0
+18:59:56 833	 finish getImage
+18:59:56 849	 start getImage
+18:59:56 849	  getImage times:0
+18:59:56 864	 finish getImage
+18:59:57 427	 start getImage
+18:59:57 427	  getImage times:0
+18:59:57 427	 finish getImage
+18:59:57 443	 start getImage
+18:59:57 443	  getImage times:0
+18:59:57 474	 finish getImage
+18:59:58 021	 start getImage
+18:59:58 021	  getImage times:0
+18:59:58 021	 finish getImage
+18:59:58 021	 start getImage
+18:59:58 021	  getImage times:0
+18:59:58 068	 finish getImage
+18:59:58 630	 start getImage
+18:59:58 630	  getImage times:0
+18:59:58 630	 finish getImage
+18:59:58 630	 start getImage
+18:59:58 630	  getImage times:0
+18:59:58 677	 finish getImage
+19:00:04 114	start cam_stop 
+19:00:04 270	finish cam_stop 
+19:01:45 138	 start setSN
+19:01:47 154	start cam_stop 
+19:01:47 279	finish cam_stop 
+19:01:47 279	 start Playnew
+19:01:47 279	into cam_play:deviceID0 
+19:01:47 279	openDevice:deviceID0 
+19:01:47 435	开始sensor power:deviceID 0 
+19:01:47 810	完成sensor power:deviceID 0 
+19:01:47 826	完成Pin set:deviceID 0 
+19:01:48 154	完成I2C set:deviceID 0 
+19:01:48 310	start InitSensor :deviceID 0 
+19:01:48 919	完成 InitSensor  :deviceID 0 
+19:01:48 919	set image format  :deviceID 0 
+19:01:48 966	start Video :deviceID 0 
+19:01:48 982	malloc memory :deviceID 0 
+19:01:48 997	finished play :deviceID 0 
+19:01:48 997	start cam_stop 
+19:01:49 154	finish cam_stop 
+19:01:49 154	 start Playnew
+19:01:49 154	into cam_play:deviceID0 
+19:01:49 169	openDevice:deviceID0 
+19:01:49 372	开始sensor power:deviceID 0 
+19:01:49 747	完成sensor power:deviceID 0 
+19:01:49 763	完成Pin set:deviceID 0 
+19:01:50 091	完成I2C set:deviceID 0 
+19:01:50 247	start InitSensor :deviceID 0 
+19:01:50 857	完成 InitSensor  :deviceID 0 
+19:01:50 857	set image format  :deviceID 0 
+19:01:50 888	start Video :deviceID 0 
+19:01:50 888	malloc memory :deviceID 0 
+19:01:50 888	finished play :deviceID 0 
+19:01:52 903	 start getImage
+19:01:52 903	  getImage times:0
+19:01:52 919	 finish getImage
+19:01:52 919	 start getImage
+19:01:52 919	  getImage times:0
+19:01:52 935	 finish getImage
+19:02:19 042	 start getImage
+19:02:19 042	  getImage times:0
+19:02:19 058	 finish getImage
+19:02:19 058	 start getImage
+19:02:19 058	  getImage times:0
+19:02:19 089	 finish getImage
+19:02:20 323	 start getImage
+19:02:20 323	  getImage times:0
+19:02:20 339	 finish getImage
+19:02:20 339	 start getImage
+19:02:20 339	  getImage times:0
+19:02:20 370	 finish getImage
+19:02:20 542	 start getImage
+19:02:20 542	  getImage times:0
+19:02:20 558	 finish getImage
+19:02:20 558	 start getImage
+19:02:20 558	  getImage times:0
+19:02:20 573	 finish getImage
+19:02:21 245	 start getImage
+19:02:21 245	  getImage times:0
+19:02:21 245	 finish getImage
+19:02:21 245	 start getImage
+19:02:21 245	  getImage times:0
+19:02:21 276	 finish getImage
+19:02:21 980	 start getImage
+19:02:21 980	  getImage times:0
+19:02:21 980	 finish getImage
+19:02:21 980	 start getImage
+19:02:21 980	  getImage times:0
+19:02:21 995	 finish getImage
+19:02:22 558	 start getImage
+19:02:22 558	  getImage times:0
+19:02:22 558	 finish getImage
+19:02:22 558	 start getImage
+19:02:22 558	  getImage times:0
+19:02:22 573	 finish getImage
+19:02:23 120	 start getImage
+19:02:23 120	  getImage times:0
+19:02:23 136	 finish getImage
+19:02:23 136	 start getImage
+19:02:23 136	  getImage times:0
+19:02:23 167	 finish getImage
+19:02:23 714	 start getImage
+19:02:23 714	  getImage times:0
+19:02:23 714	 finish getImage
+19:02:23 714	 start getImage
+19:02:23 714	  getImage times:0
+19:02:23 729	 finish getImage
+19:02:24 292	 start getImage
+19:02:24 292	  getImage times:0
+19:02:24 307	 finish getImage
+19:02:24 307	 start getImage
+19:02:24 307	  getImage times:0
+19:02:24 323	 finish getImage
+19:02:24 870	 start getImage
+19:02:24 870	  getImage times:0
+19:02:24 870	 finish getImage
+19:02:24 870	 start getImage
+19:02:24 870	  getImage times:0
+19:02:24 886	 finish getImage
+19:02:25 432	 start getImage
+19:02:25 432	  getImage times:0
+19:02:25 432	 finish getImage
+19:02:25 432	 start getImage
+19:02:25 432	  getImage times:0
+19:02:25 448	 finish getImage
+19:02:25 979	 start getImage
+19:02:25 979	  getImage times:0
+19:02:25 979	 finish getImage
+19:02:25 979	 start getImage
+19:02:25 979	  getImage times:0
+19:02:25 995	 finish getImage
+19:02:26 542	 start getImage
+19:02:26 542	  getImage times:0
+19:02:26 542	 finish getImage
+19:02:26 542	 start getImage
+19:02:26 542	  getImage times:0
+19:02:26 557	 finish getImage
+19:02:31 869	start cam_stop 
+19:02:32 026	finish cam_stop 
+19:02:32 041	 start setSN
+19:02:34 057	start cam_stop 
+19:02:34 182	finish cam_stop 
+19:02:34 182	 start Playnew
+19:02:34 182	into cam_play:deviceID1 
+19:02:34 182	openDevice:deviceID1 
+19:02:34 510	开始sensor power:deviceID 1 
+19:02:34 885	完成sensor power:deviceID 1 
+19:02:34 916	完成Pin set:deviceID 1 
+19:02:35 260	完成I2C set:deviceID 1 
+19:02:35 416	start InitSensor :deviceID 1 
+19:02:36 025	完成 InitSensor  :deviceID 1 
+19:02:36 025	set image format  :deviceID 1 
+19:02:36 072	start Video :deviceID 1 
+19:02:36 088	malloc memory :deviceID 1 
+19:02:36 104	finished play :deviceID 1 
+19:02:36 104	start cam_stop 
+19:02:36 260	finish cam_stop 
+19:02:36 260	 start Playnew
+19:02:36 260	into cam_play:deviceID1 
+19:02:36 260	openDevice:deviceID1 
+19:02:36 604	开始sensor power:deviceID 1 
+19:02:36 979	完成sensor power:deviceID 1 
+19:02:37 010	完成Pin set:deviceID 1 
+19:02:37 353	完成I2C set:deviceID 1 
+19:02:37 510	start InitSensor :deviceID 1 
+19:02:38 119	完成 InitSensor  :deviceID 1 
+19:02:38 119	set image format  :deviceID 1 
+19:02:38 150	start Video :deviceID 1 
+19:02:38 150	malloc memory :deviceID 1 
+19:02:38 150	finished play :deviceID 1 
+19:02:40 166	 start getImage
+19:02:40 166	  getImage times:0
+19:02:40 213	 finish getImage
+19:02:40 213	 start getImage
+19:02:40 213	  getImage times:0
+19:02:40 228	 finish getImage
+19:03:05 336	 start getImage
+19:03:05 336	  getImage times:0
+19:03:05 352	 finish getImage
+19:03:05 352	 start getImage
+19:03:05 352	  getImage times:0
+19:03:05 367	 finish getImage
+19:03:06 773	 start getImage
+19:03:06 773	  getImage times:0
+19:03:06 773	 finish getImage
+19:03:06 773	 start getImage
+19:03:06 773	  getImage times:0
+19:03:06 805	 finish getImage
+19:03:08 383	 start getImage
+19:03:08 383	  getImage times:0
+19:03:08 383	 finish getImage
+19:03:08 383	 start getImage
+19:03:08 383	  getImage times:0
+19:03:08 398	 finish getImage
+19:03:10 476	 start getImage
+19:03:10 476	  getImage times:0
+19:03:10 476	 finish getImage
+19:03:10 476	 start getImage
+19:03:10 476	  getImage times:0
+19:03:10 523	 finish getImage
+19:03:11 054	 start getImage
+19:03:11 054	  getImage times:0
+19:03:11 070	 finish getImage
+19:03:11 070	 start getImage
+19:03:11 086	  getImage times:0
+19:03:11 086	 finish getImage
+19:03:11 617	 start getImage
+19:03:11 617	  getImage times:0
+19:03:11 617	 finish getImage
+19:03:11 617	 start getImage
+19:03:11 617	  getImage times:0
+19:03:11 632	 finish getImage
+19:03:12 164	 start getImage
+19:03:12 164	  getImage times:0
+19:03:12 164	 finish getImage
+19:03:12 164	 start getImage
+19:03:12 164	  getImage times:0
+19:03:12 195	 finish getImage
+19:03:12 726	 start getImage
+19:03:12 726	  getImage times:0
+19:03:12 726	 finish getImage
+19:03:12 726	 start getImage
+19:03:12 726	  getImage times:0
+19:03:12 757	 finish getImage
+19:03:13 273	 start getImage
+19:03:13 273	  getImage times:0
+19:03:13 273	 finish getImage
+19:03:13 288	 start getImage
+19:03:13 288	  getImage times:0
+19:03:13 288	 finish getImage
+19:03:13 820	 start getImage
+19:03:13 820	  getImage times:0
+19:03:13 820	 finish getImage
+19:03:13 820	 start getImage
+19:03:13 820	  getImage times:0
+19:03:13 835	 finish getImage
+19:03:18 335	 start getImage
+19:03:18 335	  getImage times:0
+19:03:18 335	 finish getImage
+19:03:18 335	 start getImage
+19:03:18 335	  getImage times:0
+19:03:18 366	 finish getImage
+19:03:19 460	 start getImage
+19:03:19 460	  getImage times:0
+19:03:19 460	 finish getImage
+19:03:19 476	 start getImage
+19:03:19 476	  getImage times:0
+19:03:19 476	 finish getImage
+19:03:19 647	 start getImage
+19:03:19 647	  getImage times:0
+19:03:19 647	 finish getImage
+19:03:19 663	 start getImage
+19:03:19 663	  getImage times:0
+19:03:19 679	 finish getImage
+19:03:20 351	 start getImage
+19:03:20 351	  getImage times:0
+19:03:20 351	 finish getImage
+19:03:20 351	 start getImage
+19:03:20 351	  getImage times:0
+19:03:20 366	 finish getImage
+19:03:20 882	 start getImage
+19:03:20 882	  getImage times:0
+19:03:20 882	 finish getImage
+19:03:20 882	 start getImage
+19:03:20 882	  getImage times:0
+19:03:20 913	 finish getImage
+19:03:21 444	 start getImage
+19:03:21 444	  getImage times:0
+19:03:21 444	 finish getImage
+19:03:21 444	 start getImage
+19:03:21 444	  getImage times:0
+19:03:21 475	 finish getImage
+19:03:22 147	 start getImage
+19:03:22 147	  getImage times:0
+19:03:22 147	 finish getImage
+19:03:22 147	 start getImage
+19:03:22 147	  getImage times:0
+19:03:22 163	 finish getImage
+19:03:22 678	 start getImage
+19:03:22 678	  getImage times:0
+19:03:22 678	 finish getImage
+19:03:22 678	 start getImage
+19:03:22 678	  getImage times:0
+19:03:22 725	 finish getImage
+19:03:23 241	 start getImage
+19:03:23 241	  getImage times:0
+19:03:23 241	 finish getImage
+19:03:23 241	 start getImage
+19:03:23 241	  getImage times:0
+19:03:23 272	 finish getImage
+19:03:23 803	 start getImage
+19:03:23 803	  getImage times:0
+19:03:23 803	 finish getImage
+19:03:23 803	 start getImage
+19:03:23 803	  getImage times:0
+19:03:23 835	 finish getImage
+19:03:26 116	 start getImage
+19:03:26 116	  getImage times:0
+19:03:26 116	 finish getImage
+19:03:26 116	 start getImage
+19:03:26 116	  getImage times:0
+19:03:26 131	 finish getImage
+19:03:26 225	 start getImage
+19:03:26 225	  getImage times:0
+19:03:26 225	 finish getImage
+19:03:26 225	 start getImage
+19:03:26 225	  getImage times:0
+19:03:26 241	 finish getImage
+19:03:26 569	 start getImage
+19:03:26 569	  getImage times:0
+19:03:26 569	 finish getImage
+19:03:26 569	 start getImage
+19:03:26 569	  getImage times:0
+19:03:26 600	 finish getImage
+19:03:32 209	 start getImage
+19:03:32 209	  getImage times:0
+19:03:32 209	 finish getImage
+19:03:32 225	 start getImage
+19:03:32 225	  getImage times:0
+19:03:32 240	 finish getImage
+19:03:37 787	start cam_stop 
+19:03:37 943	finish cam_stop 
+19:03:59 832	 start setSN
+19:04:01 848	start cam_stop 
+19:04:01 973	finish cam_stop 
+19:04:01 973	 start Playnew
+19:04:01 973	into cam_play:deviceID2 
+19:04:01 973	openDevice:deviceID2 
+19:04:02 316	开始sensor power:deviceID 2 
+19:04:02 691	完成sensor power:deviceID 2 
+19:04:02 723	完成Pin set:deviceID 2 
+19:04:03 066	完成I2C set:deviceID 2 
+19:04:03 223	start InitSensor :deviceID 2 
+19:04:03 832	完成 InitSensor  :deviceID 2 
+19:04:03 832	set image format  :deviceID 2 
+19:04:03 863	start Video :deviceID 2 
+19:04:03 863	malloc memory :deviceID 2 
+19:04:03 863	finished play :deviceID 2 
+19:04:03 863	start cam_stop 
+19:04:04 019	finish cam_stop 
+19:04:04 019	 start Playnew
+19:04:04 019	into cam_play:deviceID2 
+19:04:04 019	openDevice:deviceID2 
+19:04:04 379	开始sensor power:deviceID 2 
+19:04:04 754	完成sensor power:deviceID 2 
+19:04:04 785	完成Pin set:deviceID 2 
+19:04:05 113	完成I2C set:deviceID 2 
+19:04:05 269	start InitSensor :deviceID 2 
+19:04:05 879	完成 InitSensor  :deviceID 2 
+19:04:05 879	set image format  :deviceID 2 
+19:04:05 910	start Video :deviceID 2 
+19:04:05 910	malloc memory :deviceID 2 
+19:04:05 910	finished play :deviceID 2 
+19:04:07 925	 start getImage
+19:04:07 925	  getImage times:0
+19:04:07 957	 finish getImage
+19:04:07 957	 start getImage
+19:04:07 957	  getImage times:0
+19:04:07 972	 finish getImage
+19:04:32 689	 start getImage
+19:04:32 689	  getImage times:0
+19:04:32 689	 finish getImage
+19:04:32 705	 start getImage
+19:04:32 705	  getImage times:0
+19:04:32 736	 finish getImage
+19:04:33 736	 start getImage
+19:04:33 736	  getImage times:0
+19:04:33 736	 finish getImage
+19:04:33 752	 start getImage
+19:04:33 752	  getImage times:0
+19:04:33 752	 finish getImage
+19:04:33 924	 start getImage
+19:04:33 924	  getImage times:0
+19:04:33 924	 finish getImage
+19:04:33 939	 start getImage
+19:04:33 939	  getImage times:0
+19:04:33 939	 finish getImage
+19:04:34 611	 start getImage
+19:04:34 611	  getImage times:0
+19:04:34 611	 finish getImage
+19:04:34 627	 start getImage
+19:04:34 627	  getImage times:0
+19:04:34 642	 finish getImage
+19:04:35 361	 start getImage
+19:04:35 361	  getImage times:0
+19:04:35 361	 finish getImage
+19:04:35 361	 start getImage
+19:04:35 361	  getImage times:0
+19:04:35 392	 finish getImage
+19:04:35 955	 start getImage
+19:04:35 955	  getImage times:0
+19:04:35 955	 finish getImage
+19:04:35 970	 start getImage
+19:04:35 970	  getImage times:0
+19:04:36 002	 finish getImage
+19:04:36 548	 start getImage
+19:04:36 548	  getImage times:0
+19:04:36 548	 finish getImage
+19:04:36 548	 start getImage
+19:04:36 548	  getImage times:0
+19:04:36 595	 finish getImage
+19:04:37 158	 start getImage
+19:04:37 158	  getImage times:0
+19:04:37 158	 finish getImage
+19:04:37 158	 start getImage
+19:04:37 158	  getImage times:0
+19:04:37 205	 finish getImage
+19:04:37 751	 start getImage
+19:04:37 751	  getImage times:0
+19:04:37 751	 finish getImage
+19:04:37 751	 start getImage
+19:04:37 751	  getImage times:0
+19:04:37 814	 finish getImage
+19:04:38 345	 start getImage
+19:04:38 345	  getImage times:0
+19:04:38 345	 finish getImage
+19:04:38 345	 start getImage
+19:04:38 345	  getImage times:0
+19:04:38 361	 finish getImage
+19:04:38 923	 start getImage
+19:04:38 923	  getImage times:0
+19:04:38 923	 finish getImage
+19:04:38 923	 start getImage
+19:04:38 923	  getImage times:0
+19:04:38 954	 finish getImage
+19:04:39 470	 start setSN
+19:04:39 486	 start getImage
+19:04:39 486	  getImage times:0
+19:04:39 486	 finish getImage
+19:04:39 486	 start getImage
+19:04:39 486	  getImage times:0
+19:04:39 517	 finish getImage
+19:04:40 033	 start getImage
+19:04:40 033	  getImage times:0
+19:04:40 033	 finish getImage
+19:04:40 033	 start getImage
+19:04:40 033	  getImage times:0
+19:04:40 064	 finish getImage
+19:04:40 595	 start getImage
+19:04:40 595	  getImage times:0
+19:04:40 595	 finish getImage
+19:04:40 611	 start getImage
+19:04:40 611	  getImage times:0
+19:04:40 626	 finish getImage
+19:04:41 142	 start getImage
+19:04:41 142	  getImage times:0
+19:04:41 142	 finish getImage
+19:04:41 142	 start getImage
+19:04:41 142	  getImage times:0
+19:04:41 173	 finish getImage
+19:04:41 486	start cam_stop 
+19:04:41 611	finish cam_stop 
+19:04:41 611	 start Playnew
+19:04:41 611	into cam_play:deviceID3 
+19:04:41 611	openDevice:deviceID3 
+19:04:41 767	开始sensor power:deviceID 3 
+19:04:42 142	完成sensor power:deviceID 3 
+19:04:42 157	完成Pin set:deviceID 3 
+19:04:42 485	完成I2C set:deviceID 3 
+19:04:42 642	start InitSensor :deviceID 3 
+19:04:43 251	完成 InitSensor  :deviceID 3 
+19:04:43 251	set image format  :deviceID 3 
+19:04:43 282	start Video :deviceID 3 
+19:04:43 282	malloc memory :deviceID 3 
+19:04:43 282	finished play :deviceID 3 
+19:04:43 282	start cam_stop 
+19:04:43 439	finish cam_stop 
+19:04:43 439	 start getImage
+19:04:43 439	  getImage times:0
+19:04:43 439	 finish getImage
+19:04:43 439	 start Playnew
+19:04:43 454	into cam_play:deviceID3 
+19:04:43 454	openDevice:deviceID3 
+19:04:43 610	开始sensor power:deviceID 3 
+19:04:43 985	完成sensor power:deviceID 3 
+19:04:44 001	完成Pin set:deviceID 3 
+19:04:44 329	完成I2C set:deviceID 3 
+19:04:44 485	start InitSensor :deviceID 3 
+19:04:45 095	完成 InitSensor  :deviceID 3 
+19:04:45 095	set image format  :deviceID 3 
+19:04:45 126	start Video :deviceID 3 
+19:04:45 126	malloc memory :deviceID 3 
+19:04:45 126	finished play :deviceID 3 
+19:04:45 126	 start getImage
+19:04:45 126	  getImage times:0
+19:04:45 142	 finish getImage
+19:04:45 673	 start getImage
+19:04:45 673	  getImage times:0
+19:04:45 673	 finish getImage
+19:04:45 673	 start getImage
+19:04:45 673	  getImage times:0
+19:04:45 704	 finish getImage
+19:04:46 235	 start getImage
+19:04:46 235	  getImage times:0
+19:04:46 235	 finish getImage
+19:04:46 235	 start getImage
+19:04:46 235	  getImage times:0
+19:04:46 266	 finish getImage
+19:04:46 782	 start getImage
+19:04:46 782	  getImage times:0
+19:04:46 782	 finish getImage
+19:04:46 782	 start getImage
+19:04:46 782	  getImage times:0
+19:04:46 813	 finish getImage
+19:04:47 141	 start getImage
+19:04:47 141	  getImage times:0
+19:04:47 157	 finish getImage
+19:04:47 157	 start getImage
+19:04:47 157	  getImage times:0
+19:04:47 173	 finish getImage
+19:04:50 735	start cam_stop 
+19:04:50 891	finish cam_stop 
+19:52:46 453	 start loadBaseParameter
+19:52:50 874	 start loadBaseParameter
+19:52:55 497	 start loadBaseParameter
+19:53:00 200	 start loadBaseParameter
+19:53:04 903	 start setSN
+19:53:04 903	 start setSN
+19:53:04 918	 start setSN
+19:53:04 918	 start setSN
+19:53:04 918	 start loadPinDef
+19:53:04 934	 finished loadPinDef
+19:53:04 934	 start loadPinDef
+19:53:04 950	 finished loadPinDef
+19:53:04 965	 start loadPinDef
+19:53:04 965	 finished loadPinDef
+19:53:04 965	 start loadPinDef
+19:53:04 981	 finished loadPinDef
+19:54:31 565	 start setSN
+19:54:31 565	 start setSN
+19:54:31 565	 start setSN
+19:54:31 565	 start setSN
+19:55:18 168	 start setSN
+19:55:18 168	 start setSN
+19:55:18 168	 start setSN
+19:55:18 168	 start setSN
+19:56:03 759	 start setSN
+19:56:05 774	start cam_stop 
+19:56:05 899	finish cam_stop 
+19:56:05 899	 start Playnew
+19:56:05 899	into cam_play:deviceID0 
+19:56:05 899	openDevice:deviceID0 
+19:56:06 040	开始sensor power:deviceID 0 
+19:56:06 415	完成sensor power:deviceID 0 
+19:56:06 431	完成Pin set:deviceID 0 
+19:56:06 759	完成I2C set:deviceID 0 
+19:56:06 915	start InitSensor :deviceID 0 
+19:56:07 524	完成 InitSensor  :deviceID 0 
+19:56:07 524	set image format  :deviceID 0 
+19:56:07 571	start Video :deviceID 0 
+19:56:07 587	malloc memory :deviceID 0 
+19:56:07 587	finished play :deviceID 0 
+19:56:07 602	start cam_stop 
+19:56:07 743	finish cam_stop 
+19:56:07 743	 start Playnew
+19:56:07 743	into cam_play:deviceID0 
+19:56:07 759	openDevice:deviceID0 
+19:56:07 946	开始sensor power:deviceID 0 
+19:56:08 321	完成sensor power:deviceID 0 
+19:56:08 337	完成Pin set:deviceID 0 
+19:56:08 665	完成I2C set:deviceID 0 
+19:56:08 821	start InitSensor :deviceID 0 
+19:56:09 430	完成 InitSensor  :deviceID 0 
+19:56:09 430	set image format  :deviceID 0 
+19:56:09 477	start Video :deviceID 0 
+19:56:09 477	malloc memory :deviceID 0 
+19:56:09 493	finished play :deviceID 0 
+19:56:11 508	 start getImage
+19:56:11 508	  getImage times:0
+19:56:11 508	 finish getImage
+19:56:11 524	 start getImage
+19:56:11 524	  getImage times:0
+19:56:11 524	 finish getImage
+19:56:32 241	 start setSN
+19:56:34 257	start cam_stop 
+19:56:34 382	finish cam_stop 
+19:56:34 382	 start Playnew
+19:56:34 382	into cam_play:deviceID1 
+19:56:34 382	openDevice:deviceID1 
+19:56:34 694	开始sensor power:deviceID 1 
+19:56:35 069	完成sensor power:deviceID 1 
+19:56:35 100	完成Pin set:deviceID 1 
+19:56:35 429	完成I2C set:deviceID 1 
+19:56:35 585	start InitSensor :deviceID 1 
+19:56:36 194	完成 InitSensor  :deviceID 1 
+19:56:36 194	set image format  :deviceID 1 
+19:56:36 241	start Video :deviceID 1 
+19:56:36 241	malloc memory :deviceID 1 
+19:56:36 257	finished play :deviceID 1 
+19:56:36 257	start cam_stop 
+19:56:36 413	finish cam_stop 
+19:56:36 413	 start Playnew
+19:56:36 413	into cam_play:deviceID1 
+19:56:36 413	openDevice:deviceID1 
+19:56:36 741	开始sensor power:deviceID 1 
+19:56:37 132	完成sensor power:deviceID 1 
+19:56:37 163	完成Pin set:deviceID 1 
+19:56:37 491	完成I2C set:deviceID 1 
+19:56:37 647	start InitSensor :deviceID 1 
+19:56:38 256	完成 InitSensor  :deviceID 1 
+19:56:38 256	set image format  :deviceID 1 
+19:56:38 288	start Video :deviceID 1 
+19:56:38 288	malloc memory :deviceID 1 
+19:56:38 288	finished play :deviceID 1 
+19:56:40 303	 start getImage
+19:56:40 303	  getImage times:0
+19:56:40 319	 finish getImage
+19:56:40 334	 start getImage
+19:56:40 334	  getImage times:0
+19:56:40 350	 finish getImage
+19:57:05 610	 start getImage
+19:57:05 610	  getImage times:0
+19:57:05 641	 finish getImage
+19:57:05 641	 start getImage
+19:57:05 641	  getImage times:0
+19:57:05 656	 finish getImage
+19:57:07 094	 start getImage
+19:57:07 094	  getImage times:0
+19:57:07 125	 finish getImage
+19:57:07 125	 start getImage
+19:57:07 141	  getImage times:0
+19:57:07 141	 finish getImage
+19:57:08 734	 start getImage
+19:57:08 734	  getImage times:0
+19:57:08 766	 finish getImage
+19:57:08 766	 start getImage
+19:57:08 766	  getImage times:0
+19:57:08 781	 finish getImage
+19:57:10 906	 start getImage
+19:57:10 906	  getImage times:0
+19:57:10 937	 finish getImage
+19:57:10 953	 start getImage
+19:57:10 953	  getImage times:0
+19:57:10 968	 finish getImage
+19:57:11 797	 start getImage
+19:57:11 797	  getImage times:0
+19:57:11 828	 finish getImage
+19:57:11 828	 start getImage
+19:57:11 828	  getImage times:0
+19:57:11 843	 finish getImage
+19:57:12 375	 start getImage
+19:57:12 375	  getImage times:0
+19:57:12 406	 finish getImage
+19:57:12 406	 start getImage
+19:57:12 422	  getImage times:0
+19:57:12 422	 finish getImage
+19:57:12 953	 start getImage
+19:57:12 953	  getImage times:0
+19:57:12 984	 finish getImage
+19:57:12 984	 start getImage
+19:57:13 000	  getImage times:0
+19:57:13 000	 finish getImage
+19:57:13 531	 start getImage
+19:57:13 531	  getImage times:0
+19:57:13 562	 finish getImage
+19:57:13 562	 start getImage
+19:57:13 562	  getImage times:0
+19:57:13 578	 finish getImage
+19:57:14 109	 start getImage
+19:57:14 109	  getImage times:0
+19:57:14 140	 finish getImage
+19:57:14 140	 start getImage
+19:57:14 156	  getImage times:0
+19:57:14 171	 finish getImage
+19:57:14 687	 start getImage
+19:57:14 687	  getImage times:0
+19:57:14 718	 finish getImage
+19:57:14 734	 start getImage
+19:57:14 734	  getImage times:0
+19:57:14 749	 finish getImage
+19:57:19 359	 start getImage
+19:57:19 359	  getImage times:0
+19:57:19 390	 finish getImage
+19:57:19 390	 start getImage
+19:57:19 390	  getImage times:0
+19:57:19 405	 finish getImage
+19:57:20 530	 start getImage
+19:57:20 530	  getImage times:0
+19:57:20 562	 finish getImage
+19:57:20 562	 start getImage
+19:57:20 562	  getImage times:0
+19:57:20 577	 finish getImage
+19:57:20 749	 start getImage
+19:57:20 749	  getImage times:0
+19:57:20 780	 finish getImage
+19:57:20 780	 start getImage
+19:57:20 796	  getImage times:0
+19:57:20 812	 finish getImage
+19:57:21 483	 start getImage
+19:57:21 483	  getImage times:0
+19:57:21 499	 finish getImage
+19:57:21 499	 start getImage
+19:57:21 499	  getImage times:0
+19:57:21 530	 finish getImage
+19:57:22 046	 start getImage
+19:57:22 046	  getImage times:0
+19:57:22 077	 finish getImage
+19:57:22 077	 start getImage
+19:57:22 093	  getImage times:0
+19:57:22 108	 finish getImage
+19:57:22 624	 start getImage
+19:57:22 624	  getImage times:0
+19:57:22 640	 finish getImage
+19:57:22 640	 start getImage
+19:57:22 640	  getImage times:0
+19:57:22 655	 finish getImage
+19:57:23 171	 start getImage
+19:57:23 171	  getImage times:0
+19:57:23 202	 finish getImage
+19:57:23 202	 start getImage
+19:57:23 202	  getImage times:0
+19:57:23 218	 finish getImage
+19:57:23 733	 start getImage
+19:57:23 733	  getImage times:0
+19:57:23 764	 finish getImage
+19:57:23 780	 start getImage
+19:57:23 780	  getImage times:0
+19:57:23 796	 finish getImage
+19:57:24 327	 start getImage
+19:57:24 327	  getImage times:0
+19:57:24 358	 finish getImage
+19:57:24 358	 start getImage
+19:57:24 358	  getImage times:0
+19:57:24 389	 finish getImage
+19:57:24 968	 start getImage
+19:57:24 968	  getImage times:0
+19:57:24 999	 finish getImage
+19:57:24 999	 start getImage
+19:57:25 014	  getImage times:0
+19:57:25 014	 finish getImage
+19:57:27 327	 start getImage
+19:57:27 327	  getImage times:0
+19:57:27 358	 finish getImage
+19:57:27 358	 start getImage
+19:57:27 358	  getImage times:0
+19:57:27 389	 finish getImage
+19:57:27 483	 start getImage
+19:57:27 483	  getImage times:0
+19:57:27 499	 finish getImage
+19:57:27 514	 start getImage
+19:57:27 514	  getImage times:0
+19:57:27 530	 finish getImage
+19:57:27 858	 start getImage
+19:57:27 858	  getImage times:0
+19:57:27 889	 finish getImage
+19:57:27 905	 start getImage
+19:57:27 905	  getImage times:0
+19:57:27 920	 finish getImage
+19:57:33 545	 start getImage
+19:57:33 545	  getImage times:0
+19:57:33 576	 finish getImage
+19:57:33 576	 start getImage
+19:57:33 576	  getImage times:0
+19:57:33 592	 finish getImage
+19:57:39 107	start cam_stop 
+19:57:39 263	finish cam_stop 
+20:11:20 055	 start loadBaseParameter
+20:11:24 417	 start loadBaseParameter
+20:11:28 929	 start loadBaseParameter
+20:11:33 456	 start loadBaseParameter
+20:11:38 007	 start setSN
+20:11:38 010	 start setSN
+20:11:38 013	 start setSN
+20:11:38 016	 start setSN
+20:11:38 021	 start loadPinDef
+20:11:38 036	 finished loadPinDef
+20:11:38 044	 start loadPinDef
+20:11:38 050	 finished loadPinDef
+20:11:38 057	 start loadPinDef
+20:11:38 063	 finished loadPinDef
+20:11:38 070	 start loadPinDef
+20:11:38 076	 finished loadPinDef
+20:12:45 678	 start setSN
+20:12:45 679	 start setSN
+20:12:45 681	 start setSN
+20:12:45 682	 start setSN
+20:17:00 173	 start setSN
+20:17:00 175	 start setSN
+20:17:00 176	 start setSN
+20:17:00 178	 start setSN
+20:18:29 210	 start setSN
+20:18:31 212	start cam_stop 
+20:18:31 315	finish cam_stop 
+20:18:31 316	 start Playnew
+20:18:31 317	into cam_play:deviceID0 
+20:18:31 319	openDevice:deviceID0 
+20:18:31 441	开始sensor power:deviceID 0 
+20:18:31 736	完成sensor power:deviceID 0 
+20:18:31 748	完成Pin set:deviceID 0 
+20:18:32 030	完成I2C set:deviceID 0 
+20:18:32 148	start InitSensor :deviceID 0 
+20:18:32 612	start InitSensor failed 1 times :deviceID 0 
+20:18:32 758	start InitSensor failed 2 times :deviceID 0 
+20:18:33 399	start cam_stop 
+20:18:33 519	finish cam_stop 
+20:18:33 722	 start Playnew
+20:18:33 724	into cam_play:deviceID0 
+20:18:33 727	openDevice:deviceID0 
+20:18:33 859	开始sensor power:deviceID 0 
+20:18:34 154	完成sensor power:deviceID 0 
+20:18:34 177	完成Pin set:deviceID 0 
+20:18:34 468	完成I2C set:deviceID 0 
+20:18:34 595	start InitSensor :deviceID 0 
+20:18:35 136	完成 InitSensor  :deviceID 0 
+20:18:35 142	set image format  :deviceID 0 
+20:18:35 173	start Video :deviceID 0 
+20:18:35 192	malloc memory :deviceID 0 
+20:18:35 200	finished play :deviceID 0 
+20:18:35 203	start cam_stop 
+20:18:35 329	finish cam_stop 
+20:18:35 330	 start Playnew
+20:18:35 331	into cam_play:deviceID0 
+20:18:35 333	openDevice:deviceID0 
+20:18:35 460	开始sensor power:deviceID 0 
+20:18:35 755	完成sensor power:deviceID 0 
+20:18:35 767	完成Pin set:deviceID 0 
+20:18:36 049	完成I2C set:deviceID 0 
+20:18:36 166	start InitSensor :deviceID 0 
+20:18:36 700	完成 InitSensor  :deviceID 0 
+20:18:36 702	set image format  :deviceID 0 
+20:18:36 721	start Video :deviceID 0 
+20:18:36 729	malloc memory :deviceID 0 
+20:18:36 734	finished play :deviceID 0 
+20:18:38 740	 start getImage
+20:18:38 745	  getImage times:0
+20:18:38 769	 finish getImage
+20:18:38 775	 start getImage
+20:18:38 777	  getImage times:0
+20:18:38 791	 finish getImage
+20:18:57 921	 start setSN
+20:18:59 923	start cam_stop 
+20:19:00 026	finish cam_stop 
+20:19:00 027	 start Playnew
+20:19:00 028	into cam_play:deviceID1 
+20:19:00 030	openDevice:deviceID1 
+20:19:00 330	开始sensor power:deviceID 1 
+20:19:00 626	完成sensor power:deviceID 1 
+20:19:00 638	完成Pin set:deviceID 1 
+20:19:00 926	完成I2C set:deviceID 1 
+20:19:01 052	start InitSensor :deviceID 1 
+20:19:01 522	start InitSensor failed 1 times :deviceID 1 
+20:19:01 666	start InitSensor failed 2 times :deviceID 1 
+20:19:02 307	start cam_stop 
+20:19:02 421	finish cam_stop 
+20:19:02 624	 start Playnew
+20:19:02 628	into cam_play:deviceID1 
+20:19:02 632	openDevice:deviceID1 
+20:19:02 974	开始sensor power:deviceID 1 
+20:19:03 275	完成sensor power:deviceID 1 
+20:19:03 301	完成Pin set:deviceID 1 
+20:19:03 587	完成I2C set:deviceID 1 
+20:19:03 705	start InitSensor :deviceID 1 
+20:19:04 241	完成 InitSensor  :deviceID 1 
+20:19:04 243	set image format  :deviceID 1 
+20:19:04 262	start Video :deviceID 1 
+20:19:04 269	malloc memory :deviceID 1 
+20:19:04 274	finished play :deviceID 1 
+20:19:04 275	start cam_stop 
+20:19:04 401	finish cam_stop 
+20:19:04 402	 start Playnew
+20:19:04 404	into cam_play:deviceID1 
+20:19:04 405	openDevice:deviceID1 
+20:19:04 720	开始sensor power:deviceID 1 
+20:19:05 016	完成sensor power:deviceID 1 
+20:19:05 029	完成Pin set:deviceID 1 
+20:19:05 311	完成I2C set:deviceID 1 
+20:19:05 429	start InitSensor :deviceID 1 
+20:19:05 965	完成 InitSensor  :deviceID 1 
+20:19:05 967	set image format  :deviceID 1 
+20:19:05 986	start Video :deviceID 1 
+20:19:05 993	malloc memory :deviceID 1 
+20:19:05 998	finished play :deviceID 1 
+20:19:07 999	 start getImage
+20:19:08 000	  getImage times:0
+20:19:08 010	 finish getImage
+20:19:08 013	 start getImage
+20:19:08 015	  getImage times:0
+20:19:08 050	 finish getImage
+20:19:31 427	 start getImage
+20:19:31 428	  getImage times:0
+20:19:31 438	 finish getImage
+20:19:31 441	 start getImage
+20:19:31 442	  getImage times:0
+20:19:31 462	 finish getImage
+20:19:32 881	 start getImage
+20:19:32 882	  getImage times:0
+20:19:32 891	 finish getImage
+20:19:32 895	 start getImage
+20:19:32 897	  getImage times:0
+20:19:32 906	 finish getImage
+20:19:34 470	 start getImage
+20:19:34 471	  getImage times:0
+20:19:34 481	 finish getImage
+20:19:34 484	 start getImage
+20:19:34 485	  getImage times:0
+20:19:34 503	 finish getImage
+20:19:36 564	 start getImage
+20:19:36 565	  getImage times:0
+20:19:36 574	 finish getImage
+20:19:36 577	 start getImage
+20:19:36 579	  getImage times:0
+20:19:36 588	 finish getImage
+20:19:37 320	 start getImage
+20:19:37 322	  getImage times:0
+20:19:37 331	 finish getImage
+20:19:37 334	 start getImage
+20:19:37 335	  getImage times:0
+20:19:37 344	 finish getImage
+20:19:37 857	 start getImage
+20:19:37 858	  getImage times:0
+20:19:37 868	 finish getImage
+20:19:37 870	 start getImage
+20:19:37 871	  getImage times:0
+20:19:37 903	 finish getImage
+20:19:38 406	 start getImage
+20:19:38 408	  getImage times:0
+20:19:38 417	 finish getImage
+20:19:38 419	 start getImage
+20:19:38 421	  getImage times:0
+20:19:38 430	 finish getImage
+20:19:38 937	 start getImage
+20:19:38 939	  getImage times:0
+20:19:38 948	 finish getImage
+20:19:38 950	 start getImage
+20:19:38 951	  getImage times:0
+20:19:38 982	 finish getImage
+20:19:39 490	 start getImage
+20:19:39 492	  getImage times:0
+20:19:39 501	 finish getImage
+20:19:39 503	 start getImage
+20:19:39 504	  getImage times:0
+20:19:39 514	 finish getImage
+20:19:40 019	 start getImage
+20:19:40 021	  getImage times:0
+20:19:40 030	 finish getImage
+20:19:40 032	 start getImage
+20:19:40 034	  getImage times:0
+20:19:40 062	 finish getImage
+20:19:44 636	 start getImage
+20:19:44 641	  getImage times:0
+20:19:44 668	 finish getImage
+20:19:44 672	 start getImage
+20:19:44 674	  getImage times:0
+20:19:44 686	 finish getImage
+20:19:45 802	 start getImage
+20:19:45 806	  getImage times:0
+20:19:45 828	 finish getImage
+20:19:45 833	 start getImage
+20:19:45 837	  getImage times:0
+20:19:45 848	 finish getImage
+20:19:46 001	 start getImage
+20:19:46 007	  getImage times:0
+20:19:46 028	 finish getImage
+20:19:46 032	 start getImage
+20:19:46 034	  getImage times:0
+20:19:46 048	 finish getImage
+20:19:46 691	 start getImage
+20:19:46 697	  getImage times:0
+20:19:46 723	 finish getImage
+20:19:46 728	 start getImage
+20:19:46 731	  getImage times:0
+20:19:46 746	 finish getImage
+20:19:47 259	 start getImage
+20:19:47 263	  getImage times:0
+20:19:47 284	 finish getImage
+20:19:47 287	 start getImage
+20:19:47 290	  getImage times:0
+20:19:47 308	 finish getImage
+20:19:47 815	 start getImage
+20:19:47 819	  getImage times:0
+20:19:47 844	 finish getImage
+20:19:47 852	 start getImage
+20:19:47 856	  getImage times:0
+20:19:47 878	 finish getImage
+20:19:48 386	 start getImage
+20:19:48 389	  getImage times:0
+20:19:48 410	 finish getImage
+20:19:48 415	 start getImage
+20:19:48 418	  getImage times:0
+20:19:48 427	 finish getImage
+20:19:48 936	 start getImage
+20:19:48 939	  getImage times:0
+20:19:48 959	 finish getImage
+20:19:48 963	 start getImage
+20:19:48 965	  getImage times:0
+20:19:48 984	 finish getImage
+20:19:49 495	 start getImage
+20:19:49 500	  getImage times:0
+20:19:49 528	 finish getImage
+20:19:49 532	 start getImage
+20:19:49 534	  getImage times:0
+20:19:49 546	 finish getImage
+20:19:50 054	 start getImage
+20:19:50 057	  getImage times:0
+20:19:50 076	 finish getImage
+20:19:50 082	 start getImage
+20:19:50 085	  getImage times:0
+20:19:50 103	 finish getImage
+20:19:52 380	 start getImage
+20:19:52 384	  getImage times:0
+20:19:52 408	 finish getImage
+20:19:52 411	 start getImage
+20:19:52 413	  getImage times:0
+20:19:52 424	 finish getImage
+20:19:52 656	 start getImage
+20:19:52 661	  getImage times:0
+20:19:52 684	 finish getImage
+20:19:52 688	 start getImage
+20:19:52 690	  getImage times:0
+20:19:52 707	 finish getImage
+20:19:53 014	 start getImage
+20:19:53 020	  getImage times:0
+20:19:53 047	 finish getImage
+20:19:53 053	 start getImage
+20:19:53 056	  getImage times:0
+20:19:53 071	 finish getImage
+20:19:58 627	 start getImage
+20:19:58 630	  getImage times:0
+20:19:58 650	 finish getImage
+20:19:58 653	 start getImage
+20:19:58 655	  getImage times:0
+20:19:58 667	 finish getImage
+20:20:04 160	start cam_stop 
+20:20:04 285	finish cam_stop 
+20:45:59 325	 start loadBaseParameter
+20:46:04 215	 start loadBaseParameter
+20:46:08 933	 start loadBaseParameter
+20:46:13 636	 start loadBaseParameter
+20:46:18 308	 start setSN
+20:46:18 308	 start setSN
+20:46:18 324	 start setSN
+20:46:18 324	 start setSN
+20:46:18 324	 start loadPinDef
+20:46:18 339	 finished loadPinDef
+20:46:18 339	 start loadPinDef
+20:46:18 355	 finished loadPinDef
+20:46:18 355	 start loadPinDef
+20:46:18 370	 finished loadPinDef
+20:46:18 370	 start loadPinDef
+20:46:18 386	 finished loadPinDef
+20:52:21 628	 start setSN
+20:52:21 628	 start setSN
+20:52:21 628	 start setSN
+20:52:21 628	 start setSN
+20:53:34 420	 start setSN
+20:53:36 435	start cam_stop 
+20:53:36 560	finish cam_stop 
+20:53:36 560	 start Playnew
+20:53:36 560	into cam_play:deviceID0 
+20:53:36 560	openDevice:deviceID0 
+20:53:36 701	开始sensor power:deviceID 0 
+20:53:37 076	完成sensor power:deviceID 0 
+20:53:37 107	完成Pin set:deviceID 0 
+20:53:37 451	完成I2C set:deviceID 0 
+20:53:37 607	start InitSensor :deviceID 0 
+20:53:38 216	完成 InitSensor  :deviceID 0 
+20:53:38 216	set image format  :deviceID 0 
+20:53:38 263	start Video :deviceID 0 
+20:53:38 263	malloc memory :deviceID 0 
+20:53:38 279	finished play :deviceID 0 
+20:53:38 279	start cam_stop 
+20:53:38 435	finish cam_stop 
+20:53:38 435	 start Playnew
+20:53:38 435	into cam_play:deviceID0 
+20:53:38 451	openDevice:deviceID0 
+20:53:38 638	开始sensor power:deviceID 0 
+20:53:39 013	完成sensor power:deviceID 0 
+20:53:39 044	完成Pin set:deviceID 0 
+20:53:39 388	完成I2C set:deviceID 0 
+20:53:39 544	start InitSensor :deviceID 0 
+20:53:40 154	完成 InitSensor  :deviceID 0 
+20:53:40 154	set image format  :deviceID 0 
+20:53:40 185	start Video :deviceID 0 
+20:53:40 185	malloc memory :deviceID 0 
+20:53:40 185	finished play :deviceID 0 
+20:53:42 200	 start getImage
+20:53:42 200	  getImage times:0
+20:53:42 200	 finish getImage
+20:53:42 200	 start getImage
+20:53:42 216	  getImage times:0
+20:53:42 216	 finish getImage
+20:54:13 386	 start setSN
+20:54:15 401	start cam_stop 
+20:54:15 526	finish cam_stop 
+20:54:15 526	 start Playnew
+20:54:15 526	into cam_play:deviceID1 
+20:54:15 526	openDevice:deviceID1 
+20:54:15 839	开始sensor power:deviceID 1 
+20:54:16 214	完成sensor power:deviceID 1 
+20:54:16 245	完成Pin set:deviceID 1 
+20:54:16 589	完成I2C set:deviceID 1 
+20:54:16 745	start InitSensor :deviceID 1 
+20:54:17 354	完成 InitSensor  :deviceID 1 
+20:54:17 354	set image format  :deviceID 1 
+20:54:17 401	start Video :deviceID 1 
+20:54:17 401	malloc memory :deviceID 1 
+20:54:17 417	finished play :deviceID 1 
+20:54:17 417	start cam_stop 
+20:54:17 573	finish cam_stop 
+20:54:17 573	 start Playnew
+20:54:17 589	into cam_play:deviceID1 
+20:54:17 589	openDevice:deviceID1 
+20:54:17 932	开始sensor power:deviceID 1 
+20:54:18 307	完成sensor power:deviceID 1 
+20:54:18 338	完成Pin set:deviceID 1 
+20:54:18 682	完成I2C set:deviceID 1 
+20:54:18 838	start InitSensor :deviceID 1 
+20:54:19 448	完成 InitSensor  :deviceID 1 
+20:54:19 448	set image format  :deviceID 1 
+20:54:19 479	start Video :deviceID 1 
+20:54:19 479	malloc memory :deviceID 1 
+20:54:19 479	finished play :deviceID 1 
+20:54:21 495	 start getImage
+20:54:21 495	  getImage times:0
+20:54:21 526	 finish getImage
+20:54:21 526	 start getImage
+20:54:21 526	  getImage times:0
+20:54:21 541	 finish getImage
+20:54:46 790	 start getImage
+20:54:46 790	  getImage times:0
+20:54:46 790	 finish getImage
+20:54:46 790	 start getImage
+20:54:46 790	  getImage times:0
+20:54:46 821	 finish getImage
+20:54:48 243	 start getImage
+20:54:48 243	  getImage times:0
+20:54:48 243	 finish getImage
+20:54:48 243	 start getImage
+20:54:48 243	  getImage times:0
+20:54:48 258	 finish getImage
+20:54:49 836	 start getImage
+20:54:49 836	  getImage times:0
+20:54:49 836	 finish getImage
+20:54:49 836	 start getImage
+20:54:49 836	  getImage times:0
+20:54:49 852	 finish getImage
+20:54:51 946	 start getImage
+20:54:51 946	  getImage times:0
+20:54:51 946	 finish getImage
+20:54:51 946	 start getImage
+20:54:51 946	  getImage times:0
+20:54:51 977	 finish getImage
+20:54:52 727	 start getImage
+20:54:52 727	  getImage times:0
+20:54:52 727	 finish getImage
+20:54:52 727	 start getImage
+20:54:52 727	  getImage times:0
+20:54:52 742	 finish getImage
+20:54:53 258	 start getImage
+20:54:53 258	  getImage times:0
+20:54:53 258	 finish getImage
+20:54:53 258	 start getImage
+20:54:53 258	  getImage times:0
+20:54:53 289	 finish getImage
+20:54:53 820	 start getImage
+20:54:53 820	  getImage times:0
+20:54:53 820	 finish getImage
+20:54:53 820	 start getImage
+20:54:53 820	  getImage times:0
+20:54:53 852	 finish getImage
+20:54:54 383	 start getImage
+20:54:54 383	  getImage times:0
+20:54:54 383	 finish getImage
+20:54:54 383	 start getImage
+20:54:54 383	  getImage times:0
+20:54:54 414	 finish getImage
+20:54:54 945	 start getImage
+20:54:54 945	  getImage times:0
+20:54:54 961	 finish getImage
+20:54:54 977	 start getImage
+20:54:54 977	  getImage times:0
+20:54:54 992	 finish getImage
+20:54:55 508	 start getImage
+20:54:55 508	  getImage times:0
+20:54:55 508	 finish getImage
+20:54:55 508	 start getImage
+20:54:55 508	  getImage times:0
+20:54:55 539	 finish getImage
+20:55:00 273	 start getImage
+20:55:00 273	  getImage times:0
+20:55:00 273	 finish getImage
+20:55:00 273	 start getImage
+20:55:00 273	  getImage times:0
+20:55:00 289	 finish getImage
+20:55:01 476	 start getImage
+20:55:01 476	  getImage times:0
+20:55:01 476	 finish getImage
+20:55:01 476	 start getImage
+20:55:01 476	  getImage times:0
+20:55:01 492	 finish getImage
+20:55:01 664	 start getImage
+20:55:01 664	  getImage times:0
+20:55:01 664	 finish getImage
+20:55:01 664	 start getImage
+20:55:01 664	  getImage times:0
+20:55:01 695	 finish getImage
+20:55:02 367	 start getImage
+20:55:02 367	  getImage times:0
+20:55:02 367	 finish getImage
+20:55:02 367	 start getImage
+20:55:02 367	  getImage times:0
+20:55:02 382	 finish getImage
+20:55:02 898	 start getImage
+20:55:02 898	  getImage times:0
+20:55:02 898	 finish getImage
+20:55:02 898	 start getImage
+20:55:02 914	  getImage times:0
+20:55:02 929	 finish getImage
+20:55:03 460	 start getImage
+20:55:03 460	  getImage times:0
+20:55:03 460	 finish getImage
+20:55:03 460	 start getImage
+20:55:03 460	  getImage times:0
+20:55:03 492	 finish getImage
+20:55:04 007	 start getImage
+20:55:04 007	  getImage times:0
+20:55:04 007	 finish getImage
+20:55:04 007	 start getImage
+20:55:04 007	  getImage times:0
+20:55:04 023	 finish getImage
+20:55:04 538	 start getImage
+20:55:04 538	  getImage times:0
+20:55:04 538	 finish getImage
+20:55:04 538	 start getImage
+20:55:04 538	  getImage times:0
+20:55:04 570	 finish getImage
+20:55:05 101	 start getImage
+20:55:05 101	  getImage times:0
+20:55:05 101	 finish getImage
+20:55:05 101	 start getImage
+20:55:05 101	  getImage times:0
+20:55:05 132	 finish getImage
+20:55:05 648	 start getImage
+20:55:05 648	  getImage times:0
+20:55:05 648	 finish getImage
+20:55:05 648	 start getImage
+20:55:05 648	  getImage times:0
+20:55:05 663	 finish getImage
+20:55:07 960	 start getImage
+20:55:07 960	  getImage times:0
+20:55:07 960	 finish getImage
+20:55:07 960	 start getImage
+20:55:07 960	  getImage times:0
+20:55:07 976	 finish getImage
+20:55:08 069	 start getImage
+20:55:08 069	  getImage times:0
+20:55:08 069	 finish getImage
+20:55:08 069	 start getImage
+20:55:08 069	  getImage times:0
+20:55:08 101	 finish getImage
+20:55:08 413	 start getImage
+20:55:08 413	  getImage times:0
+20:55:08 413	 finish getImage
+20:55:08 413	 start getImage
+20:55:08 413	  getImage times:0
+20:55:08 460	 finish getImage
+20:55:14 069	 start getImage
+20:55:14 069	  getImage times:0
+20:55:14 069	 finish getImage
+20:55:14 085	 start getImage
+20:55:14 085	  getImage times:0
+20:55:14 100	 finish getImage
+20:55:19 584	start cam_stop 
+20:55:19 741	finish cam_stop 
+20:55:55 563	 start getImage
+20:55:55 563	  getImage times:0
+20:55:55 563	 finish getImage
+20:55:55 563	 start getImage
+20:55:55 563	  getImage times:0
+20:55:55 579	 finish getImage
+20:55:56 704	 start getImage
+20:55:56 704	  getImage times:0
+20:55:56 704	 finish getImage
+20:55:56 704	 start getImage
+20:55:56 704	  getImage times:0
+20:55:56 735	 finish getImage
+20:55:56 891	 start getImage
+20:55:56 891	  getImage times:0
+20:55:56 891	 finish getImage
+20:55:56 891	 start getImage
+20:55:56 891	  getImage times:0
+20:55:56 938	 finish getImage
+20:55:57 610	 start getImage
+20:55:57 610	  getImage times:0
+20:55:57 657	 finish getImage
+20:55:57 657	 start getImage
+20:55:57 657	  getImage times:0
+20:55:57 673	 finish getImage
+20:55:58 407	 start getImage
+20:55:58 407	  getImage times:0
+20:55:58 438	 finish getImage
+20:55:58 438	 start getImage
+20:55:58 454	  getImage times:0
+20:55:58 454	 finish getImage
+20:55:59 001	 start getImage
+20:55:59 001	  getImage times:0
+20:55:59 032	 finish getImage
+20:55:59 032	 start getImage
+20:55:59 032	  getImage times:0
+20:55:59 048	 finish getImage
+20:55:59 594	 start getImage
+20:55:59 594	  getImage times:0
+20:55:59 610	 finish getImage
+20:55:59 610	 start getImage
+20:55:59 610	  getImage times:0
+20:55:59 641	 finish getImage
+20:56:00 188	 start getImage
+20:56:00 188	  getImage times:0
+20:56:00 219	 finish getImage
+20:56:00 219	 start getImage
+20:56:00 219	  getImage times:0
+20:56:00 251	 finish getImage
+20:56:00 797	 start getImage
+20:56:00 797	  getImage times:0
+20:56:00 829	 finish getImage
+20:56:00 829	 start getImage
+20:56:00 829	  getImage times:0
+20:56:00 844	 finish getImage
+20:56:01 422	 start getImage
+20:56:01 422	  getImage times:0
+20:56:01 454	 finish getImage
+20:56:01 454	 start getImage
+20:56:01 454	  getImage times:0
+20:56:01 469	 finish getImage
+20:56:02 016	 start getImage
+20:56:02 016	  getImage times:0
+20:56:02 047	 finish getImage
+20:56:02 063	 start getImage
+20:56:02 063	  getImage times:0
+20:56:02 079	 finish getImage
+20:56:02 625	 start getImage
+20:56:02 625	  getImage times:0
+20:56:02 657	 finish getImage
+20:56:02 657	 start getImage
+20:56:02 657	  getImage times:0
+20:56:02 672	 finish getImage
+20:56:03 204	 start getImage
+20:56:03 204	  getImage times:0
+20:56:03 235	 finish getImage
+20:56:03 235	 start getImage
+20:56:03 235	  getImage times:0
+20:56:03 250	 finish getImage
+20:56:03 829	 start getImage
+20:56:03 829	  getImage times:0
+20:56:03 860	 finish getImage
+20:56:03 860	 start getImage
+20:56:03 860	  getImage times:0
+20:56:03 875	 finish getImage
+20:56:04 407	 start getImage
+20:56:04 407	  getImage times:0
+20:56:04 438	 finish getImage
+20:56:04 438	 start getImage
+20:56:04 438	  getImage times:0
+20:56:04 453	 finish getImage
+20:56:04 985	 start getImage
+20:56:04 985	  getImage times:0
+20:56:05 016	 finish getImage
+20:56:05 016	 start getImage
+20:56:05 016	  getImage times:0
+20:56:05 032	 finish getImage
+20:56:05 563	 start getImage
+20:56:05 563	  getImage times:0
+20:56:05 594	 finish getImage
+20:56:05 594	 start getImage
+20:56:05 594	  getImage times:0
+20:56:05 610	 finish getImage
+20:56:06 172	 start getImage
+20:56:06 172	  getImage times:0
+20:56:06 203	 finish getImage
+20:56:06 219	 start getImage
+20:56:06 219	  getImage times:0
+20:56:06 235	 finish getImage
+20:56:06 766	 start getImage
+20:56:06 766	  getImage times:0
+20:56:06 797	 finish getImage
+20:56:06 797	 start getImage
+20:56:06 797	  getImage times:0
+20:56:06 813	 finish getImage
+20:56:10 750	start cam_stop 
+20:56:10 906	finish cam_stop 
+20:59:00 857	 start loadBaseParameter
+20:59:05 700	 start loadBaseParameter
+20:59:10 372	 start loadBaseParameter
+20:59:15 074	 start loadBaseParameter
+20:59:19 824	 start setSN
+20:59:19 824	 start setSN
+20:59:19 840	 start setSN
+20:59:19 840	 start setSN
+20:59:19 840	 start loadPinDef
+20:59:19 855	 finished loadPinDef
+20:59:19 855	 start loadPinDef
+20:59:19 871	 finished loadPinDef
+20:59:19 871	 start loadPinDef
+20:59:19 887	 finished loadPinDef
+20:59:19 887	 start loadPinDef
+20:59:19 902	 finished loadPinDef
+21:00:53 084	 start setSN
+21:00:53 084	 start setSN
+21:00:53 084	 start setSN
+21:00:53 084	 start setSN
+21:01:43 689	 start setSN
+21:01:45 705	start cam_stop 
+21:01:45 830	finish cam_stop 
+21:01:45 830	 start Playnew
+21:01:45 830	into cam_play:deviceID0 
+21:01:45 830	openDevice:deviceID0 
+21:01:45 971	开始sensor power:deviceID 0 
+21:01:46 346	完成sensor power:deviceID 0 
+21:01:46 377	完成Pin set:deviceID 0 
+21:01:46 721	完成I2C set:deviceID 0 
+21:01:46 877	start InitSensor :deviceID 0 
+21:01:47 486	完成 InitSensor  :deviceID 0 
+21:01:47 486	set image format  :deviceID 0 
+21:01:47 533	start Video :deviceID 0 
+21:01:47 533	malloc memory :deviceID 0 
+21:01:47 549	finished play :deviceID 0 
+21:01:47 549	start cam_stop 
+21:01:47 705	finish cam_stop 
+21:01:47 705	 start Playnew
+21:01:47 705	into cam_play:deviceID0 
+21:01:47 720	openDevice:deviceID0 
+21:01:47 892	开始sensor power:deviceID 0 
+21:01:48 267	完成sensor power:deviceID 0 
+21:01:48 299	完成Pin set:deviceID 0 
+21:01:48 642	完成I2C set:deviceID 0 
+21:01:48 799	start InitSensor :deviceID 0 
+21:01:49 408	完成 InitSensor  :deviceID 0 
+21:01:49 408	set image format  :deviceID 0 
+21:01:49 439	start Video :deviceID 0 
+21:01:49 439	malloc memory :deviceID 0 
+21:01:49 439	finished play :deviceID 0 
+21:01:51 455	 start getImage
+21:01:51 455	  getImage times:0
+21:01:51 455	 finish getImage
+21:01:51 455	 start getImage
+21:01:51 470	  getImage times:0
+21:01:51 486	 finish getImage
+21:02:12 359	 start setSN
+21:02:14 375	start cam_stop 
+21:02:14 500	finish cam_stop 
+21:02:14 500	 start Playnew
+21:02:14 500	into cam_play:deviceID1 
+21:02:14 500	openDevice:deviceID1 
+21:02:14 828	开始sensor power:deviceID 1 
+21:02:15 219	完成sensor power:deviceID 1 
+21:02:15 250	完成Pin set:deviceID 1 
+21:02:15 594	完成I2C set:deviceID 1 
+21:02:15 750	start InitSensor :deviceID 1 
+21:02:16 359	完成 InitSensor  :deviceID 1 
+21:02:16 359	set image format  :deviceID 1 
+21:02:16 390	start Video :deviceID 1 
+21:02:16 390	malloc memory :deviceID 1 
+21:02:16 390	finished play :deviceID 1 
+21:02:16 390	start cam_stop 
+21:02:16 547	finish cam_stop 
+21:02:16 547	 start Playnew
+21:02:16 547	into cam_play:deviceID1 
+21:02:16 547	openDevice:deviceID1 
+21:02:16 906	开始sensor power:deviceID 1 
+21:02:17 281	完成sensor power:deviceID 1 
+21:02:17 297	完成Pin set:deviceID 1 
+21:02:17 640	完成I2C set:deviceID 1 
+21:02:17 797	start InitSensor :deviceID 1 
+21:02:18 406	完成 InitSensor  :deviceID 1 
+21:02:18 406	set image format  :deviceID 1 
+21:02:18 437	start Video :deviceID 1 
+21:02:18 437	malloc memory :deviceID 1 
+21:02:18 437	finished play :deviceID 1 
+21:02:20 453	 start getImage
+21:02:20 453	  getImage times:0
+21:02:20 484	 finish getImage
+21:02:20 484	 start getImage
+21:02:20 484	  getImage times:0
+21:02:20 499	 finish getImage
+21:02:45 480	 start getImage
+21:02:45 480	  getImage times:0
+21:02:45 511	 finish getImage
+21:02:45 511	 start getImage
+21:02:45 526	  getImage times:0
+21:02:45 526	 finish getImage
+21:02:46 948	 start getImage
+21:02:46 948	  getImage times:0
+21:02:46 964	 finish getImage
+21:02:46 979	 start getImage
+21:02:46 979	  getImage times:0
+21:02:46 995	 finish getImage
+21:02:48 948	 start getImage
+21:02:48 948	  getImage times:0
+21:02:48 979	 finish getImage
+21:02:48 979	 start getImage
+21:02:48 979	  getImage times:0
+21:02:48 995	 finish getImage
+21:02:49 761	 start getImage
+21:02:49 761	  getImage times:0
+21:02:49 792	 finish getImage
+21:02:49 792	 start getImage
+21:02:49 792	  getImage times:0
+21:02:49 823	 finish getImage
+21:02:50 370	 start getImage
+21:02:50 370	  getImage times:0
+21:02:50 401	 finish getImage
+21:02:50 417	 start getImage
+21:02:50 417	  getImage times:0
+21:02:50 432	 finish getImage
+21:02:50 995	 start getImage
+21:02:50 995	  getImage times:0
+21:02:51 026	 finish getImage
+21:02:51 026	 start getImage
+21:02:51 026	  getImage times:0
+21:02:51 057	 finish getImage
+21:02:51 589	 start getImage
+21:02:51 589	  getImage times:0
+21:02:51 620	 finish getImage
+21:02:51 620	 start getImage
+21:02:51 620	  getImage times:0
+21:02:51 635	 finish getImage
+21:02:52 167	 start getImage
+21:02:52 167	  getImage times:0
+21:02:52 182	 finish getImage
+21:02:52 182	 start getImage
+21:02:52 198	  getImage times:0
+21:02:52 213	 finish getImage
+21:02:52 745	 start getImage
+21:02:52 745	  getImage times:0
+21:02:52 776	 finish getImage
+21:02:52 792	 start getImage
+21:02:52 792	  getImage times:0
+21:02:52 807	 finish getImage
+21:02:58 369	start cam_stop 
+21:02:58 510	finish cam_stop 
+21:03:15 321	 start getImage
+21:03:15 321	  getImage times:0
+21:03:15 353	 finish getImage
+21:03:15 353	 start getImage
+21:03:15 353	  getImage times:0
+21:03:15 384	 finish getImage
+21:03:16 524	 start getImage
+21:03:16 524	  getImage times:0
+21:03:16 556	 finish getImage
+21:03:16 556	 start getImage
+21:03:16 571	  getImage times:0
+21:03:16 587	 finish getImage
+21:03:16 759	 start getImage
+21:03:16 759	  getImage times:0
+21:03:16 790	 finish getImage
+21:03:16 790	 start getImage
+21:03:16 790	  getImage times:0
+21:03:16 806	 finish getImage
+21:03:17 493	 start getImage
+21:03:17 493	  getImage times:0
+21:03:17 540	 finish getImage
+21:03:17 540	 start getImage
+21:03:17 540	  getImage times:0
+21:03:17 555	 finish getImage
+21:03:18 118	 start getImage
+21:03:18 118	  getImage times:0
+21:03:18 149	 finish getImage
+21:03:18 149	 start getImage
+21:03:18 149	  getImage times:0
+21:03:18 165	 finish getImage
+21:03:18 712	 start getImage
+21:03:18 712	  getImage times:0
+21:03:18 743	 finish getImage
+21:03:18 743	 start getImage
+21:03:18 743	  getImage times:0
+21:03:18 759	 finish getImage
+21:03:19 321	 start getImage
+21:03:19 321	  getImage times:0
+21:03:19 337	 finish getImage
+21:03:19 337	 start getImage
+21:03:19 337	  getImage times:0
+21:03:19 352	 finish getImage
+21:03:19 899	 start getImage
+21:03:19 899	  getImage times:0
+21:03:19 915	 finish getImage
+21:03:19 930	 start getImage
+21:03:19 930	  getImage times:0
+21:03:19 962	 finish getImage
+21:03:20 508	 start getImage
+21:03:20 508	  getImage times:0
+21:03:20 540	 finish getImage
+21:03:20 540	 start getImage
+21:03:20 540	  getImage times:0
+21:03:20 555	 finish getImage
+21:03:21 102	 start getImage
+21:03:21 102	  getImage times:0
+21:03:21 133	 finish getImage
+21:03:21 149	 start getImage
+21:03:21 149	  getImage times:0
+21:03:21 165	 finish getImage
+21:03:21 696	 start getImage
+21:03:21 696	  getImage times:0
+21:03:21 727	 finish getImage
+21:03:21 743	 start getImage
+21:03:21 743	  getImage times:0
+21:03:21 774	 finish getImage
+21:03:22 321	 start getImage
+21:03:22 321	  getImage times:0
+21:03:22 352	 finish getImage
+21:03:22 368	 start getImage
+21:03:22 368	  getImage times:0
+21:03:22 383	 finish getImage
+21:03:22 915	 start getImage
+21:03:22 915	  getImage times:0
+21:03:22 946	 finish getImage
+21:03:22 946	 start getImage
+21:03:22 946	  getImage times:0
+21:03:22 961	 finish getImage
+21:03:28 133	start cam_stop 
+21:03:28 289	finish cam_stop 
+21:14:58 974	 start loadBaseParameter
+21:15:03 380	 start loadBaseParameter
+21:15:07 942	 start loadBaseParameter
+21:15:12 676	 start loadBaseParameter
+21:15:17 363	 start setSN
+21:15:17 363	 start setSN
+21:15:17 379	 start setSN
+21:15:17 379	 start setSN
+21:15:17 379	 start loadPinDef
+21:15:17 395	 finished loadPinDef
+21:15:17 395	 start loadPinDef
+21:15:17 410	 finished loadPinDef
+21:15:17 410	 start loadPinDef
+21:15:17 426	 finished loadPinDef
+21:15:17 426	 start loadPinDef
+21:15:17 441	 finished loadPinDef
+21:16:51 154	 start setSN
+21:16:51 154	 start setSN
+21:16:51 154	 start setSN
+21:16:51 154	 start setSN
+21:17:36 229	 start setSN
+21:17:38 245	start cam_stop 
+21:17:38 370	finish cam_stop 
+21:17:38 370	 start Playnew
+21:17:38 370	into cam_play:deviceID0 
+21:17:38 370	openDevice:deviceID0 
+21:17:38 510	开始sensor power:deviceID 0 
+21:17:38 885	完成sensor power:deviceID 0 
+21:17:38 916	完成Pin set:deviceID 0 
+21:17:39 245	完成I2C set:deviceID 0 
+21:17:39 401	start InitSensor :deviceID 0 
+21:17:40 010	完成 InitSensor  :deviceID 0 
+21:17:40 010	set image format  :deviceID 0 
+21:17:40 041	start Video :deviceID 0 
+21:17:40 041	malloc memory :deviceID 0 
+21:17:40 057	finished play :deviceID 0 
+21:17:40 057	start cam_stop 
+21:17:40 213	finish cam_stop 
+21:17:40 213	 start Playnew
+21:17:40 213	into cam_play:deviceID0 
+21:17:40 229	openDevice:deviceID0 
+21:17:40 385	开始sensor power:deviceID 0 
+21:17:40 760	完成sensor power:deviceID 0 
+21:17:40 776	完成Pin set:deviceID 0 
+21:17:41 119	完成I2C set:deviceID 0 
+21:17:41 276	start InitSensor :deviceID 0 
+21:17:41 885	完成 InitSensor  :deviceID 0 
+21:17:41 885	set image format  :deviceID 0 
+21:17:41 916	start Video :deviceID 0 
+21:17:41 916	malloc memory :deviceID 0 
+21:17:41 916	finished play :deviceID 0 
+21:17:43 932	 start getImage
+21:17:43 932	  getImage times:0
+21:17:43 932	 finish getImage
+21:17:43 932	 start getImage
+21:17:43 947	  getImage times:0
+21:17:43 963	 finish getImage
+21:18:07 789	 start setSN
+21:18:09 805	start cam_stop 
+21:18:09 930	finish cam_stop 
+21:18:09 930	 start Playnew
+21:18:09 930	into cam_play:deviceID1 
+21:18:09 930	openDevice:deviceID1 
+21:18:10 242	开始sensor power:deviceID 1 
+21:18:10 617	完成sensor power:deviceID 1 
+21:18:10 649	完成Pin set:deviceID 1 
+21:18:10 977	完成I2C set:deviceID 1 
+21:18:11 133	start InitSensor :deviceID 1 
+21:18:11 742	完成 InitSensor  :deviceID 1 
+21:18:11 742	set image format  :deviceID 1 
+21:18:11 789	start Video :deviceID 1 
+21:18:11 789	malloc memory :deviceID 1 
+21:18:11 805	finished play :deviceID 1 
+21:18:11 805	start cam_stop 
+21:18:11 961	finish cam_stop 
+21:18:11 961	 start Playnew
+21:18:11 977	into cam_play:deviceID1 
+21:18:11 977	openDevice:deviceID1 
+21:18:12 320	开始sensor power:deviceID 1 
+21:18:12 695	完成sensor power:deviceID 1 
+21:18:12 727	完成Pin set:deviceID 1 
+21:18:13 055	完成I2C set:deviceID 1 
+21:18:13 211	start InitSensor :deviceID 1 
+21:18:13 820	完成 InitSensor  :deviceID 1 
+21:18:13 820	set image format  :deviceID 1 
+21:18:13 852	start Video :deviceID 1 
+21:18:13 852	malloc memory :deviceID 1 
+21:18:13 852	finished play :deviceID 1 
+21:18:15 867	 start getImage
+21:18:15 867	  getImage times:0
+21:18:15 898	 finish getImage
+21:18:15 914	 start getImage
+21:18:15 914	  getImage times:0
+21:18:15 945	 finish getImage
+21:18:41 188	 start getImage
+21:18:41 188	  getImage times:0
+21:18:41 199	 finish getImage
+21:18:41 199	 start getImage
+21:18:41 199	  getImage times:0
+21:18:41 208	 finish getImage
+21:18:42 639	 start getImage
+21:18:42 639	  getImage times:0
+21:18:42 649	 finish getImage
+21:18:42 654	 start getImage
+21:18:42 654	  getImage times:0
+21:18:42 659	 finish getImage
+21:18:44 238	 start getImage
+21:18:44 238	  getImage times:0
+21:18:44 269	 finish getImage
+21:18:44 285	 start getImage
+21:18:44 285	  getImage times:0
+21:18:44 300	 finish getImage
+21:18:46 425	 start getImage
+21:18:46 425	  getImage times:0
+21:18:46 441	 finish getImage
+21:18:46 441	 start getImage
+21:18:46 441	  getImage times:0
+21:18:46 456	 finish getImage
+21:18:47 222	 start getImage
+21:18:47 222	  getImage times:0
+21:18:47 253	 finish getImage
+21:18:47 253	 start getImage
+21:18:47 253	  getImage times:0
+21:18:47 269	 finish getImage
+21:18:47 800	 start getImage
+21:18:47 800	  getImage times:0
+21:18:47 831	 finish getImage
+21:18:47 831	 start getImage
+21:18:47 831	  getImage times:0
+21:18:47 847	 finish getImage
+21:18:48 362	 start getImage
+21:18:48 362	  getImage times:0
+21:18:48 394	 finish getImage
+21:18:48 394	 start getImage
+21:18:48 394	  getImage times:0
+21:18:48 409	 finish getImage
+21:18:48 956	 start getImage
+21:18:48 956	  getImage times:0
+21:18:48 987	 finish getImage
+21:18:48 987	 start getImage
+21:18:49 003	  getImage times:0
+21:18:49 003	 finish getImage
+21:18:49 534	 start getImage
+21:18:49 534	  getImage times:0
+21:18:49 550	 finish getImage
+21:18:49 565	 start getImage
+21:18:49 565	  getImage times:0
+21:18:49 597	 finish getImage
+21:18:50 128	 start getImage
+21:18:50 128	  getImage times:0
+21:18:50 143	 finish getImage
+21:18:50 159	 start getImage
+21:18:50 159	  getImage times:0
+21:18:50 175	 finish getImage
+21:18:54 753	 start getImage
+21:18:54 753	  getImage times:0
+21:18:54 784	 finish getImage
+21:18:54 784	 start getImage
+21:18:54 784	  getImage times:0
+21:18:54 799	 finish getImage
+21:18:55 893	 start getImage
+21:18:55 893	  getImage times:0
+21:18:55 909	 finish getImage
+21:18:55 924	 start getImage
+21:18:55 924	  getImage times:0
+21:18:55 924	 finish getImage
+21:18:56 096	 start getImage
+21:18:56 096	  getImage times:0
+21:18:56 112	 finish getImage
+21:18:56 127	 start getImage
+21:18:56 127	  getImage times:0
+21:18:56 143	 finish getImage
+21:18:56 815	 start getImage
+21:18:56 815	  getImage times:0
+21:18:56 846	 finish getImage
+21:18:56 846	 start getImage
+21:18:56 862	  getImage times:0
+21:18:56 862	 finish getImage
+21:18:57 393	 start getImage
+21:18:57 393	  getImage times:0
+21:18:57 424	 finish getImage
+21:18:57 424	 start getImage
+21:18:57 424	  getImage times:0
+21:18:57 440	 finish getImage
+21:18:57 971	 start getImage
+21:18:57 971	  getImage times:0
+21:18:58 002	 finish getImage
+21:18:58 002	 start getImage
+21:18:58 002	  getImage times:0
+21:18:58 018	 finish getImage
+21:18:58 549	 start getImage
+21:18:58 549	  getImage times:0
+21:18:58 580	 finish getImage
+21:18:58 596	 start getImage
+21:18:58 596	  getImage times:0
+21:18:58 612	 finish getImage
+21:18:59 143	 start getImage
+21:18:59 143	  getImage times:0
+21:18:59 174	 finish getImage
+21:18:59 174	 start getImage
+21:18:59 174	  getImage times:0
+21:18:59 190	 finish getImage
+21:18:59 721	 start getImage
+21:18:59 721	  getImage times:0
+21:18:59 737	 finish getImage
+21:18:59 737	 start getImage
+21:18:59 737	  getImage times:0
+21:18:59 752	 finish getImage
+21:19:00 283	 start getImage
+21:19:00 283	  getImage times:0
+21:19:00 315	 finish getImage
+21:19:00 315	 start getImage
+21:19:00 330	  getImage times:0
+21:19:00 346	 finish getImage
+21:19:02 643	 start getImage
+21:19:02 643	  getImage times:0
+21:19:02 674	 finish getImage
+21:19:02 674	 start getImage
+21:19:02 674	  getImage times:0
+21:19:02 690	 finish getImage
+21:19:02 815	 start getImage
+21:19:02 815	  getImage times:0
+21:19:02 815	 finish getImage
+21:19:02 815	 start getImage
+21:19:02 815	  getImage times:0
+21:19:02 846	 finish getImage
+21:19:03 190	 start getImage
+21:19:03 190	  getImage times:0
+21:19:03 221	 finish getImage
+21:19:03 221	 start getImage
+21:19:03 221	  getImage times:0
+21:19:03 236	 finish getImage
+21:19:08 877	 start getImage
+21:19:08 877	  getImage times:0
+21:19:08 908	 finish getImage
+21:19:08 923	 start getImage
+21:19:08 923	  getImage times:0
+21:19:08 939	 finish getImage
+21:19:14 470	start cam_stop 
+21:19:14 626	finish cam_stop 
+21:19:31 406	 start getImage
+21:19:31 406	  getImage times:0
+21:19:31 406	 finish getImage
+21:19:31 406	 start getImage
+21:19:31 406	  getImage times:0
+21:19:31 422	 finish getImage
+21:19:32 609	 start getImage
+21:19:32 609	  getImage times:0
+21:19:32 609	 finish getImage
+21:19:32 609	 start getImage
+21:19:32 609	  getImage times:0
+21:19:32 625	 finish getImage
+21:19:32 797	 start getImage
+21:19:32 797	  getImage times:0
+21:19:32 797	 finish getImage
+21:19:32 797	 start getImage
+21:19:32 797	  getImage times:0
+21:19:32 828	 finish getImage
+21:19:33 500	 start getImage
+21:19:33 500	  getImage times:0
+21:19:33 500	 finish getImage
+21:19:33 500	 start getImage
+21:19:33 500	  getImage times:0
+21:19:33 531	 finish getImage
+21:19:34 078	 start getImage
+21:19:34 078	  getImage times:0
+21:19:34 078	 finish getImage
+21:19:34 078	 start getImage
+21:19:34 078	  getImage times:0
+21:19:34 094	 finish getImage
+21:19:34 640	 start getImage
+21:19:34 640	  getImage times:0
+21:19:34 640	 finish getImage
+21:19:34 640	 start getImage
+21:19:34 640	  getImage times:0
+21:19:34 687	 finish getImage
+21:19:35 234	 start getImage
+21:19:35 234	  getImage times:0
+21:19:35 234	 finish getImage
+21:19:35 234	 start getImage
+21:19:35 234	  getImage times:0
+21:19:35 250	 finish getImage
+21:19:35 797	 start getImage
+21:19:35 797	  getImage times:0
+21:19:35 797	 finish getImage
+21:19:35 797	 start getImage
+21:19:35 797	  getImage times:0
+21:19:35 843	 finish getImage
+21:19:36 375	 start getImage
+21:19:36 375	  getImage times:0
+21:19:36 375	 finish getImage
+21:19:36 390	 start getImage
+21:19:36 390	  getImage times:0
+21:19:36 390	 finish getImage
+21:19:36 937	 start getImage
+21:19:36 937	  getImage times:0
+21:19:36 937	 finish getImage
+21:19:36 937	 start getImage
+21:19:36 937	  getImage times:0
+21:19:36 953	 finish getImage
+21:19:41 968	start cam_stop 
+21:19:42 124	finish cam_stop 
+21:23:38 179	 start loadBaseParameter
+21:23:42 913	 start loadBaseParameter
+21:23:47 585	 start loadBaseParameter
+21:23:52 163	 start loadBaseParameter
+21:23:56 803	 start setSN
+21:23:56 803	 start setSN
+21:23:56 819	 start setSN
+21:23:56 819	 start setSN
+21:23:56 819	 start loadPinDef
+21:23:56 834	 finished loadPinDef
+21:23:56 834	 start loadPinDef
+21:23:56 850	 finished loadPinDef
+21:23:56 850	 start loadPinDef
+21:23:56 865	 finished loadPinDef
+21:23:56 865	 start loadPinDef
+21:23:56 865	 finished loadPinDef
+21:25:08 951	 start setSN
+21:25:08 951	 start setSN
+21:25:08 951	 start setSN
+21:25:08 951	 start setSN
+21:26:17 962	 start setSN
+21:26:19 978	start cam_stop 
+21:26:20 103	finish cam_stop 
+21:26:20 103	 start Playnew
+21:26:20 103	into cam_play:deviceID0 
+21:26:20 103	openDevice:deviceID0 
+21:26:20 243	开始sensor power:deviceID 0 
+21:26:20 618	完成sensor power:deviceID 0 
+21:26:20 649	完成Pin set:deviceID 0 
+21:26:20 993	完成I2C set:deviceID 0 
+21:26:21 149	start InitSensor :deviceID 0 
+21:26:21 759	完成 InitSensor  :deviceID 0 
+21:26:21 759	set image format  :deviceID 0 
+21:26:21 806	start Video :deviceID 0 
+21:26:21 821	malloc memory :deviceID 0 
+21:26:21 821	finished play :deviceID 0 
+21:26:21 837	start cam_stop 
+21:26:21 978	finish cam_stop 
+21:26:21 978	 start Playnew
+21:26:21 978	into cam_play:deviceID0 
+21:26:21 993	openDevice:deviceID0 
+21:26:22 165	开始sensor power:deviceID 0 
+21:26:22 540	完成sensor power:deviceID 0 
+21:26:22 571	完成Pin set:deviceID 0 
+21:26:22 915	完成I2C set:deviceID 0 
+21:26:23 071	start InitSensor :deviceID 0 
+21:26:23 680	完成 InitSensor  :deviceID 0 
+21:26:23 680	set image format  :deviceID 0 
+21:26:23 712	start Video :deviceID 0 
+21:26:23 712	malloc memory :deviceID 0 
+21:26:23 712	finished play :deviceID 0 
+21:26:25 727	 start getImage
+21:26:25 727	  getImage times:0
+21:26:25 727	 finish getImage
+21:26:25 743	 start getImage
+21:26:25 743	  getImage times:0
+21:26:25 758	 finish getImage
+21:26:56 381	 start setSN
+21:26:58 397	start cam_stop 
+21:26:58 522	finish cam_stop 
+21:26:58 522	 start Playnew
+21:26:58 522	into cam_play:deviceID1 
+21:26:58 522	openDevice:deviceID1 
+21:26:58 834	开始sensor power:deviceID 1 
+21:26:59 209	完成sensor power:deviceID 1 
+21:26:59 225	完成Pin set:deviceID 1 
+21:26:59 584	完成I2C set:deviceID 1 
+21:26:59 741	start InitSensor :deviceID 1 
+21:27:00 350	完成 InitSensor  :deviceID 1 
+21:27:00 350	set image format  :deviceID 1 
+21:27:00 397	start Video :deviceID 1 
+21:27:00 397	malloc memory :deviceID 1 
+21:27:00 412	finished play :deviceID 1 
+21:27:00 412	start cam_stop 
+21:27:00 569	finish cam_stop 
+21:27:00 569	 start Playnew
+21:27:00 584	into cam_play:deviceID1 
+21:27:00 584	openDevice:deviceID1 
+21:27:00 928	开始sensor power:deviceID 1 
+21:27:01 303	完成sensor power:deviceID 1 
+21:27:01 334	完成Pin set:deviceID 1 
+21:27:01 678	完成I2C set:deviceID 1 
+21:27:01 834	start InitSensor :deviceID 1 
+21:27:02 443	完成 InitSensor  :deviceID 1 
+21:27:02 443	set image format  :deviceID 1 
+21:27:02 475	start Video :deviceID 1 
+21:27:02 475	malloc memory :deviceID 1 
+21:27:02 475	finished play :deviceID 1 
+21:27:04 490	 start getImage
+21:27:04 490	  getImage times:0
+21:27:04 521	 finish getImage
+21:27:04 521	 start getImage
+21:27:04 521	  getImage times:0
+21:27:04 537	 finish getImage
+21:27:29 808	 start getImage
+21:27:29 808	  getImage times:0
+21:27:29 818	 finish getImage
+21:27:29 818	 start getImage
+21:27:29 818	  getImage times:0
+21:27:29 843	 finish getImage
+21:27:31 282	 start getImage
+21:27:31 282	  getImage times:0
+21:27:31 282	 finish getImage
+21:27:31 282	 start getImage
+21:27:31 282	  getImage times:0
+21:27:31 313	 finish getImage
+21:27:32 891	 start getImage
+21:27:32 891	  getImage times:0
+21:27:32 923	 finish getImage
+21:27:32 938	 start getImage
+21:27:32 938	  getImage times:0
+21:27:32 969	 finish getImage
+21:27:35 079	 start getImage
+21:27:35 079	  getImage times:0
+21:27:35 110	 finish getImage
+21:27:35 126	 start getImage
+21:27:35 126	  getImage times:0
+21:27:35 141	 finish getImage
+21:27:35 938	 start getImage
+21:27:35 938	  getImage times:0
+21:27:35 969	 finish getImage
+21:27:35 969	 start getImage
+21:27:35 969	  getImage times:0
+21:27:35 985	 finish getImage
+21:27:36 501	 start getImage
+21:27:36 501	  getImage times:0
+21:27:36 532	 finish getImage
+21:27:36 532	 start getImage
+21:27:36 532	  getImage times:0
+21:27:36 547	 finish getImage
+21:27:37 079	 start getImage
+21:27:37 079	  getImage times:0
+21:27:37 110	 finish getImage
+21:27:37 110	 start getImage
+21:27:37 125	  getImage times:0
+21:27:37 141	 finish getImage
+21:27:37 657	 start getImage
+21:27:37 657	  getImage times:0
+21:27:37 688	 finish getImage
+21:27:37 704	 start getImage
+21:27:37 704	  getImage times:0
+21:27:37 719	 finish getImage
+21:27:38 250	 start getImage
+21:27:38 250	  getImage times:0
+21:27:38 282	 finish getImage
+21:27:38 282	 start getImage
+21:27:38 282	  getImage times:0
+21:27:38 297	 finish getImage
+21:27:38 813	 start getImage
+21:27:38 813	  getImage times:0
+21:27:38 844	 finish getImage
+21:27:38 844	 start getImage
+21:27:38 860	  getImage times:0
+21:27:38 875	 finish getImage
+21:27:43 484	 start getImage
+21:27:43 484	  getImage times:0
+21:27:43 500	 finish getImage
+21:27:43 500	 start getImage
+21:27:43 516	  getImage times:0
+21:27:43 531	 finish getImage
+21:27:44 641	 start getImage
+21:27:44 641	  getImage times:0
+21:27:44 656	 finish getImage
+21:27:44 656	 start getImage
+21:27:44 656	  getImage times:0
+21:27:44 687	 finish getImage
+21:27:44 875	 start getImage
+21:27:44 875	  getImage times:0
+21:27:44 906	 finish getImage
+21:27:44 906	 start getImage
+21:27:44 906	  getImage times:0
+21:27:44 922	 finish getImage
+21:27:45 594	 start getImage
+21:27:45 594	  getImage times:0
+21:27:45 609	 finish getImage
+21:27:45 609	 start getImage
+21:27:45 609	  getImage times:0
+21:27:45 641	 finish getImage
+21:27:46 156	 start getImage
+21:27:46 156	  getImage times:0
+21:27:46 172	 finish getImage
+21:27:46 187	 start getImage
+21:27:46 187	  getImage times:0
+21:27:46 203	 finish getImage
+21:27:46 734	 start getImage
+21:27:46 734	  getImage times:0
+21:27:46 765	 finish getImage
+21:27:46 765	 start getImage
+21:27:46 781	  getImage times:0
+21:27:46 797	 finish getImage
+21:27:47 312	 start getImage
+21:27:47 312	  getImage times:0
+21:27:47 344	 finish getImage
+21:27:47 359	 start getImage
+21:27:47 359	  getImage times:0
+21:27:47 375	 finish getImage
+21:27:47 890	 start getImage
+21:27:47 890	  getImage times:0
+21:27:47 922	 finish getImage
+21:27:47 937	 start getImage
+21:27:47 937	  getImage times:0
+21:27:47 953	 finish getImage
+21:27:48 468	 start getImage
+21:27:48 468	  getImage times:0
+21:27:48 484	 finish getImage
+21:27:48 500	 start getImage
+21:27:48 500	  getImage times:0
+21:27:48 500	 finish getImage
+21:27:49 031	 start getImage
+21:27:49 031	  getImage times:0
+21:27:49 062	 finish getImage
+21:27:49 078	 start getImage
+21:27:49 078	  getImage times:0
+21:27:49 093	 finish getImage
+21:27:51 390	 start getImage
+21:27:51 390	  getImage times:0
+21:27:51 421	 finish getImage
+21:27:51 421	 start getImage
+21:27:51 421	  getImage times:0
+21:27:51 437	 finish getImage
+21:27:51 531	 start getImage
+21:27:51 531	  getImage times:0
+21:27:51 546	 finish getImage
+21:27:51 546	 start getImage
+21:27:51 546	  getImage times:0
+21:27:51 578	 finish getImage
+21:27:51 906	 start getImage
+21:27:51 906	  getImage times:0
+21:27:51 937	 finish getImage
+21:27:51 937	 start getImage
+21:27:51 937	  getImage times:0
+21:27:51 953	 finish getImage
+21:27:57 577	 start getImage
+21:27:57 577	  getImage times:0
+21:27:57 608	 finish getImage
+21:27:57 624	 start getImage
+21:27:57 624	  getImage times:0
+21:27:57 640	 finish getImage
+21:28:03 155	start cam_stop 
+21:28:03 311	finish cam_stop 
+21:28:20 107	 start getImage
+21:28:20 107	  getImage times:0
+21:28:20 107	 finish getImage
+21:28:20 107	 start getImage
+21:28:20 107	  getImage times:0
+21:28:20 123	 finish getImage
+21:28:21 060	 start getImage
+21:28:21 060	  getImage times:0
+21:28:21 060	 finish getImage
+21:28:21 076	 start getImage
+21:28:21 076	  getImage times:0
+21:28:21 076	 finish getImage
+21:28:21 247	 start getImage
+21:28:21 247	  getImage times:0
+21:28:21 247	 finish getImage
+21:28:21 247	 start getImage
+21:28:21 247	  getImage times:0
+21:28:21 279	 finish getImage
+21:28:21 950	 start getImage
+21:28:21 950	  getImage times:0
+21:28:21 950	 finish getImage
+21:28:21 950	 start getImage
+21:28:21 966	  getImage times:0
+21:28:21 982	 finish getImage
+21:28:22 529	 start getImage
+21:28:22 529	  getImage times:0
+21:28:22 529	 finish getImage
+21:28:22 529	 start getImage
+21:28:22 529	  getImage times:0
+21:28:22 544	 finish getImage
+21:28:23 091	 start getImage
+21:28:23 091	  getImage times:0
+21:28:23 107	 finish getImage
+21:28:23 107	 start getImage
+21:28:23 107	  getImage times:0
+21:28:23 138	 finish getImage
+21:28:23 685	 start getImage
+21:28:23 685	  getImage times:0
+21:28:23 716	 finish getImage
+21:28:23 732	 start getImage
+21:28:23 732	  getImage times:0
+21:28:23 747	 finish getImage
+21:28:24 294	 start getImage
+21:28:24 294	  getImage times:0
+21:28:24 325	 finish getImage
+21:28:24 325	 start getImage
+21:28:24 325	  getImage times:0
+21:28:24 341	 finish getImage
+21:28:24 888	 start getImage
+21:28:24 888	  getImage times:0
+21:28:24 903	 finish getImage
+21:28:24 919	 start getImage
+21:28:24 919	  getImage times:0
+21:28:24 950	 finish getImage
+21:28:25 513	 start getImage
+21:28:25 513	  getImage times:0
+21:28:25 513	 finish getImage
+21:28:25 528	 start getImage
+21:28:25 528	  getImage times:0
+21:28:25 544	 finish getImage
+21:28:30 559	start cam_stop 
+21:28:30 716	finish cam_stop 

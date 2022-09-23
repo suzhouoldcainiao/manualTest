@@ -1,0 +1,14 @@
+D:\摄像头手动测试\ManualEOLTest\TestDemo.exe.config
+D:\摄像头手动测试\ManualEOLTest\TestDemo.exe
+D:\摄像头手动测试\ManualEOLTest\TestDemo.pdb
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.Properties.Resources.resources
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.csproj.GenerateResource.cache
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.csproj.CoreCompileInputs.cache
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.exe
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.pdb
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.Form1.resources
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.csproj.CopyComplete
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.FormTest.resources
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.csproj.AssemblyReference.cache
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.csproj.SuggestedBindingRedirects.cache
+D:\摄像头手动测试\TestDemo\obj\x64\Debug\TestDemo.JsonCreater.resources

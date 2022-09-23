@@ -1,0 +1,424 @@
+09:10:42 388	 start loadBaseParameter
+09:10:42 810	 start loadBaseParameter
+09:10:43 044	 start loadBaseParameter
+09:10:43 294	 start loadBaseParameter
+09:10:43 544	 start setSN
+09:10:43 544	 start setSN
+09:10:43 544	 start setSN
+09:10:43 544	 start setSN
+09:10:43 560	 start loadPinDef
+09:10:43 560	 finished loadPinDef
+09:10:43 560	 start loadPinDef
+09:10:43 575	 finished loadPinDef
+09:10:43 575	 start loadPinDef
+09:10:43 591	 finished loadPinDef
+09:10:43 591	 start loadPinDef
+09:10:43 591	 finished loadPinDef
+11:37:07 102	 start loadBaseParameter
+11:37:07 516	 start loadBaseParameter
+11:37:07 765	 start loadBaseParameter
+11:37:08 041	 start loadBaseParameter
+11:37:08 320	 start setSN
+11:37:08 323	 start setSN
+11:37:08 326	 start setSN
+11:37:08 330	 start setSN
+11:37:08 335	 start loadPinDef
+11:37:08 353	 finished loadPinDef
+11:37:08 365	 start loadPinDef
+11:37:08 372	 finished loadPinDef
+11:37:08 379	 start loadPinDef
+11:37:08 386	 finished loadPinDef
+11:37:08 393	 start loadPinDef
+11:37:08 399	 finished loadPinDef
+13:51:34 498	 start loadBaseParameter
+13:51:35 269	 start loadBaseParameter
+13:51:35 534	 start loadBaseParameter
+13:51:35 800	 start loadBaseParameter
+13:51:36 093	 start setSN
+13:51:36 097	 start setSN
+13:51:36 100	 start setSN
+13:51:36 104	 start setSN
+13:51:36 108	 start loadPinDef
+13:51:36 118	 finished loadPinDef
+13:51:36 129	 start loadPinDef
+13:51:36 137	 finished loadPinDef
+13:51:36 144	 start loadPinDef
+13:51:36 150	 finished loadPinDef
+13:51:36 157	 start loadPinDef
+13:51:36 163	 finished loadPinDef
+14:03:34 990	 start loadBaseParameter
+14:03:35 500	 start loadBaseParameter
+14:03:35 725	 start loadBaseParameter
+14:03:35 950	 start loadBaseParameter
+14:03:36 173	 start setSN
+14:03:36 175	 start setSN
+14:03:36 176	 start setSN
+14:03:36 177	 start setSN
+14:03:36 179	 start loadPinDef
+14:03:36 186	 finished loadPinDef
+14:03:36 193	 start loadPinDef
+14:03:36 200	 finished loadPinDef
+14:03:36 207	 start loadPinDef
+14:03:36 214	 finished loadPinDef
+14:03:36 221	 start loadPinDef
+14:03:36 228	 finished loadPinDef
+14:08:01 411	 start loadBaseParameter
+14:08:01 939	 start loadBaseParameter
+14:08:02 159	 start loadBaseParameter
+14:08:02 381	 start loadBaseParameter
+14:08:02 603	 start setSN
+14:08:02 605	 start setSN
+14:08:02 606	 start setSN
+14:08:02 607	 start setSN
+14:08:02 609	 start loadPinDef
+14:08:02 616	 finished loadPinDef
+14:08:02 623	 start loadPinDef
+14:08:02 629	 finished loadPinDef
+14:08:02 636	 start loadPinDef
+14:08:02 642	 finished loadPinDef
+14:08:02 649	 start loadPinDef
+14:08:02 655	 finished loadPinDef
+14:39:46 812	 start loadBaseParameter
+14:39:47 326	 start loadBaseParameter
+14:39:47 544	 start loadBaseParameter
+14:39:47 766	 start loadBaseParameter
+14:39:48 014	 start setSN
+14:39:48 015	 start setSN
+14:39:48 017	 start setSN
+14:39:48 018	 start setSN
+14:39:48 020	 start loadPinDef
+14:39:48 026	 finished loadPinDef
+14:39:48 033	 start loadPinDef
+14:39:48 040	 finished loadPinDef
+14:39:48 047	 start loadPinDef
+14:39:48 053	 finished loadPinDef
+14:39:48 060	 start loadPinDef
+14:39:48 067	 finished loadPinDef
+14:45:12 309	 start loadBaseParameter
+14:45:12 813	 start loadBaseParameter
+14:45:13 037	 start loadBaseParameter
+14:45:13 263	 start loadBaseParameter
+14:45:13 485	 start setSN
+14:45:13 486	 start setSN
+14:45:13 487	 start setSN
+14:45:13 489	 start setSN
+14:45:13 491	 start loadPinDef
+14:45:13 497	 finished loadPinDef
+14:45:13 504	 start loadPinDef
+14:45:13 511	 finished loadPinDef
+14:45:13 518	 start loadPinDef
+14:45:13 524	 finished loadPinDef
+14:45:13 531	 start loadPinDef
+14:45:13 538	 finished loadPinDef
+15:02:33 564	 start loadBaseParameter
+15:02:34 095	 start loadBaseParameter
+15:02:34 345	 start loadBaseParameter
+15:02:34 595	 start loadBaseParameter
+15:02:34 830	 start setSN
+15:02:34 830	 start setSN
+15:02:34 830	 start setSN
+15:02:34 845	 start setSN
+15:02:34 845	 start loadPinDef
+15:02:34 845	 finished loadPinDef
+15:02:34 845	 start loadPinDef
+15:02:34 877	 finished loadPinDef
+15:02:34 877	 start loadPinDef
+15:02:34 892	 finished loadPinDef
+15:02:34 892	 start loadPinDef
+15:02:34 908	 finished loadPinDef
+15:34:04 696	 start loadBaseParameter
+15:34:05 243	 start loadBaseParameter
+15:34:05 492	 start loadBaseParameter
+15:34:05 727	 start loadBaseParameter
+15:34:05 977	 start setSN
+15:34:05 977	 start setSN
+15:34:05 977	 start setSN
+15:34:05 977	 start setSN
+15:34:05 992	 start loadPinDef
+15:34:05 992	 finished loadPinDef
+15:34:05 992	 start loadPinDef
+15:34:06 008	 finished loadPinDef
+15:34:06 008	 start loadPinDef
+15:34:06 024	 finished loadPinDef
+15:34:06 024	 start loadPinDef
+15:34:06 039	 finished loadPinDef
+15:37:42 577	 start loadBaseParameter
+15:37:43 124	 start loadBaseParameter
+15:37:43 374	 start loadBaseParameter
+15:37:43 624	 start loadBaseParameter
+15:37:43 858	 start setSN
+15:37:43 858	 start setSN
+15:37:43 858	 start setSN
+15:37:43 858	 start setSN
+15:37:43 874	 start loadPinDef
+15:37:43 874	 finished loadPinDef
+15:37:43 874	 start loadPinDef
+15:37:43 889	 finished loadPinDef
+15:37:43 889	 start loadPinDef
+15:37:43 905	 finished loadPinDef
+15:37:43 905	 start loadPinDef
+15:37:43 905	 finished loadPinDef
+15:40:12 807	 start loadBaseParameter
+15:40:13 339	 start loadBaseParameter
+15:40:13 588	 start loadBaseParameter
+15:40:13 823	 start loadBaseParameter
+15:40:14 057	 start setSN
+15:40:14 057	 start setSN
+15:40:14 057	 start setSN
+15:40:14 057	 start setSN
+15:40:14 073	 start loadPinDef
+15:40:14 073	 finished loadPinDef
+15:40:14 073	 start loadPinDef
+15:40:14 088	 finished loadPinDef
+15:40:14 088	 start loadPinDef
+15:40:14 104	 finished loadPinDef
+15:40:14 104	 start loadPinDef
+15:40:14 120	 finished loadPinDef
+15:40:52 476	 start loadBaseParameter
+15:40:52 992	 start loadBaseParameter
+15:40:53 242	 start loadBaseParameter
+15:40:53 492	 start loadBaseParameter
+15:40:53 726	 start setSN
+15:40:53 726	 start setSN
+15:40:53 726	 start setSN
+15:40:53 742	 start setSN
+15:40:53 742	 start loadPinDef
+15:40:53 742	 finished loadPinDef
+15:40:53 742	 start loadPinDef
+15:40:53 757	 finished loadPinDef
+15:40:53 757	 start loadPinDef
+15:40:53 773	 finished loadPinDef
+15:40:53 773	 start loadPinDef
+15:40:53 789	 finished loadPinDef
+15:42:47 005	 start loadBaseParameter
+15:42:47 365	 start loadBaseParameter
+15:42:47 615	 start loadBaseParameter
+15:42:47 865	 start loadBaseParameter
+15:42:48 130	 start setSN
+15:42:48 130	 start setSN
+15:42:48 130	 start setSN
+15:42:48 130	 start setSN
+15:42:48 130	 start loadPinDef
+15:42:48 130	 finished loadPinDef
+15:42:48 146	 start loadPinDef
+15:42:48 146	 finished loadPinDef
+15:42:48 162	 start loadPinDef
+15:42:48 162	 finished loadPinDef
+15:42:48 177	 start loadPinDef
+15:42:48 177	 finished loadPinDef
+15:43:50 593	 start loadBaseParameter
+15:43:51 124	 start loadBaseParameter
+15:43:51 374	 start loadBaseParameter
+15:43:51 624	 start loadBaseParameter
+15:43:51 874	 start setSN
+15:43:51 874	 start setSN
+15:43:51 874	 start setSN
+15:43:51 890	 start setSN
+15:43:51 890	 start loadPinDef
+15:43:51 890	 finished loadPinDef
+15:43:51 890	 start loadPinDef
+15:43:51 905	 finished loadPinDef
+15:43:51 905	 start loadPinDef
+15:43:51 921	 finished loadPinDef
+15:43:51 921	 start loadPinDef
+15:43:51 937	 finished loadPinDef
+15:54:37 201	 start setSN
+15:54:37 211	 start setSN
+15:54:37 216	 start setSN
+15:54:37 226	 start setSN
+15:54:58 475	 start loadBaseParameter
+15:54:58 991	 start loadBaseParameter
+15:54:59 241	 start loadBaseParameter
+15:54:59 491	 start loadBaseParameter
+15:54:59 741	 start setSN
+15:54:59 741	 start setSN
+15:54:59 741	 start setSN
+15:54:59 756	 start setSN
+15:54:59 756	 start loadPinDef
+15:54:59 756	 finished loadPinDef
+15:54:59 772	 start loadPinDef
+15:54:59 772	 finished loadPinDef
+15:54:59 772	 start loadPinDef
+15:54:59 788	 finished loadPinDef
+15:54:59 788	 start loadPinDef
+15:54:59 803	 finished loadPinDef
+20:21:38 040	 start loadBaseParameter
+20:21:38 603	 start loadBaseParameter
+20:21:38 837	 start loadBaseParameter
+20:21:39 087	 start loadBaseParameter
+20:21:39 337	 start setSN
+20:21:39 337	 start setSN
+20:21:39 337	 start setSN
+20:21:39 353	 start setSN
+20:21:39 353	 start loadPinDef
+20:21:39 353	 finished loadPinDef
+20:21:39 368	 start loadPinDef
+20:21:39 368	 finished loadPinDef
+20:21:39 384	 start loadPinDef
+20:21:39 384	 finished loadPinDef
+20:21:39 400	 start loadPinDef
+20:21:39 400	 finished loadPinDef
+20:40:36 056	 start setSN
+20:40:36 056	 start setSN
+20:40:36 056	 start setSN
+20:40:36 056	 start setSN
+20:42:29 401	 start setSN
+20:42:29 401	 start setSN
+20:42:29 401	 start setSN
+20:42:29 401	 start setSN
+20:42:58 774	 start setSN
+20:43:00 821	start cam_stop 
+20:43:00 946	finish cam_stop 
+20:43:00 946	 start Playnew
+20:43:00 946	into cam_play:deviceID0 
+20:43:00 961	openDevice:deviceID0 
+20:43:01 117	开始sensor power:deviceID 0 
+20:43:01 492	完成sensor power:deviceID 0 
+20:43:01 508	完成Pin set:deviceID 0 
+20:43:01 852	完成I2C set:deviceID 0 
+20:43:02 008	start InitSensor :deviceID 0 
+20:43:02 492	start InitSensor failed 1 times :deviceID 0 
+20:43:03 086	start InitSensor failed 2 times :deviceID 0 
+20:43:03 680	start InitSensor failed 3 times :deviceID 0 
+20:43:03 680	start cam_stop 
+20:43:03 820	finish cam_stop 
+20:43:04 023	 start Playnew
+20:43:04 023	into cam_play:deviceID0 
+20:43:04 023	openDevice:deviceID0 
+20:43:04 227	开始sensor power:deviceID 0 
+20:43:04 602	完成sensor power:deviceID 0 
+20:43:04 633	完成Pin set:deviceID 0 
+20:43:04 961	完成I2C set:deviceID 0 
+20:43:05 117	start InitSensor :deviceID 0 
+20:43:05 601	start InitSensor failed 1 times :deviceID 0 
+20:43:06 195	start InitSensor failed 2 times :deviceID 0 
+20:43:06 789	start InitSensor failed 3 times :deviceID 0 
+20:43:06 789	start cam_stop 
+20:43:06 914	finish cam_stop 
+20:43:06 914	 start Playnew
+20:43:06 914	into cam_play:deviceID0 
+20:43:06 914	openDevice:deviceID0 
+20:43:07 070	开始sensor power:deviceID 0 
+20:43:07 445	完成sensor power:deviceID 0 
+20:43:07 461	完成Pin set:deviceID 0 
+20:43:07 804	完成I2C set:deviceID 0 
+20:43:07 961	start InitSensor :deviceID 0 
+20:43:08 445	start InitSensor failed 1 times :deviceID 0 
+20:43:09 086	start InitSensor failed 2 times :deviceID 0 
+20:43:09 679	start InitSensor failed 3 times :deviceID 0 
+20:43:09 679	start cam_stop 
+20:43:09 820	finish cam_stop 
+20:43:10 039	 start Playnew
+20:43:10 039	into cam_play:deviceID0 
+20:43:10 039	openDevice:deviceID0 
+20:43:10 242	开始sensor power:deviceID 0 
+20:43:10 632	完成sensor power:deviceID 0 
+20:43:10 648	完成Pin set:deviceID 0 
+20:43:11 007	完成I2C set:deviceID 0 
+20:43:11 164	start InitSensor :deviceID 0 
+20:43:11 648	start InitSensor failed 1 times :deviceID 0 
+20:43:12 242	start InitSensor failed 2 times :deviceID 0 
+20:43:12 835	start InitSensor failed 3 times :deviceID 0 
+20:43:14 851	 start getImage
+20:43:14 851	  getImage times:0
+20:43:14 913	  getImage times:1
+20:43:14 976	  getImage times:2
+20:43:15 038	 start getImage
+20:43:15 038	  getImage times:0
+20:43:15 101	  getImage times:1
+20:43:15 163	  getImage times:2
+20:43:15 226	 start getImage
+20:43:15 226	  getImage times:0
+20:43:15 288	  getImage times:1
+20:43:15 351	  getImage times:2
+20:43:15 413	 start getImage
+20:43:15 413	  getImage times:0
+20:43:15 476	  getImage times:1
+20:43:15 538	  getImage times:2
+20:43:15 601	 start getImage
+20:43:15 601	  getImage times:0
+20:43:15 679	  getImage times:1
+20:43:15 741	  getImage times:2
+20:43:15 804	 start getImage
+20:43:15 804	  getImage times:0
+20:43:15 882	  getImage times:1
+20:43:15 945	  getImage times:2
+20:43:34 756	 start getImage
+20:43:34 756	  getImage times:0
+20:43:34 834	  getImage times:1
+20:43:34 896	  getImage times:2
+20:43:34 959	 start getImage
+20:43:34 974	  getImage times:0
+20:43:35 037	  getImage times:1
+20:43:35 099	  getImage times:2
+20:43:35 162	 start getImage
+20:43:35 162	  getImage times:0
+20:43:35 240	  getImage times:1
+20:43:35 303	  getImage times:2
+20:43:35 428	 start getImage
+20:43:35 428	  getImage times:0
+20:43:35 506	  getImage times:1
+20:43:35 568	  getImage times:2
+20:43:35 631	 start getImage
+20:43:35 631	  getImage times:0
+20:43:35 709	  getImage times:1
+20:43:35 771	  getImage times:2
+20:43:35 834	 start getImage
+20:43:35 849	  getImage times:0
+20:43:35 912	  getImage times:1
+20:43:35 974	  getImage times:2
+20:43:45 114	 start setSN
+20:43:45 114	start cam_stop 
+20:43:45 255	finish cam_stop 
+20:43:45 771	start cam_stop 
+20:43:45 896	finish cam_stop 
+20:43:45 896	 start Playnew
+20:43:45 896	into cam_play:deviceID0 
+20:43:45 911	openDevice:deviceID0 
+20:43:46 099	开始sensor power:deviceID 0 
+20:43:46 474	完成sensor power:deviceID 0 
+20:43:46 505	完成Pin set:deviceID 0 
+20:43:46 849	完成I2C set:deviceID 0 
+20:43:47 005	start InitSensor :deviceID 0 
+20:43:47 489	start InitSensor failed 1 times :deviceID 0 
+20:43:48 083	start InitSensor failed 2 times :deviceID 0 
+20:43:48 692	start InitSensor failed 3 times :deviceID 0 
+20:43:48 692	start cam_stop 
+20:43:48 833	finish cam_stop 
+20:43:49 052	 start Playnew
+20:43:49 052	into cam_play:deviceID0 
+20:43:49 052	openDevice:deviceID0 
+20:43:49 255	开始sensor power:deviceID 0 
+20:43:49 630	完成sensor power:deviceID 0 
+20:43:49 661	完成Pin set:deviceID 0 
+20:43:50 005	完成I2C set:deviceID 0 
+20:43:50 161	start InitSensor :deviceID 0 
+20:43:50 645	start InitSensor failed 1 times :deviceID 0 
+20:43:51 239	start InitSensor failed 2 times :deviceID 0 
+20:43:51 833	start InitSensor failed 3 times :deviceID 0 
+20:43:52 051	 start getImage
+20:43:52 051	  getImage times:0
+20:43:52 114	  getImage times:1
+20:43:52 176	  getImage times:2
+20:43:52 239	 start getImage
+20:43:52 255	  getImage times:0
+20:43:52 317	  getImage times:1
+20:43:52 380	  getImage times:2
+20:43:52 442	 start getImage
+20:43:52 442	  getImage times:0
+20:43:52 520	  getImage times:1
+20:43:52 583	  getImage times:2
+20:43:52 645	 start getImage
+20:43:52 645	  getImage times:0
+20:43:52 723	  getImage times:1
+20:43:52 786	  getImage times:2
+20:43:52 848	 start getImage
+20:43:52 864	  getImage times:0
+20:43:52 926	  getImage times:1
+20:43:52 989	  getImage times:2
+20:43:53 051	 start getImage
+20:43:53 051	  getImage times:0
+20:43:53 129	  getImage times:1
+20:43:53 192	  getImage times:2
+20:43:57 739	start cam_stop 
+20:43:57 864	finish cam_stop 

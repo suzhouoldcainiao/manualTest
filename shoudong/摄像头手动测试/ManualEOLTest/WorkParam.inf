@@ -1,0 +1,8 @@
+[Hardware]
+BootFile=D:\HYAA_HW\Debug\aplay.ini
+CollimatorNum=1
+DeciveType=7
+AlgorithmType=1
+ChartZneedHome=False
+[Dispense]
+ShrinkageCompensationZ=0

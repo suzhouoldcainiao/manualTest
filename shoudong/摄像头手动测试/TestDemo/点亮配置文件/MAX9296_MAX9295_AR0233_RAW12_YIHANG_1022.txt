@@ -1,0 +1,1327 @@
+0	platform	sensor	voltage		dovdd	18.0		
+0	platform	sensor	voltage		dvdd	12.0		
+0	platform	sensor	voltage		avdd	28.0		
+0	platform	sensor	voltage		af	28.0		
+0	platform	sensor	voltage		vfuse	70.0		
+0	platform	sensor	voltage		iodd	18.0		
+0	platform	sensor	voltage		pow	12.0		
+0	platform	sensor	voltage		v5	2		
+0	platform	sensor	voltage		v12	2		
+0	platform	sensor	voltage		voltflag	119		
+1	platform	sensor	signal		reset_activedlow	1		
+1	platform	sensor	signal		pwnd_activedlow	1		
+1	platform	sensor	signal		mclk	27.0		
+1	platform	sensor	signal	0	cphyrate	1.0		
+1	platform	sensor	signal	1	signalflag	1	1	
+2	platform	sensor	image		data_format	baylor12_grbg		
+2	platform	sensor	image		width	1920		
+2	platform	sensor	image		height	1280		
+2	platform	sensor	image		dummy_left	0		
+2	platform	sensor	image		dummy_right	0		
+2	platform	sensor	image		dummy_top	0		
+2	platform	sensor	image		dummy_bottom	0		
+2	platform	sensor	image		addinfobytes	0		
+4	platform	ccm	element		project_name	ar0233YH		
+4	platform	ccm	element		sensor_type	ar0233	0	
+4	platform	ccm	element		userdefineinfo			
+4	platform	ccm	element		motor_type	dw9763-0x18		
+4	platform	ccm	element		ee_slave	20		
+4	platform	ccm	element		sensorfactory	64	0	
+5	platform	sensor	i2c	200	speed	400	0	
+5	platform	sensor	otheradd	(spicslow:1)(spilittileendian:0)(checkdeviceack:1)(ddr3:1)(virtualchannel:0)(lanenumber:4)(i2cbytedelay:5)				
+6	platform	datatime	date		time			
+7	platform	sensor	mipi	(dvpdataline:0)(dvpps:0)	lane	4	high	
+7	platform	sensor	mipi		lvds_outputxhsvhs	true		
+7	platform	sensor	mipi		xhsvhs_value	1152	3125	
+7	platform	sensor	mipi		signal mode	2		
+7	platform	sensor	mipi		outputxhsxvs_dphy	0		
+7	platform	sensor	mipi		xhsvhs_dphy	1152	3125	
+7	platform	sensor	mipi		lvds_align_set	0		
+9	platform	flip						
+10	platform	mirror						
+11	platform	light	(exposureswitch:close)(exposurevalue:200.00)(analoggainswitch:close)(analoggainvalue:1)(waitdata:2499)(outputerrorframe:true)(interpolation:0)(tograyimage:0)					
+20	algorithm	whitepanel	total	(opticalcenter:on)(defectpixel:on)(defectline:on)	(belmish:on)(color:on)(snr:on)			
+22	algorithm	whitepanel	snr	parameter	(blocksize:20)			
+23	algorithm	whitepanel	blemish	(range:0.9)(filter:12,24)	(amplitude:70)(dev:43)			
+24	algorithm	whitepanel	opticalcenter	parameter	(pixelratio:0.09)			
+25	algorithm	whitepanel	color	(a:0.0)(b:0.0)(centerrange:0.08)(widthblocks:32)	(uniform:2.8)(aberration:1.0)(sym:1.0)(falloff:3.0)			
+27	algorithm	whitepanel	snr	(r:20.0)(g:20.0)(b:20.0)	(blocksize:20)			
+27	algorithm	whitepanel	defectpixel	parameter	(defect:0.1)(wound:0.2)(widthblocks:180)	(defectscore:1)(woundscore:2)(deadscore:3)(clusterscore:50)		
+28	algorithm	whitepanel	opticalcenter	(deviation:10.0)	(pixelratio:0.09)			
+29	algorithm	whitepanel	defectline	(spec:0.03)				
+30	algorithm	whitepanel	defectpixel	(defectratio:0.1)(woundratio:0.2)(defectscore:1)(woundscore:2)(deadscore:2)	(clusterscore:50)(widthblocks:180)(deadsleep:200)	(defectspec:20)(woundspec:20)(deadspec:20)	(totalscorespec:1000)(clusterspec:0)	
+40	algorithm	autofamtf_6480	total	(lespitch:1.256)(excessheight:2.356)(lensleafs:3)	(lensgapangle:30.256)(ringangle:25.326)			
+40	algorithm	autofamtf_6480	camera					
+40	algorithm	autofamtf_6480	laser	(mode:p1)(laserradius:3.56)	(lasermin:4568.2)(lasermax:7895.3)(maxdiff:156.326)			
+40	algorithm	autofamtf_6480	fa	total	(algorithm:hao_a)(g4value:0.7)(goodvalue:0.8)	(grade:300000,150000,30000,5000)(angleafter:-500000)	(mode:peakexit)(delay:300)(steplimit:15)(anglelimit:1000)	
+40	algorithm	autofamtf_6480	fa	circle	(center1:426,344)(center2:2837,344)(center3:426,2103)(center4:2837,2103)	(valueweight:0.07)(uniformweight:0.08)	(valuespec:0.3)(uniformspec:0.1)	
+40	algorithm	autofamtf_6480	fa	circle	(center1:1632,304)(center2:2552,1224)(center3:1632,2144)(center4:712,1224)	(valueweight:0.07)(uniformweight:0.08)	(valuespec:0.3)(uniformspec:0.1)	
+40	algorithm	autofamtf_6480	fa	circle	(center1:1632,712)(center2:2144,1224)(center3:1632,1736)(center4:1120,1224)	(valueweight:0.07)(uniformweight:0.08)	(valuespec:0.3)(uniformspec:0.1)	
+40	algorithm	autofamtf_6480	fa	circle	(center1:752,589)(center2:2511,589)(center3:752,1858)(center4:2515,1858)	(valueweight:0.07)(uniformweight:0.08)	(valuespec:0.3)(uniformspec:0.1)	
+40	algorithm	autofamtf_6480	fa	center	(centerweight:0.4)(centervaluespec:0.3)	(blockwidth:200)(blockheight:200)		
+42	algorithm	mtffc_middle	otherinfo	algorithm(hao_a)	motor(400,600)	centerspec:value(0.3)	blocksize(200,200)	中心,框大小,算法选择
+43	algorithm	mtffc_middle	circle	spec:value(0.9)	spec:uniform(0.1)	pos:(426,344)(2837,344)(426,2103)(2837,2103)	big step:18	周边
+44	algorithm	mtffc_middle	circle	spec:value(0.3)	spec:uniform(0.1)	pos:(1632,304)(2552,1224)(1632,2144)(712,1224)	middle step:6	周边
+45	algorithm	mtffc_middle	circle	spec:value(0.3)	spec:uniform(0.1)	pos:(1632,712)(2144,1224)(1632,1736)(1120,1224)	small step:2	周边
+46	algorithm	mtffc_middle	circle	spec:value(0.3)	spec:uniform(0.1)	pos:(752,589)(2511,589)(752,1858)(2515,1858)	sleep:200	周边
+80	algorithm	workcurrent		(dovdd:off)(dovddmin:0.00)(dovddmax:110.00)(total:on)(totalmin:340.00)(totalmax:370.00)	(dvdd:off)(dvddmin:90.00)(dvddmax:110.00)	(avdd:off)(avddmin:110.00)(avddmax:140.00)(pow:on)(powmin:5.00)(powmax:20.00)	(af:off)(afmin:0.00)(afmax:100.00)(vfuse:on)(vfusemin:110.00)(vfusemax:140.00)	
+80	algorithm	standbycurrent		(dovdd:on)(dovddmin:10.0)(dovddmax:200.0)(pwnd:on)(reset:on)(mclk:on)(dvdddown:off)(delay:5000)	(dvdd:on)(dvddmin:10.0)(dvddmax:200.0)(total:on)(totalmin:10.0)(totalmax:200.0)	(avdd:on)(avddmin:10.0)(avddmax:200.0)(pow:off)(powmin:10.0)(powmax:200.0)	(af:on)(afmin:10.0)(afmax:200.0)	
+85	algorithm	mtffc_near	total	(algorithm:hao_a)(centervaluespec:0.3)(motorrange:400,700)	(bigstep:18)(middlestep:6)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:300)(maxsteps:10)	(centerweight:0.7)(testpeak:false)(peakdropdef:0.05)(peakmotormin:0)(peakmotormax:1)	
+86	algorithm	mtffc_near	circle	(center1:820,616)(center2:2460,616)(center3:820,1848)(center4:2460,1848)	(valuespec:0.3)(uniformspec:0.1)(weight:0.3)			
+87	algorithm	mtffc_near	circle	(center1:1632,304)(center2:2552,1224)(center3:1632,2144)(center4:712,1224)	(valuespec:0.3)(uniformspec:0.1)(weight:)			
+88	algorithm	mtffc_near	circle	(center1:1632,712)(center2:2144,1224)(center3:1632,1736)(center4:1120,1224)	(valuespec:0.3)(uniformspec:0.1)(weight:)			
+89	algorithm	mtffc_near	circle	(center1:752,589)(center2:2511,589)(center3:752,1858)(center4:2515,1858)	(valuespec:0.3)(uniformspec:0.1)(weight:)			
+95	algorithm	mtffc_infinite	total	(algorithm:hao_a)(centervaluespec:0.3)(motorrange:400,700)	(bigstep:18)(middlestep:6)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:300)(maxsteps:10)	(centerweight:0.6)(testpeak:false)(peakdropdef:0.05)(peakmotormin:0)(peakmotormax:1)	
+96	algorithm	mtffc_infinite	circle	(center1:492,370)(center2:2788,370)(center3:492,2094)(center4:2788,2094)	(valuespec:0.3)(uniformspec:0.1)(weight:0.1)			
+97	algorithm	mtffc_infinite	circle	(center1:820,616)(center2:2460,616)(center3:820,1848)(center4:2460,1848)	(valuespec:0.3)(uniformspec:0.1)(weight:0.1)			
+98	algorithm	mtffc_infinite	circle	(center1:820,1232)(center2:2460,1232)(center3:1640,412)(center4:1640,2052)	(valuespec:0.3)(uniformspec:0.1)(weight:0.1)			
+99	algorithm	mtffc_infinite	circle	(center1:752,589)(center2:2511,589)(center3:752,1858)(center4:2515,1858)	(valuespec:0.3)(uniformspec:0.1)(weight:0.1)			
+105	algorithm	mtffa	total	(algorithm:hao_a)(centerweight:0.6)(centervaluespec:0.3)	(blockwidth:200)(blockheight:200)			
+106	algorithm	mtffa	circle	(center1:492,370)(center2:2788,370)(center3:492,2094)(center4:2788,2094)	(weight:0.1)	(valuespec:0.3)(uniformspec:0.1)		
+107	algorithm	mtffa	circle	(center1:820,616)(center2:2460,616)(center3:820,1848)(center4:2460,1848)	(weight:0.1)	(valuespec:0.3)(uniformspec:0.1)		
+108	algorithm	mtffa	circle	(center1:1148,863)(center2:2132,863)(center3:1148,1601)(center4:2132,1601)	(weight:0.1)	(valuespec:0.3)(uniformspec:0.1)		
+109	algorithm	mtffa	circle	(center1:820,1232)(center2:2460,1232)(center3:1640,412)(center4:1640,2052)	(weight:0.1)	(valuespec:0.3)(uniformspec:0.1)		
+120	sensor	otpburn		(burn:false)(onlycheckdata:true)(curfun:imx219_sony_sensor_rule1)(sleep:600)(ob:16)(luxmin:155)(luxmax:175)(lsc_shadinguniform:0.050000)(blocksize:5)	(mid:0x0)(lensid:0x0)(vcmid:0x0)(driverid:0x0)(centerrange:0.100000)(lightcomp_b:1.000000)(lightcomp_r:1.000000)	(lsc_shadingmin:0.600000)(lsc_shadingmax:0.700000)(lsc_luxsymm:0.200000)(lsc_centerr2grmin:0.600000)(lsc_centerr2grmax:0.800000)(lsc_centerb2grmin:0.500000)(lsc_centerb2grmax:0.700000)(lsc_b2gr2centermax:0.050000)(lsc_r2gr2centermax:0.050000)	(percent:60)(otp_ver:2)(pid:0x0)(ffaf_flag:0x0)(irbg_id:0x1)(colortem_id:0x0)(golden_b/gr:0x0)(golden_r/gr:0x0)(golden_gb/gr:0x0)	
+350	algorithm	mtkpdaf		(qualcommchoose:pdaf_qualcomm_dw9714a_gt24c64_rule1)(afchoose:af_dw9763_rule4)(pdafchoose:pdaf_mtkv2_dw9763_rule1)(version3:2)(version2:0)(version1:1)(version0:1023)	(blacksleep:1000)(whitesleep:1000)(6cmsleep:1000)(relaysleep:1000)(nearsleep:1000)(infinitesleep:1000)(15cmsleep:1000)	(motorsleep:1000)(white2near:true)(platform:MTK)(qualcommversion:H)(coefkdiff:10000)(pdafverify:false)(pdafverifyoffest:32)(pdafstep2_50cmatuoexposure:true)(KVerify_DACShiftSTEP:24)(KVerify_VCMSTEP:4)(pdafverifyMTFdropstop:true)(pdafstep2_50cmAEROIW:200)(pdafstep2_50cmAEROIH:200)(CDAFmtfsearchROIW:400)(CDAFmtfsearchROIH:400)(pdafstep2_50cmEVdelaytime:10000)		
+365	algorithm	sframfa	basic	(method:0)(channel:y)(fovoffset:100)(sidemin:50)(sidemax:200)(mincontrast:20)(weight:1.00)	(roiw:48)(roih:100)(usefreq2:false)(freq1:4)(freq2:8)(onlyinner:true)(grademultiple:1.20)	(mtf50h:0.300)(mtf50v:0.300)	(f1spech:0.300)(f1specv:0.300)(f2spech:0.300)(f2specv:0.300)	
+495	algorithm	openshort	total	(positive:true)(negtive:false)(short:true)(ohm:false)	(channel:DVP)			
+505	algorithm	openshort	positive	(test:false)(name:AVDD)(in:DGND)	(specmin:200)(specmax:800)			
+506	algorithm	openshort	positive	(test:true)(name:DVDD)(in:DGND)	(specmin:200)(specmax:800)			
+507	algorithm	openshort	positive	(test:true)(name:DOVDD)(in:DGND)	(specmin:200)(specmax:800)			
+508	algorithm	openshort	positive	(test:false)(name:AF-VCC)(in:DGND)	(specmin:200)(specmax:800)			
+509	algorithm	openshort	positive	(test:true)(name:HSYNC)(in:DGND)	(specmin:200)(specmax:800)			
+510	algorithm	openshort	positive	(test:true)(name:VSYNC)(in:DGND)	(specmin:200)(specmax:800)			
+511	algorithm	openshort	positive	(test:true)(name:RST)(in:DGND)	(specmin:200)(specmax:800)			
+512	algorithm	openshort	positive	(test:true)(name:PWDN)(in:DGND)	(specmin:200)(specmax:800)			
+513	algorithm	openshort	positive	(test:true)(name:MCLK)(in:DGND)	(specmin:200)(specmax:800)			
+514	algorithm	openshort	positive	(test:true)(name:SDA)(in:DGND)	(specmin:200)(specmax:800)			
+515	algorithm	openshort	positive	(test:true)(name:SCL)(in:DGND)	(specmin:200)(specmax:800)			
+516	algorithm	openshort	positive	(test:true)(name:PCLK)(in:DGND)	(specmin:200)(specmax:800)			
+517	algorithm	openshort	positive	(test:true)(name:D0)(in:DGND)	(specmin:200)(specmax:800)			
+518	algorithm	openshort	positive	(test:true)(name:D1)(in:DGND)	(specmin:200)(specmax:800)			
+519	algorithm	openshort	positive	(test:true)(name:D2)(in:DGND)	(specmin:200)(specmax:800)			
+520	algorithm	openshort	positive	(test:true)(name:D3)(in:DGND)	(specmin:200)(specmax:800)			
+521	algorithm	openshort	positive	(test:true)(name:D4)(in:DGND)	(specmin:200)(specmax:800)			
+522	algorithm	openshort	positive	(test:true)(name:D5)(in:DGND)	(specmin:200)(specmax:800)			
+523	algorithm	openshort	positive	(test:true)(name:D6)(in:DGND)	(specmin:200)(specmax:800)			
+524	algorithm	openshort	positive	(test:true)(name:D7)(in:DGND)	(specmin:200)(specmax:800)			
+525	algorithm	openshort	positive	(test:true)(name:D8)(in:DGND)	(specmin:200)(specmax:800)			
+526	algorithm	openshort	positive	(test:true)(name:D9)(in:DGND)	(specmin:200)(specmax:800)			
+527	algorithm	openshort	positive	(test:false)(name:IO0)(in:DGND)	(specmin:200)(specmax:800)			
+528	algorithm	openshort	positive	(test:false)(name:IO1)(in:DGND)	(specmin:200)(specmax:800)			
+555	algorithm	openshort	negtive	(test:true)(name:HSYNC)	(specmin:200)(specmax:800)			
+556	algorithm	openshort	negtive	(test:true)(name:VSYNC)	(specmin:200)(specmax:800)			
+557	algorithm	openshort	negtive	(test:true)(name:RST)	(specmin:200)(specmax:800)			
+558	algorithm	openshort	negtive	(test:true)(name:PWDN)	(specmin:200)(specmax:800)			
+559	algorithm	openshort	negtive	(test:true)(name:MCLK)	(specmin:200)(specmax:800)			
+560	algorithm	openshort	negtive	(test:true)(name:SDA)	(specmin:200)(specmax:800)			
+561	algorithm	openshort	negtive	(test:true)(name:SCL)	(specmin:200)(specmax:800)			
+562	algorithm	openshort	negtive	(test:true)(name:PCLK)	(specmin:200)(specmax:800)			
+563	algorithm	openshort	negtive	(test:true)(name:D0)	(specmin:200)(specmax:800)			
+564	algorithm	openshort	negtive	(test:true)(name:D1)	(specmin:200)(specmax:800)			
+565	algorithm	openshort	negtive	(test:true)(name:D2)	(specmin:200)(specmax:800)			
+566	algorithm	openshort	negtive	(test:true)(name:D3)	(specmin:200)(specmax:800)			
+567	algorithm	openshort	negtive	(test:true)(name:D4)	(specmin:200)(specmax:800)			
+568	algorithm	openshort	negtive	(test:true)(name:D5)	(specmin:200)(specmax:800)			
+569	algorithm	openshort	negtive	(test:true)(name:D6)	(specmin:200)(specmax:800)			
+570	algorithm	openshort	negtive	(test:true)(name:D7)	(specmin:200)(specmax:800)			
+571	algorithm	openshort	negtive	(test:true)(name:D8)	(specmin:200)(specmax:800)			
+572	algorithm	openshort	negtive	(test:true)(name:D9)	(specmin:200)(specmax:800)			
+573	algorithm	openshort	negtive	(test:true)(name:IO0)	(specmin:200)(specmax:800)			
+574	algorithm	openshort	negtive	(test:true)(name:IO1)	(specmin:200)(specmax:800)			
+605	algorithm	openshort	short	(test:true)(name:DGND)	(specmin:200)			
+606	algorithm	openshort	short	(test:false)(name:AGND)	(specmin:200)			
+607	algorithm	openshort	short	(test:false)(name:AVDD)	(specmin:200)			
+608	algorithm	openshort	short	(test:true)(name:DVDD)	(specmin:200)			
+609	algorithm	openshort	short	(test:true)(name:DOVDD)	(specmin:200)			
+610	algorithm	openshort	short	(test:false)(name:AF-VCC)	(specmin:200)			
+611	algorithm	openshort	short	(test:true)(name:HSYNC)	(specmin:200)			
+612	algorithm	openshort	short	(test:true)(name:VSYNC)	(specmin:200)			
+613	algorithm	openshort	short	(test:true)(name:RST)	(specmin:200)			
+614	algorithm	openshort	short	(test:true)(name:PWDN)	(specmin:200)			
+615	algorithm	openshort	short	(test:true)(name:MCLK)	(specmin:200)			
+616	algorithm	openshort	short	(test:true)(name:SDA)	(specmin:200)			
+617	algorithm	openshort	short	(test:true)(name:SCL)	(specmin:200)			
+618	algorithm	openshort	short	(test:true)(name:PCLK)	(specmin:200)			
+619	algorithm	openshort	short	(test:true)(name:D0)	(specmin:200)			
+620	algorithm	openshort	short	(test:true)(name:D1)	(specmin:200)			
+621	algorithm	openshort	short	(test:true)(name:D2)	(specmin:200)			
+622	algorithm	openshort	short	(test:true)(name:D3)	(specmin:200)			
+623	algorithm	openshort	short	(test:true)(name:D4)	(specmin:200)			
+624	algorithm	openshort	short	(test:true)(name:D5)	(specmin:200)			
+625	algorithm	openshort	short	(test:true)(name:D6)	(specmin:200)			
+626	algorithm	openshort	short	(test:true)(name:D7)	(specmin:200)			
+627	algorithm	openshort	short	(test:true)(name:D8)	(specmin:200)			
+628	algorithm	openshort	short	(test:true)(name:D9)	(specmin:200)			
+629	algorithm	openshort	short	(test:false)(name:IO0)	(specmin:200)			
+630	algorithm	openshort	short	(test:false)(name:IO1)	(specmin:200)			
+915	algorithm	mtfmfa	basic	(algswitch:1)(roiw:48)(roih:100)(centerspec:0.500)(centerweight:1.00)(autoseartch:false)(grademultiple:1.20)				
+1000	shortcut	other	=	first_click	1	clearresultitem	1	
+1001	shortcut	sensor	=	first_click	2	startpreviewitem	1	
+1002	shortcut	sensor	=	second_click	1	stoppreviewitem	1	
+1003	shortcut	other	=	second_click	2	showresultitem	1	
+1004	shortcut	other	0	first_click	1	clearresultitem	1	
+1005	shortcut	sensor	0	first_click	2	startpreviewitem	1(false:stoppreviewitem)	
+1006	shortcut	sensor	0	first_click	3	getserialnumberitem	1(false:stoppreviewitem)	
+1007	shortcut	algorithm	0	first_click	4	autoexposureitem(roi:1480,1112,1800,1352)(spec:178,184)(sleep:600)(database:1)(channel_gr:true)(white:false)	1(false:stoppreviewitem)	
+1008	shortcut	sensor	0	first_click	5	otpburnitem	1(false:stoppreviewitem)	
+1009	shortcut	sensor	0	first_click	6	stoppreviewitem	1	
+1010	shortcut	other	0	first_click	7	showresultitem	1	
+1011	shortcut	other	9	first_click	1	clearresultitem	1	
+1012	shortcut	sensor	9	first_click	2	startpreviewitem	1(false:stoppreviewitem)	
+1013	shortcut	sensor	9	first_click	3	getserialnumberitem	1(false:stoppreviewitem)	
+1014	shortcut	algorithm	9	first_click	4	autoexposureitem(roi:1480,1112,1800,1352)(spec:178,184)(sleep:600)(database:2)(channel_gr:true)(white:false)	1(false:stoppreviewitem)	
+1015	shortcut	sensor	9	first_click	5	otpcheckitem	1(false:stoppreviewitem)	
+1016	shortcut	sensor	9	first_click	6	stoppreviewitem	1	
+1017	shortcut	other	9	first_click	7	showresultitem	1	
+9999	shortcut	equipment	;	first_click	1	pdafgbmtkwhitecaliitem	1	
+10000	platform	sensor	preview_i2c			0x90,0x0330,0x04,0x1608		
+10001	platform	sensor	preview_i2c			0x90,0x0333,0x1b,0x1608		
+10002	platform	sensor	preview_i2c			0x90,0x0334,0xe4,0x1608		
+10003	platform	sensor	preview_i2c			0x90,0x0334,0xe4,0x1608		
+10004	platform	sensor	preview_i2c			0x90,0x0335,0x00,0x1608		
+10005	platform	sensor	preview_i2c			0x90,0x0335,0x00,0x1608		
+10006	platform	sensor	preview_i2c			0x90,0x040a,0x00,0x1608		
+10007	platform	sensor	preview_i2c			0x90,0x044a,0xc0,0x1608		
+10008	platform	sensor	preview_i2c			0x90,0x048a,0x00,0x1608		
+10009	platform	sensor	preview_i2c			0x90,0x04ca,0x00,0x1608		
+10010	platform	sensor	preview_i2c			0x90,0x031d,0x00,0x1608		
+10011	platform	sensor	preview_i2c			0x90,0x0320,0x2f,0x1608		
+10012	platform	sensor	preview_i2c			0x90,0x0050,0x00,0x1608		
+10013	platform	sensor	preview_i2c			0x90,0x0051,0x01,0x1608		
+10014	platform	sensor	preview_i2c			0x90,0x0052,0x02,0x1608		
+10015	platform	sensor	preview_i2c			0x90,0x0053,0x03,0x1608		
+10016	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10017	platform	sensor	preview_i2c			0x00,0x0000,0xff,0x1608		
+10018	platform	sensor	preview_i2c			0x80,0x0002,0xf3,0x1608		
+10019	platform	sensor	preview_i2c			0x80,0x0330,0x00,0x1608		
+10020	platform	sensor	preview_i2c			0x80,0x0331,0x33,0x1608		
+10021	platform	sensor	preview_i2c			0x80,0x0332,0xe0,0x1608		
+10022	platform	sensor	preview_i2c			0x80,0x0333,0x04,0x1608		
+10023	platform	sensor	preview_i2c			0x80,0x0308,0x7f,0x1608		
+10024	platform	sensor	preview_i2c			0x80,0x0311,0xf0,0x1608		
+10025	platform	sensor	preview_i2c			0x80,0x0314,0xe2,0x1608		
+10026	platform	sensor	preview_i2c			0x80,0x0316,0x6c,0x1608		
+10027	platform	sensor	preview_i2c			0x80,0x0318,0x62,0x1608		
+10028	platform	sensor	preview_i2c			0x80,0x031a,0x62,0x1608		
+10029	platform	sensor	preview_i2c			0x80,0x03f0,0x51,0x1608		
+10030	platform	sensor	preview_i2c			0x80,0x03f1,0x09,0x1608		
+10031	platform	sensor	preview_i2c			0x80,0x02d3,0x18,0x1608		
+10032	platform	sensor	preview_i2c			0x80,0x02d4,0x60,0x1608		
+10033	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10034	platform	sensor	preview_i2c			0x00,0x0000,0xff,0x1608		
+10035	platform	sensor	preview_i2c			0x00,0x0000,0x20,0x1608		
+10036	platform	sensor	preview_i2c			0x00,0x0000,0x20,0x1608		
+10037	platform	sensor	preview_i2c			0x20,0x301a,0x0059,0x1616		
+10038	platform	sensor	preview_i2c			0x20,0x301a,0x0058,0x1616		
+10039	platform	sensor	preview_i2c			0x20,0x3064,0x0000,0x1616		
+10040	platform	sensor	preview_i2c			0x20,0x3c72,0x0076,0x1616		
+10041	platform	sensor	preview_i2c			0x20,0x3c74,0x0031,0x1616		
+10042	platform	sensor	preview_i2c			0x20,0x3c76,0x00dc,0x1616		
+10043	platform	sensor	preview_i2c			0x20,0x3c78,0x01aa,0x1616		
+10044	platform	sensor	preview_i2c			0x20,0x3c7a,0x0352,0x1616		
+10045	platform	sensor	preview_i2c			0x20,0x3c7c,0x06aa,0x1616		
+10046	platform	sensor	preview_i2c			0x20,0x356a,0x81aa,0x1616		
+10047	platform	sensor	preview_i2c			0x20,0x3568,0x0028,0x1616		
+10048	platform	sensor	preview_i2c			0x20,0x37b2,0x1fff,0x1616		
+10049	platform	sensor	preview_i2c			0x20,0x3562,0x0c08,0x1616		
+10050	platform	sensor	preview_i2c			0x20,0x3520,0x0080,0x1616		
+10051	platform	sensor	preview_i2c			0x20,0x353c,0x9a8a,0x1616		
+10052	platform	sensor	preview_i2c			0x20,0x3576,0x1dff,0x1616		
+10053	platform	sensor	preview_i2c			0x20,0x3544,0x030f,0x1616		
+10054	platform	sensor	preview_i2c			0x20,0x3534,0x3898,0x1616		
+10055	platform	sensor	preview_i2c			0x20,0x353a,0x9a9a,0x1616		
+10056	platform	sensor	preview_i2c			0x20,0x356e,0x048a,0x1616		
+10057	platform	sensor	preview_i2c			0x20,0x3564,0x1223,0x1616		
+10058	platform	sensor	preview_i2c			0x20,0x3508,0xaf1a,0x1616		
+10059	platform	sensor	preview_i2c			0x20,0x3086,0x0000,0x1616		
+10060	platform	sensor	preview_i2c			0x20,0x34ba,0x0001,0x1616		
+10061	platform	sensor	preview_i2c			0x20,0x34b8,0x0001,0x1616		
+10062	platform	sensor	preview_i2c			0x20,0x3550,0x806c,0x1616		
+10063	platform	sensor	preview_i2c			0x20,0x3522,0x0519,0x1616		
+10064	platform	sensor	preview_i2c			0x20,0x3e3e,0x000c,0x1616		
+10065	platform	sensor	preview_i2c			0x20,0x3092,0x408c,0x1616		
+10066	platform	sensor	preview_i2c			0x20,0x3530,0x1f18,0x1616		
+10067	platform	sensor	preview_i2c			0x20,0x350e,0x2092,0x1616		
+10068	platform	sensor	preview_i2c			0x20,0x336e,0x0142,0x1616		
+10069	platform	sensor	preview_i2c			0x20,0x3364,0x0766,0x1616		
+10070	platform	sensor	preview_i2c			0x20,0x3528,0xe008,0x1616		
+10071	platform	sensor	preview_i2c			0x20,0x351a,0xf400,0x1616		
+10072	platform	sensor	preview_i2c			0x20,0x357a,0x0044,0x1616		
+10073	platform	sensor	preview_i2c			0x20,0x3514,0x5b5b,0x1616		
+10074	platform	sensor	preview_i2c			0x20,0x3578,0x5b5b,0x1616		
+10075	platform	sensor	preview_i2c			0x20,0x3526,0x1000,0x1616		
+10076	platform	sensor	preview_i2c			0x20,0x3518,0x4444,0x1616		
+10077	platform	sensor	preview_i2c			0x20,0x352a,0x0827,0x1616		
+10078	platform	sensor	preview_i2c			0x20,0x3548,0x3a2a,0x1616		
+10079	platform	sensor	preview_i2c			0x20,0x354a,0x323c,0x1616		
+10080	platform	sensor	preview_i2c			0x20,0x3512,0x0edc,0x1616		
+10081	platform	sensor	preview_i2c			0x20,0x352c,0xa800,0x1616		
+10082	platform	sensor	preview_i2c			0x20,0x2512,0x8000,0x1616		
+10083	platform	sensor	preview_i2c			0x20,0x2510,0x070f,0x1616		
+10084	platform	sensor	preview_i2c			0x20,0x2510,0x1011,0x1616		
+10085	platform	sensor	preview_i2c			0x20,0x2510,0x1216,0x1616		
+10086	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10087	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10088	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10089	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10090	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10091	platform	sensor	preview_i2c			0x20,0x2510,0x191a,0x1616		
+10092	platform	sensor	preview_i2c			0x20,0x2510,0x1e1f,0x1616		
+10093	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10094	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10095	platform	sensor	preview_i2c			0x20,0x2510,0x213f,0x1616		
+10096	platform	sensor	preview_i2c			0x20,0x2510,0x5071,0x1616		
+10097	platform	sensor	preview_i2c			0x20,0x2510,0x8489,0x1616		
+10098	platform	sensor	preview_i2c			0x20,0x2510,0x8c8f,0x1616		
+10099	platform	sensor	preview_i2c			0x20,0x2510,0x92ff,0x1616		
+10100	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10101	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10102	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10103	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10104	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10105	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10106	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10107	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10108	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10109	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10110	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10111	platform	sensor	preview_i2c			0x20,0x2510,0xc003,0x1616		
+10112	platform	sensor	preview_i2c			0x20,0x2510,0x805a,0x1616		
+10113	platform	sensor	preview_i2c			0x20,0x2510,0xa0e0,0x1616		
+10114	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10115	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10116	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10117	platform	sensor	preview_i2c			0x20,0x2510,0x3048,0x1616		
+10118	platform	sensor	preview_i2c			0x20,0x2510,0x3088,0x1616		
+10119	platform	sensor	preview_i2c			0x20,0x2510,0x30a0,0x1616		
+10120	platform	sensor	preview_i2c			0x20,0x2510,0x3090,0x1616		
+10121	platform	sensor	preview_i2c			0x20,0x2510,0x32c2,0x1616		
+10122	platform	sensor	preview_i2c			0x20,0x2510,0xa0c0,0x1616		
+10123	platform	sensor	preview_i2c			0x20,0x2510,0x9008,0x1616		
+10124	platform	sensor	preview_i2c			0x20,0x2510,0x8802,0x1616		
+10125	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10126	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10127	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10128	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10129	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10130	platform	sensor	preview_i2c			0x20,0x2510,0x9018,0x1616		
+10131	platform	sensor	preview_i2c			0x20,0x2510,0x891a,0x1616		
+10132	platform	sensor	preview_i2c			0x20,0x2510,0x807e,0x1616		
+10133	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10134	platform	sensor	preview_i2c			0x20,0x2510,0x895b,0x1616		
+10135	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10136	platform	sensor	preview_i2c			0x20,0x2510,0x897b,0x1616		
+10137	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10138	platform	sensor	preview_i2c			0x20,0x2510,0x897f,0x1616		
+10139	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10140	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10141	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10142	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10143	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10144	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10145	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10146	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10147	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10148	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10149	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10150	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10151	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10152	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10153	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10154	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10155	platform	sensor	preview_i2c			0x20,0x2510,0xa0c4,0x1616		
+10156	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10157	platform	sensor	preview_i2c			0x20,0x2510,0x805a,0x1616		
+10158	platform	sensor	preview_i2c			0x20,0x2510,0x9039,0x1616		
+10159	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10160	platform	sensor	preview_i2c			0x20,0x2510,0x907f,0x1616		
+10161	platform	sensor	preview_i2c			0x20,0x2510,0x895b,0x1616		
+10162	platform	sensor	preview_i2c			0x20,0x2510,0x2064,0x1616		
+10163	platform	sensor	preview_i2c			0x20,0x2510,0x891b,0x1616		
+10164	platform	sensor	preview_i2c			0x20,0x2510,0x2010,0x1616		
+10165	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10166	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10167	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10168	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10169	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10170	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10171	platform	sensor	preview_i2c			0x20,0x2510,0x20ff,0x1616		
+10172	platform	sensor	preview_i2c			0x20,0x2510,0x906b,0x1616		
+10173	platform	sensor	preview_i2c			0x20,0x2510,0x2064,0x1616		
+10174	platform	sensor	preview_i2c			0x20,0x2510,0x3084,0x1616		
+10175	platform	sensor	preview_i2c			0x20,0x2510,0x2003,0x1616		
+10176	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10177	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10178	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10179	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10180	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10181	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10182	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10183	platform	sensor	preview_i2c			0x20,0x2510,0x2400,0x1616		
+10184	platform	sensor	preview_i2c			0x20,0x2510,0x2401,0x1616		
+10185	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10186	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10187	platform	sensor	preview_i2c			0x20,0x2510,0x2400,0x1616		
+10188	platform	sensor	preview_i2c			0x20,0x2510,0x2401,0x1616		
+10189	platform	sensor	preview_i2c			0x20,0x2510,0x2702,0x1616		
+10190	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10191	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10192	platform	sensor	preview_i2c			0x20,0x2510,0x2421,0x1616		
+10193	platform	sensor	preview_i2c			0x20,0x2510,0x2703,0x1616		
+10194	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10195	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10196	platform	sensor	preview_i2c			0x20,0x2510,0x2421,0x1616		
+10197	platform	sensor	preview_i2c			0x20,0x2510,0x2704,0x1616		
+10198	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10199	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10200	platform	sensor	preview_i2c			0x20,0x2510,0x2421,0x1616		
+10201	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10202	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10203	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10204	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10205	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10206	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10207	platform	sensor	preview_i2c			0x20,0x2510,0x2741,0x1616		
+10208	platform	sensor	preview_i2c			0x20,0x2510,0x2428,0x1616		
+10209	platform	sensor	preview_i2c			0x20,0x2510,0x2740,0x1616		
+10210	platform	sensor	preview_i2c			0x20,0x2510,0x2428,0x1616		
+10211	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10212	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10213	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10214	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10215	platform	sensor	preview_i2c			0x20,0x2510,0xb800,0x1616		
+10216	platform	sensor	preview_i2c			0x20,0x2510,0x8058,0x1616		
+10217	platform	sensor	preview_i2c			0x20,0x2510,0xa005,0x1616		
+10218	platform	sensor	preview_i2c			0x20,0x2510,0x3101,0x1616		
+10219	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10220	platform	sensor	preview_i2c			0x20,0x2510,0x3104,0x1616		
+10221	platform	sensor	preview_i2c			0x20,0x2510,0xb035,0x1616		
+10222	platform	sensor	preview_i2c			0x20,0x2510,0xb075,0x1616		
+10223	platform	sensor	preview_i2c			0x20,0x2510,0x30c1,0x1616		
+10224	platform	sensor	preview_i2c			0x20,0x2510,0x3102,0x1616		
+10225	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10226	platform	sensor	preview_i2c			0x20,0x2510,0xb808,0x1616		
+10227	platform	sensor	preview_i2c			0x20,0x2510,0x3202,0x1616		
+10228	platform	sensor	preview_i2c			0x20,0x2510,0xb848,0x1616		
+10229	platform	sensor	preview_i2c			0x20,0x2510,0xb84c,0x1616		
+10230	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10231	platform	sensor	preview_i2c			0x20,0x2510,0xb377,0x1616		
+10232	platform	sensor	preview_i2c			0x20,0x2510,0x8843,0x1616		
+10233	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10234	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10235	platform	sensor	preview_i2c			0x20,0x2510,0xb84e,0x1616		
+10236	platform	sensor	preview_i2c			0x20,0x2510,0xf905,0x1616		
+10237	platform	sensor	preview_i2c			0x20,0x2510,0xf907,0x1616		
+10238	platform	sensor	preview_i2c			0x20,0x2510,0x2200,0x1616		
+10239	platform	sensor	preview_i2c			0x20,0x2510,0x885b,0x1616		
+10240	platform	sensor	preview_i2c			0x20,0x2510,0xa898,0x1616		
+10241	platform	sensor	preview_i2c			0x20,0x2510,0xa8d8,0x1616		
+10242	platform	sensor	preview_i2c			0x20,0x2510,0xf8e8,0x1616		
+10243	platform	sensor	preview_i2c			0x20,0x2510,0x80d8,0x1616		
+10244	platform	sensor	preview_i2c			0x20,0x2510,0x9007,0x1616		
+10245	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10246	platform	sensor	preview_i2c			0x20,0x2510,0x2206,0x1616		
+10247	platform	sensor	preview_i2c			0x20,0x2510,0xb808,0x1616		
+10248	platform	sensor	preview_i2c			0x20,0x2510,0xc800,0x1616		
+10249	platform	sensor	preview_i2c			0x20,0x2510,0xe809,0x1616		
+10250	platform	sensor	preview_i2c			0x20,0x2510,0x88db,0x1616		
+10251	platform	sensor	preview_i2c			0x20,0x2510,0xf8a8,0x1616		
+10252	platform	sensor	preview_i2c			0x20,0x2510,0xf888,0x1616		
+10253	platform	sensor	preview_i2c			0x20,0x2510,0x2203,0x1616		
+10254	platform	sensor	preview_i2c			0x20,0x2510,0xb07b,0x1616		
+10255	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10256	platform	sensor	preview_i2c			0x20,0x2510,0x80c8,0x1616		
+10257	platform	sensor	preview_i2c			0x20,0x2510,0x8088,0x1616		
+10258	platform	sensor	preview_i2c			0x20,0x2510,0x220b,0x1616		
+10259	platform	sensor	preview_i2c			0x20,0x2510,0xb06a,0x1616		
+10260	platform	sensor	preview_i2c			0x20,0x2510,0x88cb,0x1616		
+10261	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10262	platform	sensor	preview_i2c			0x20,0x2510,0x2224,0x1616		
+10263	platform	sensor	preview_i2c			0x20,0x2510,0xb04a,0x1616		
+10264	platform	sensor	preview_i2c			0x20,0x2510,0x2218,0x1616		
+10265	platform	sensor	preview_i2c			0x20,0x2510,0x210d,0x1616		
+10266	platform	sensor	preview_i2c			0x20,0x2510,0x2108,0x1616		
+10267	platform	sensor	preview_i2c			0x20,0x2510,0x902f,0x1616		
+10268	platform	sensor	preview_i2c			0x20,0x2510,0xb04b,0x1616		
+10269	platform	sensor	preview_i2c			0x20,0x2510,0xf880,0x1616		
+10270	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10271	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10272	platform	sensor	preview_i2c			0x20,0x2510,0x2203,0x1616		
+10273	platform	sensor	preview_i2c			0x20,0x2510,0x9800,0x1616		
+10274	platform	sensor	preview_i2c			0x20,0x2510,0xb043,0x1616		
+10275	platform	sensor	preview_i2c			0x20,0x2510,0xa8c9,0x1616		
+10276	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10277	platform	sensor	preview_i2c			0x20,0x2510,0x80a8,0x1616		
+10278	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10279	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10280	platform	sensor	preview_i2c			0x20,0x2510,0x2104,0x1616		
+10281	platform	sensor	preview_i2c			0x20,0x2510,0x88ab,0x1616		
+10282	platform	sensor	preview_i2c			0x20,0x2510,0x2104,0x1616		
+10283	platform	sensor	preview_i2c			0x20,0x2510,0xb808,0x1616		
+10284	platform	sensor	preview_i2c			0x20,0x2510,0x9800,0x1616		
+10285	platform	sensor	preview_i2c			0x20,0x2510,0x2440,0x1616		
+10286	platform	sensor	preview_i2c			0x20,0x2510,0xf110,0x1616		
+10287	platform	sensor	preview_i2c			0x20,0x2510,0xf804,0x1616		
+10288	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10289	platform	sensor	preview_i2c			0x20,0x2510,0x8088,0x1616		
+10290	platform	sensor	preview_i2c			0x20,0x2510,0x3002,0x1616		
+10291	platform	sensor	preview_i2c			0x20,0x2510,0xb838,0x1616		
+10292	platform	sensor	preview_i2c			0x20,0x2510,0xa8c8,0x1616		
+10293	platform	sensor	preview_i2c			0x20,0x2510,0xb04b,0x1616		
+10294	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10295	platform	sensor	preview_i2c			0x20,0x2510,0x3210,0x1616		
+10296	platform	sensor	preview_i2c			0x20,0x2510,0x2206,0x1616		
+10297	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10298	platform	sensor	preview_i2c			0x20,0x2510,0x2203,0x1616		
+10299	platform	sensor	preview_i2c			0x20,0x2510,0xf1cb,0x1616		
+10300	platform	sensor	preview_i2c			0x20,0x2510,0xf1cc,0x1616		
+10301	platform	sensor	preview_i2c			0x20,0x2510,0xf1cc,0x1616		
+10302	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10303	platform	sensor	preview_i2c			0x20,0x2510,0x3202,0x1616		
+10304	platform	sensor	preview_i2c			0x20,0x2510,0xf880,0x1616		
+10305	platform	sensor	preview_i2c			0x20,0x2510,0xb830,0x1616		
+10306	platform	sensor	preview_i2c			0x20,0x2510,0xc801,0x1616		
+10307	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10308	platform	sensor	preview_i2c			0x20,0x2510,0xe80c,0x1616		
+10309	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10310	platform	sensor	preview_i2c			0x20,0x2510,0xb04a,0x1616		
+10311	platform	sensor	preview_i2c			0x20,0x2510,0x2226,0x1616		
+10312	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10313	platform	sensor	preview_i2c			0x20,0x2510,0x3241,0x1616		
+10314	platform	sensor	preview_i2c			0x20,0x2510,0x2206,0x1616		
+10315	platform	sensor	preview_i2c			0x20,0x2510,0x902f,0x1616		
+10316	platform	sensor	preview_i2c			0x20,0x2510,0x220e,0x1616		
+10317	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10318	platform	sensor	preview_i2c			0x20,0x2510,0x2204,0x1616		
+10319	platform	sensor	preview_i2c			0x20,0x2510,0xb042,0x1616		
+10320	platform	sensor	preview_i2c			0x20,0x2510,0xa9a1,0x1616		
+10321	platform	sensor	preview_i2c			0x20,0x2510,0x8008,0x1616		
+10322	platform	sensor	preview_i2c			0x20,0x2510,0xb0d3,0x1616		
+10323	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10324	platform	sensor	preview_i2c			0x20,0x2510,0x916b,0x1616		
+10325	platform	sensor	preview_i2c			0x20,0x2510,0x2008,0x1616		
+10326	platform	sensor	preview_i2c			0x20,0x2510,0x32c1,0x1616		
+10327	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10328	platform	sensor	preview_i2c			0x20,0x2510,0xa044,0x1616		
+10329	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10330	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10331	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10332	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10333	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10334	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10335	platform	sensor	preview_i2c			0x20,0x2510,0xa084,0x1616		
+10336	platform	sensor	preview_i2c			0x20,0x2510,0x30d0,0x1616		
+10337	platform	sensor	preview_i2c			0x20,0x2510,0x807c,0x1616		
+10338	platform	sensor	preview_i2c			0x20,0x2510,0x3141,0x1616		
+10339	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10340	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10341	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10342	platform	sensor	preview_i2c			0x20,0x2510,0x3142,0x1616		
+10343	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10344	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10345	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10346	platform	sensor	preview_i2c			0x20,0x2510,0x3281,0x1616		
+10347	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10348	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10349	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10350	platform	sensor	preview_i2c			0x20,0x2510,0x3290,0x1616		
+10351	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10352	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10353	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10354	platform	sensor	preview_i2c			0x20,0x2510,0x3110,0x1616		
+10355	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10356	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10357	platform	sensor	preview_i2c			0x20,0x2510,0x3120,0x1616		
+10358	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10359	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10360	platform	sensor	preview_i2c			0x20,0x2510,0x3282,0x1616		
+10361	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10362	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10363	platform	sensor	preview_i2c			0x20,0x2510,0x32a0,0x1616		
+10364	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10365	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10366	platform	sensor	preview_i2c			0x20,0x2510,0x881b,0x1616		
+10367	platform	sensor	preview_i2c			0x20,0x2510,0x887f,0x1616		
+10368	platform	sensor	preview_i2c			0x20,0x2510,0xa08c,0x1616		
+10369	platform	sensor	preview_i2c			0x20,0x2510,0x221f,0x1616		
+10370	platform	sensor	preview_i2c			0x20,0x2510,0xa084,0x1616		
+10371	platform	sensor	preview_i2c			0x20,0x2510,0x2440,0x1616		
+10372	platform	sensor	preview_i2c			0x20,0x2510,0x3260,0x1616		
+10373	platform	sensor	preview_i2c			0x20,0x2510,0x3248,0x1616		
+10374	platform	sensor	preview_i2c			0x20,0x2510,0xb095,0x1616		
+10375	platform	sensor	preview_i2c			0x20,0x2510,0xf110,0x1616		
+10376	platform	sensor	preview_i2c			0x20,0x2510,0xf864,0x1616		
+10377	platform	sensor	preview_i2c			0x20,0x2510,0xf90d,0x1616		
+10378	platform	sensor	preview_i2c			0x20,0x2510,0x3084,0x1616		
+10379	platform	sensor	preview_i2c			0x20,0x2510,0x32c1,0x1616		
+10380	platform	sensor	preview_i2c			0x20,0x2510,0x3090,0x1616		
+10381	platform	sensor	preview_i2c			0x20,0x2510,0x3088,0x1616		
+10382	platform	sensor	preview_i2c			0x20,0x2510,0x2443,0x1616		
+10383	platform	sensor	preview_i2c			0x20,0x2510,0x8058,0x1616		
+10384	platform	sensor	preview_i2c			0x20,0x2510,0x3001,0x1616		
+10385	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10386	platform	sensor	preview_i2c			0x20,0x2510,0x3220,0x1616		
+10387	platform	sensor	preview_i2c			0x20,0x2510,0x2002,0x1616		
+10388	platform	sensor	preview_i2c			0x20,0x2510,0x8867,0x1616		
+10389	platform	sensor	preview_i2c			0x20,0x2510,0x2004,0x1616		
+10390	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10391	platform	sensor	preview_i2c			0x20,0x2510,0x2441,0x1616		
+10392	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10393	platform	sensor	preview_i2c			0x20,0x2510,0xa9a0,0x1616		
+10394	platform	sensor	preview_i2c			0x20,0x2510,0xb094,0x1616		
+10395	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10396	platform	sensor	preview_i2c			0x20,0x2510,0xa0c4,0x1616		
+10397	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10398	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10399	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10400	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10401	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10402	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10403	platform	sensor	preview_i2c			0x20,0x2510,0xb980,0x1616		
+10404	platform	sensor	preview_i2c			0x20,0x2510,0xa881,0x1616		
+10405	platform	sensor	preview_i2c			0x20,0x2510,0xa8c1,0x1616		
+10406	platform	sensor	preview_i2c			0x20,0x2510,0x8108,0x1616		
+10407	platform	sensor	preview_i2c			0x20,0x2510,0xa105,0x1616		
+10408	platform	sensor	preview_i2c			0x20,0x2510,0x30c1,0x1616		
+10409	platform	sensor	preview_i2c			0x20,0x2510,0x2020,0x1616		
+10410	platform	sensor	preview_i2c			0x20,0x2510,0x3101,0x1616		
+10411	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10412	platform	sensor	preview_i2c			0x20,0x2510,0x3104,0x1616		
+10413	platform	sensor	preview_i2c			0x20,0x2510,0x3102,0x1616		
+10414	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10415	platform	sensor	preview_i2c			0x20,0x2510,0xf860,0x1616		
+10416	platform	sensor	preview_i2c			0x20,0x2510,0xb095,0x1616		
+10417	platform	sensor	preview_i2c			0x20,0x2510,0x2001,0x1616		
+10418	platform	sensor	preview_i2c			0x20,0x2510,0xb988,0x1616		
+10419	platform	sensor	preview_i2c			0x20,0x2510,0xb9f8,0x1616		
+10420	platform	sensor	preview_i2c			0x20,0x2510,0xb9fc,0x1616		
+10421	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10422	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10423	platform	sensor	preview_i2c			0x20,0x2510,0x2001,0x1616		
+10424	platform	sensor	preview_i2c			0x20,0x2510,0xb9fe,0x1616		
+10425	platform	sensor	preview_i2c			0x20,0x2510,0xf905,0x1616		
+10426	platform	sensor	preview_i2c			0x20,0x2510,0xf907,0x1616		
+10427	platform	sensor	preview_i2c			0x20,0x2510,0x3202,0x1616		
+10428	platform	sensor	preview_i2c			0x20,0x2510,0x880b,0x1616		
+10429	platform	sensor	preview_i2c			0x20,0x2510,0xb397,0x1616		
+10430	platform	sensor	preview_i2c			0x20,0x2510,0xf8e8,0x1616		
+10431	platform	sensor	preview_i2c			0x20,0x2510,0x8188,0x1616		
+10432	platform	sensor	preview_i2c			0x20,0x2510,0x9007,0x1616		
+10433	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10434	platform	sensor	preview_i2c			0x20,0x2510,0x2204,0x1616		
+10435	platform	sensor	preview_i2c			0x20,0x2510,0xb137,0x1616		
+10436	platform	sensor	preview_i2c			0x20,0x2510,0xb9b8,0x1616		
+10437	platform	sensor	preview_i2c			0x20,0x2510,0xc801,0x1616		
+10438	platform	sensor	preview_i2c			0x20,0x2510,0xe809,0x1616		
+10439	platform	sensor	preview_i2c			0x20,0x2510,0xb177,0x1616		
+10440	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10441	platform	sensor	preview_i2c			0x20,0x2510,0xf8a8,0x1616		
+10442	platform	sensor	preview_i2c			0x20,0x2510,0xf888,0x1616		
+10443	platform	sensor	preview_i2c			0x20,0x2510,0x2203,0x1616		
+10444	platform	sensor	preview_i2c			0x20,0x2510,0xa8c8,0x1616		
+10445	platform	sensor	preview_i2c			0x20,0x2510,0xb07b,0x1616		
+10446	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10447	platform	sensor	preview_i2c			0x20,0x2510,0x8188,0x1616		
+10448	platform	sensor	preview_i2c			0x20,0x2510,0x8088,0x1616		
+10449	platform	sensor	preview_i2c			0x20,0x2510,0x220b,0x1616		
+10450	platform	sensor	preview_i2c			0x20,0x2510,0xb06a,0x1616		
+10451	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10452	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10453	platform	sensor	preview_i2c			0x20,0x2510,0x2224,0x1616		
+10454	platform	sensor	preview_i2c			0x20,0x2510,0xb04a,0x1616		
+10455	platform	sensor	preview_i2c			0x20,0x2510,0x2218,0x1616		
+10456	platform	sensor	preview_i2c			0x20,0x2510,0x210a,0x1616		
+10457	platform	sensor	preview_i2c			0x20,0x2510,0x210a,0x1616		
+10458	platform	sensor	preview_i2c			0x20,0x2510,0xb04b,0x1616		
+10459	platform	sensor	preview_i2c			0x20,0x2510,0x902f,0x1616		
+10460	platform	sensor	preview_i2c			0x20,0x2510,0xf880,0x1616		
+10461	platform	sensor	preview_i2c			0x20,0x2510,0x2211,0x1616		
+10462	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10463	platform	sensor	preview_i2c			0x20,0x2510,0x2204,0x1616		
+10464	platform	sensor	preview_i2c			0x20,0x2510,0xb043,0x1616		
+10465	platform	sensor	preview_i2c			0x20,0x2510,0xa8c1,0x1616		
+10466	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10467	platform	sensor	preview_i2c			0x20,0x2510,0x2200,0x1616		
+10468	platform	sensor	preview_i2c			0x20,0x2510,0x8048,0x1616		
+10469	platform	sensor	preview_i2c			0x20,0x2510,0x2103,0x1616		
+10470	platform	sensor	preview_i2c			0x20,0x2510,0x916f,0x1616		
+10471	platform	sensor	preview_i2c			0x20,0x2510,0x2106,0x1616		
+10472	platform	sensor	preview_i2c			0x20,0x2510,0x884b,0x1616		
+10473	platform	sensor	preview_i2c			0x20,0x2510,0x210a,0x1616		
+10474	platform	sensor	preview_i2c			0x20,0x2510,0xa8c1,0x1616		
+10475	platform	sensor	preview_i2c			0x20,0x2510,0x2440,0x1616		
+10476	platform	sensor	preview_i2c			0x20,0x2510,0xf110,0x1616		
+10477	platform	sensor	preview_i2c			0x20,0x2510,0xf804,0x1616		
+10478	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10479	platform	sensor	preview_i2c			0x20,0x2510,0x8008,0x1616		
+10480	platform	sensor	preview_i2c			0x20,0x2510,0x2002,0x1616		
+10481	platform	sensor	preview_i2c			0x20,0x2510,0x880b,0x1616		
+10482	platform	sensor	preview_i2c			0x20,0x2510,0x3002,0x1616		
+10483	platform	sensor	preview_i2c			0x20,0x2510,0xb988,0x1616		
+10484	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10485	platform	sensor	preview_i2c			0x20,0x2510,0x3210,0x1616		
+10486	platform	sensor	preview_i2c			0x20,0x2510,0x2206,0x1616		
+10487	platform	sensor	preview_i2c			0x20,0x2510,0x2441,0x1616		
+10488	platform	sensor	preview_i2c			0x20,0x2510,0xa8c1,0x1616		
+10489	platform	sensor	preview_i2c			0x20,0x2510,0xf1cb,0x1616		
+10490	platform	sensor	preview_i2c			0x20,0x2510,0xf1cc,0x1616		
+10491	platform	sensor	preview_i2c			0x20,0x2510,0xf1cc,0x1616		
+10492	platform	sensor	preview_i2c			0x20,0x2510,0x2010,0x1616		
+10493	platform	sensor	preview_i2c			0x20,0x2510,0x8088,0x1616		
+10494	platform	sensor	preview_i2c			0x20,0x2510,0x200c,0x1616		
+10495	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10496	platform	sensor	preview_i2c			0x20,0x2510,0x2005,0x1616		
+10497	platform	sensor	preview_i2c			0x20,0x2510,0xa8d0,0x1616		
+10498	platform	sensor	preview_i2c			0x20,0x2510,0xb04b,0x1616		
+10499	platform	sensor	preview_i2c			0x20,0x2510,0x3202,0x1616		
+10500	platform	sensor	preview_i2c			0x20,0x2510,0xf880,0x1616		
+10501	platform	sensor	preview_i2c			0x20,0x2510,0xb980,0x1616		
+10502	platform	sensor	preview_i2c			0x20,0x2510,0xc800,0x1616		
+10503	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10504	platform	sensor	preview_i2c			0x20,0x2510,0xe80c,0x1616		
+10505	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10506	platform	sensor	preview_i2c			0x20,0x2510,0xb04a,0x1616		
+10507	platform	sensor	preview_i2c			0x20,0x2510,0x2213,0x1616		
+10508	platform	sensor	preview_i2c			0x20,0x2510,0x2225,0x1616		
+10509	platform	sensor	preview_i2c			0x20,0x2510,0x8088,0x1616		
+10510	platform	sensor	preview_i2c			0x20,0x2510,0x2205,0x1616		
+10511	platform	sensor	preview_i2c			0x20,0x2510,0x888b,0x1616		
+10512	platform	sensor	preview_i2c			0x20,0x2510,0x2203,0x1616		
+10513	platform	sensor	preview_i2c			0x20,0x2510,0x3241,0x1616		
+10514	platform	sensor	preview_i2c			0x20,0x2510,0x902f,0x1616		
+10515	platform	sensor	preview_i2c			0x20,0x2510,0x2206,0x1616		
+10516	platform	sensor	preview_i2c			0x20,0x2510,0x2204,0x1616		
+10517	platform	sensor	preview_i2c			0x20,0x2510,0xb042,0x1616		
+10518	platform	sensor	preview_i2c			0x20,0x2510,0xa9a1,0x1616		
+10519	platform	sensor	preview_i2c			0x20,0x2510,0x8058,0x1616		
+10520	platform	sensor	preview_i2c			0x20,0x2510,0xb093,0x1616		
+10521	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10522	platform	sensor	preview_i2c			0x20,0x2510,0x916b,0x1616		
+10523	platform	sensor	preview_i2c			0x20,0x2510,0x2007,0x1616		
+10524	platform	sensor	preview_i2c			0x20,0x2510,0x3084,0x1616		
+10525	platform	sensor	preview_i2c			0x20,0x2510,0x32c1,0x1616		
+10526	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10527	platform	sensor	preview_i2c			0x20,0x2510,0xa144,0x1616		
+10528	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10529	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10530	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10531	platform	sensor	preview_i2c			0x20,0x2510,0xb800,0x1616		
+10532	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10533	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10534	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10535	platform	sensor	preview_i2c			0x20,0x2510,0x30d0,0x1616		
+10536	platform	sensor	preview_i2c			0x20,0x2510,0xa184,0x1616		
+10537	platform	sensor	preview_i2c			0x20,0x2510,0xb980,0x1616		
+10538	platform	sensor	preview_i2c			0x20,0x2510,0x807c,0x1616		
+10539	platform	sensor	preview_i2c			0x20,0x2510,0x3141,0x1616		
+10540	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10541	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10542	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10543	platform	sensor	preview_i2c			0x20,0x2510,0x3142,0x1616		
+10544	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10545	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10546	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10547	platform	sensor	preview_i2c			0x20,0x2510,0x3281,0x1616		
+10548	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10549	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10550	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10551	platform	sensor	preview_i2c			0x20,0x2510,0x3290,0x1616		
+10552	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10553	platform	sensor	preview_i2c			0x20,0x2510,0x3042,0x1616		
+10554	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10555	platform	sensor	preview_i2c			0x20,0x2510,0x3110,0x1616		
+10556	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10557	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10558	platform	sensor	preview_i2c			0x20,0x2510,0x3120,0x1616		
+10559	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10560	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10561	platform	sensor	preview_i2c			0x20,0x2510,0x3282,0x1616		
+10562	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10563	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10564	platform	sensor	preview_i2c			0x20,0x2510,0x32a0,0x1616		
+10565	platform	sensor	preview_i2c			0x20,0x2510,0x3041,0x1616		
+10566	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10567	platform	sensor	preview_i2c			0x20,0x2510,0x881b,0x1616		
+10568	platform	sensor	preview_i2c			0x20,0x2510,0x887f,0x1616		
+10569	platform	sensor	preview_i2c			0x20,0x2510,0x2440,0x1616		
+10570	platform	sensor	preview_i2c			0x20,0x2510,0x3260,0x1616		
+10571	platform	sensor	preview_i2c			0x20,0x2510,0x3248,0x1616		
+10572	platform	sensor	preview_i2c			0x20,0x2510,0xb095,0x1616		
+10573	platform	sensor	preview_i2c			0x20,0x2510,0xf110,0x1616		
+10574	platform	sensor	preview_i2c			0x20,0x2510,0xf864,0x1616		
+10575	platform	sensor	preview_i2c			0x20,0x2510,0xf90d,0x1616		
+10576	platform	sensor	preview_i2c			0x20,0x2510,0x32c2,0x1616		
+10577	platform	sensor	preview_i2c			0x20,0x2510,0x30a0,0x1616		
+10578	platform	sensor	preview_i2c			0x20,0x2510,0x3090,0x1616		
+10579	platform	sensor	preview_i2c			0x20,0x2510,0x3088,0x1616		
+10580	platform	sensor	preview_i2c			0x20,0x2510,0x2443,0x1616		
+10581	platform	sensor	preview_i2c			0x20,0x2510,0x8058,0x1616		
+10582	platform	sensor	preview_i2c			0x20,0x2510,0x3001,0x1616		
+10583	platform	sensor	preview_i2c			0x20,0x2510,0x2202,0x1616		
+10584	platform	sensor	preview_i2c			0x20,0x2510,0x885b,0x1616		
+10585	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10586	platform	sensor	preview_i2c			0x20,0x2510,0x3220,0x1616		
+10587	platform	sensor	preview_i2c			0x20,0x2510,0x2003,0x1616		
+10588	platform	sensor	preview_i2c			0x20,0x2510,0x8058,0x1616		
+10589	platform	sensor	preview_i2c			0x20,0x2510,0x2001,0x1616		
+10590	platform	sensor	preview_i2c			0x20,0x2510,0x885b,0x1616		
+10591	platform	sensor	preview_i2c			0x20,0x2510,0x2441,0x1616		
+10592	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10593	platform	sensor	preview_i2c			0x20,0x2510,0x2007,0x1616		
+10594	platform	sensor	preview_i2c			0x20,0x2510,0x8018,0x1616		
+10595	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10596	platform	sensor	preview_i2c			0x20,0x2510,0x881b,0x1616		
+10597	platform	sensor	preview_i2c			0x20,0x2510,0x2008,0x1616		
+10598	platform	sensor	preview_i2c			0x20,0x2510,0x801a,0x1616		
+10599	platform	sensor	preview_i2c			0x20,0x2510,0x200a,0x1616		
+10600	platform	sensor	preview_i2c			0x20,0x2510,0x8002,0x1616		
+10601	platform	sensor	preview_i2c			0x20,0x2510,0xa9a1,0x1616		
+10602	platform	sensor	preview_i2c			0x20,0x2510,0xb094,0x1616		
+10603	platform	sensor	preview_i2c			0x20,0x2510,0x2201,0x1616		
+10604	platform	sensor	preview_i2c			0x20,0x2510,0x8803,0x1616		
+10605	platform	sensor	preview_i2c			0x20,0x2510,0xa1c4,0x1616		
+10606	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10607	platform	sensor	preview_i2c			0x20,0x2510,0xb800,0x1616		
+10608	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10609	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10610	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10611	platform	sensor	preview_i2c			0x20,0x2510,0x3141,0x1616		
+10612	platform	sensor	preview_i2c			0x20,0x2510,0xa005,0x1616		
+10613	platform	sensor	preview_i2c			0x20,0x2510,0xc800,0x1616		
+10614	platform	sensor	preview_i2c			0x20,0x2510,0xe802,0x1616		
+10615	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10616	platform	sensor	preview_i2c			0x20,0x2510,0x2440,0x1616		
+10617	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10618	platform	sensor	preview_i2c			0x20,0x2510,0xc801,0x1616		
+10619	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10620	platform	sensor	preview_i2c			0x20,0x2510,0x31c1,0x1616		
+10621	platform	sensor	preview_i2c			0x20,0x2510,0xa044,0x1616		
+10622	platform	sensor	preview_i2c			0x20,0x2510,0x3044,0x1616		
+10623	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10624	platform	sensor	preview_i2c			0x20,0x2510,0xa004,0x1616		
+10625	platform	sensor	preview_i2c			0x20,0x2510,0x2000,0x1616		
+10626	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10627	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10628	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10629	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10630	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10631	platform	sensor	preview_i2c			0x20,0x2510,0x2703,0x1616		
+10632	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10633	platform	sensor	preview_i2c			0x20,0x2510,0x2424,0x1616		
+10634	platform	sensor	preview_i2c			0x20,0x2510,0x2703,0x1616		
+10635	platform	sensor	preview_i2c			0x20,0x2510,0x2427,0x1616		
+10636	platform	sensor	preview_i2c			0x20,0x2510,0x2704,0x1616		
+10637	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10638	platform	sensor	preview_i2c			0x20,0x2510,0x2424,0x1616		
+10639	platform	sensor	preview_i2c			0x20,0x2510,0x2704,0x1616		
+10640	platform	sensor	preview_i2c			0x20,0x2510,0x2427,0x1616		
+10641	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10642	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10643	platform	sensor	preview_i2c			0x20,0x2510,0x2703,0x1616		
+10644	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10645	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10646	platform	sensor	preview_i2c			0x20,0x2510,0x2703,0x1616		
+10647	platform	sensor	preview_i2c			0x20,0x2510,0x2421,0x1616		
+10648	platform	sensor	preview_i2c			0x20,0x2510,0x2704,0x1616		
+10649	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10650	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10651	platform	sensor	preview_i2c			0x20,0x2510,0x2704,0x1616		
+10652	platform	sensor	preview_i2c			0x20,0x2510,0x2421,0x1616		
+10653	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10654	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10655	platform	sensor	preview_i2c			0x20,0x2510,0xb095,0x1616		
+10656	platform	sensor	preview_i2c			0x20,0x2510,0xf110,0x1616		
+10657	platform	sensor	preview_i2c			0x20,0x2510,0xf864,0x1616		
+10658	platform	sensor	preview_i2c			0x20,0x2510,0xf90d,0x1616		
+10659	platform	sensor	preview_i2c			0x20,0x2510,0x3001,0x1616		
+10660	platform	sensor	preview_i2c			0x20,0x2510,0x2442,0x1616		
+10661	platform	sensor	preview_i2c			0x20,0x2510,0x30c2,0x1616		
+10662	platform	sensor	preview_i2c			0x20,0x2510,0xa9a0,0x1616		
+10663	platform	sensor	preview_i2c			0x20,0x2510,0xb094,0x1616		
+10664	platform	sensor	preview_i2c			0x20,0x2510,0xb800,0x1616		
+10665	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10666	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10667	platform	sensor	preview_i2c			0x20,0x2510,0x2759,0x1616		
+10668	platform	sensor	preview_i2c			0x20,0x2510,0x2422,0x1616		
+10669	platform	sensor	preview_i2c			0x20,0x2510,0x2758,0x1616		
+10670	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10671	platform	sensor	preview_i2c			0x20,0x2510,0x2403,0x1616		
+10672	platform	sensor	preview_i2c			0x20,0x2510,0x2712,0x1616		
+10673	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10674	platform	sensor	preview_i2c			0x20,0x2510,0x2422,0x1616		
+10675	platform	sensor	preview_i2c			0x20,0x2510,0x271a,0x1616		
+10676	platform	sensor	preview_i2c			0x20,0x2510,0x3242,0x1616		
+10677	platform	sensor	preview_i2c			0x20,0x2510,0x2420,0x1616		
+10678	platform	sensor	preview_i2c			0x20,0x2510,0x2702,0x1616		
+10679	platform	sensor	preview_i2c			0x20,0x2510,0x2423,0x1616		
+10680	platform	sensor	preview_i2c			0x20,0x2510,0x2759,0x1616		
+10681	platform	sensor	preview_i2c			0x20,0x2510,0x2425,0x1616		
+10682	platform	sensor	preview_i2c			0x20,0x2510,0x2758,0x1616		
+10683	platform	sensor	preview_i2c			0x20,0x2510,0x2426,0x1616		
+10684	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10685	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10686	platform	sensor	preview_i2c			0x20,0x2510,0x7fff,0x1616		
+10687	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10688	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10689	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10690	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10691	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10692	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10693	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10694	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10695	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10696	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10697	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10698	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10699	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10700	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10701	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10702	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10703	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10704	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10705	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10706	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10707	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10708	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10709	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10710	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10711	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10712	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10713	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10714	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10715	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10716	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10717	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10718	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10719	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10720	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10721	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10722	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10723	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10724	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10725	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10726	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10727	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10728	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10729	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10730	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10731	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10732	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10733	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10734	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10735	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10736	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10737	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10738	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10739	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10740	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10741	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10742	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10743	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10744	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10745	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10746	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10747	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10748	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10749	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10750	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10751	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10752	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10753	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10754	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10755	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10756	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10757	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10758	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10759	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10760	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10761	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10762	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10763	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10764	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10765	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10766	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10767	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10768	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10769	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10770	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10771	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10772	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10773	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10774	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10775	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10776	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10777	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10778	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10779	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10780	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10781	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10782	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10783	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10784	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10785	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10786	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10787	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10788	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10789	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10790	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10791	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10792	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10793	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10794	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10795	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10796	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10797	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10798	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10799	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10800	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10801	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10802	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10803	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10804	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10805	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10806	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10807	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10808	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10809	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10810	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10811	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10812	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10813	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10814	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10815	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10816	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10817	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10818	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10819	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10820	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10821	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10822	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10823	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10824	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10825	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10826	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10827	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10828	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10829	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10830	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10831	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10832	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10833	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10834	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10835	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10836	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10837	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10838	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10839	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10840	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10841	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10842	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10843	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10844	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10845	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10846	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10847	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10848	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10849	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10850	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10851	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10852	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10853	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10854	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10855	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10856	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10857	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10858	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10859	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10860	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10861	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10862	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10863	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10864	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10865	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10866	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10867	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10868	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10869	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10870	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10871	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10872	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10873	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10874	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10875	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10876	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10877	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10878	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10879	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10880	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10881	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10882	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10883	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10884	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10885	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10886	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10887	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10888	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10889	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10890	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10891	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10892	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10893	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10894	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10895	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10896	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10897	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10898	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10899	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10900	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10901	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10902	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10903	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10904	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10905	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10906	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10907	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10908	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10909	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10910	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10911	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10912	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10913	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10914	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10915	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10916	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10917	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10918	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10919	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10920	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10921	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10922	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10923	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10924	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10925	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10926	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10927	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10928	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10929	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10930	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10931	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10932	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10933	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10934	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10935	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10936	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10937	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10938	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10939	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10940	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10941	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10942	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10943	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10944	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10945	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10946	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10947	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10948	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10949	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10950	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10951	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10952	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10953	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10954	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10955	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10956	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10957	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10958	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10959	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10960	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10961	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10962	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10963	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10964	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10965	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10966	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10967	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10968	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10969	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10970	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10971	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10972	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10973	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10974	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10975	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10976	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10977	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10978	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10979	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10980	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10981	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10982	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10983	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10984	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10985	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10986	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10987	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10988	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10989	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10990	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10991	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10992	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10993	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10994	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10995	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10996	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10997	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10998	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+10999	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11000	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11001	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11002	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11003	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11004	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11005	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11006	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11007	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11008	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11009	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11010	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11011	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11012	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11013	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11014	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11015	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11016	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11017	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11018	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11019	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11020	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11021	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11022	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11023	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11024	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11025	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11026	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11027	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11028	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11029	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11030	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11031	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11032	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11033	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11034	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11035	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11036	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11037	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11038	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11039	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11040	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11041	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11042	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11043	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11044	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11045	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11046	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11047	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11048	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11049	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11050	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11051	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11052	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11053	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11054	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11055	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11056	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11057	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11058	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11059	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11060	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11061	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11062	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11063	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11064	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11065	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11066	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11067	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11068	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11069	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11070	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11071	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11072	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11073	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11074	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11075	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11076	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11077	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11078	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11079	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11080	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11081	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11082	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11083	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11084	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11085	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11086	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11087	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11088	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11089	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11090	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11091	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11092	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11093	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11094	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11095	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11096	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11097	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11098	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11099	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11100	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11101	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11102	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11103	platform	sensor	preview_i2c			0x20,0x2510,0xffff,0x1616		
+11104	platform	sensor	preview_i2c			0x20,0x2510,0x3433,0x1616		
+11105	platform	sensor	preview_i2c			0x20,0x2510,0x360d,0x1616		
+11106	platform	sensor	preview_i2c			0x20,0xffff,0x00fe,0x1616		
+11107	platform	sensor	preview_i2c			0x20,0x3e94,0x3007,0x1616		
+11108	platform	sensor	preview_i2c			0x20,0x3e6e,0xe200,0x1616		
+11109	platform	sensor	preview_i2c			0x20,0x3e98,0x1000,0x1616		
+11110	platform	sensor	preview_i2c			0x20,0x3f92,0x4c00,0x1616		
+11111	platform	sensor	preview_i2c			0x20,0x30b8,0x000f,0x1616		
+11112	platform	sensor	preview_i2c			0x20,0x30b8,0x0007,0x1616		
+11113	platform	sensor	preview_i2c			0x20,0x3082,0x0000,0x1616		
+11114	platform	sensor	preview_i2c			0x20,0x30ba,0x1120,0x1616		
+11115	platform	sensor	preview_i2c			0x20,0x31ac,0x0c0c,0x1616		
+11116	platform	sensor	preview_i2c			0x20,0x3030,0x0058,0x1616		
+11117	platform	sensor	preview_i2c			0x20,0x302e,0x0005,0x1616		
+11118	platform	sensor	preview_i2c			0x20,0x302c,0x0701,0x1616		
+11119	platform	sensor	preview_i2c			0x20,0x302a,0x0006,0x1616		
+11120	platform	sensor	preview_i2c			0x20,0x3038,0x0002,0x1616		
+11121	platform	sensor	preview_i2c			0x20,0x3036,0x0006,0x1616		
+11122	platform	sensor	preview_i2c			0x20,0x31dc,0x1fa0,0x1616		
+11123	platform	sensor	preview_i2c			0x20,0x31ae,0x0204,0x1616		
+11124	platform	sensor	preview_i2c			0x20,0x31b0,0x003d,0x1616		
+11125	platform	sensor	preview_i2c			0x20,0x31b2,0x0024,0x1616		
+11126	platform	sensor	preview_i2c			0x20,0x31b4,0x4185,0x1616		
+11127	platform	sensor	preview_i2c			0x20,0x31b6,0x2185,0x1616		
+11128	platform	sensor	preview_i2c			0x20,0x31b8,0x40c8,0x1616		
+11129	platform	sensor	preview_i2c			0x20,0x31ba,0x0207,0x1616		
+11130	platform	sensor	preview_i2c			0x20,0x31bc,0x8785,0x1616		
+11131	platform	sensor	preview_i2c			0x20,0x3342,0x122c,0x1616		
+11132	platform	sensor	preview_i2c			0x20,0x3346,0x122c,0x1616		
+11133	platform	sensor	preview_i2c			0x20,0x334a,0x122c,0x1616		
+11134	platform	sensor	preview_i2c			0x20,0x3004,0x004a,0x1616		
+11135	platform	sensor	preview_i2c			0x20,0x3008,0x07c9,0x1616		
+11136	platform	sensor	preview_i2c			0x20,0x3002,0x0004,0x1616		
+11137	platform	sensor	preview_i2c			0x20,0x3006,0x0503,0x1616		
+11138	platform	sensor	preview_i2c			0x20,0x30a2,0x0001,0x1616		
+11139	platform	sensor	preview_i2c			0x20,0x30a6,0x0001,0x1616		
+11140	platform	sensor	preview_i2c			0x20,0x3402,0x0780,0x1616		
+11141	platform	sensor	preview_i2c			0x20,0x3404,0x0500,0x1616		
+11142	platform	sensor	preview_i2c			0x20,0x3044,0x0400,0x1616		
+11143	platform	sensor	preview_i2c			0x20,0x300c,0x073a,0x1616		
+11144	platform	sensor	preview_i2c			0x20,0x300a,0x058a,0x1616		
+11145	platform	sensor	preview_i2c			0x20,0x3012,0x0240,0x1616		
+11146	platform	sensor	preview_i2c			0x20,0x31d0,0x0000,0x1616		
+11147	platform	sensor	preview_i2c			0x20,0x301a,0x005c,0x1616		
+11148	platform	sensor	preview_i2c			0x00,0x0000,0x00c8,0x1616		
+60000	algorithm	tableindex	total	(mainindex:0)(faindex:1)(afcindex:2)(afcmtfindex:1)(afcsfrindex:1)(afctvlineindex:1)(whiteblackindex:5)(blackindex:0)(currentos:0)(burn:2)(lightsourceindex:0)(archive:0)				

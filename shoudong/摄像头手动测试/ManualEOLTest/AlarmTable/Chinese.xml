@@ -1,0 +1,105 @@
+﻿<AlarmTable>
+  <A0000 Type="K" Content="Input元件初始化異常" DoStop="False" />
+  <A0500 Type="K" Content="Output元件初始化異常" DoStop="False" />
+  <A1000 Type="K" Content="Motor元件初始化異常" DoStop="False" />
+  <A2000 Type="I" Content="系統初始載入完成" DoStop="False" />
+  <A2001 Type="I" Content="機台執行" DoStop="False" />
+  <A2002 Type="I" Content="機台停止" DoStop="True" />
+  <A2003 Type="I" Content="結批中" DoStop="False" />
+  <A2004 Type="I" Content="結批完成" DoStop="False" />
+  <A2005 Type="W" Content="機台執行前，請先載入Recipe" DoStop="True" />
+  <A2006 Type="I" Content="請選擇Recipe" DoStop="False" />
+  <A2007 Type="I" Content="載入Recipe成功" DoStop="False" />
+  <A2008 Type="I" Content="初始化開始" DoStop="False" />
+  <A2009 Type="I" Content="初始化結束" DoStop="False" />
+  <A2010 Type="I" Content="取消初始化" DoStop="False" />
+  <A2011 Type="I" Content="進入手動頁面(Module/Recipe)後，禁止自動執行" DoStop="True" />
+  <A1500 Type="K" Content="傳回值 NEXT 未設定流程" DoStop="True" />
+  <A1501 Type="K" Content="傳回值 CASE1 未設定流程" DoStop="True" />
+  <A1502 Type="K" Content="傳回值 CASE2 未設定流程" DoStop="True" />
+  <A1503 Type="K" Content="傳回值 CASE3 未設定流程" DoStop="True" />
+  <A1504 Type="K" Content="傳回值 CASE4 未設定流程" DoStop="True" />
+  <A1505 Type="K" Content="傳回值 CASE5 未設定流程" DoStop="True" />
+  <A2012 Type="E" Content="CheckMotorProtected 發生不可預期錯誤" DoStop="True" />
+  <A2013 Type="E" Content="Execute 發生不可預期的錯誤" DoStop="True" />
+  <A2014 Type="E" Content="AlwaysRun 發生不可預期的錯誤" DoStop="True" />
+  <A2015 Type="E" Content="RunAuto 發生不可預期的錯誤" DoStop="True" />
+  <A2016 Type="E" Content="RunHome 發生不可預期的錯誤" DoStop="True" />
+  <A2017 Type="I" Content="執行時，無法離開程式" DoStop="False" />
+  <A2018 Type="I" Content="找不到錯誤碼" DoStop="True" />
+  <A2019 Type="E" Content="Run Live發生錯誤" DoStop="false" />
+  <A2020 Type="E" Content="儲存影像發生錯誤" DoStop="false" />
+  <A2021 Type="E" Content="緊停偵測1" DoStop="true" />
+  <A2022 Type="E" Content="緊停偵測2" DoStop="true" />
+  <A2023 Type="E" Content="緊停偵測3" DoStop="true" />
+  <A2024 Type="E" Content="緊停偵測4" DoStop="true" />
+  <A2025 Type="E" Content="緊停偵測5" DoStop="true" />
+  <A2026 Type="E" Content="安全門1被開啟" DoStop="True" />
+  <A2027 Type="E" Content="安全門2被開啟" DoStop="True" />
+  <A2028 Type="E" Content="安全門3被開啟" DoStop="True" />
+  <A2029 Type="E" Content="安全門4被開啟" DoStop="True" />
+  <A2030 Type="E" Content="安全門5被開啟" DoStop="True" />
+  <A2031 Type="E" Content="安全門6被開啟" DoStop="True" />
+  <A3021 Type="E" Content="EMG STOP" DoStop="True" />
+  <A2033 Type="E" Content="安全門8被開啟" DoStop="True" />
+  <A2034 Type="E" Content="安全門9被開啟" DoStop="True" />
+  <A2035 Type="E" Content="安全門10被開啟" DoStop="True" />
+  <A2036 Type="E" Content="碰觸安全光閘1" DoStop="True" />
+  <A2037 Type="E" Content="碰觸安全光閘2" DoStop="True" />
+  <A2038 Type="E" Content="碰觸安全光閘3" DoStop="True" />
+  <A2039 Type="E" Content="碰觸安全光閘4" DoStop="True" />
+  <A2040 Type="E" Content="碰觸安全光閘5" DoStop="True" />
+  <A2041 Type="E" Content="空壓偵測異常，請檢查空壓！" DoStop="true" />
+  <A2042 Type="E" Content="馬達驅動器異常，請檢查！" DoStop="true" />
+  <A2043 Type="E" Content="RunManual 發生不可預期的錯誤" DoStop="True" />
+
+  <A5000 Type="E" Content="上Barcode連線失敗" DoStop="True" />
+  <A5001 Type="E" Content="下Barcode連線失敗" DoStop="True" />
+  <A5002 Type="E" Content="PLC連線失敗" DoStop="True" />
+  <A5003 Type="E" Content="LoadCell-1連線失敗" DoStop="True" />
+  <A5004 Type="E" Content="LoadCell-2連線失敗" DoStop="True" />
+  <A5005 Type="E" Content="LoadCell-3連線失敗" DoStop="True" />
+  <A5006 Type="E" Content="LoadCell-4連線失敗" DoStop="True" />
+  <A5007 Type="E" Content="LoadCell-5連線失敗" DoStop="True" />
+  <A5008 Type="E" Content="LoadCell-6連線失敗" DoStop="True" />
+  <A5009 Type="E" Content="LoadCell-7連線失敗" DoStop="True" />
+  <A5010 Type="E" Content="LoadCell-8連線失敗" DoStop="True" />
+  <A5011 Type="E" Content="Laser連線失敗" DoStop="True" />
+  <A5020 Type="E" Content="鉚壓總點數設置錯誤" DoStop="False" />
+  <A5021 Type="E" Content="雷射取值失敗" DoStop="False" />
+  <A5022 Type="E" Content="Split Index設置錯誤" DoStop="False" />
+  <A5023 Type="E" Content="Laser1實際掃描點數小於設置參考點數" DoStop="False" />
+  <A5024 Type="E" Content="Laser2實際掃描點數小於設置參考點數" DoStop="False" />
+  <A5025 Type="E" Content="上Barcode條碼比對錯誤,請確認條碼號是否適用於此產品" DoStop="False" />
+  <A5026 Type="E" Content="下Barcode條碼比對錯誤,請確認條碼號是否適用於此產品" DoStop="False" />
+  <A5027 Type="E" Content="上Barcode讀取異常,請確認連線狀態" DoStop="False" />
+  <A5028 Type="E" Content="下Barcode讀取異常,請確認連線狀態" DoStop="False" />
+  <A5029 Type="E" Content="上Barcode讀取失敗,請確認標籤位置與讀取位置是否正確" DoStop="False" />
+  <A5030 Type="E" Content="下Barcode讀取異常,請確認標籤位置與讀取位置是否正確" DoStop="False" />
+  <A5031 Type="E" Content="TIS確認NG,請取出產品" DoStop="False" />
+
+  <A6000 Type="E" Content="夾具定位頂升動作逾時(應為OFF)" DoStop="True" />
+  <A6001 Type="E" Content="頂夾具把手動作逾時(應為OFF)" DoStop="True" />
+  <A6002 Type="E" Content="頂夾具開關動作逾時(應為OFF)" DoStop="True" />
+  <A6003 Type="E" Content="左組裝站下壓汽缸動作逾時(應為OFF)" DoStop="True" />
+  <A6004 Type="E" Content="右組裝站下壓汽缸動作逾時(應為OFF)" DoStop="True" />
+  <A6005 Type="E" Content="左組裝站翻轉汽缸動作逾時(應為OFF)" DoStop="True" />
+  <A6006 Type="E" Content="右組裝站翻轉汽缸動作逾時(應為OFF)" DoStop="True" />
+  <A6007 Type="E" Content="左組裝站夾缸動作逾時(應為OFF)" DoStop="True" />
+  <A6008 Type="E" Content="右組裝站夾缸動作逾時(應為OFF)" DoStop="True" />
+  <A6009 Type="E" Content="真空建立失敗，請檢查" DoStop="True" />
+  <A6010 Type="E" Content="左組裝站台車上有殘料，請排除" DoStop="True" />
+  <A6011 Type="E" Content="左組裝站台車上有散熱片，請排除" DoStop="True" />
+  <A6012 Type="E" Content="左組裝站上有散熱片，請排除" DoStop="True" />
+  <A6013 Type="E" Content="右組裝站台車上有殘料，請排除" DoStop="True" />
+  <A6014 Type="E" Content="右組裝站台車上有散熱片，請排除" DoStop="True" />
+  <A6015 Type="E" Content="右組裝站上有散熱片，請排除" DoStop="True" />
+  <A6016 Type="E" Content="出入料台車上有殘料，請排除" DoStop="True" />
+  <A6017 Type="E" Content="Z軸夾爪動作逾時(應為OFF)" DoStop="True" />
+  <A6018 Type="E" Content="夾具定位頂升動作逾時(應為ON)" DoStop="True" />
+  <A6019 Type="E" Content="頂夾具開關動作逾時(應為ON)" DoStop="True" />
+  <A6020 Type="E" Content="頂夾具把手動作逾時(應為ON)" DoStop="True" />
+  <A6021 Type="E" Content="Z軸夾爪動作逾時(應為ON)" DoStop="True" />
+  <A6022 Type="E" Content="左組裝站夾缸動作逾時(應為ON)" DoStop="True" />
+  <A6023 Type="E" Content="右組裝站夾缸動作逾時(應為ON)" DoStop="True" />
+</AlarmTable>

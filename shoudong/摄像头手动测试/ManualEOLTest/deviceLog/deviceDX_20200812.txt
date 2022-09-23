@@ -1,0 +1,227 @@
+09:22:10 450	 start loadBaseParameter
+09:22:15 450	 start loadBaseParameter
+09:22:20 309	 start loadBaseParameter
+09:22:25 090	 start loadBaseParameter
+09:22:29 918	 start setSN
+09:22:29 934	 start setSN
+09:22:29 934	 start setSN
+09:22:29 934	 start setSN
+09:23:05 573	 start setSN
+09:23:05 573	start cam_stop 
+09:23:05 714	finish cam_stop 
+09:23:05 917	start cam_stop 
+09:23:06 042	finish cam_stop 
+09:23:06 042	 start Playnew
+09:23:06 042	into cam_play:deviceID1 
+09:23:06 058	openDevice:deviceID1 
+09:23:06 417	开始sensor power:deviceID 1 
+09:23:06 792	完成sensor power:deviceID 1 
+09:23:06 808	完成Pin set:deviceID 1 
+09:23:07 167	完成I2C set:deviceID 1 
+09:23:07 323	start InitSensor :deviceID 1 
+09:23:07 807	start InitSensor failed 1 times :deviceID 1 
+09:23:08 401	start InitSensor failed 2 times :deviceID 1 
+09:23:08 995	start InitSensor failed 3 times :deviceID 1 
+09:23:08 995	start cam_stop 
+09:23:09 135	finish cam_stop 
+09:23:09 354	 start Playnew
+09:23:09 354	into cam_play:deviceID1 
+09:23:09 370	openDevice:deviceID1 
+09:23:09 760	开始sensor power:deviceID 1 
+09:23:10 151	完成sensor power:deviceID 1 
+09:23:10 182	完成Pin set:deviceID 1 
+09:23:10 526	完成I2C set:deviceID 1 
+09:23:10 682	start InitSensor :deviceID 1 
+09:23:11 167	start InitSensor failed 1 times :deviceID 1 
+09:23:11 760	start InitSensor failed 2 times :deviceID 1 
+09:23:12 354	start InitSensor failed 3 times :deviceID 1 
+09:23:39 639	 start setSN
+09:23:39 639	start cam_stop 
+09:23:39 780	finish cam_stop 
+09:23:39 998	start cam_stop 
+09:23:40 123	finish cam_stop 
+09:23:40 123	 start Playnew
+09:23:40 123	into cam_play:deviceID1 
+09:23:40 139	openDevice:deviceID1 
+09:23:40 498	开始sensor power:deviceID 1 
+09:23:40 905	完成sensor power:deviceID 1 
+09:23:40 936	完成Pin set:deviceID 1 
+09:23:41 295	完成I2C set:deviceID 1 
+09:23:41 451	start InitSensor :deviceID 1 
+09:23:41 936	start InitSensor failed 1 times :deviceID 1 
+09:23:42 530	start InitSensor failed 2 times :deviceID 1 
+09:23:43 123	start InitSensor failed 3 times :deviceID 1 
+09:23:43 123	start cam_stop 
+09:23:43 264	finish cam_stop 
+09:23:43 483	 start Playnew
+09:23:43 483	into cam_play:deviceID1 
+09:23:43 483	openDevice:deviceID1 
+09:23:43 873	开始sensor power:deviceID 1 
+09:23:44 264	完成sensor power:deviceID 1 
+09:23:44 295	完成Pin set:deviceID 1 
+09:23:44 639	完成I2C set:deviceID 1 
+09:23:44 795	start InitSensor :deviceID 1 
+09:23:45 279	start InitSensor failed 1 times :deviceID 1 
+09:23:45 873	start InitSensor failed 2 times :deviceID 1 
+09:23:46 467	start InitSensor failed 3 times :deviceID 1 
+09:23:52 162	 start setSN
+09:23:52 162	start cam_stop 
+09:23:52 287	finish cam_stop 
+09:23:52 506	start cam_stop 
+09:23:52 631	finish cam_stop 
+09:23:52 631	 start Playnew
+09:23:52 631	into cam_play:deviceID0 
+09:23:52 646	openDevice:deviceID0 
+09:23:52 818	开始sensor power:deviceID 0 
+09:23:53 209	完成sensor power:deviceID 0 
+09:23:53 240	完成Pin set:deviceID 0 
+09:23:53 599	完成I2C set:deviceID 0 
+09:23:53 755	start InitSensor :deviceID 0 
+09:23:54 240	start InitSensor failed 1 times :deviceID 0 
+09:23:54 834	start InitSensor failed 2 times :deviceID 0 
+09:23:55 427	start InitSensor failed 3 times :deviceID 0 
+09:23:55 427	start cam_stop 
+09:23:55 568	finish cam_stop 
+09:23:55 787	 start Playnew
+09:23:55 787	into cam_play:deviceID0 
+09:23:55 787	openDevice:deviceID0 
+09:23:55 974	开始sensor power:deviceID 0 
+09:23:56 349	完成sensor power:deviceID 0 
+09:23:56 380	完成Pin set:deviceID 0 
+09:23:56 740	完成I2C set:deviceID 0 
+09:23:56 896	start InitSensor :deviceID 0 
+09:23:57 380	start InitSensor failed 1 times :deviceID 0 
+09:23:57 974	start InitSensor failed 2 times :deviceID 0 
+09:23:58 568	start InitSensor failed 3 times :deviceID 0 
+09:24:04 967	 start setSN
+09:24:04 967	start cam_stop 
+09:24:05 092	finish cam_stop 
+09:24:05 311	start cam_stop 
+09:24:05 436	finish cam_stop 
+09:24:05 436	 start Playnew
+09:24:05 436	into cam_play:deviceID2 
+09:24:05 451	openDevice:deviceID2 
+09:24:05 826	开始sensor power:deviceID 2 
+09:24:06 217	完成sensor power:deviceID 2 
+09:24:06 248	完成Pin set:deviceID 2 
+09:24:06 607	完成I2C set:deviceID 2 
+09:24:06 764	start InitSensor :deviceID 2 
+09:24:07 248	start InitSensor failed 1 times :deviceID 2 
+09:24:07 842	start InitSensor failed 2 times :deviceID 2 
+09:24:08 436	start InitSensor failed 3 times :deviceID 2 
+09:24:08 436	start cam_stop 
+09:24:08 576	finish cam_stop 
+09:24:08 795	 start Playnew
+09:24:08 795	into cam_play:deviceID2 
+09:24:08 795	openDevice:deviceID2 
+09:24:09 186	开始sensor power:deviceID 2 
+09:24:09 576	完成sensor power:deviceID 2 
+09:24:09 607	完成Pin set:deviceID 2 
+09:24:09 951	完成I2C set:deviceID 2 
+09:24:10 107	start InitSensor :deviceID 2 
+09:24:10 592	start InitSensor failed 1 times :deviceID 2 
+09:24:11 185	start InitSensor failed 2 times :deviceID 2 
+09:24:11 779	start InitSensor failed 3 times :deviceID 2 
+09:24:18 330	 start setSN
+09:24:18 330	start cam_stop 
+09:24:18 455	finish cam_stop 
+09:24:18 674	start cam_stop 
+09:24:18 799	finish cam_stop 
+09:24:18 799	 start Playnew
+09:24:18 799	into cam_play:deviceID3 
+09:24:18 814	openDevice:deviceID3 
+09:24:18 986	开始sensor power:deviceID 3 
+09:24:19 361	完成sensor power:deviceID 3 
+09:24:19 392	完成Pin set:deviceID 3 
+09:24:19 736	完成I2C set:deviceID 3 
+09:24:19 892	start InitSensor :deviceID 3 
+09:24:20 377	start InitSensor failed 1 times :deviceID 3 
+09:24:20 970	start InitSensor failed 2 times :deviceID 3 
+09:24:21 564	start InitSensor failed 3 times :deviceID 3 
+09:24:21 564	start cam_stop 
+09:24:21 705	finish cam_stop 
+09:24:21 924	 start Playnew
+09:24:21 924	into cam_play:deviceID3 
+09:24:21 924	openDevice:deviceID3 
+09:24:22 127	开始sensor power:deviceID 3 
+09:24:22 502	完成sensor power:deviceID 3 
+09:24:22 533	完成Pin set:deviceID 3 
+09:24:22 877	完成I2C set:deviceID 3 
+09:24:23 033	start InitSensor :deviceID 3 
+09:24:23 517	start InitSensor failed 1 times :deviceID 3 
+09:24:24 111	start InitSensor failed 2 times :deviceID 3 
+09:24:24 705	start InitSensor failed 3 times :deviceID 3 
+09:25:27 275	 start loadBaseParameter
+09:25:32 284	 start loadBaseParameter
+09:25:37 143	 start loadBaseParameter
+09:25:41 940	 start loadBaseParameter
+09:25:46 690	 start setSN
+09:25:46 705	 start setSN
+09:25:46 705	 start setSN
+09:25:46 705	 start setSN
+09:26:52 649	 start setSN
+09:26:52 649	start cam_stop 
+09:26:52 789	finish cam_stop 
+09:26:53 008	start cam_stop 
+09:26:53 133	finish cam_stop 
+09:26:53 133	 start Playnew
+09:26:53 133	into cam_play:deviceID1 
+09:26:53 149	openDevice:deviceID1 
+09:26:53 524	开始sensor power:deviceID 1 
+09:26:53 899	完成sensor power:deviceID 1 
+09:26:53 930	完成Pin set:deviceID 1 
+09:26:54 274	完成I2C set:deviceID 1 
+09:26:54 430	start InitSensor :deviceID 1 
+09:26:54 914	start InitSensor failed 1 times :deviceID 1 
+09:26:55 508	start InitSensor failed 2 times :deviceID 1 
+09:26:56 102	start InitSensor failed 3 times :deviceID 1 
+09:26:56 102	start cam_stop 
+09:26:56 242	finish cam_stop 
+09:26:56 461	 start Playnew
+09:26:56 461	into cam_play:deviceID1 
+09:26:56 461	openDevice:deviceID1 
+09:26:56 836	开始sensor power:deviceID 1 
+09:26:57 227	完成sensor power:deviceID 1 
+09:26:57 258	完成Pin set:deviceID 1 
+09:26:57 602	完成I2C set:deviceID 1 
+09:26:57 758	start InitSensor :deviceID 1 
+09:26:58 242	start InitSensor failed 1 times :deviceID 1 
+09:26:58 836	start InitSensor failed 2 times :deviceID 1 
+09:26:59 430	start InitSensor failed 3 times :deviceID 1 
+09:41:05 951	 start loadBaseParameter
+09:41:10 857	 start loadBaseParameter
+09:41:15 638	 start loadBaseParameter
+09:41:20 466	 start loadBaseParameter
+09:41:25 325	 start setSN
+09:41:25 325	 start setSN
+09:41:25 325	 start setSN
+09:41:25 325	 start setSN
+09:42:15 489	 start setSN
+09:42:15 489	start cam_stop 
+09:42:15 629	finish cam_stop 
+09:42:15 848	start cam_stop 
+09:42:15 973	finish cam_stop 
+09:42:15 973	 start Playnew
+09:42:15 973	into cam_play:deviceID1 
+09:42:15 988	openDevice:deviceID1 
+09:42:16 363	开始sensor power:deviceID 1 
+09:42:16 754	完成sensor power:deviceID 1 
+09:42:16 785	完成Pin set:deviceID 1 
+09:42:17 129	完成I2C set:deviceID 1 
+09:42:17 285	start InitSensor :deviceID 1 
+09:42:17 770	start InitSensor failed 1 times :deviceID 1 
+09:42:18 364	start InitSensor failed 2 times :deviceID 1 
+09:42:18 957	start InitSensor failed 3 times :deviceID 1 
+09:42:18 957	start cam_stop 
+09:42:19 098	finish cam_stop 
+09:42:19 317	 start Playnew
+09:42:19 317	into cam_play:deviceID1 
+09:42:19 317	openDevice:deviceID1 
+09:42:19 708	开始sensor power:deviceID 1 
+09:42:20 098	完成sensor power:deviceID 1 
+09:42:20 129	完成Pin set:deviceID 1 
+09:42:20 473	完成I2C set:deviceID 1 
+09:42:20 629	start InitSensor :deviceID 1 
+09:42:21 114	start InitSensor failed 1 times :deviceID 1 
+09:42:21 707	start InitSensor failed 2 times :deviceID 1 
+09:42:22 301	start InitSensor failed 3 times :deviceID 1 

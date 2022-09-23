@@ -1,0 +1,1106 @@
+出现应用程序未处理的异常：2020/1/16 19:46:25
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 10:34:10
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 11:23:34
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:22:23
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:22:23
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:26:24
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:26:24
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:29:07
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/1/17 15:29:07
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/17 14:04:43
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething2(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 2116
+   at CommonTools.Stationbase.MoveMulitAxisPosWaitInpos(Int32[] nAxiss, Double[] cmpDstposs, Double[] speeds, Double dFineDistance, Boolean bmauanl, Stationbase stationbase, Int32 nTimeout) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1373
+   at StationDemo.StationAA.GoAAReadyPos(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 274
+   at StationDemo.StationAA.StepInitRun(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 314
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 145
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/17 19:16:06
+异常类型：ExternalException
+异常消息：A generic error occurred in GDI+.
+异常信息：   at System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   at Module.CameraImage.ShowImgChart(Int32 Socket, Image img, SFRInfo sfrInfo, BlockInfo lightInfo, ObjectInfo objectInfo, Rectangle[] rectangles, String strSaveImgpath) in D:\AH\StationDemo_Ver1.0UserX64_AH\Module\CameraImage.cs:line 398
+   at Module.CameraImage.UpdOneShotChart(Image imgforshow, String strSaveImgpath) in D:\AH\StationDemo_Ver1.0UserX64_AH\Module\CameraImage.cs:line 734
+   at Module.CameraImage.UpdateParaImgChart(enParaName socket, Bitmap bitmap, SFRInfo SFR_Info, ObjectInfo objectInfo, Rectangle[] rectangles, BlockInfo Block_Info, String strSaveImgpath) in D:\AH\StationDemo_Ver1.0UserX64_AH\Module\CameraImage.cs:line 688
+   at Module.CameraImage.<>c__DisplayClass29_0.<UpdateParaImgChart>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\Module\CameraImage.cs:line 657
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 11:16:09
+Application UnhandledException:Error creating window handle.;
+堆栈信息:   at System.Windows.Forms.NativeWindow.CreateHandle(CreateParams cp)
+   at System.Windows.Forms.Control.CreateHandle()
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   at System.Windows.Forms.Control.BeginInvoke(Delegate method, Object[] args)
+   at StationDemo.StationForm.ChangeMotionIoStateAndPos(Int32 index, Boolean[] bChangeBitGet, AxisIOState axisIOState, AxisPos axisPos) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\StationForm.cs:line 67
+   at MotionIoLib.MotionMgr.ChangeMotionIoOrPosHandler.Invoke(Int32 nAxisNo, Boolean[] bChangeBitArr, AxisIOState state, AxisPos axisPos)
+   at MotionIoLib.MotionMgr.ThreadMonitor() in D:\AH\StationDemo_Ver1.0UserX64_AH\MotionLib\MotionIOLib.cs:line 1356
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 11:16:24
+Application UnhandledException:The process cannot access the file 'D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\bin\SA\ErrLog\ErrLog.txt' because it is being used by another process.;
+堆栈信息:   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at StationDemo.Program.writeLog(String str) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Program.cs:line 89
+   at StationDemo.Program.Application_ThreadException(Object sender, ThreadExceptionEventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Program.cs:line 56
+   at System.Windows.Forms.Application.ThreadContext.OnThreadException(Exception t)
+   at System.Windows.Forms.Control.WndProcException(Exception e)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 11:39:11
+异常类型：InvalidOperationException
+异常消息：Cross-thread operation not valid: Control 'Form1' accessed from a thread other than the thread it was created on.
+异常信息：   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.Form.UpdateMenuHandles(MainMenu menu, Boolean forceRedraw)
+   at System.Windows.Forms.Form.UpdateMenuHandles()
+   at System.Windows.Forms.Form.MenuChanged(Int32 change, Menu menu)
+   at System.Windows.Forms.Form.Dispose(Boolean disposing)
+   at StationDemo.Form1.Dispose(Boolean disposing) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.Designer.cs:line 20
+   at System.Windows.Forms.Form.WmClose(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 12:09:32
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething2(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 2116
+   at CommonTools.Stationbase.MoveMulitAxisPosWaitInpos(Int32[] nAxiss, Double[] cmpDstposs, Double[] speeds, Double dFineDistance, Boolean bmauanl, Stationbase stationbase, Int32 nTimeout) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1373
+   at StationDemo.StationAA.GoAAReadyPos(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 274
+   at StationDemo.StationAA.StepInitRun(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 314
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 145
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 19:44:23
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at System.Windows.Forms.DataGridViewComboBoxCell.InitializeEditingControl(Int32 rowIndex, Object initialFormattedValue, DataGridViewCellStyle dataGridViewCellStyle)
+   at System.Windows.Forms.DataGridView.InitializeEditingControlValue(DataGridViewCellStyle& dataGridViewCellStyle, DataGridViewCell dataGridViewCell)
+   at System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   at System.Windows.Forms.DataGridViewComboBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 19:44:32
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at System.Windows.Forms.DataGridViewComboBoxCell.InitializeEditingControl(Int32 rowIndex, Object initialFormattedValue, DataGridViewCellStyle dataGridViewCellStyle)
+   at System.Windows.Forms.DataGridView.InitializeEditingControlValue(DataGridViewCellStyle& dataGridViewCellStyle, DataGridViewCell dataGridViewCell)
+   at System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   at System.Windows.Forms.DataGridViewComboBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 19:45:11
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at System.Windows.Forms.DataGridViewComboBoxCell.InitializeEditingControl(Int32 rowIndex, Object initialFormattedValue, DataGridViewCellStyle dataGridViewCellStyle)
+   at System.Windows.Forms.DataGridView.InitializeEditingControlValue(DataGridViewCellStyle& dataGridViewCellStyle, DataGridViewCell dataGridViewCell)
+   at System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   at System.Windows.Forms.DataGridViewComboBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 19:45:40
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at System.Windows.Forms.DataGridViewComboBoxCell.InitializeEditingControl(Int32 rowIndex, Object initialFormattedValue, DataGridViewCellStyle dataGridViewCellStyle)
+   at System.Windows.Forms.DataGridView.InitializeEditingControlValue(DataGridViewCellStyle& dataGridViewCellStyle, DataGridViewCell dataGridViewCell)
+   at System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   at System.Windows.Forms.DataGridViewComboBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/19 19:45:53
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at System.Windows.Forms.DataGridViewComboBoxCell.InitializeEditingControl(Int32 rowIndex, Object initialFormattedValue, DataGridViewCellStyle dataGridViewCellStyle)
+   at System.Windows.Forms.DataGridView.InitializeEditingControlValue(DataGridViewCellStyle& dataGridViewCellStyle, DataGridViewCell dataGridViewCell)
+   at System.Windows.Forms.DataGridView.BeginEditInternal(Boolean selectAll)
+   at System.Windows.Forms.DataGridViewComboBoxCell.OnMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnCellMouseClick(DataGridViewCellMouseEventArgs e)
+   at System.Windows.Forms.DataGridView.OnMouseClick(MouseEventArgs e)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/20 10:23:48
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 135
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/20 12:01:18
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual)
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/20 12:15:10
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 135
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/20 18:36:20
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/21 14:33:32
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 135
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/22 10:45:32
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 135
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/25 9:42:22
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.MoveLoad.GoClampPos(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\MoveLoad.cs:line 144
+   at StationDemo.StationAA.Clump(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 1019
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 149
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/25 16:25:09
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/2/25 16:33:44
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething2(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 2116
+   at CommonTools.Stationbase.MoveMulitAxisPosWaitInpos(Int32[] nAxiss, Double[] cmpDstposs, Double[] speeds, Double dFineDistance, Boolean bmauanl, Stationbase stationbase, Int32 nTimeout) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1373
+   at StationDemo.StationAA.GoAAReadyPos(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 276
+   at StationDemo.StationAA.StepInitRun(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 341
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 145
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 477
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 475
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/3 10:29:53
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1954
+   at CommonTools.Stationbase.CheckIobyName(String ioName, Boolean val, String excptionmsg, Boolean bmanual, Int32 nTimeout, Action actionFUN) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 768
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 136
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 502
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 500
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/3 10:48:57
+异常类型：Exception
+异常消息：double 类型没有参数第1次dtx
+异常信息：   at BaseDll.ParamSetMgr.GetDoubleParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 432
+   at StationDemo.StationAA.StepThroughFocusRun(Boolean bmanual, Int32 index) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 889
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 168
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 502
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 500
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/3 13:34:12
+异常类型：dowhileException
+异常消息：Exception of type 'CommonTools.dowhileException' was thrown.
+异常信息：   at CommonTools.DoWhile.doSomething2(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 2116
+   at CommonTools.Stationbase.MoveMulitAxisPosWaitInpos(Int32[] nAxiss, Double[] cmpDstposs, Double[] speeds, Double dFineDistance, Boolean bmauanl, Stationbase stationbase, Int32 nTimeout) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1373
+   at StationDemo.StationAA.GoAAReadyPos(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 291
+   at StationDemo.StationAA.StepInitRun(Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 356
+   at StationDemo.StationAA.ExceFun(String strName, Boolean bmanual) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\AA.cs:line 146
+   at StationDemo.Form_Manual.<>c__DisplayClass28_0.<RunOneStep_Click>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 502
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at StationDemo.Form_Manual.<RunOneStep_Click>d__28.MoveNext() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Manual.cs:line 500
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/4 15:31:59
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:   at CameraLib.HikVisionCamera.ConvertToRGB(Object obj, IntPtr pSrc, UInt16 nHeight, UInt16 nWidth, MvGvspPixelType nPixelType, IntPtr pDst) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 611
+   at CameraLib.HikVisionCamera.ImageCallback(IntPtr pData, MV_FRAME_OUT_INFO& pFrameInfo, IntPtr pUser) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 337
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/4 15:33:30
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:   at CameraLib.HikVisionCamera.ConvertToRGB(Object obj, IntPtr pSrc, UInt16 nHeight, UInt16 nWidth, MvGvspPixelType nPixelType, IntPtr pDst) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 611
+   at CameraLib.HikVisionCamera.ImageCallback(IntPtr pData, MV_FRAME_OUT_INFO& pFrameInfo, IntPtr pUser) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 337
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/4 15:35:44
+Application UnhandledException:Object reference not set to an instance of an object.;
+堆栈信息:   at CameraLib.HikVisionCamera.ConvertToRGB(Object obj, IntPtr pSrc, UInt16 nHeight, UInt16 nWidth, MvGvspPixelType nPixelType, IntPtr pDst) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 611
+   at CameraLib.HikVisionCamera.ImageCallback(IntPtr pData, MV_FRAME_OUT_INFO& pFrameInfo, IntPtr pUser) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 337
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/4 15:59:30
+Application UnhandledException:The specified structure must be blittable or have layout information.
+Parameter name: structure;
+堆栈信息:   at System.Runtime.InteropServices.Marshal.PtrToStructureHelper(IntPtr ptr, Object structure, Boolean allowValueClasses)
+   at System.Runtime.InteropServices.Marshal.PtrToStructure(IntPtr ptr, Type structureType)
+   at System.Runtime.InteropServices.Marshal.PtrToStructure[T](IntPtr ptr)
+   at CameraLib.HikVisionCamera.ConvertToRGB(IntPtr obj, IntPtr pSrc, UInt16 nHeight, UInt16 nWidth, MvGvspPixelType nPixelType, IntPtr pDst) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 593
+   at CameraLib.HikVisionCamera.ImageCallback(IntPtr pData, MV_FRAME_OUT_INFO& pFrameInfo, IntPtr pUser) in D:\AH\StationDemo_Ver1.0UserX64_AH\CameraLib\HikVisionCamera.cs:line 337
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/9 11:05:43
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/16 9:44:05
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/16 9:46:53
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/16 9:50:47
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/16 9:51:28
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/17 15:16:47
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/23 11:09:19
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/3/26 13:41:14
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/1 20:49:30
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 399
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 493
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/2 10:21:14
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 399
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 493
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/10 13:46:16
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/10 19:15:58
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at XYZDispensVision.ShowDispImage.ShowDispImage_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\DispensVision\ShowDispImage.cs:line 50
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 11:08:11
+异常类型：Exception
+异常消息：停止
+异常信息：   at CommonTools.DoWhile.doSomething2(Stationbase stationbase, DoWhile doWhile, Boolean bmanual, Object[] obj) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 2021
+   at CommonTools.Stationbase.MoveMulitAxisPosWaitInpos(Int32[] nAxiss, Double[] cmpDstposs, Double[] speeds, Double dFineDistance, Boolean bmauanl, Stationbase stationbase, Int32 nTimeout) in D:\AH\StationDemo_Ver1.0UserX86_Cross\CommonTools\StationBase.cs:line 1373
+   at StationDemo.MoveLoad.GostepAA(Boolean bmanual)
+   at StationDemo.Form_Auto.productTest_Click(Object sender, EventArgs e)
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:21:03
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 409
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:22:34
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 409
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:24:21
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 409
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:25:08
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 409
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:28:49
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 409
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 17:35:44
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 214
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 144
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 19:15:11
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 420
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 19:40:56
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 214
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 144
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 19:57:12
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 214
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 144
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/16 20:44:58
+异常类型：FileNotFoundException
+异常消息：Could not load file or assembly 'MvCameraControl.Net, Version=2.1.2.2, Culture=neutral, PublicKeyToken=null' or one of its dependencies. 系统找不到指定的文件。
+异常信息：   at StationDemo.UserConfig.InitCam(Form_Auto formauto)
+   at StationDemo.Form_Auto.Form_Auto_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_Auto.cs:line 421
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   at System.Windows.Forms.Control.Show()
+   at StationDemo.Form1.Form1_Load(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 494
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)
+   at System.Windows.Forms.Form.OnCreateControl()
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   at System.Windows.Forms.Control.CreateControl()
+   at System.Windows.Forms.Control.WmShowWindow(Message& m)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.Form.WmShowWindow(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 9:56:32
+异常类型：NullReferenceException
+异常消息：Object reference not set to an instance of an object.
+异常信息：   at StationDemo.Form_ParamSet.check() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_ParamSet.cs:line 262
+   at StationDemo.Form_ParamSet.BtnSave_Click(Object sender, EventArgs e) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form_ParamSet.cs:line 207
+   at System.Windows.Forms.Control.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnClick(EventArgs e)
+   at System.Windows.Forms.Button.OnMouseUp(MouseEventArgs mevent)
+   at AutoFrameUI.RoundButton.OnMouseUp(MouseEventArgs e) in E:\十字镭射\StationDemo_Ver1.0UserX86\AutoFrameUI\RoundButton.cs:line 662
+   at System.Windows.Forms.Control.WmMouseUp(Message& m, MouseButtons button, Int32 clicks)
+   at System.Windows.Forms.Control.WndProc(Message& m)
+   at System.Windows.Forms.ButtonBase.WndProc(Message& m)
+   at System.Windows.Forms.Button.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 14:20:46
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 214
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 144
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 14:46:51
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 216
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 145
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 15:04:12
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 216
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 145
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 15:08:52
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 216
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 145
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/17 15:25:05
+异常类型：MissingMethodException
+异常消息：Method not found: 'Boolean BaseDll.PulseGenerator.get_IsRuning()'.
+异常信息：   at CommonTools.AlarmMgr.ALarmInfo()
+   at CommonTools.AlarmMgr.AlarmBeet(AlarmType type) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 216
+   at CommonTools.AlarmMgr.Warn(String AlarmMsg, AlarmType type, Int32 AlarmNum) in E:\框架程序\StationDemo_Ver1.0UserX64\CommonTools\Alarm.cs:line 145
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 263
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 236
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:13
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:16
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:17
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:17
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:18
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:18
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:19
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:20
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:20
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:20
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:20
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:21
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:24
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:25
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:25
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:39
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:39
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:39
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:40
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:40
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:11:40
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:13:28
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------
+出现应用程序未处理的异常：2020/4/25 1:34:44
+异常类型：Exception
+异常消息：bool 类型没有参数启用安全光栅
+异常信息：   at BaseDll.ParamSetMgr.GetBoolParam(String strParamName) in E:\奥华AA\StationDemo_Ver1.0UserX86_Cross\BaseDll\Parmset.cs:line 408
+   at StationDemo.Form1.ProcessSysIo(String strIoName, Boolean bCurrentState) in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 312
+   at StationDemo.Form1.<>c__DisplayClass17_0.<ProcessSysIo>b__0() in D:\AH\StationDemo_Ver1.0UserX64_AH\StationDemo\Form1.cs:line 239
+
+---------------------------------------------------------

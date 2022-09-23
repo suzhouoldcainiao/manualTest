@@ -1,0 +1,745 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CSHisFX3Platform, Version=1.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RLGCSHisFX3Platform._CSRect: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(RLGCSHisFX3Platform._CSRect): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 left : Public
+    Int32 top : Public
+    Int32 right : Public
+    Int32 bottom : Public
+  Methods:
+    op_Assign(_CSRect IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+    IsEqual(_CSRect IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig
+Class RLGCSHisFX3Platform._CSHisFX3OS_Positive_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strName : Public
+    System.String strGNDName : Public
+    Single flSpecMin : Public
+    Single flSpecMax : Public
+    Single flVoltValue : Public
+    Boolean bTest : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_Positive_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_Negtive_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strName : Public
+    System.String strDOVDDName : Public
+    Single flSpecMin : Public
+    Single flSpecMax : Public
+    Single flVoltValue : Public
+    Boolean bTest : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_Negtive_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_Short_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strName : Public
+    System.String strShortName : Public
+    Single flShortSpec : Public
+    Single flVoltValue : Public
+    UInt32 shortIndex : Public
+    Boolean bTest : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_Short_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_Open_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String strName : Public
+    System.String strOpenName : Public
+    Single flOpenSpec : Public
+    Single flVoltValue : Public
+    UInt32 openIndex : Public
+    Boolean bTest : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_Open_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_OHM_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String str1stName : Public
+    System.String str2ndName : Public
+    Single flOhmValue : Public
+    Single flSpecMin : Public
+    Single flSpecMax : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_OHM_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_LeakageCurrent_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String dutName : Public
+    System.String gndName : Public
+    Single current : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_LeakageCurrent_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform._CSHisFX3OS_UpTime_Item: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String dutName : Public
+    System.String gndName : Public
+    Single voltLimit : Public
+    Single smoothLineVoltDiff : Public
+    UInt32 upTime : Public
+    Double pinVolt : Public
+    Int32 cam : Public
+    Int32 port : Public
+    UInt32 reserve : Public
+  Methods:
+    op_Assign(_CSHisFX3OS_UpTime_Item IsImplicitlyDereferenced IsConst): PrivateScope, Public, HideBySig, SpecialName
+Class RLGCSHisFX3Platform.CSHisFX3_PreviewStruct: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    UInt32 ver : Public
+    UInt32 uiVoltSetFlag : Public
+    Single volt_DOVDD : Public
+    Single volt_DVDD : Public
+    Single volt_AVDD : Public
+    Single volt_AF : Public
+    Single volt_OTP : Public
+    Single volt_POW : Public
+    Single volt_IODD : Public
+    Single maxVoltDiff : Public
+    Single volt_5V : Public
+    Single volt_12V : Public
+    Boolean bIsSetRST : Public
+    Boolean bReset_ActiveLow : Public
+    Boolean bIsSetPWDN : Public
+    Boolean bPWND_ActiveLow : Public
+    Boolean bIsSetMCLK : Public
+    Double mclk : Public
+    Byte onlyRightFrame : Public
+    Byte ddr : Public
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory sensorFactory : Public
+    System.String powerUpSequence : Public
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode dataFormat : Public
+    UInt32 iWidth : Public
+    UInt32 iHeight : Public
+    UInt32 uiDummyLeft : Public
+    UInt32 uiDummyRight : Public
+    UInt32 uiDummyTop : Public
+    UInt32 uiDummyBottom : Public
+    Int32 customTotalFrameBytes : Public
+    RLGCSHisFX3Platform._CSRect[] streamROI : Public
+    UInt32 streamROINums : Public
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream port : Public
+    Byte ucLaneNum : Public
+    Byte ucCommProtocal : Public
+    Boolean bCheckDeviceAck : Public
+    Boolean bSPICSLow : Public
+    Boolean bSPILittleEndian : Public
+    Boolean bSPIClkHigh : Public
+    UInt32 usI2CSpeed : Public
+    UInt16 usI2CIntervalTime : Public
+    UInt32 usI2CCount : Public
+    Byte[] pucSlave : Public
+    UInt32[] puiReg : Public
+    UInt32[] puiData : Public
+    UInt16[] pusType : Public
+    UInt32 timeout : Public
+    Boolean virtualChannel : Public
+    UInt32 virtualSize : Public
+    UInt16 i2cByteDelay : Public
+    Byte i2cFailRetryTimes : Public
+    Byte[] glReserve : Public
+    Byte ucSignalMode : Public
+    Boolean outputXVSXHS_DPHY : Public
+    UInt32 XHS_DPHY : Public
+    UInt32 XVS_DPHY : Public
+    Byte[] dphyReserve : Public
+    Boolean bDVP_VS_ActiveHigh : Public
+    Boolean bDVP_HS_ActiveHigh : Public
+    Byte ucDVP_LineFormat : Public
+    Int32 DVP_PhaseShift : Public
+    Byte[] dvpReserve : Public
+    Boolean bOutputXSVS : Public
+    UInt32 LVDS_XHS : Public
+    UInt32 LVDS_XVS : Public
+    UInt32 LVDSAlign : Public
+    Byte[] lvdsReserve : Public
+    System.String strSensorName : Public
+    UInt32 cphyMode : Public
+    Double cphyRate : Public
+    UInt32 cphy2ndI2CCount : Public
+    Byte[] cphy2ndSlave : Public
+    Int32[] cphy2ndReg : Public
+    Int32[] cphy2ndData : Public
+    Int16[] cphy2ndType : Public
+    UInt32 cphySigI2CCount : Public
+    Byte[] cphySigSlave : Public
+    Int32[] cphySigReg : Public
+    Int32[] cphySigData : Public
+    Int16[] cphySigType : Public
+    Byte[] cphyReserve : Public
+    UInt32 embedHeight : Public
+    Byte[] agxReserve : Public
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Connect_Type deserializerConnectType : Public
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode deserializerMode : Public
+    Byte deserializerSlaveAddress : Public
+    Boolean deserializerMasterMode : Public
+    Double deserializerSlaveModeVSyncRate : Public
+    Double deserializerSlaveModeVSyncDuty : Public
+    Double deserializerSlaveModeHSyncRate : Public
+    Double deserializerSlaveModeHSyncDuty : Public
+    Byte sampleImageWidth_VC8D : Public
+    Byte sampleImageHeight_VC8D : Public
+    Byte[] deserializerReserve : Public
+    System.String uvcLocation : Public
+    Byte[] uvcReserve : Public
+    Byte[] otherReserve : Public
+Class RLGCSHisFX3Platform.CSHisFX3PlatSDK: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    HisFX3SetVolt(Single, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetVoltSetted(_CSHisFX3_Platform_VoltFlag, Int32): PrivateScope, Public, HideBySig
+    HisFX3ReadVolt(_CSHisFX3_Platform_VoltFlag, Int32): PrivateScope, Public, HideBySig
+    HisFX3VoltDischarge(UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetVoltFeedbackPoint(Boolean(HasFieldMarshal), _CSHisFX3_Platform_VoltFlag, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetMCLK(Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetMCLK(Int32): PrivateScope, Public, HideBySig
+    HisFX3PullReset(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3PullPWDN(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetPhaseShift_DVP(Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDVP(UInt32, Boolean(HasFieldMarshal), Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetPixelAlign_LVDS(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetXVSXHS_LVDS(Boolean(HasFieldMarshal), UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetXVSXHS_DPHY(Boolean(HasFieldMarshal), UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetSignalMode_DPHY(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetBitReverse_HiSPI(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetVirtualChannel_MIPI(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDataRate_CPHY(Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3MeasureDataRate_CPHY(Double, Double, Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3AutoMeasureCPHYRate(Int32): PrivateScope, Public, HideBySig
+    HisFX3WriteSigCfg_CPHY(Byte, UInt32, UInt64, UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3ReadSigCfg_CPHY(Byte, UInt32, UInt64&, UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetMode_CPHY(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3MeasureCurrent(Double[], UInt32, UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetOSPinNameList(String[], Int32&, Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetOSSource(Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSPositiveTest(Int32, _CSHisFX3OS_Positive_Item[], Int32, UInt32, Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSNegtiveTest(Int32, _CSHisFX3OS_Negtive_Item[], Int32, UInt32, Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSShortTest(Int32, _CSHisFX3OS_Short_Item[], Int32, UInt32, Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSOpenTest(Int32, _CSHisFX3OS_Open_Item[], Int32, UInt32, Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSOhmTest(Int32, _CSHisFX3OS_OHM_Item[], UInt32, Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSUpTimeTest(Int32, _CSHisFX3OS_UpTime_Item[], Single, Int32): PrivateScope, Public, HideBySig
+    HisFX3OSLeakageCurrentTest(Int32, _CSHisFX3OS_LeakageCurrent_Item[], Int32, UInt32, Single, Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3IO_OutPortWrite(UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3IO_OutPortRead(UInt32&, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3IO_InPortRead(UInt32&, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetIO_OutPortPWM(UInt32, Double, Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3ConnectSensorIIC(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetSensorIICConnectType(_CSHisFX3_CommunicationProtocal, Int32): PrivateScope, Public, HideBySig
+    HisFX3VoltCalibration(Int32): PrivateScope, Public, HideBySig
+    HisFX3CurrentCalibration(Int32): PrivateScope, Public, HideBySig
+    HisFX3SplitBox(UInt32, UInt32): PrivateScope, Public, HideBySig
+    HisFX3SetSrcFormat_UVC(String, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetNormalProperty_UVC(CSUVC_CAPTURE_PROPETIES, Int32 IsLong, Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3GetNormalProperty_UVC(CSUVC_CAPTURE_PROPETIES, Int64&, Boolean&, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetXUProperty_UVC(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetXUProperty_UVC(Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDeserializerType(_CSHisFX3_Deserializer): PrivateScope, Public, HideBySig
+    HisFX3SetDeserializerConnectType(_CSHisFX3_Deserializer_Connect_Type, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDeserializerMode(_CSHisFX3_Deserializer_Mode, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDeserializerSlaveAddress(Byte, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetDeserializerPassLockStatistics(UInt32&, UInt32&, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetCamMode16OnOff_VM16F(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    HisFX3SetImageSample_VC8D(Byte, Byte, Int32): PrivateScope, Public, HideBySig
+    HisFX3ChangeInternelDeviceSlaveGroup_VC8D(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3GetLastError(Int32): PrivateScope, Public, HideBySig
+    HisFX3SetOffLineMode(Boolean(HasFieldMarshal), String, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetOfflineModeInfo(UInt32&, UInt32&, _CSHisFX3_BaylorMode&, UInt32&, Int32): PrivateScope, Public, HideBySig
+    getPreviewImageSize(UInt32&, UInt32&, Int32&, _CSHisFX3_BaylorMode, Int32): PrivateScope, Public, HideBySig
+    getGrabFrameBytes(_CSHisFX3_BaylorMode, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+    HisFX3SetCurrentPlatformType(_CSHisFX3_Platform_Type): PrivateScope, Public, HideBySig
+    HisFX3GetCurrentPlatformType(): PrivateScope, Public, HideBySig
+    HisFX3SetFiberNum(Int32): PrivateScope, Public, HideBySig
+    HisFX3CPUAffinity(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    HisFX3SetGbEType(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetDevCount(): PrivateScope, Public, HideBySig
+    HisFX3EnumDev(String[]&, Int32&): PrivateScope, Public, HideBySig
+    HisFX3EnumDevStr(String&): PrivateScope, Public, HideBySig
+    HisFX3OpenDevice(Int32, String): PrivateScope, Public, HideBySig
+    HisFX3CloseDevice(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetCurrentBoxSerial(String, Int32): PrivateScope, Public, HideBySig
+    HisFX3UpdateFPGA(String, Int32): PrivateScope, Public, HideBySig
+    HisFX3UpdatePCIeFiber(String): PrivateScope, Public, HideBySig
+    HisFX3SetUSBSpeed(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetUSBPktSize(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetFPGAVer(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetOSVer(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetSOCVer(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetFX3Ver(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetPCIeFiberCardVer(): PrivateScope, Public, HideBySig
+    HisFX3GetPCIeCardDriverVer(): PrivateScope, Public, HideBySig
+    HisFX3IsOpen(Int32): PrivateScope, Public, HideBySig
+    HisFX3IsConnected(Int32): PrivateScope, Public, HideBySig
+    HisFX3LedControl(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3BuzzerControl(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetFanMode(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetFanAutoRange(Double, Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetFanVolt(Double, Int32): PrivateScope, Public, HideBySig
+    HisFX3MeasureBoxTotalCurrent(Double&, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetFPGATemperature(Int32): PrivateScope, Public, HideBySig
+    HisFX3GetPCIeFirberCardTemperature(): PrivateScope, Public, HideBySig
+    HisFX3BurnUserData(UInt32, Byte[], UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3ReadUserData(UInt32, Byte[], UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetDDR(Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3OnlyRightFrame(Byte, Int32): PrivateScope, Public, HideBySig
+    HisFX3StartPreview(Int32): PrivateScope, Public, HideBySig
+    HisFX3StartPreview(CSHisFX3_PreviewStruct, Int32): PrivateScope, Public, HideBySig
+    HisFX3StopPreview(String, Int32): PrivateScope, Public, HideBySig
+    HisFX3SwitchImageSize(CSHisFX3_PreviewStruct, String, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetPortCfg(_CSHisFX3_MIPILane_Stream, Byte, Int32): PrivateScope, Public, HideBySig
+    HisFX3ResetPortDecoder(_CSHisFX3_MIPILane_Stream, Int32): PrivateScope, Public, HideBySig
+    HisFX3PortDecoderOnOff(_CSHisFX3_MIPILane_Stream, Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3GetDecoderInfo(_CSHisFX3_MIPILane_Stream, String&, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetCustomFrameBytes(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetUploadPktType(Byte, Byte[], UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetFrameCfg(_CSHisFX3_BaylorMode, Int32, Int32, Int32, Int32, Int32, Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetUpStreamROI(_CSRect[], Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3StartCapture(Int32): PrivateScope, Public, HideBySig
+    HisFX3StartCaptureWithSkip(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3StopCapture(Int32): PrivateScope, Public, HideBySig
+    HisFX3SetImageStreamMode(_CSHisFX3_IMAGE_STREAM_MODE, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3IsStart(Int32): PrivateScope, Public, HideBySig
+    HisFX3IsDataUploading(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GrabFrame(IntPtr&, Int32, UInt32&, Boolean&, UInt32&, UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetFrameBuf(IntPtr&, Int32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetTotalFrame(UInt32&, UInt32&, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetFPS(Double&, Double&, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3ClearStastisticInfomation(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GrabConsecutiveFrames(IntPtr[]&, UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3ConsecutiveFramesFree(UInt32, Int32): PrivateScope, Public, HideBySig
+    SetSCLLowMaxTime(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3EnableIICAutoAck(Boolean(HasFieldMarshal), UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3IsIICAutoAckEnabled(Int32): PrivateScope, Public, HideBySig
+    HisFX3SetControlCommunicationProtocal(_CSHisFX3_CommunicationProtocal, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetIICSpeed(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetIICSpeed(Int32): PrivateScope, Public, HideBySig
+    HisFX3IICResponds(Byte, Int32): PrivateScope, Public, HideBySig
+    HisFX3WaitIICResponds(Byte, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3WriteIIC(Byte, UInt32, UInt64, UInt16, Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3ReadIIC(Byte, UInt32, Int64&, UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3BatchWriteIICNoLimit(UInt32, Byte[], UInt32[], UInt32[], UInt16[], UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3BatchReadIICNoLimit(UInt32, Byte[], UInt32[], UInt32[], UInt16[], UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3PageWriteIIC(UInt32, UInt32, UInt32, Byte[], UInt32, UInt16, Int32): PrivateScope, Public, HideBySig
+    HisFX3PageReadIIC(UInt32, UInt32, UInt32, Byte[], UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3PageWriteIICNoLimit(UInt32, UInt32, UInt32, Byte[], UInt32, UInt32, UInt16, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3PageReadIICNoLimit(UInt32, UInt32, UInt32, Byte[], UInt32, UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3SetSPISpeed(UInt32, Int32): PrivateScope, Public, HideBySig
+    HisFX3GetSPISpeed(Int32): PrivateScope, Public, HideBySig
+    HisFX3WriteSPI(Byte, UInt32, UInt64, UInt16, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3ReadSPI(Byte, UInt32, UInt64&, UInt16, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3PageWriteSPI(Byte, UInt32, UInt32, Byte[], UInt32, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3PageReadSPI(Byte, UInt32, UInt32, Byte[], UInt32, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Int32): PrivateScope, Public, HideBySig
+    HisFX3SetVoltLinkMode(UInt32, UInt32, Int32): PrivateScope, Public, HideBySig
+Class RLGCSHisFX3Platform.CSHisFX3ImageAlg: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    HisCCMMTF(IntPtr, Int32, Int32, _CSRect, UInt32, Double&, Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Struct RLGCSHisFX3Platform._CSHisFX3_Platform_Type: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_UnKnowed = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R2R3 = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R5 = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R3X = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_UVC = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_RTSPM = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R5X = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_HDMI = 9 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R6 = 10 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R6_Sunny = 15 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R10_Sunny = 11 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R8 = 12 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R2C = 13 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R5_Sunny = 14 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R11 = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R12 = 17 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R15 = 18 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R12S = 19 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R19 = 20 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_VC8D = 21 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R12C = 22 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_VM16F = 23 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R30 = 24 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_Type _HisFX3_Platform_Type_R20 = 25 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_I2C = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_SPI = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_I3C = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_UART = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_Float = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_CommunicationProtocal _HisFX3_CommProtocal_GND = 17 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_BRIGHTNESS = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_CONTRAST = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_HUE = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_SATURATION = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_SHARPNESS = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_GAMMA = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_COLORENABLE = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_WHITEBALANCE = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_BACKLIGHTCOMPENSATION = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_GAIN = 9 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_PAN = 10 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_TILT = 11 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_ROLL = 12 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_ZOOM = 13 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_EXPOSURE = 14 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_IRIS = 15 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_FOCUS = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform.CSUVC_CAPTURE_PROPETIES UVC_CAPTURE_PROP_MAX = 17 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_OV = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_SONY = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_SANSUNG = 32 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_HYNIX = 48 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_APTINA = 64 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_ST = 80 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_TOSHIBA = 96 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_GCOREINC = 112 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_SUPERPIX = 128 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_DONGBU = 144 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_DESERIALIZER = 145 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_CUSTOM = 254 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_Factory _HisFX3_ImageSenor_Factory_OTHER = 255 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_RAW_U8 = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_RAW_U10 = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_RAW_U12 = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_LYUV420_U8 = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_YUV420_U8 = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_YUV420_U10 = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_YUV422_U8 = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_YUV422_U10 = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_ImageSenor_DataType _HisFX3_ImageSenor_DataType_OTHER = 255 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_DVP = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane1_FPGA = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane2_FPGA = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane3_FPGA = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane4_FPGA = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane8_FPGA = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane1_ST = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Lane2_ST = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_DPHY = 15 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SubLVDS_SONY = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SubLVDS_CMOSIS = 17 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SubLVDS_OV = 18 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SubLVDS_PANASONIC = 19 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SubLVDS_END = 31 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Analog_Interleave = 32 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Analog_Progressive = 33 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_BT656_Lane1 = 34 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_BT656_Lane2 = 35 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_BT656_Lane4 = 36 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_BT1120M1_Interleave = 38 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_BT1120M1_Progressive = 39 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_BT1120M2_Interleave = 40 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_BT1120M2_Progressive = 42 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_MTK_Lane1 = 43 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_MTK_Lane2 = 44 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_SPI_MTK_Lane4 = 45 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_DVP_HDMI = 255 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_UVC = 48 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HDMI = 49 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_RTSP = 52 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_Jigboard = 64 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HiSPI_Packetized_SP = 80 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HiSPI_Streaming_SP = 81 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HiSPI_Streaming_S = 82 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HiSPI_ActiveStart_SP8 = 83 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_HiSPI_END = 95 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_MIPILane_Stream _HisFX3_MIPILane_Stream_CPHY = 96 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Deinterlace_Method: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Deinterlace_Method _HisFX3_Deinterlace_Overlap = 0 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_BaylorMode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_BGGR = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_RGGB = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_GRBG = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_GBRG = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_MONO = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor8_END = 15 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_BGGR = 17 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_RGGB = 18 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_GRBG = 19 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_GBRG = 20 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_MONO = 23 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor10_END = 31 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_BGGR = 65 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_RGGB = 66 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_GRBG = 67 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_GBRG = 68 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_MONO = 71 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor12_END = 79 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_BGGR = 81 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_RGGB = 82 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_GRBG = 83 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_GBRG = 84 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_MONO = 87 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor14_END = 95 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_BGGR = 97 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_RGGB = 98 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_GRBG = 99 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_GBRG = 100 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_MONO = 103 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor16_END = 111 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisBaylor_Compact = -2147483648 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_422_YUYV = 33 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_422_UYVY = 34 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_422_YVYU = 35 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_422_VYUY = 36 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_422P = 37 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisYUV8_420P = 38 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisRGB_RGB24 = 48 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisRGB_BGR24 = 49 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisGray_Y8 = 113 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisRGB_Bilinear = 268435456 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_BaylorMode HisOutputAddInfo = 536870912 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_NONE = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_AVDD = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_DVDD = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_DOVDD = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_AF = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_OTP = 16 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_POW = 32 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_IODD = 64 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_V5 = 128 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Platform_VoltFlag _HisFX3_Platform_VlotOn_V12 = 256 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Deserializer: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_UNKNOWN = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_TI954 = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_MAXIM9296 = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_TI972 = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_MAXIM96706 = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_MAXIM9280 = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer _HisFX3_Deserializer_MAXIM96716 = 6 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Deserializer_Connect_Type: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Connect_Type _HisFX3_Deserializer_COAX = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Connect_Type _HisFX3_Deserializer_STP = 1 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_TI_LF = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_TI_HF = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_TI_BackChannel = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_GMSL1_HIM_Disable = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_GMSL1_HIM_Enable = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_GMSL2_3Gbps = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_GMSL2_6Gbps = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_Tunnel_3Gbps = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_Tunnel_6Gbps = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_Pixel_3Gbps = 9 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Deserializer_Mode _HisFX3_Deserializer_MAXIM_Pixel_6Gbps = 10 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_Statistics_Type: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_Statistics_Type _HisFX3_Statistics_FPGA_Frame_Count = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_Statistics_Type _HisFX3_Statistics_FPGA_PASS_LOCK = 2 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3_IMAGE_STREAM_MODE: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3_IMAGE_STREAM_MODE HisFX3_IMAGE_STREAM_MODE_CONTINIUS = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_IMAGE_STREAM_MODE HisFX3_IMAGE_STREAM_MODE_ECONOMY = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3_IMAGE_STREAM_MODE HisFX3_IMAGE_STREAM_MODE_AUTO = 2 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_VPPS = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_AVDDS = 1 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_DOVDDS = 2 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_DVDDS = 3 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_AFS = 4 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_SGND = 5 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_MCLK1 = 6 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_MCLK2 = 7 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_RST = 8 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_PWDN = 9 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_SCL = 10 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3_OS_PIN_INDEX _HisFX3_OS_PIN_SDA = 11 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Construct = 256 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CloseUSB3 = 512 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Timeout = 768 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Parameter = 1024 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_IsNotOpen = 1280 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_IsNotPreview = 1536 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_MallocBuffer = 1792 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_USBDataOut = 2048 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Hardware = 2304 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Other = 2560 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NotSuperSpeed = 2816 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CreateThread = 3072 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_License = 3328 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NoRespond = 3584 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_WirteIIC = 3840 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Check = 4096 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AlgData = 4352 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CreateEvent = 4608 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_MemNotEnough = 4864 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_FuntionNotSupport = 5120 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_ShortTestAbort = 5376 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NegOpenTestAbort = 5632 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_PosOpenTestAbort = 5888 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_ImgBufConvert = 6144 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NoHardware = 6400 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Connect = 6656 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CameraON = 6912 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_GrabFrame = 7168 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OSAbort = 7424 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_VersionNotMatch = 7680 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_UpdateHW = 7936 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NoGrabber = 8192 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_GrabberClosing = 8448 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_StreamInReset = 8704 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_StreamExit = 8960 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AVDDVDiffBig = 9216 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DVDDVDiffBig = 9217 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DOVDDVDiffBig = 9218 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_IODDVDiffBig = 9219 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AFVDiffBig = 9220 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_POWVDiffBig = 9221 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OTPVDiffBig = 9222 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_Preivewing = 9472 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OSNotCalibration = 9728 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_VoltageNotCalibration = 9984 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CurrentNotCalibration = 10240 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_IsNotStart = 10496 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OSPinName = 10752 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CPUNotMeet = 10753 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_InvalidLineSize = 674 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_InvalidImageSize = 10755 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OutofMemrory = 10756 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_InvalidFormat = 10757 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OpenDev = 10758 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_NoImageData = 10759 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OpenFile = 10760 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OSNotSupported = 10761 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_USBDataIn = 10762 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_LoadDLL = 10763 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_LoadAPI = 10764 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CRC = 10765 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AF = 10766 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_FlashMemNotEnough = 10767 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_PtIsNULL = 10768 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_WaitEventAbort = 10769 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DecodeWidthHeight = 10770 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_UpFrame = 10771 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DecodeDataFormat = 10772 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DecodeLaneNum = 10773 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_MeasureCPHYRate = 10774 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OperateRegister = 10775 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AdapterCPUBand = 10776 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_ProcessCPUBand = 10777 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_VoltNotOff = 10778 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_ConnectSOC = 10779 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AE = 10780 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CreateFile = 10781 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DriverVerTooLow = 10782 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_GrabberVerTooLow = 10783 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_GrabberSerialNotMatch = 10784 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_OSVerTooLow = 10785 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_VoltCalibrationBeyondSepc = 10786 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_BoxTypeNotMatch = 10787 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CommandCommunication = 10788 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CableConnection = 10789 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DeserializerTypeNotSet = 10790 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_FunctionNotImplemented = 10791 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_PreviewStructVerNotMatch = 10792 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_ImageInfoNotMatch = 10793 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_WorkRCalibrationBeyondSepc = 10794 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_CurrentCalibrationBeyondSepc = 10795 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_VCMDriverTypeNotCorrect = 10796 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_AESensorTypeNotCorrect = 10797 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_I2CSlaveConflic = 10798 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_DeserailizerBoardNotRight = 10799 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_UVCPropertyInterface = 10800 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._CSHisFX3Platform_ErrorCode HisFX3Error_StructVerNotMatch = 10801 : Public, Static, Literal, HasDefault
+Struct RLGCSHisFX3Platform._HisFX3SDK_ErrorCode: AutoLayout, AnsiClass, Class, Public, Sealed, BeforeFieldInit
+  :System.Enum
+  Fields:
+    Int32 value__ : Public, SpecialName, RTSpecialName
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCM_Success = 0 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_IICSettingFmt = 65537 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_IICSettingEmpty = 65538 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_TypeNoSupport = 65793 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_CamBeyond = 65794 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_ImageSize = 65795 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_PreviewNoMalloc = 65796 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_NoRunStart = 65797 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_SenorNameEmpty = 65798 : Public, Static, Literal, HasDefault
+    RLGCSHisFX3Platform._HisFX3SDK_ErrorCode HisCCMError_MemNotEnough = 65799 : Public, Static, Literal, HasDefault

@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="yes"?>
+<Setting>
+  <MSet>
+    <WorkSpeedX>60</WorkSpeedX>
+    <AccelerationX>0.9</AccelerationX>
+    <DecelerationX>0.9</DecelerationX>
+    <WorkSpeedY>30</WorkSpeedY>
+    <AccelerationY>0.9</AccelerationY>
+    <DecelerationY>0.9</DecelerationY>
+    <WorkSpeedZ>30</WorkSpeedZ>
+    <AccelerationZ>0.9</AccelerationZ>
+    <DecelerationZ>0.9</DecelerationZ>
+    <DJ_SPEED>50</DJ_SPEED>
+    <DJ_ACC>0.8</DJ_ACC>
+    <DJ_DEC>0.8</DJ_DEC>
+    <DJ_BASE>32.1265</DJ_BASE>
+    <ZT_BASE>41.05</ZT_BASE>
+    <DOWNDIS>0.1</DOWNDIS>
+    <XSTEP>0.5</XSTEP>
+    <YSTEP>0.5</YSTEP>
+  </MSet>
+  <PSet />
+</Setting>

@@ -1,0 +1,367 @@
+0	platform	sensor	voltage		dovdd	18.0		
+0	platform	sensor	voltage		dvdd	12.0		
+0	platform	sensor	voltage		avdd	18.0		
+0	platform	sensor	voltage		af	0.0		
+0	platform	sensor	voltage		vfuse	80.0		
+0	platform	sensor	voltage		iodd	18.0		
+0	platform	sensor	voltage		pow	12.0		
+0	platform	sensor	voltage		v5	2		
+0	platform	sensor	voltage		v12	2		
+0	platform	sensor	voltage		voltflag	119		
+1	platform	sensor	signal		reset_activedlow	1		
+1	platform	sensor	signal		pwnd_activedlow	1		
+1	platform	sensor	signal		mclk	24.0		
+1	platform	sensor	signal	1	cphyrate	1.0		
+1	platform	sensor	signal	1	signalflag	1	1	
+2	platform	sensor	image		data_format	uyvy422_8bit		
+2	platform	sensor	image		width	1920		
+2	platform	sensor	image		height	1280		
+2	platform	sensor	image		dummy_left	0		
+2	platform	sensor	image		dummy_right	0		
+2	platform	sensor	image		dummy_top	0		
+2	platform	sensor	image		dummy_bottom	0		
+2	platform	sensor	image		addinfobytes	0		
+4	platform	ccm	element		project_name	yihang		
+4	platform	ccm	element		sensor_type	AR0233	0	
+4	platform	ccm	element		userdefineinfo			
+4	platform	ccm	element		motor_type	no		
+4	platform	ccm	element		ee_slave	d8		
+4	platform	ccm	element		sensorfactory	145	1	
+5	platform	sensor	i2c	400	speed	400	0	
+5	platform	sensor	otheradd	(spicslow:1)(spilittileendian:0)(checkdeviceack:1)(ddr3:1)(virtualchannel:0)(lanenumber:4)(i2cbytedelay:0)				
+6	platform	datatime	date		time			
+7	platform	sensor	mipi	(dvpdataline:0)(dvpps:0)	lane	4	low	
+7	platform	sensor	mipi		lvds_outputxhsvhs	true		
+7	platform	sensor	mipi		xhsvhs_value	1152	3125	
+7	platform	sensor	mipi		signal mode	2		
+7	platform	sensor	mipi		outputxhsxvs_dphy	0		
+7	platform	sensor	mipi		xhsvhs_dphy	1152	3125	
+7	platform	sensor	mipi		lvds_align_set	0		
+9	platform	flip						
+10	platform	mirror						
+11	platform	light	(exposureswitch:close)(exposurevalue:200.00)(analoggainswitch:close)(analoggainvalue:1)(waitdata:65535)(outputerrorframe:true)(interpolation:0)(tograyimage:0)					
+12	platform	sensor	deserializer	(deserslave:70)(desermode:0)(deserconnecttype:0)(desersenosrmode:true)(desersynvrate:0)(desersynvduty:0)(desersynhrate:0)(desersynhduty:0)				
+20	algorithm	whitepanel	total	(opticalcenter:on)(defectpixel:on)(defectline:on)	(belmish:on)(color:on)(snr:on)	(opticalcenteralg:a)(defectpixelalg:a)(defectlinealg:a)	(belmishalg:a)(coloralg:a)(snralg:a)	
+23	algorithm	whitepanel	blemish	(range:0.8)(filter:13,25)	(amplitude:37)(dev:31)(cornerspec:0.5)			
+25	algorithm	whitepanel	color	(a:0.2)(b:0.2)(centerrange:0.1)(widthblocks:33)	(uniform:201.8)(aberration:102.0)(sym:101.0)(falloff:301.0)			
+27	algorithm	whitepanel	snr	(r:30)(g:30)(b:30)				
+28	algorithm	whitepanel	opticalcenter	(deviation:150)	(pixelratio:0.0001)			
+29	algorithm	whitepanel	defectline	(spec:0.5)				
+30	algorithm	whitepanel	defectpixel	(defectratio:0.5)(woundratio:0.7)(defectscore:3)(woundscore:5)(deadscore:8)	(clusterscore:30)(widthblocks:220)(deadratio:0.9)	(defectspec:10000)(woundspec:10000)(deadspec:10000)	(totalscorespec:2000000)(clusterspec:0)(clustermaxscore:100)	
+32	algorithm	mtffa	total	(algorithm:hao_a)(centerweight:0.4)(centervaluespec:0.3)	(blockwidth:200)(blockheight:200)			MTF调焦,中心,框大小,算法选择
+33	algorithm	mtffa	circle	(center1:426,344)(center2:2837,344)(center3:426,2103)(center4:2837,2103)	(weight:0.15)	(valuespec:0.3)(uniformspec:0.1)		周边
+34	algorithm	mtffa	circle	(center1:1632,304)(center2:2552,1224)(center3:1632,2144)(center4:712,1224)	(weight:0.15)	(valuespec:0.3)(uniformspec:0.1)		周边
+35	algorithm	mtffa	circle	(center1:1632,712)(center2:2144,1224)(center3:1632,1736)(center4:1120,1224)	(weight:0.15)	(valuespec:0.3)(uniformspec:0.1)		周边
+36	algorithm	mtffa	circle	(center1:752,589)(center2:2511,589)(center3:752,1858)(center4:2515,1858)	(weight:0.15)	(valuespec:0.3)(uniformspec:0.1)		周边
+40	algorithm	autofamtf_6480	camera	(offsetnext:-200)(offsetmain:400)(offsetz:-100)	(mmpixel:143)(idealmain:466)(idealnext:506)	(exposure:22889)(match:80)(leafs:3)		
+40	algorithm	autofamtf_6480	laser	(offsetmain:300)(offsetnext:0)	(avergmin:2.600000)(avergmax:3.150000)			
+40	algorithm	autofamtf_6480	fa	(offsetmain:-19)(offsetnext:-95)(offsetz:4500)	(initangle:46.500000)(lensangle:40.000000)(ringangle:35.000000)	(lenspitch:0.250000)(stressheight:-1.955900)		
+40	algorithm	autofamtf_6480	whitepanel	(offsetmain:0)(offsetnext:0)(offsetz:0)				
+40	algorithm	autofamtf_6480	fa_center	(spec:0.150000)(weight:0.700000)				
+40	algorithm	autofamtf_6480	fa_total	(mode:0)(steplimit:15)(delay:450)(anglelimit:0.360000)(angleafter:0.000000)	(algswitch:1)(blockwidth:400)(blockheight:400)(g4value:0.200000)(peakvalue:0.150000)	(angleg1:14.400000)(angleg2:7.200000)(angleg3:3.600000)(angleg4:1.080000)		
+40	algorithm	autofamtf_6480	fa_circle	(center1:2104,800)(center2:2104,2300)(center3:1000,1610)(center4:3000,1610)	(valuespec:0.090000)(uniformspec:0.500000)(valueweight:0.500000)(uniformweight:0.000000)			
+80	algorithm	workcurrent		(dovdd:off)(dovddmin:0.00)(dovddmax:10.00)(total:off)(totalmin:-10.00)(totalmax:-10.00)	(dvdd:on)(dvddmin:200.00)(dvddmax:250.00)	(avdd:off)(avddmin:35.00)(avddmax:55.00)(pow:off)(powmin:0.00)(powmax:100.00)	(af:off)(afmin:0.00)(afmax:10.00)(vfuse:on)(vfusemin:50.00)(vfusemax:150.00)	
+80	algorithm	standbycurrent		(dovdd:off)(dovddmin:10.0)(dovddmax:50.0)(pwnd:off)(reset:off)(mclk:off)(dvdddown:off)(delay:3000)	(dvdd:off)(dvddmin:900.0)(dvddmax:1300.0)(total:off)(totalmin:-10.0)(totalmax:-10.0)	(avdd:off)(avddmin:0.0)(avddmax:10.0)(pow:off)(powmin:0.0)(powmax:10.0)	(af:off)(afmin:2200.0)(afmax:2800.0)	
+85	algorithm	mtffc_near	total	(algorithm:hao_a)(centervaluespec:0.21)(motorrange:400,708)	(bigstep:16)(middlestep:8)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:700)(maxsteps:10)	(centerweight:)(testpeak:false)(peakdropdef:)(peakmotormin:0)(peakmotormax:1)	
+95	algorithm	mtffc_infinite	total	(algorithm:hao_a)(centervaluespec:0.7)(motorrange:0,1)	(bigstep:16)(middlestep:8)(smallstep:2)(database:2)	(blockwidth:200)(blockheight:200)(framesleep:200)(maxsteps:1)		
+96	algorithm	mtffc_infinite	circle	(center1:316,234)(center2:3892,234)(center3:316,2886)(center4:3892,2886)	(valuespec:0.1)(uniformspec:0.3)			
+97	algorithm	mtffc_infinite	circle	(center1:631,468)(center2:3577,468)(center3:631,2652)(center4:3577,2652)	(valuespec:0.3)(uniformspec:0.3)			
+98	algorithm	mtffc_infinite	circle	(center1:1052,780)(center2:3156,780)(center3:1052,2340)(center4:3156,2340)	(valuespec:0.5)(uniformspec:0.3)			
+99	algorithm	mtffc_infinite	circle	(center1:1473,1092)(center2:2735,1092)(center3:1473,2028)(center4:2735,2028)	(valuespec:0.6)(uniformspec:0.2)			
+100	algorithm	mtffc_infinite	circle	(center1:2104,390)(center2:3274,1560)(center3:2104,2730)(center4:935,1560)	(valuespec:0.4)(uniformspec:0.2)			
+100	algorithm	offline	paramater		(offlinepath:H:/Desktop/sfr_3280x2464--GetSingleAASFRPosInfo.bmp)(readsamepicture:true)			
+101	algorithm	offline	offlineflag		(offlineflag:false)			
+120	sensor	otpburn		(burn:false)(sleep:450)(ob:16)(luxmin:120)(luxmax:140)(lsc_shadinguniform:0.100000)(blocksize:5)	(mid:0x0)(lensid:0x0)(vcmid:0x0)(driverid:0x0)(centerrange:0.200000)(lightcomp_b:1.000000)(lightcomp_r:1.000000)	(lsc_shadingmin:0.650000)(lsc_shadingmax:0.750000)(lsc_luxsymm:0.150000)(lsc_centerr2grmin:0.650000)(lsc_centerr2grmax:0.850000)(lsc_centerb2grmin:0.500000)(lsc_centerb2grmax:0.700000)(lsc_b2gr2centermax:0.080000)(lsc_r2gr2centermax:0.080000)	()	
+1025	algorithm	openshort	total	(positive:true)(negtive:true)(short:true)(open:true)(ohm:false)	(channel:MIPI)(positivedelay:1)(negtivedelay:1)(shortdelay:1)(opendelay:1)(ohmdelay:30)			
+1035	algorithm	openshort	positive	(test:false)(name:5V)(in:DGND9)	(specmin:200)(specmax:800)			
+1036	algorithm	openshort	positive	(test:false)(name:AF1)(in:DGND9)	(specmin:200)(specmax:800)			
+1037	algorithm	openshort	positive	(test:false)(name:AF2)(in:DGND9)	(specmin:200)(specmax:800)			
+1038	algorithm	openshort	positive	(test:true)(name:MCN)(in:DGND9)	(specmin:200)(specmax:400)			
+1039	algorithm	openshort	positive	(test:true)(name:MCP)(in:DGND9)	(specmin:200)(specmax:400)			
+1040	algorithm	openshort	positive	(test:false)(name:OTP)(in:DGND9)	(specmin:200)(specmax:800)			
+1041	algorithm	openshort	positive	(test:false)(name:POW)(in:DGND9)	(specmin:200)(specmax:800)			
+1042	algorithm	openshort	positive	(test:true)(name:RST)(in:DGND9)	(specmin:500)(specmax:700)			
+1043	algorithm	openshort	positive	(test:true)(name:SCL)(in:DGND9)	(specmin:400)(specmax:600)			
+1044	algorithm	openshort	positive	(test:true)(name:SDA)(in:DGND9)	(specmin:400)(specmax:600)			
+1045	algorithm	openshort	positive	(test:true)(name:MCLK)(in:DGND9)	(specmin:600)(specmax:800)			
+1046	algorithm	openshort	positive	(test:false)(name:PWDN)(in:DGND9)	(specmin:200)(specmax:800)			
+1047	algorithm	openshort	positive	(test:true)(name:AVDD1)(in:DGND9)	(specmin:400)(specmax:600)			
+1048	algorithm	openshort	positive	(test:false)(name:AVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1049	algorithm	openshort	positive	(test:true)(name:DVDD1)(in:DGND9)	(specmin:200)(specmax:400)			
+1050	algorithm	openshort	positive	(test:false)(name:DVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1051	algorithm	openshort	positive	(test:false)(name:IO-I0)(in:DGND9)	(specmin:200)(specmax:800)			
+1052	algorithm	openshort	positive	(test:false)(name:IO-O0)(in:DGND9)	(specmin:200)(specmax:800)			
+1053	algorithm	openshort	positive	(test:false)(name:IO-O1)(in:DGND9)	(specmin:200)(specmax:800)			
+1054	algorithm	openshort	positive	(test:false)(name:[2]5V)(in:DGND9)	(specmin:200)(specmax:800)			
+1055	algorithm	openshort	positive	(test:true)(name:DOVDD1)(in:DGND9)	(specmin:300)(specmax:500)			
+1056	algorithm	openshort	positive	(test:false)(name:DOVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1057	algorithm	openshort	positive	(test:true)(name:LAN0-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1058	algorithm	openshort	positive	(test:true)(name:LAN0-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1059	algorithm	openshort	positive	(test:true)(name:LAN1-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1060	algorithm	openshort	positive	(test:true)(name:LAN1-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1061	algorithm	openshort	positive	(test:true)(name:LAN2-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1062	algorithm	openshort	positive	(test:true)(name:LAN2-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1063	algorithm	openshort	positive	(test:true)(name:LAN3-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1064	algorithm	openshort	positive	(test:true)(name:LAN3-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1065	algorithm	openshort	positive	(test:false)(name:[2]AF1)(in:DGND9)	(specmin:200)(specmax:800)			
+1066	algorithm	openshort	positive	(test:false)(name:[2]AF2)(in:DGND9)	(specmin:200)(specmax:800)			
+1067	algorithm	openshort	positive	(test:true)(name:[2]MCN)(in:DGND9)	(specmin:200)(specmax:400)			
+1068	algorithm	openshort	positive	(test:true)(name:[2]MCP)(in:DGND9)	(specmin:200)(specmax:400)			
+1069	algorithm	openshort	positive	(test:false)(name:[2]OTP)(in:DGND9)	(specmin:200)(specmax:800)			
+1070	algorithm	openshort	positive	(test:false)(name:[2]POW)(in:DGND9)	(specmin:200)(specmax:800)			
+1071	algorithm	openshort	positive	(test:true)(name:[2]RST)(in:DGND9)	(specmin:500)(specmax:700)			
+1072	algorithm	openshort	positive	(test:true)(name:[2]SCL)(in:DGND9)	(specmin:400)(specmax:600)			
+1073	algorithm	openshort	positive	(test:true)(name:[2]SDA)(in:DGND9)	(specmin:400)(specmax:600)			
+1074	algorithm	openshort	positive	(test:true)(name:[2]MCLK)(in:DGND9)	(specmin:600)(specmax:800)			
+1075	algorithm	openshort	positive	(test:false)(name:[2]PWDN)(in:DGND9)	(specmin:200)(specmax:800)			
+1076	algorithm	openshort	positive	(test:true)(name:[2]AVDD1)(in:DGND9)	(specmin:400)(specmax:600)			
+1077	algorithm	openshort	positive	(test:false)(name:[2]AVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1078	algorithm	openshort	positive	(test:true)(name:[2]DVDD1)(in:DGND9)	(specmin:200)(specmax:400)			
+1079	algorithm	openshort	positive	(test:false)(name:[2]DVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1080	algorithm	openshort	positive	(test:false)(name:[2]IO-I0)(in:DGND9)	(specmin:200)(specmax:800)			
+1081	algorithm	openshort	positive	(test:false)(name:[2]IO-O0)(in:DGND9)	(specmin:200)(specmax:800)			
+1082	algorithm	openshort	positive	(test:false)(name:[2]IO-O1)(in:DGND9)	(specmin:200)(specmax:800)			
+1083	algorithm	openshort	positive	(test:true)(name:[2]DOVDD1)(in:DGND9)	(specmin:300)(specmax:500)			
+1084	algorithm	openshort	positive	(test:false)(name:[2]DOVDD2)(in:DGND9)	(specmin:200)(specmax:800)			
+1085	algorithm	openshort	positive	(test:true)(name:[2]LAN0-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1086	algorithm	openshort	positive	(test:true)(name:[2]LAN0-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1087	algorithm	openshort	positive	(test:true)(name:[2]LAN1-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1088	algorithm	openshort	positive	(test:true)(name:[2]LAN1-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1089	algorithm	openshort	positive	(test:true)(name:[2]LAN2-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1090	algorithm	openshort	positive	(test:true)(name:[2]LAN2-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1091	algorithm	openshort	positive	(test:true)(name:[2]LAN3-N)(in:DGND9)	(specmin:200)(specmax:400)			
+1092	algorithm	openshort	positive	(test:true)(name:[2]LAN3-P)(in:DGND9)	(specmin:200)(specmax:400)			
+1135	algorithm	openshort	negtive	(test:true)(name:MCN)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1136	algorithm	openshort	negtive	(test:true)(name:MCP)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1137	algorithm	openshort	negtive	(test:true)(name:RST)(out:DOVDD1)	(specmin:450)(specmax:650)			
+1138	algorithm	openshort	negtive	(test:false)(name:SCL)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1139	algorithm	openshort	negtive	(test:false)(name:SDA)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1140	algorithm	openshort	negtive	(test:false)(name:MCLK)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1141	algorithm	openshort	negtive	(test:false)(name:PWDN)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1142	algorithm	openshort	negtive	(test:false)(name:IO-I0)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1143	algorithm	openshort	negtive	(test:false)(name:IO-O0)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1144	algorithm	openshort	negtive	(test:false)(name:IO-O1)(out:DOVDD1)	(specmin:200)(specmax:800)			
+1145	algorithm	openshort	negtive	(test:true)(name:LAN0-N)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1146	algorithm	openshort	negtive	(test:true)(name:LAN0-P)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1147	algorithm	openshort	negtive	(test:true)(name:LAN1-N)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1148	algorithm	openshort	negtive	(test:true)(name:LAN1-P)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1149	algorithm	openshort	negtive	(test:true)(name:LAN2-N)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1150	algorithm	openshort	negtive	(test:true)(name:LAN2-P)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1151	algorithm	openshort	negtive	(test:true)(name:LAN3-N)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1152	algorithm	openshort	negtive	(test:true)(name:LAN3-P)(out:DOVDD1)	(specmin:800)(specmax:1000)			
+1153	algorithm	openshort	negtive	(test:true)(name:[2]MCN)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1154	algorithm	openshort	negtive	(test:true)(name:[2]MCP)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1155	algorithm	openshort	negtive	(test:true)(name:[2]RST)(out:[2]DOVDD1)	(specmin:450)(specmax:650)			
+1156	algorithm	openshort	negtive	(test:false)(name:[2]SCL)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1157	algorithm	openshort	negtive	(test:false)(name:[2]SDA)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1158	algorithm	openshort	negtive	(test:false)(name:[2]MCLK)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1159	algorithm	openshort	negtive	(test:false)(name:[2]PWDN)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1160	algorithm	openshort	negtive	(test:false)(name:[2]IO-I0)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1161	algorithm	openshort	negtive	(test:false)(name:[2]IO-O0)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1162	algorithm	openshort	negtive	(test:false)(name:[2]IO-O1)(out:[2]DOVDD1)	(specmin:200)(specmax:800)			
+1163	algorithm	openshort	negtive	(test:true)(name:[2]LAN0-N)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1164	algorithm	openshort	negtive	(test:true)(name:[2]LAN0-P)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1165	algorithm	openshort	negtive	(test:true)(name:[2]LAN1-N)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1166	algorithm	openshort	negtive	(test:true)(name:[2]LAN1-P)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1167	algorithm	openshort	negtive	(test:true)(name:[2]LAN2-N)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1168	algorithm	openshort	negtive	(test:true)(name:[2]LAN2-P)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1169	algorithm	openshort	negtive	(test:true)(name:[2]LAN3-N)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1170	algorithm	openshort	negtive	(test:true)(name:[2]LAN3-P)(out:[2]DOVDD1)	(specmin:800)(specmax:1000)			
+1235	algorithm	openshort	short	(test:true)(name:5V)	(specmin:200)			
+1236	algorithm	openshort	short	(test:true)(name:AF1)	(specmin:200)			
+1237	algorithm	openshort	short	(test:true)(name:AF2)	(specmin:200)			
+1238	algorithm	openshort	short	(test:true)(name:MCN)	(specmin:200)			
+1239	algorithm	openshort	short	(test:true)(name:MCP)	(specmin:200)			
+1240	algorithm	openshort	short	(test:true)(name:OTP)	(specmin:200)			
+1241	algorithm	openshort	short	(test:true)(name:POW)	(specmin:200)			
+1242	algorithm	openshort	short	(test:true)(name:RST)	(specmin:200)			
+1243	algorithm	openshort	short	(test:true)(name:SCL)	(specmin:200)			
+1244	algorithm	openshort	short	(test:true)(name:SDA)	(specmin:200)			
+1245	algorithm	openshort	short	(test:true)(name:MCLK)	(specmin:200)			
+1246	algorithm	openshort	short	(test:true)(name:PWDN)	(specmin:200)			
+1247	algorithm	openshort	short	(test:false)(name:AGND0)	(specmin:200)			
+1248	algorithm	openshort	short	(test:true)(name:AVDD1)	(specmin:200)			
+1249	algorithm	openshort	short	(test:true)(name:AVDD2)	(specmin:200)			
+1250	algorithm	openshort	short	(test:false)(name:DGND0)	(specmin:200)			
+1251	algorithm	openshort	short	(test:false)(name:DGND1)	(specmin:200)			
+1252	algorithm	openshort	short	(test:false)(name:DGND2)	(specmin:200)			
+1253	algorithm	openshort	short	(test:false)(name:DGND3)	(specmin:200)			
+1254	algorithm	openshort	short	(test:false)(name:DGND4)	(specmin:200)			
+1255	algorithm	openshort	short	(test:false)(name:DGND5)	(specmin:200)			
+1256	algorithm	openshort	short	(test:false)(name:DGND6)	(specmin:200)			
+1257	algorithm	openshort	short	(test:false)(name:DGND7)	(specmin:200)			
+1258	algorithm	openshort	short	(test:false)(name:DGND8)	(specmin:200)			
+1259	algorithm	openshort	short	(test:false)(name:DGND9)	(specmin:200)			
+1260	algorithm	openshort	short	(test:true)(name:DVDD1)	(specmin:200)			
+1261	algorithm	openshort	short	(test:true)(name:DVDD2)	(specmin:200)			
+1262	algorithm	openshort	short	(test:true)(name:IO-I0)	(specmin:200)			
+1263	algorithm	openshort	short	(test:true)(name:IO-O0)	(specmin:200)			
+1264	algorithm	openshort	short	(test:true)(name:IO-O1)	(specmin:200)			
+1265	algorithm	openshort	short	(test:true)(name:[2]5V)	(specmin:200)			
+1266	algorithm	openshort	short	(test:true)(name:DOVDD1)	(specmin:200)			
+1267	algorithm	openshort	short	(test:true)(name:DOVDD2)	(specmin:200)			
+1268	algorithm	openshort	short	(test:true)(name:LAN0-N)	(specmin:200)			
+1269	algorithm	openshort	short	(test:true)(name:LAN0-P)	(specmin:200)			
+1270	algorithm	openshort	short	(test:true)(name:LAN1-N)	(specmin:200)			
+1271	algorithm	openshort	short	(test:true)(name:LAN1-P)	(specmin:200)			
+1272	algorithm	openshort	short	(test:true)(name:LAN2-N)	(specmin:200)			
+1273	algorithm	openshort	short	(test:true)(name:LAN2-P)	(specmin:200)			
+1274	algorithm	openshort	short	(test:true)(name:LAN3-N)	(specmin:200)			
+1275	algorithm	openshort	short	(test:true)(name:LAN3-P)	(specmin:200)			
+1276	algorithm	openshort	short	(test:true)(name:[2]AF1)	(specmin:200)			
+1277	algorithm	openshort	short	(test:true)(name:[2]AF2)	(specmin:200)			
+1278	algorithm	openshort	short	(test:true)(name:[2]MCN)	(specmin:200)			
+1279	algorithm	openshort	short	(test:true)(name:[2]MCP)	(specmin:200)			
+1280	algorithm	openshort	short	(test:true)(name:[2]OTP)	(specmin:200)			
+1281	algorithm	openshort	short	(test:true)(name:[2]POW)	(specmin:200)			
+1282	algorithm	openshort	short	(test:true)(name:[2]RST)	(specmin:200)			
+1283	algorithm	openshort	short	(test:true)(name:[2]SCL)	(specmin:200)			
+1284	algorithm	openshort	short	(test:true)(name:[2]SDA)	(specmin:200)			
+1285	algorithm	openshort	short	(test:true)(name:[2]MCLK)	(specmin:200)			
+1286	algorithm	openshort	short	(test:true)(name:[2]PWDN)	(specmin:200)			
+1287	algorithm	openshort	short	(test:false)(name:[2]AGND0)	(specmin:200)			
+1288	algorithm	openshort	short	(test:true)(name:[2]AVDD1)	(specmin:200)			
+1289	algorithm	openshort	short	(test:true)(name:[2]AVDD2)	(specmin:200)			
+1290	algorithm	openshort	short	(test:false)(name:[2]DGND0)	(specmin:200)			
+1291	algorithm	openshort	short	(test:false)(name:[2]DGND1)	(specmin:200)			
+1292	algorithm	openshort	short	(test:false)(name:[2]DGND2)	(specmin:200)			
+1293	algorithm	openshort	short	(test:false)(name:[2]DGND3)	(specmin:200)			
+1294	algorithm	openshort	short	(test:false)(name:[2]DGND4)	(specmin:200)			
+1295	algorithm	openshort	short	(test:false)(name:[2]DGND5)	(specmin:200)			
+1296	algorithm	openshort	short	(test:false)(name:[2]DGND6)	(specmin:200)			
+1297	algorithm	openshort	short	(test:false)(name:[2]DGND7)	(specmin:200)			
+1298	algorithm	openshort	short	(test:false)(name:[2]DGND8)	(specmin:200)			
+1299	algorithm	openshort	short	(test:false)(name:[2]DGND9)	(specmin:200)			
+1300	algorithm	openshort	short	(test:true)(name:[2]DVDD1)	(specmin:200)			
+1301	algorithm	openshort	short	(test:true)(name:[2]DVDD2)	(specmin:200)			
+1302	algorithm	openshort	short	(test:true)(name:[2]IO-I0)	(specmin:200)			
+1303	algorithm	openshort	short	(test:true)(name:[2]IO-O0)	(specmin:200)			
+1304	algorithm	openshort	short	(test:true)(name:[2]IO-O1)	(specmin:200)			
+1305	algorithm	openshort	short	(test:true)(name:[2]DOVDD1)	(specmin:200)			
+1306	algorithm	openshort	short	(test:true)(name:[2]DOVDD2)	(specmin:200)			
+1307	algorithm	openshort	short	(test:true)(name:[2]LAN0-N)	(specmin:200)			
+1308	algorithm	openshort	short	(test:true)(name:[2]LAN0-P)	(specmin:200)			
+1309	algorithm	openshort	short	(test:true)(name:[2]LAN1-N)	(specmin:200)			
+1310	algorithm	openshort	short	(test:true)(name:[2]LAN1-P)	(specmin:200)			
+1311	algorithm	openshort	short	(test:true)(name:[2]LAN2-N)	(specmin:200)			
+1312	algorithm	openshort	short	(test:true)(name:[2]LAN2-P)	(specmin:200)			
+1313	algorithm	openshort	short	(test:true)(name:[2]LAN3-N)	(specmin:200)			
+1314	algorithm	openshort	short	(test:true)(name:[2]LAN3-P)	(specmin:200)			
+1335	algorithm	openshort	open	(test:false)(name:5V)	(specmax:1500)			
+1336	algorithm	openshort	open	(test:false)(name:AF1)	(specmax:1500)			
+1337	algorithm	openshort	open	(test:false)(name:AF2)	(specmax:1500)			
+1338	algorithm	openshort	open	(test:false)(name:MCN)	(specmax:1500)			
+1339	algorithm	openshort	open	(test:false)(name:MCP)	(specmax:1500)			
+1340	algorithm	openshort	open	(test:false)(name:OTP)	(specmax:1500)			
+1341	algorithm	openshort	open	(test:false)(name:POW)	(specmax:1500)			
+1342	algorithm	openshort	open	(test:false)(name:RST)	(specmax:1500)			
+1343	algorithm	openshort	open	(test:false)(name:SCL)	(specmax:1500)			
+1344	algorithm	openshort	open	(test:false)(name:SDA)	(specmax:1500)			
+1345	algorithm	openshort	open	(test:false)(name:MCLK)	(specmax:1500)			
+1346	algorithm	openshort	open	(test:false)(name:PWDN)	(specmax:1500)			
+1347	algorithm	openshort	open	(test:false)(name:AGND0)	(specmax:1500)			
+1348	algorithm	openshort	open	(test:false)(name:AVDD1)	(specmax:1500)			
+1349	algorithm	openshort	open	(test:false)(name:AVDD2)	(specmax:1500)			
+1350	algorithm	openshort	open	(test:false)(name:DGND0)	(specmax:1500)			
+1351	algorithm	openshort	open	(test:true)(name:DGND1)	(specmax:1500)			
+1352	algorithm	openshort	open	(test:true)(name:DGND2)	(specmax:1500)			
+1353	algorithm	openshort	open	(test:true)(name:DGND3)	(specmax:1500)			
+1354	algorithm	openshort	open	(test:true)(name:DGND4)	(specmax:1500)			
+1355	algorithm	openshort	open	(test:true)(name:DGND5)	(specmax:1500)			
+1356	algorithm	openshort	open	(test:true)(name:DGND6)	(specmax:1500)			
+1357	algorithm	openshort	open	(test:true)(name:DGND7)	(specmax:1500)			
+1358	algorithm	openshort	open	(test:true)(name:DGND8)	(specmax:1500)			
+1359	algorithm	openshort	open	(test:true)(name:DGND9)	(specmax:1500)			
+1360	algorithm	openshort	open	(test:false)(name:DVDD1)	(specmax:1500)			
+1361	algorithm	openshort	open	(test:false)(name:DVDD2)	(specmax:1500)			
+1362	algorithm	openshort	open	(test:false)(name:IO-I0)	(specmax:1500)			
+1363	algorithm	openshort	open	(test:false)(name:IO-O0)	(specmax:1500)			
+1364	algorithm	openshort	open	(test:false)(name:IO-O1)	(specmax:1500)			
+1365	algorithm	openshort	open	(test:false)(name:[2]5V)	(specmax:1500)			
+1366	algorithm	openshort	open	(test:false)(name:DOVDD1)	(specmax:1500)			
+1367	algorithm	openshort	open	(test:false)(name:DOVDD2)	(specmax:1500)			
+1368	algorithm	openshort	open	(test:false)(name:LAN0-N)	(specmax:1500)			
+1369	algorithm	openshort	open	(test:false)(name:LAN0-P)	(specmax:1500)			
+1370	algorithm	openshort	open	(test:false)(name:LAN1-N)	(specmax:1500)			
+1371	algorithm	openshort	open	(test:false)(name:LAN1-P)	(specmax:1500)			
+1372	algorithm	openshort	open	(test:false)(name:LAN2-N)	(specmax:1500)			
+1373	algorithm	openshort	open	(test:false)(name:LAN2-P)	(specmax:1500)			
+1374	algorithm	openshort	open	(test:false)(name:LAN3-N)	(specmax:1500)			
+1375	algorithm	openshort	open	(test:false)(name:LAN3-P)	(specmax:1500)			
+1376	algorithm	openshort	open	(test:false)(name:[2]AF1)	(specmax:1500)			
+1377	algorithm	openshort	open	(test:false)(name:[2]AF2)	(specmax:1500)			
+1378	algorithm	openshort	open	(test:false)(name:[2]MCN)	(specmax:1500)			
+1379	algorithm	openshort	open	(test:false)(name:[2]MCP)	(specmax:1500)			
+1380	algorithm	openshort	open	(test:false)(name:[2]OTP)	(specmax:1500)			
+1381	algorithm	openshort	open	(test:false)(name:[2]POW)	(specmax:1500)			
+1382	algorithm	openshort	open	(test:false)(name:[2]RST)	(specmax:1500)			
+1383	algorithm	openshort	open	(test:false)(name:[2]SCL)	(specmax:1500)			
+1384	algorithm	openshort	open	(test:false)(name:[2]SDA)	(specmax:1500)			
+1385	algorithm	openshort	open	(test:false)(name:[2]MCLK)	(specmax:1500)			
+1386	algorithm	openshort	open	(test:false)(name:[2]PWDN)	(specmax:1500)			
+1387	algorithm	openshort	open	(test:false)(name:[2]AGND0)	(specmax:1500)			
+1388	algorithm	openshort	open	(test:false)(name:[2]AVDD1)	(specmax:1500)			
+1389	algorithm	openshort	open	(test:false)(name:[2]AVDD2)	(specmax:1500)			
+1390	algorithm	openshort	open	(test:false)(name:[2]DGND0)	(specmax:1500)			
+1391	algorithm	openshort	open	(test:true)(name:[2]DGND1)	(specmax:1500)			
+1392	algorithm	openshort	open	(test:true)(name:[2]DGND2)	(specmax:1500)			
+1393	algorithm	openshort	open	(test:true)(name:[2]DGND3)	(specmax:1500)			
+1394	algorithm	openshort	open	(test:true)(name:[2]DGND4)	(specmax:1500)			
+1395	algorithm	openshort	open	(test:true)(name:[2]DGND5)	(specmax:1500)			
+1396	algorithm	openshort	open	(test:true)(name:[2]DGND6)	(specmax:1500)			
+1397	algorithm	openshort	open	(test:true)(name:[2]DGND7)	(specmax:1500)			
+1398	algorithm	openshort	open	(test:true)(name:[2]DGND8)	(specmax:1500)			
+1399	algorithm	openshort	open	(test:true)(name:[2]DGND9)	(specmax:1500)			
+1400	algorithm	openshort	open	(test:false)(name:[2]DVDD1)	(specmax:1500)			
+1401	algorithm	openshort	open	(test:false)(name:[2]DVDD2)	(specmax:1500)			
+1402	algorithm	openshort	open	(test:false)(name:[2]IO-I0)	(specmax:1500)			
+1403	algorithm	openshort	open	(test:false)(name:[2]IO-O0)	(specmax:1500)			
+1404	algorithm	openshort	open	(test:false)(name:[2]IO-O1)	(specmax:1500)			
+1405	algorithm	openshort	open	(test:false)(name:[2]DOVDD1)	(specmax:1500)			
+1406	algorithm	openshort	open	(test:false)(name:[2]DOVDD2)	(specmax:1500)			
+1407	algorithm	openshort	open	(test:false)(name:[2]LAN0-N)	(specmax:1500)			
+1408	algorithm	openshort	open	(test:false)(name:[2]LAN0-P)	(specmax:1500)			
+1409	algorithm	openshort	open	(test:false)(name:[2]LAN1-N)	(specmax:1500)			
+1410	algorithm	openshort	open	(test:false)(name:[2]LAN1-P)	(specmax:1500)			
+1411	algorithm	openshort	open	(test:false)(name:[2]LAN2-N)	(specmax:1500)			
+1412	algorithm	openshort	open	(test:false)(name:[2]LAN2-P)	(specmax:1500)			
+1413	algorithm	openshort	open	(test:false)(name:[2]LAN3-N)	(specmax:1500)			
+1414	algorithm	openshort	open	(test:false)(name:[2]LAN3-P)	(specmax:1500)			
+5000	shortcut1		1	first_click	1	clearresultitem	1	
+5000	shortcut2		2	first_click	1	debugitem(testtype:0)	1	
+5001	shortcut1		1	first_click	2	startpreviewitem	1	
+5001	shortcut2		1	first_click	1	clearresultitem	1	
+5002	shortcut1		1	second_click	1	stoppreviewitem	1	
+5002	shortcut2		1	first_click	2	startpreviewitem	1	
+5003	shortcut1		1	second_click	2	showresultitem(notsavelog:false)(notshowtotalresult:false)	1	
+5003	shortcut2		1	second_click	1	stoppreviewitem	1	
+5004	shortcut2		1	second_click	2	showresultitem(notsavelog:false)(notshowtotalresult:false)	1	
+10000	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10001	platform	sensor	preview_i2c			0x90,0x0051,0x02,0x1608		
+10002	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10003	platform	sensor	preview_i2c			0x90,0x0052,0x01,0x1608		
+10004	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10005	platform	sensor	preview_i2c			0x90,0x0333,0x1b,0x1608		
+10006	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10007	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10008	platform	sensor	preview_i2c			0x90,0x0002,0xf3,0x1608		
+10009	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10010	platform	sensor	preview_i2c			0x90,0x044a,0xc0,0x1608		
+10011	platform	sensor	preview_i2c			0x90,0x0320,0x2f,0x1608		
+10012	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10013	platform	sensor	preview_i2c			0x00,0x0000,0x10,0x1608		
+10014	platform	sensor	preview_i2c			0x84,0x0383,0x00,0x1608		
+10015	platform	sensor	preview_i2c			0x84,0x0318,0x5e,0x1608		
+10016	platform	sensor	preview_i2c			0x84,0x03f1,0x09,0x1608		
+10017	platform	sensor	preview_i2c			0x84,0x03f0,0x59,0x1608		
+10018	platform	sensor	preview_i2c			0x84,0x0570,0x1c,0x1608		
+10019	platform	sensor	preview_i2c			0x84,0x0003,0x03,0x1608		
+10020	platform	sensor	preview_i2c			0x84,0x0006,0xb0,0x1608		
+10021	platform	sensor	preview_i2c			0x84,0x02d3,0x00,0x1608		
+10022	platform	sensor	preview_i2c			0x84,0x02d4,0x60,0x1608		
+10023	platform	sensor	preview_i2c			0x84,0x02d3,0x10,0x1608		
+10024	platform	sensor	preview_i2c			0x84,0x02bf,0xa0,0x1608		
+10025	platform	sensor	preview_i2c			0x84,0x02be,0x00,0x1608		
+10026	platform	sensor	preview_i2c			0x00,0x0000,0x01,0x1608		
+10027	platform	sensor	preview_i2c			0x84,0x02be,0x10,0x1608		
+60000	algorithm	tableindex	total	(mainindex:0)(faindex:0)(afcindex:2)(afcmtfindex:1)(afcsfrindex:1)(afctvlineindex:1)(whiteblackindex:0)(blackindex:0)(currentos:0)(burn:2)(lightsourceindex:0)(archive:1)				
